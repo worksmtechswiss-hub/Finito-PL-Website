@@ -10,6 +10,7 @@ import { Pricing } from "@/components/sections/Pricing";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
 import { TrustBanner } from "@/components/sections/TrustBanner";
+import { FeatureVideoShowcase } from "@/components/sections/FeatureVideoShowcase";
 import { organizationSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -29,6 +30,7 @@ export default function HomePage() {
       />
       <Hero />
       <TrustBanner />
+      <FeatureVideoShowcase />
       <WorkflowSteps />
       <SavingsBanner />
       <VorherNachher />
