@@ -392,7 +392,7 @@ function FerienHero() {
           {["Mo","Di","Mi","Do","Fr","Sa","So"].map((d) => (
             <span key={d} className="text-[8px] text-white/30 text-center py-1">{d}</span>
           ))}
-          {[null, null].concat(days.map(d => d)).slice(0, 35).map((d, i) => (
+          {([null, null] as (number | null)[]).concat(days.map(d => d)).slice(0, 35).map((d, i) => (
             <motion.div
               key={i}
               className={`h-7 rounded-md flex items-center justify-center text-[9px] font-medium

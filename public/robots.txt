@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.finitopro.ch
+
+# Sitemaps
+Sitemap: https://www.finitopro.ch/sitemap.xml
