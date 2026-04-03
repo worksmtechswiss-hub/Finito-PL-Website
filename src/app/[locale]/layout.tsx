@@ -3,24 +3,17 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { GoogleAnalytics } from "@next/third-parties/google";
-import { Outfit, JetBrains_Mono } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "../globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { CookieBanner } from "@/components/layout/CookieBanner";
+import { ClientShell } from "@/components/layout/ClientShell";
 
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
   display: "swap",
   weight: ["400", "500", "600", "700"],
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ["latin"],
-  variable: "--font-jetbrains",
-  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -55,16 +48,15 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${outfit.variable} ${jetbrainsMono.variable} antialiased`}
+      className={`${outfit.variable} antialiased`}
     >
       <body className="min-h-screen flex flex-col font-sans bg-white text-neutral-900">
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
-          <CookieBanner />
+          <ClientShell />
         </NextIntlClientProvider>
-        <GoogleAnalytics gaId="G-N5TF8S3EFG" />
       </body>
     </html>
   );

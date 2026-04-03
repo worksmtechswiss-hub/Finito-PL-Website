@@ -1,9 +1,5 @@
-"use client";
-
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
-import { fadeUp } from "@/lib/animations";
 
 interface LogoItem {
   name: string;
@@ -34,18 +30,13 @@ export function TrustBanner() {
   return (
     <section className="py-16 bg-surface-light-secondary overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.p
-          {...fadeUp}
-          viewport={{ once: true }}
-          className="text-center text-sm font-medium text-neutral-400 mb-8 tracking-wide uppercase"
-        >
+        <p className="text-center text-sm font-medium text-neutral-400 mb-8 tracking-wide uppercase animate-fade-up">
           {t("title")}
-        </motion.p>
+        </p>
       </div>
 
       {/* Infinite Marquee */}
       <div className="relative">
-
         <div className="flex animate-marquee">
           {marqueeItems.map((item, i) => (
             <div
@@ -60,6 +51,7 @@ export function TrustBanner() {
                   height={item.height}
                   className={`max-h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity ${item.invert ? "invert" : ""}`}
                   sizes="160px"
+                  loading="lazy"
                 />
               </div>
             </div>

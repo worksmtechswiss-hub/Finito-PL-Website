@@ -2,8 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { motion } from "framer-motion";
-import { staggerContainer, staggerItem } from "@/lib/animations";
+
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor">
@@ -103,15 +102,9 @@ export function Footer() {
   return (
     <footer className="bg-surface-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
-        <motion.div
-          variants={staggerContainer}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-          className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-12"
-        >
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Brand Column */}
-          <motion.div variants={staggerItem} className="col-span-2 md:col-span-4 lg:col-span-1">
+          <div className="col-span-2 md:col-span-4 lg:col-span-1">
             <span className="font-semibold text-lg block mb-3">Finito Pro</span>
             <p className="text-neutral-400 text-sm leading-relaxed mb-6">
               {t("tagline")}
@@ -130,11 +123,11 @@ export function Footer() {
                 </a>
               ))}
             </div>
-          </motion.div>
+          </div>
 
           {/* Link Columns */}
           {columns.map((col) => (
-            <motion.div key={col.title} variants={staggerItem}>
+            <div key={col.title}>
               <h3 className="font-semibold text-sm text-white mb-4">
                 {col.title}
               </h3>
@@ -150,9 +143,9 @@ export function Footer() {
                   </li>
                 ))}
               </ul>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
 
         {/* Newsletter */}
         <div className="mt-12 pt-8 border-t border-white/10">
