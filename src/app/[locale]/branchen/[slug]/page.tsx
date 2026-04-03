@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata, breadcrumbSchema } from "@/lib/seo";
 import { branches } from "@/data/branches";
 import { features } from "@/data/features";
@@ -270,7 +271,8 @@ export default async function BranchPage({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  setRequestLocale(locale);
   const branch = branchBySlug(slug);
   if (!branch) notFound();
 

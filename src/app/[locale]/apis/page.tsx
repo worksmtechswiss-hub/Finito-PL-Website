@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
 import { APIsContent } from "./APIsContent";
 
@@ -28,6 +29,7 @@ export default async function APIsPage({
 }: {
   params: Promise<{ locale: string }>;
 }) {
-  await params;
+  const { locale } = await params;
+  setRequestLocale(locale);
   return <APIsContent />;
 }

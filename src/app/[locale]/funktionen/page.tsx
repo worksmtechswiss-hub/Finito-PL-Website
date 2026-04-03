@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
 import { FunktionenOverview } from "./FunktionenOverview";
 
@@ -26,6 +27,12 @@ export async function generateMetadata({
   });
 }
 
-export default async function FunktionenPage() {
+export default async function FunktionenPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return <FunktionenOverview />;
 }

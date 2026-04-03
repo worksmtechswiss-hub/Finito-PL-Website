@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
 import { DatenschutzContent } from "./DatenschutzContent";
 
@@ -22,6 +23,7 @@ export default async function DatenschutzPage({
 }: {
   params: Promise<{ locale: string }>;
 }) {
-  await params;
+  const { locale } = await params;
+  setRequestLocale(locale);
   return <DatenschutzContent />;
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
 import { FAQContent } from "./FAQContent";
 
@@ -29,6 +30,7 @@ export default async function FAQPage({
 }: {
   params: Promise<{ locale: string }>;
 }) {
-  await params;
+  const { locale } = await params;
+  setRequestLocale(locale);
   return <FAQContent />;
 }

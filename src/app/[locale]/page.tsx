@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
+import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/sections/Hero";
 import { TrustBanner } from "@/components/sections/TrustBanner";
 import { organizationSchema } from "@/lib/seo";
@@ -54,7 +55,14 @@ export const metadata: Metadata = {
     "KMU Software Schweiz, Projektmanagement Software, Handwerker Software, QR Rechnung Software, Schweizer Software",
 };
 
-export default function HomePage() {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
     <>
       <script

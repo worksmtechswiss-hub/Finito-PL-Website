@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata, breadcrumbSchema } from "@/lib/seo";
 import { featurePages, featureSlugs } from "@/data/feature-pages";
 import { FeatureDetailClient } from "./FeatureDetailClient";
@@ -46,7 +47,8 @@ export default async function FeatureDetailPage({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  setRequestLocale(locale);
   const feature = featurePages[slug];
 
   if (!feature) {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
 import { BranchenOverview } from "./BranchenOverview";
 
@@ -17,6 +18,12 @@ export async function generateMetadata({
   });
 }
 
-export default function BranchenPage() {
+export default async function BranchenPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return <BranchenOverview />;
 }

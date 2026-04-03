@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata, breadcrumbSchema } from "@/lib/seo";
 import { AutomationenContent } from "./AutomationenContent";
 
@@ -32,6 +33,7 @@ export default async function AutomationenPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <>
       <script
