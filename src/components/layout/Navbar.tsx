@@ -100,11 +100,13 @@ export function Navbar() {
       <motion.header
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
-          scrolled
-            ? "bg-[#1a1a2e]/95 backdrop-blur-xl border-b border-white/10 shadow-lg py-3"
-            : isHero
-              ? "bg-transparent py-5"
-              : "bg-white/80 backdrop-blur-md py-4"
+          mobileOpen
+            ? "bg-white py-4"
+            : scrolled
+              ? "bg-[#1a1a2e]/95 backdrop-blur-xl border-b border-white/10 shadow-lg py-3"
+              : isHero
+                ? "bg-transparent py-5"
+                : "bg-white/80 backdrop-blur-md py-4"
         )}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
@@ -117,11 +119,13 @@ export function Navbar() {
               <span
                 className={cn(
                   "font-semibold text-xl tracking-tight transition-colors",
-                  scrolled
-                    ? "text-white"
-                    : isHero
+                  mobileOpen
+                    ? "text-neutral-900"
+                    : scrolled
                       ? "text-white"
-                      : "text-neutral-900"
+                      : isHero
+                        ? "text-white"
+                        : "text-neutral-900"
                 )}
               >
                 Finito Pro
@@ -326,12 +330,7 @@ export function Navbar() {
               aria-label="Toggle menu"
             >
               {mobileOpen ? (
-                <X
-                  className={cn(
-                    "w-6 h-6",
-                    scrolled ? "text-white" : isHero ? "text-white" : "text-neutral-900"
-                  )}
-                />
+                <X className="w-6 h-6 text-neutral-900" />
               ) : (
                 <Menu
                   className={cn(

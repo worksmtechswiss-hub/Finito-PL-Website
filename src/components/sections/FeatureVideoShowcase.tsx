@@ -17,6 +17,8 @@ const tabs = [
     label: "Dashboard",
     icon: LayoutDashboard,
     video: "/videos/1Dashboard-Desktop-transcode.mp4",
+    videoWebm: "/videos/1Dashboard-Desktop-transcode.webm",
+    poster: "/videos/1Dashboard-Desktop-poster-00001.jpg",
     description: "Alle KPIs auf einen Blick",
   },
   {
@@ -24,6 +26,8 @@ const tabs = [
     label: "Projekte",
     icon: FolderKanban,
     video: "/videos/1Projekt-Management-transcode.mp4",
+    videoWebm: "/videos/1Projekt-Management-transcode.webm",
+    poster: "/videos/1Projekt-Management-poster-00001.jpg",
     description: "Projekte effizient verwalten",
   },
   {
@@ -31,6 +35,8 @@ const tabs = [
     label: "Rechnungen",
     icon: Receipt,
     video: "/videos/1Rechnungen-PC-transcode.mp4",
+    videoWebm: "/videos/1Rechnungen-PC-transcode.webm",
+    poster: "/videos/1Rechnungen-PC-poster-00001.jpg",
     description: "QR-Rechnungen in Sekunden",
   },
   {
@@ -38,6 +44,8 @@ const tabs = [
     label: "Offerten",
     icon: FileText,
     video: "/videos/1Offerte-PC-transcode.mp4",
+    videoWebm: "/videos/1Offerte-PC-transcode.webm",
+    poster: "/videos/1Offerte-PC-poster-00001.jpg",
     description: "Professionelle Offerten erstellen",
   },
   {
@@ -45,6 +53,8 @@ const tabs = [
     label: "Kalender",
     icon: CalendarDays,
     video: "/videos/1Dashboard-Desktop-transcode.mp4",
+    videoWebm: "/videos/1Dashboard-Desktop-transcode.webm",
+    poster: "/videos/1Dashboard-Desktop-poster-00001.jpg",
     description: "Termine und Planung",
   },
 ];
@@ -145,8 +155,11 @@ export function FeatureVideoShowcase() {
                       loop
                       muted
                       playsInline
+                      preload="none"
+                      poster={tabs[activeTab].poster}
                       className="w-full h-full object-cover"
                     >
+                      <source src={tabs[activeTab].videoWebm} type="video/webm" />
                       <source src={tabs[activeTab].video} type="video/mp4" />
                     </video>
                   </motion.div>

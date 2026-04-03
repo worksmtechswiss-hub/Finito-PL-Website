@@ -1,17 +1,50 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/Hero";
-import { WorkflowSteps } from "@/components/sections/WorkflowSteps";
-import { SavingsBanner } from "@/components/sections/SavingsBanner";
-import { VorherNachher } from "@/components/sections/VorherNachher";
-import { PraxisBeispiele } from "@/components/sections/PraxisBeispiele";
-import { MitarbeiterApp } from "@/components/sections/MitarbeiterApp";
-import { BranchenGrid } from "@/components/sections/BranchenGrid";
-import { Pricing } from "@/components/sections/Pricing";
-import { FAQ } from "@/components/sections/FAQ";
-import { CTA } from "@/components/sections/CTA";
 import { TrustBanner } from "@/components/sections/TrustBanner";
-import { FeatureVideoShowcase } from "@/components/sections/FeatureVideoShowcase";
 import { organizationSchema } from "@/lib/seo";
+
+// Lazy load below-the-fold sections to reduce initial bundle size
+const FeatureVideoShowcase = dynamic(
+  () => import("@/components/sections/FeatureVideoShowcase").then((m) => ({ default: m.FeatureVideoShowcase })),
+  { ssr: true }
+);
+const WorkflowSteps = dynamic(
+  () => import("@/components/sections/WorkflowSteps").then((m) => ({ default: m.WorkflowSteps })),
+  { ssr: true }
+);
+const SavingsBanner = dynamic(
+  () => import("@/components/sections/SavingsBanner").then((m) => ({ default: m.SavingsBanner })),
+  { ssr: true }
+);
+const VorherNachher = dynamic(
+  () => import("@/components/sections/VorherNachher").then((m) => ({ default: m.VorherNachher })),
+  { ssr: true }
+);
+const PraxisBeispiele = dynamic(
+  () => import("@/components/sections/PraxisBeispiele").then((m) => ({ default: m.PraxisBeispiele })),
+  { ssr: true }
+);
+const MitarbeiterApp = dynamic(
+  () => import("@/components/sections/MitarbeiterApp").then((m) => ({ default: m.MitarbeiterApp })),
+  { ssr: true }
+);
+const BranchenGrid = dynamic(
+  () => import("@/components/sections/BranchenGrid").then((m) => ({ default: m.BranchenGrid })),
+  { ssr: true }
+);
+const Pricing = dynamic(
+  () => import("@/components/sections/Pricing").then((m) => ({ default: m.Pricing })),
+  { ssr: true }
+);
+const FAQ = dynamic(
+  () => import("@/components/sections/FAQ").then((m) => ({ default: m.FAQ })),
+  { ssr: true }
+);
+const CTA = dynamic(
+  () => import("@/components/sections/CTA").then((m) => ({ default: m.CTA })),
+  { ssr: true }
+);
 
 export const metadata: Metadata = {
   title: "Finito Pro | KMU Software Schweiz - Projektmanagement, Rechnungen & CRM",

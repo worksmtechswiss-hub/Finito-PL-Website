@@ -82,10 +82,11 @@ export function APIsContent() {
             </div>
             <div className="bg-white">
               <iframe
-                src="https://api.finitopro.ch/docs"
+                src="https://api.finitopro.ch/api/v1/schema/swagger-ui/"
                 className="w-full border-0"
                 style={{ height: "700px" }}
                 title="Finito Pro API Documentation"
+                loading="lazy"
               />
             </div>
           </motion.div>
