@@ -103,7 +103,7 @@ export function APIsContent() {
               Dostęp do API jest zawarty w pakiecie MŚP i Duże firmy.
             </p>
             <motion.a
-              href="https://app.finitopro.ch/register"
+              href="https://app.finitopro.pl/register"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-400 text-white font-semibold rounded-2xl shadow-glow hover:shadow-glow-lg transition-all"
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.98 }}

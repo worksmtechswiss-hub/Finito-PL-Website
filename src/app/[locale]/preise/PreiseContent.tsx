@@ -24,18 +24,18 @@ const tiers = [
     period: "",
     highlighted: false,
     cta: "Zacznij za darmo",
-    ctaHref: "https://app.finitopro.ch/register",
+    ctaHref: "https://app.finitopro.pl/register",
   },
   {
     id: "kmu",
     name: "MŚP",
     desc: "Pełna moc dla rozwijających się firm rzemieślniczych i usługowych.",
-    price: "30",
-    priceLabel: "CHF",
+    price: "100",
+    priceLabel: "zł",
     period: "/ miesiąc / użytkownik",
     highlighted: true,
     cta: "Testuj 30 dni za darmo",
-    ctaHref: "https://app.finitopro.ch/register",
+    ctaHref: "https://app.finitopro.pl/register",
   },
   {
     id: "enterprise",
@@ -98,12 +98,12 @@ const featureCategories = [
 ];
 
 const priceComparisons = [
-  { item: "Croissant", price: "CHF 2.50", emoji: "🥐" },
-  { item: "Red Bull", price: "CHF 2.90", emoji: "🥤" },
-  { item: "Kawa na wynos", price: "CHF 5.50", emoji: "☕" },
-  { item: "Kebab", price: "CHF 9.50", emoji: "🥙" },
-  { item: "Bilet do kina", price: "CHF 18.00", emoji: "🎬" },
-  { item: "Bilet parkingowy (1 godz.)", price: "CHF 4.00", emoji: "🅿️" },
+  { item: "Croissant", price: "2.50 zł", emoji: "🥐" },
+  { item: "Red Bull", price: "2.90 zł", emoji: "🥤" },
+  { item: "Kawa na wynos", price: "5.50 zł", emoji: "☕" },
+  { item: "Kebab", price: "9.50 zł", emoji: "🥙" },
+  { item: "Bilet do kina", price: "18.00 zł", emoji: "🎬" },
+  { item: "Bilet parkingowy (1 godz.)", price: "4.00 zł", emoji: "🅿️" },
 ];
 
 const faqs = [
@@ -217,7 +217,7 @@ export function PreiseContent() {
                         <span className="text-4xl font-bold">Za darmo</span>
                       ) : (
                         <>
-                          <span className="text-sm text-neutral-400">CHF</span>
+                          <span className="text-sm text-neutral-400">zł</span>
                           <span className="text-4xl font-bold">{tier.price}</span>
                           <span
                             className={cn(
@@ -400,7 +400,7 @@ export function PreiseContent() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              CHF 1 dziennie = mniej niż...
+              3 zł dziennie = mniej niż...
             </h2>
             <p className="text-lg text-neutral-500">
               Profesjonalne oprogramowanie biznesowe za mniej niż Twoja codzienna kawa.
@@ -439,7 +439,7 @@ export function PreiseContent() {
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-primary-50 rounded-2xl border border-primary-100">
               <Sparkles className="w-5 h-5 text-primary-600" />
               <span className="text-sm font-medium text-primary-700">
-                Finito Pro MŚP: tylko CHF 1 dziennie na pracownika
+                Finito Pro MŚP: tylko 3 zł dziennie na pracownika
               </span>
             </div>
           </motion.div>
@@ -545,7 +545,7 @@ export function PreiseContent() {
               w dowolnym momencie.
             </p>
             <motion.a
-              href="https://app.finitopro.ch/register"
+              href="https://app.finitopro.pl/register"
               className="group inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-primary-500 to-accent-400 text-white font-semibold rounded-2xl text-lg shadow-glow hover:shadow-glow-lg transition-all"
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.98 }}

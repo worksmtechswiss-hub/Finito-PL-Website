@@ -69,11 +69,11 @@ const savingsData = [
   {
     icon: Banknote,
     target: 31200,
-    suffix: "",
-    prefix: "CHF ",
+    suffix: " zł",
+    prefix: "",
     formatNumber: true,
     unit: "zaoszczędzonych",
-    detail: "przy CHF 60/h",
+    detail: "przy 60 zł/h",
   },
   {
     icon: FileCheck,

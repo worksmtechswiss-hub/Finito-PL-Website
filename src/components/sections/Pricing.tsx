@@ -75,7 +75,7 @@ export function Pricing() {
             <div className="text-center mb-2">
               <div className="flex items-baseline justify-center gap-1">
                 <span className="text-5xl font-bold text-neutral-900">
-                  CHF 30
+                  100 zł
                 </span>
                 <span className="text-neutral-400 text-sm">
                   / miesiąc na użytkownika
@@ -83,7 +83,7 @@ export function Pricing() {
               </div>
             </div>
             <p className="text-center text-[#8b5cf6] font-medium text-sm mb-8">
-              Od CHF 1 dziennie
+              Od 3 zł dziennie
             </p>
 
             {/* Divider */}
@@ -101,7 +101,7 @@ export function Pricing() {
 
             {/* Animated CTA Button */}
             <motion.a
-              href="https://app.finitopro.ch/register"
+              href="https://app.finitopro.pl/register"
               className="group relative block w-full text-center py-4 px-6 rounded-2xl font-semibold text-white text-base overflow-hidden"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}

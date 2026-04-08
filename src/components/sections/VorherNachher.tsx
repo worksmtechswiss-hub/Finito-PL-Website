@@ -113,7 +113,7 @@ export function VorherNachher() {
           className="text-center mt-14"
         >
           <motion.a
-            href="https://app.finitopro.ch/register"
+            href="https://app.finitopro.pl/register"
             className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-600 to-accent-500 text-white font-semibold rounded-xl text-base shadow-glow-sm hover:shadow-glow transition-all"
             whileHover={{ scale: 1.03, y: -2 }}
             whileTap={{ scale: 0.98 }}

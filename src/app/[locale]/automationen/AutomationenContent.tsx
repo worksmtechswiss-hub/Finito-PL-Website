@@ -169,9 +169,9 @@ const totalSavings = [
   {
     icon: Banknote,
     value: 31200,
-    suffix: "",
-    label: "CHF zaoszczędzonych",
-    sub: "przy stawce CHF 60/godz.",
+    suffix: " zł",
+    label: "zaoszczędzonych",
+    sub: "przy stawce 60 zł/godz.",
     format: true,
   },
   {
@@ -255,7 +255,7 @@ export function AutomationenContent() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="https://app.finitopro.ch/register"
+                href="https://app.finitopro.pl/register"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-violet-500 to-violet-400 text-white font-semibold rounded-2xl shadow-glow hover:shadow-glow-lg transition-all"
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}
@@ -423,7 +423,7 @@ export function AutomationenContent() {
                   </div>
                   <div className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-1">
                     <span ref={counter.ref}>
-                      {i === 1 && "CHF "}
+                      {i === 1 && ""}
                       {displayValue}
                       {item.suffix}
                     </span>
@@ -557,7 +557,7 @@ export function AutomationenContent() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="https://app.finitopro.ch/register"
+                href="https://app.finitopro.pl/register"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-violet-500 to-violet-400 text-white font-semibold rounded-2xl shadow-glow hover:shadow-glow-lg transition-all"
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}

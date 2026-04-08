@@ -24,7 +24,7 @@ export function CTA() {
             {t("subtitle")}
           </p>
           <motion.a
-            href="https://app.finitopro.ch/register"
+            href="https://app.finitopro.pl/register"
             className="group inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-primary-500 to-accent-400 text-white font-semibold rounded-2xl text-lg shadow-glow hover:shadow-glow-lg transition-all"
             whileHover={{ scale: 1.03, y: -2 }}
             whileTap={{ scale: 0.98 }}

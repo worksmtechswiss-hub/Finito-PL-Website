@@ -50,8 +50,8 @@ export const pricingTiers: PricingTier[] = [
     id: 'kmu',
     nameDe: 'MŚP',
     nameEn: 'MŚP',
-    priceDe: 'CHF 30 / miesiac za uzytkownika',
-    priceEn: 'CHF 30 / miesiac za uzytkownika',
+    priceDe: '100 zł / miesiac za uzytkownika',
+    priceEn: '100 zł / miesiac za uzytkownika',
     descriptionDe:
       'Wszystkie funkcje dla rozwijajacych sie firm rzemieślniczych i MŚP. Najpopularniejszy pakiet.',
     descriptionEn:

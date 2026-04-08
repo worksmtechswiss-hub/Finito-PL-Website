@@ -29,7 +29,7 @@ const sections = [
   {
     title: "5. Ceny i warunki płatności",
     content: `- Aktualne ceny znajdują się na naszej stronie z cennikiem
-- Wszystkie ceny podane są w CHF i nie zawierają podatku VAT
+- Wszystkie ceny podane są w zł i nie zawierają podatku VAT
 - Faktury wystawiane są z góry w cyklu miesięcznym lub rocznym
 - Płatności są wymagane w ciągu 30 dni
 - W przypadku zwłoki w płatności zastrzegamy sobie prawo do ograniczenia dostępu`,

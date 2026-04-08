@@ -252,7 +252,7 @@ export function KontaktContent() {
               <div className="pt-4">
                 <p className="text-sm text-neutral-400 mb-3">Lub zacznij od razu:</p>
                 <motion.a
-                  href="https://app.finitopro.ch/register"
+                  href="https://app.finitopro.pl/register"
                   className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-600 to-accent-500 text-white font-medium rounded-xl text-sm shadow-glow-sm hover:shadow-glow transition-all"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}

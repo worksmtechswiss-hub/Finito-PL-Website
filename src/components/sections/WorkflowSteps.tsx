@@ -221,7 +221,7 @@ function RechnungAnimation() {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.3, delay: 1.3 }}
         >
-          CHF
+          zł
         </motion.text>
       </svg>
     </div>

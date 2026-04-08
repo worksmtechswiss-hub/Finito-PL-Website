@@ -65,7 +65,7 @@ export function Hero() {
             style={{ "--stagger": 3 } as React.CSSProperties}
           >
             <a
-              href="https://app.finitopro.ch/register"
+              href="https://app.finitopro.pl/register"
               className="group relative inline-flex items-center gap-2 px-10 py-5 text-white font-semibold rounded-2xl text-lg overflow-hidden hover:-translate-y-0.5 transition-transform"
             >
               <span className="absolute inset-0 bg-gradient-to-r from-[#8b5cf6] via-[#a78bfa] to-[#7c3aed] bg-[length:200%_100%] animate-shimmer" />

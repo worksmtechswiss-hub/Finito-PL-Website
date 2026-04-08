@@ -106,7 +106,7 @@ export function FeatureShowcase({
 
             <motion.div variants={staggerItem}>
               <motion.a
-                href="https://app.finitopro.ch/register"
+                href="https://app.finitopro.pl/register"
                 className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-600 to-accent-500 text-white font-medium rounded-2xl text-base shadow-glow transition-all animate-glow-pulse"
                 whileHover={{ scale: 1.05, y: -3 }}
                 whileTap={{ scale: 0.98 }}
@@ -401,7 +401,7 @@ export function FeatureShowcase({
               Zacznij teraz z Finito Pro. 30 dni za darmo, bez karty kredytowej.
             </p>
             <motion.a
-              href="https://app.finitopro.ch/register"
+              href="https://app.finitopro.pl/register"
               className="group inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-primary-500 to-accent-400 text-white font-semibold rounded-2xl text-lg shadow-glow transition-all animate-glow-pulse"
               whileHover={{ scale: 1.05, y: -3 }}
               whileTap={{ scale: 0.98 }}

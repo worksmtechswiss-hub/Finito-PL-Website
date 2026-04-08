@@ -36,10 +36,10 @@ function DashboardHero() {
     { h: "65%", delay: 1.0 }, { h: "75%", delay: 1.1 }, { h: "55%", delay: 1.2 },
   ];
   const kpis = [
-    { label: "Przychód", value: "CHF 284'500", change: "+18%", positive: true },
+    { label: "Przychód", value: "284'500 zł", change: "+18%", positive: true },
     { label: "Otwarte faktury", value: "12", change: "-3", positive: true },
     { label: "Aktywne projekty", value: "8", change: "+2", positive: true },
-    { label: "Przepływy pieniężne", value: "CHF 48'200", change: "+24%", positive: true },
+    { label: "Przepływy pieniężne", value: "48'200 zł", change: "+24%", positive: true },
   ];
   return (
     <LargeWrapper>
@@ -145,9 +145,9 @@ function ProjektHero() {
 /* ================================================================== */
 function RechnungenHero() {
   const lines = [
-    { label: "Malowanie mieszkania", amount: "CHF 3'450.00" },
-    { label: "Materiał (farba, grunt)", amount: "CHF 890.00" },
-    { label: "Dojazd", amount: "CHF 120.00" },
+    { label: "Malowanie mieszkania", amount: "3'450.00 zł" },
+    { label: "Materiał (farba, grunt)", amount: "890.00 zł" },
+    { label: "Dojazd", amount: "120.00 zł" },
   ];
   return (
     <LargeWrapper>
@@ -178,7 +178,7 @@ function RechnungenHero() {
           ))}
           <div className="border-t-2 border-neutral-200 mt-2 pt-2 flex justify-between">
             <span className="text-xs font-bold text-neutral-800">Suma (z VAT)</span>
-            <span className="text-xs font-bold text-primary-600">CHF 4'816.20</span>
+            <span className="text-xs font-bold text-primary-600">4'816.20 zł</span>
           </div>
         </motion.div>
 
@@ -337,10 +337,10 @@ function ZeitHero() {
 /* ================================================================== */
 function CRMHero() {
   const contacts = [
-    { name: "Meier AG", type: "Firma", projects: 5, revenue: "CHF 42'000" },
-    { name: "Familie Brunner", type: "Osoba prywatna", projects: 2, revenue: "CHF 8'500" },
-    { name: "Immo Plus GmbH", type: "Firma", projects: 12, revenue: "CHF 156'000" },
-    { name: "Stadt Zürich", type: "Instytucja publiczna", projects: 3, revenue: "CHF 28'000" },
+    { name: "Meier AG", type: "Firma", projects: 5, revenue: "42'000 zł" },
+    { name: "Familie Brunner", type: "Osoba prywatna", projects: 2, revenue: "8'500 zł" },
+    { name: "Immo Plus GmbH", type: "Firma", projects: 12, revenue: "156'000 zł" },
+    { name: "Stadt Zürich", type: "Instytucja publiczna", projects: 3, revenue: "28'000 zł" },
   ];
   return (
     <LargeWrapper>
@@ -522,19 +522,19 @@ function LagerHero() {
 /* ================================================================== */
 function BuchhaltungHero() {
   const rows = [
-    { date: "24.03", desc: "Faktura Meier AG", debit: "", credit: "CHF 4'816.20", type: "Przychód" },
-    { date: "23.03", desc: "Materiał Farben AG", debit: "CHF 1'240.00", credit: "", type: "Wydatek" },
-    { date: "22.03", desc: "Faktura Brunner", debit: "", credit: "CHF 2'100.00", type: "Przychód" },
-    { date: "21.03", desc: "Ubezpieczenie", debit: "CHF 480.00", credit: "", type: "Wydatek" },
+    { date: "24.03", desc: "Faktura Meier AG", debit: "", credit: "4'816.20 zł", type: "Przychód" },
+    { date: "23.03", desc: "Materiał Farben AG", debit: "1'240.00 zł", credit: "", type: "Wydatek" },
+    { date: "22.03", desc: "Faktura Brunner", debit: "", credit: "2'100.00 zł", type: "Przychód" },
+    { date: "21.03", desc: "Ubezpieczenie", debit: "480.00 zł", credit: "", type: "Wydatek" },
   ];
   return (
     <LargeWrapper>
       <div className="w-full max-w-lg mx-auto">
         <div className="grid grid-cols-3 gap-3 mb-5">
           {[
-            { label: "Przychody", value: "CHF 284'500", color: "text-green-400" },
-            { label: "Wydatki", value: "CHF 148'200", color: "text-red-400" },
-            { label: "Zysk", value: "CHF 136'300", color: "text-primary-300" },
+            { label: "Przychody", value: "284'500 zł", color: "text-green-400" },
+            { label: "Wydatki", value: "148'200 zł", color: "text-red-400" },
+            { label: "Zysk", value: "136'300 zł", color: "text-primary-300" },
           ].map((kpi, i) => (
             <motion.div
               key={kpi.label}

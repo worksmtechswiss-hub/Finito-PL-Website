@@ -310,7 +310,7 @@ export function FAQContent() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <motion.a
-                href="https://app.finitopro.ch/register"
+                href="https://app.finitopro.pl/register"
                 className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-600 to-accent-500 text-white font-medium rounded-2xl text-sm shadow-glow-sm hover:shadow-glow transition-all"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}

@@ -114,7 +114,7 @@ function QRAnimation() {
         viewport={{ once: true }}
         transition={{ delay: 0.8 }}
       >
-        CHF 1&apos;250.00
+        1&apos;250.00 zł
       </motion.span>
     </AnimationWrapper>
   );
@@ -353,9 +353,9 @@ function LagerAnimation() {
 /* ------------------------------------------------------------------ */
 function BuchhaltungAnimation() {
   const rows = [
-    { label: "Przychody", value: "CHF 48'200", color: "text-green-600" },
-    { label: "Wydatki", value: "CHF 21'340", color: "text-red-500" },
-    { label: "Zysk", value: "CHF 26'860", color: "text-primary-600" },
+    { label: "Przychody", value: "48'200 zł", color: "text-green-600" },
+    { label: "Wydatki", value: "21'340 zł", color: "text-red-500" },
+    { label: "Zysk", value: "26'860 zł", color: "text-primary-600" },
   ];
   return (
     <AnimationWrapper>

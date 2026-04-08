@@ -297,7 +297,7 @@ export function Navbar() {
             {/* Right Side */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="https://app.finitopro.ch/login"
+                href="https://app.finitopro.pl/login"
                 className={cn(
                   "px-3 py-2 text-sm font-medium rounded-lg transition-colors",
                   scrolled
@@ -310,7 +310,7 @@ export function Navbar() {
                 {t("login")}
               </a>
               <a
-                href="https://app.finitopro.ch/register"
+                href="https://app.finitopro.pl/register"
                 className="group relative inline-flex items-center px-5 py-2.5 text-white text-sm font-semibold rounded-xl overflow-hidden hover:-translate-y-0.5 transition-transform"
               >
                 {/* Animated gradient background */}
@@ -422,13 +422,13 @@ export function Navbar() {
 
               <div className="pt-4 border-t border-neutral-100 space-y-3">
                 <a
-                  href="https://app.finitopro.ch/login"
+                  href="https://app.finitopro.pl/login"
                   className="block w-full text-center px-4 py-3 border border-neutral-200 rounded-xl text-sm font-medium text-neutral-700 hover:bg-neutral-50"
                 >
                   {t("login")}
                 </a>
                 <a
-                  href="https://app.finitopro.ch/register"
+                  href="https://app.finitopro.pl/register"
                   className="block w-full text-center px-4 py-3 bg-gradient-to-r from-primary-600 to-accent-500 text-white rounded-xl text-sm font-medium"
                 >
                   {t("getStarted")}

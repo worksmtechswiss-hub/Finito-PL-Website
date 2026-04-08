@@ -50,7 +50,7 @@ const beispiele = [
       "Dashboard pokazuje wszystkie otwarte pozycje na pierwszy rzut oka",
       "Cyfrowe zarządzanie urlopami i nieobecnościami",
     ],
-    ersparnis: "CHF 2'800/miesiąc",
+    ersparnis: "2'800 zł/miesiąc",
     highlight: "0 zapomnianych faktur",
   },
   {
@@ -84,7 +84,7 @@ const beispiele = [
       "Portal klienta ze statusem projektu w czasie rzeczywistym",
       "Zintegrowana księgowość oszczędza koszty biura rachunkowego",
     ],
-    ersparnis: "CHF 1'500/miesiąc",
+    ersparnis: "1'500 zł/miesiąc",
     highlight: "Koszty biura rachunkowego zmniejszone o połowę",
   },
   {
@@ -101,7 +101,7 @@ const beispiele = [
       "Automatyczna kalkulacja końcowa po zakończeniu projektu",
       "Zarządzanie magazynem zapobiega podwójnym zamówieniom",
     ],
-    ersparnis: "CHF 3'200/miesiąc",
+    ersparnis: "3'200 zł/miesiąc",
     highlight: "30% mniej kosztów materiałów",
   },
   {

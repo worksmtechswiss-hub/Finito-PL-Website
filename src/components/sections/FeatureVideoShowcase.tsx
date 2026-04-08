@@ -133,7 +133,7 @@ export function FeatureVideoShowcase() {
                 </div>
                 <div className="flex-1 mx-4">
                   <div className="bg-neutral-700/50 rounded-md px-3 py-1 text-[10px] text-neutral-400 text-center truncate">
-                    app.finitopro.ch/{tabs[activeTab].id}
+                    app.finitopro.pl/{tabs[activeTab].id}
                   </div>
                 </div>
               </div>

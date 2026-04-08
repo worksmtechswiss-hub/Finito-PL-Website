@@ -82,7 +82,7 @@ export function SavingsBanner() {
             </motion.div>
 
             <div className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-4 tabular-nums">
-              <AnimatedValue target={31200} prefix="CHF " duration={2.5} />
+              <AnimatedValue target={31200} suffix=" zł" duration={2.5} />
             </div>
 
             <p className="text-lg sm:text-xl text-white/60 mb-8 max-w-md leading-relaxed">
@@ -90,7 +90,7 @@ export function SavingsBanner() {
             </p>
 
             <motion.a
-              href="https://app.finitopro.ch/register"
+              href="https://app.finitopro.pl/register"
               className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#8b5cf6] to-[#7c3aed] text-white font-semibold rounded-xl text-base hover:shadow-glow-sm transition-all hover:-translate-y-0.5"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
