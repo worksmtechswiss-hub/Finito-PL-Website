@@ -7,13 +7,13 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 const team = [
-  { name: "Carlos", role: "Co-Founder", image: "/images/carlos 1.svg" },
-  { name: "Lukas", role: "Co-Founder", image: "/images/lukas 1.svg" },
-  { name: "Kamil", role: "Development", image: "/images/kamil 1.svg" },
-  { name: "Nico", role: "Development", image: "/images/Nico.svg" },
-  { name: "Izabela", role: "Design", image: "/images/iza 1.svg" },
-  { name: "Natalia", role: "Operations", image: "/images/natalia 1.svg" },
-  { name: "Ivan", role: "Development", image: "/images/ivan 1.svg" },
+  { name: "Carlos", image: "/images/carlos 1.svg" },
+  { name: "Łukasz", image: "/images/lukas 1.svg" },
+  { name: "Kamil", image: "/images/kamil 1.svg" },
+  { name: "Nico", image: "/images/Nico.svg" },
+  { name: "Izabela", image: "/images/iza 1.svg" },
+  { name: "Natalia", image: "/images/natalia 1.svg" },
+  { name: "Ivan", image: "/images/ivan 1.svg" },
 ];
 
 const socialLinks = [
@@ -90,17 +90,12 @@ export function TeamPreview() {
                     <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden shadow-lg group-hover:shadow-xl transition-all ring-3 ring-white group-hover:ring-primary-200">
                       <Image
                         src={member.image}
-                        alt={`${member.name} - ${member.role}`}
+                        alt={member.name}
                         width={96}
                         height={96}
                         className="w-full h-full object-cover"
                         sizes="96px"
                       />
-                    </div>
-                    <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 px-2.5 py-0.5 bg-white border border-neutral-100 rounded-full shadow-sm">
-                      <span className="text-[9px] text-neutral-400 font-medium uppercase tracking-wider whitespace-nowrap">
-                        {member.role}
-                      </span>
                     </div>
                   </div>
                   <h3 className="font-semibold text-neutral-900 text-sm">

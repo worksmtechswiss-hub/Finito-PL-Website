@@ -31,13 +31,13 @@ const values = [
 ];
 
 const team = [
-  { name: "Carlos", role: "Co-Founder", image: "/images/carlos 1.svg" },
-  { name: "Lukas", role: "Co-Founder", image: "/images/lukas 1.svg" },
-  { name: "Kamil", role: "Development", image: "/images/kamil 1.svg" },
-  { name: "Nico", role: "Development", image: "/images/Nico.svg" },
-  { name: "Izabela", role: "Design", image: "/images/iza 1.svg" },
-  { name: "Natalia", role: "Operations", image: "/images/natalia 1.svg" },
-  { name: "Ivan", role: "Development", image: "/images/ivan 1.svg" },
+  { name: "Carlos", image: "/images/carlos 1.svg" },
+  { name: "Łukasz", image: "/images/lukas 1.svg" },
+  { name: "Kamil", image: "/images/kamil 1.svg" },
+  { name: "Nico", image: "/images/Nico.svg" },
+  { name: "Izabela", image: "/images/iza 1.svg" },
+  { name: "Natalia", image: "/images/natalia 1.svg" },
+  { name: "Ivan", image: "/images/ivan 1.svg" },
 ];
 
 export function TeamContent() {
@@ -268,17 +268,12 @@ export function TeamContent() {
                   <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-card group-hover:shadow-card-hover transition-all group-hover:scale-105 ring-3 ring-white">
                     <Image
                       src={member.image}
-                      alt={`${member.name} - ${member.role} w Finito Pro`}
+                      alt={`${member.name} - Finito Pro`}
                       width={112}
                       height={112}
                       className="w-full h-full object-cover"
                       sizes="(max-width: 640px) 96px, 112px"
                     />
-                  </div>
-                  <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 px-3 py-0.5 bg-white border border-neutral-100 rounded-full shadow-sm">
-                    <span className="text-[10px] text-neutral-400 font-medium uppercase tracking-wider">
-                      {member.role}
-                    </span>
                   </div>
                 </div>
                 <h3 className="font-semibold text-neutral-900 text-lg">
