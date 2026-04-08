@@ -7,12 +7,13 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 const team = [
-  { name: "Carlos", role: "Co-Founder", image: "/images/645bd42b3c5cd436717c7ced_carlos2-1.png" },
-  { name: "Lukas", role: "Co-Founder", image: "/images/645bd42b0b745647b9a26cea_lukas2-p-500-1.png" },
-  { name: "Kamil", role: "Development", image: "/images/MicrosoftTeams-image-171.png" },
-  { name: "Nico", role: "Development", image: "/images/MicrosoftTeams-image-172.png" },
-  { name: "Izabela", role: "Design", image: "/images/MicrosoftTeams-image-173.png" },
-  { name: "Natalia", role: "Operations", image: "/images/team-2.png" },
+  { name: "Carlos", role: "Co-Founder", image: "/images/carlos 1.svg" },
+  { name: "Lukas", role: "Co-Founder", image: "/images/lukas 1.svg" },
+  { name: "Kamil", role: "Development", image: "/images/kamil 1.svg" },
+  { name: "Nico", role: "Development", image: "/images/Nico.svg" },
+  { name: "Izabela", role: "Design", image: "/images/iza 1.svg" },
+  { name: "Natalia", role: "Operations", image: "/images/natalia 1.svg" },
+  { name: "Ivan", role: "Development", image: "/images/ivan 1.svg" },
 ];
 
 const socialLinks = [
