@@ -116,7 +116,7 @@ export function Pricing() {
             </motion.a>
 
             <p className="text-center text-xs text-neutral-400 mt-4">
-              Testuj 30 dni za darmo. Bez karty kredytowej.
+              Testuj 14 dni za darmo. Bez karty kredytowej.
             </p>
           </div>
         </motion.div>

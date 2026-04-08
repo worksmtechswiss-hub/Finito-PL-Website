@@ -54,7 +54,7 @@ export const organizationSchema = {
     "@type": "Offer",
     price: "0",
     priceCurrency: "PLN",
-    description: "Testuj 30 dni za darmo",
+    description: "Testuj 14 dni za darmo",
   },
   aggregateRating: {
     "@type": "AggregateRating",

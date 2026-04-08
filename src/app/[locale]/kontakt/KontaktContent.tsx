@@ -257,7 +257,7 @@ export function KontaktContent() {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  Testuj 30 dni za darmo
+                  Testuj 14 dni za darmo
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </motion.a>
               </div>

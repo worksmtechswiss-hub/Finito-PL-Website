@@ -18,7 +18,7 @@ const faqKeys = [
 const faqs = [
   {
     questionDe: "Czy istnieje darmowa wersja testowa?",
-    answerDe: "Tak! Możesz testować Finito Pro przez 30 dni za darmo i bez zobowiązań. Bez karty kredytowej, bez ukrytych kosztów. Nasz zespół chętnie pomoże Ci na starcie.",
+    answerDe: "Tak! Możesz testować Finito Pro przez 14 dni za darmo i bez zobowiązań. Bez karty kredytowej, bez ukrytych kosztów. Nasz zespół chętnie pomoże Ci na starcie.",
   },
   {
     questionDe: "Kiedy mogę anulować subskrypcję?",

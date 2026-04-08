@@ -111,7 +111,7 @@ export function FeatureShowcase({
                 whileHover={{ scale: 1.05, y: -3 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Testuj 30 dni za darmo
+                Testuj 14 dni za darmo
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </motion.a>
             </motion.div>
@@ -398,7 +398,7 @@ export function FeatureShowcase({
               Gotowy, aby wypróbować {title}?
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Zacznij teraz z Finito Pro. 30 dni za darmo, bez karty kredytowej.
+              Zacznij teraz z Finito Pro. 14 dni za darmo, bez karty kredytowej.
             </p>
             <motion.a
               href="https://app.finitopro.pl/register"

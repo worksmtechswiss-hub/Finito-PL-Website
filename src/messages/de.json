@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Finito Pro | Oprogramowanie dla MŚP w Szwajcarii - Zarządzanie projektami, faktury i CRM",
-    "description": "Finito Pro to kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury QR, dbaj o klientów i koordynuj zespół. 100% dane w Szwajcarii. 30 dni za darmo.",
+    "description": "Finito Pro to kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury QR, dbaj o klientów i koordynuj zespół. 100% dane w Szwajcarii. 14 dni za darmo.",
     "keywords": "oprogramowanie MŚP Szwajcaria, zarządzanie projektami, faktury QR, CRM, oprogramowanie rzemieślnicze, rejestracja czasu pracy, wyceny, oprogramowanie szwajcarskie"
   },
   "nav": {
@@ -24,7 +24,7 @@
     "subtitle": "Zarządzaj projektami, twórz faktury QR, koordynuj zespół - wszystko w jednej aplikacji. 100% dane w Szwajcarii.",
     "cta": "Rozpocznij za darmo",
     "ctaSecondary": "Zobacz demo",
-    "trust": "Bez karty kredytowej · 30 dni za darmo · Serwery w Szwajcarii"
+    "trust": "Bez karty kredytowej · 14 dni za darmo · Serwery w Szwajcarii"
   },
   "trustBanner": {
     "title": "Zaufało nam ponad 200 szwajcarskich firm",
@@ -362,7 +362,7 @@
       "q1": "Czy mogę zrezygnować w dowolnym momencie?",
       "a1": "Tak, możesz zrezygnować z subskrypcji w dowolnym momencie. Nie ma minimalnego okresu umowy ani ukrytych opłat.",
       "q2": "Co się stanie po okresie próbnym?",
-      "a2": "Po 30 dniach po prostu wybierasz odpowiedni plan. Twoje dane zostaną zachowane i możesz bezproblemowo kontynuować pracę.",
+      "a2": "Po 14 dniach po prostu wybierasz odpowiedni plan. Twoje dane zostaną zachowane i możesz bezproblemowo kontynuować pracę.",
       "q3": "Czy mogę później zmienić plan?",
       "a3": "Oczywiście. Możesz w dowolnym momencie zmienić plan na większy lub mniejszy. Rozliczenie zostanie proporcjonalnie dostosowane.",
       "q4": "Czy jest zniżka za płatność roczną?",
@@ -378,7 +378,7 @@
     "q2": "Gdzie przechowywane są moje dane?",
     "a2": "Wszystkie dane są przechowywane wyłącznie na serwerach w Szwajcarii. Współpracujemy z certyfikowanymi szwajcarskimi centrami danych i spełniamy wszystkie wymagania szwajcarskiej ustawy o ochronie danych (DSG).",
     "q3": "Czy mogę wypróbować Finito za darmo?",
-    "a3": "Tak, możesz testować Finito przez 30 dni za darmo i bez zobowiązań. Karta kredytowa nie jest wymagana. Po okresie próbnym po prostu wybierasz odpowiedni plan.",
+    "a3": "Tak, możesz testować Finito przez 14 dni za darmo i bez zobowiązań. Karta kredytowa nie jest wymagana. Po okresie próbnym po prostu wybierasz odpowiedni plan.",
     "q4": "Czy Finito działa również offline?",
     "a4": "Tak, aplikacja pracownika posiada tryb offline. Twoi pracownicy mogą rejestrować czas pracy, robić zdjęcia i realizować zadania nawet na placach budowy bez zasięgu. Dane zostaną automatycznie zsynchronizowane po ponownym nawiązaniu połączenia.",
     "q5": "Czy Finito tworzy szwajcarskie faktury QR?",
@@ -396,7 +396,7 @@
   },
   "cta": {
     "title": "Gotowy na cyfryzację swojej firmy?",
-    "subtitle": "30 dni za darmo. Bez karty kredytowej.",
+    "subtitle": "14 dni za darmo. Bez karty kredytowej.",
     "button": "Rozpocznij za darmo",
     "secondaryButton": "Umów demo",
     "trust": "Ponad 200 szwajcarskich MŚP już zaufało Finito"
@@ -496,7 +496,7 @@
     "integration": "Doskonale zintegrowane",
     "integrationDesc": "Ta funkcja współpracuje bezproblemowo ze wszystkimi innymi modułami Finito.",
     "ctaTitle": "Wypróbuj {feature} za darmo",
-    "ctaSubtitle": "30 dni za darmo. Bez karty kredytowej.",
+    "ctaSubtitle": "14 dni za darmo. Bez karty kredytowej.",
     "relatedFeatures": "Powiązane funkcje",
     "problems": {
       "rechnungen": "Wiele MŚP nadal tworzy faktury ręcznie w Wordzie lub Excelu. To kosztuje czas, jest podatne na błędy i często nie odpowiada nowemu standardowi QR.",
@@ -534,7 +534,7 @@
     "advantages": "Twoje korzyści z Finito",
     "relevantFeatures": "Istotne funkcje",
     "workflow": "Jak {branch} korzysta z Finito na co dzień",
-    "ctaTitle": "Finito dla branży {branch} - 30 dni za darmo",
+    "ctaTitle": "Finito dla branży {branch} - 14 dni za darmo",
     "ctaSubtitle": "Zacznij teraz i przekonaj się, jak Finito upraszcza Twoją codzienną pracę.",
     "ctaButton": "Wypróbuj za darmo",
     "testimonialTitle": "Co mówią {branch} o Finito"
@@ -544,7 +544,7 @@
     "getStarted": "Rozpocznij za darmo",
     "tryFree": "Wypróbuj za darmo",
     "noCreditCard": "Bez karty kredytowej",
-    "thirtyDaysFree": "30 dni za darmo",
+    "thirtyDaysFree": "14 dni za darmo",
     "swissServers": "Serwery w Szwajcarii",
     "perMonth": "/miesiąc",
     "perUser": "za użytkownika",
@@ -619,11 +619,11 @@
   },
   "seo": {
     "homeTitle": "Finito Pro | Oprogramowanie dla MŚP w Szwajcarii - Zarządzanie projektami, faktury i CRM",
-    "homeDescription": "Kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury QR, koordynuj zespół. 100% dane w Szwajcarii. 30 dni za darmo.",
+    "homeDescription": "Kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury QR, koordynuj zespół. 100% dane w Szwajcarii. 14 dni za darmo.",
     "featuresTitle": "Funkcje | Finito Pro - Przegląd wszystkich funkcji",
     "featuresDescription": "Odkryj wszystkie funkcje Finito Pro: faktury QR, zarządzanie projektami, CRM, rejestracja czasu pracy, wyceny i więcej. Wszystko dla Twojej firmy.",
     "pricingTitle": "Cennik | Finito Pro - Od 100 zł/miesiąc",
-    "pricingDescription": "Przejrzyste ceny dla każdej wielkości firmy. Starter od 100 zł/miesiąc. 30 dni za darmo. Bez ukrytych kosztów.",
+    "pricingDescription": "Przejrzyste ceny dla każdej wielkości firmy. Starter od 100 zł/miesiąc. 14 dni za darmo. Bez ukrytych kosztów.",
     "contactTitle": "Kontakt | Finito Pro - Jesteśmy do Twojej dyspozycji",
     "contactDescription": "Masz pytania dotyczące Finito Pro? Skontaktuj się z nami przez formularz, e-mail lub telefon. Odpowiadamy w ciągu 24 godzin.",
     "teamTitle": "Zespół | Finito Pro - Historia naszego oprogramowania",

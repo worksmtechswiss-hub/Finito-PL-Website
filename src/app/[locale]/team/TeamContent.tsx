@@ -330,7 +330,7 @@ export function TeamContent() {
               Przekonaj się sam
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Testuj Finito Pro przez 30 dni za darmo i przekonaj się, jak
+              Testuj Finito Pro przez 14 dni za darmo i przekonaj się, jak
               prosta może być Twoja codzienna praca.
             </p>
             <motion.a

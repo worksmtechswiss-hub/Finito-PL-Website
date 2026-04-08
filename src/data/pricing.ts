@@ -87,8 +87,8 @@ export const pricingTiers: PricingTier[] = [
       'Priorytetowe wsparcie przez czat i e-mail',
     ],
     highlighted: true,
-    ctaDe: 'Testuj 30 dni za darmo',
-    ctaEn: 'Testuj 30 dni za darmo',
+    ctaDe: 'Testuj 14 dni za darmo',
+    ctaEn: 'Testuj 14 dni za darmo',
   },
   {
     id: 'grossfirmen',

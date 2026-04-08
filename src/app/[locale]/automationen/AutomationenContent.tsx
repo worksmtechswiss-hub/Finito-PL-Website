@@ -260,7 +260,7 @@ export function AutomationenContent() {
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Testuj 30 dni za darmo
+                Testuj 14 dni za darmo
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
               <Link
@@ -552,7 +552,7 @@ export function AutomationenContent() {
               Zacznij teraz i oszczędzaj od pierwszego dnia
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              30 dni za darmo, bez karty kredytowej. Przekonaj się
+              14 dni za darmo, bez karty kredytowej. Przekonaj się
               sam, ile czasu oszczędzisz z Finito Pro.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -147,7 +147,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
 const seoMetaMap: Record<string, { title: string; description: string; keywords: string[] }> = {
   maler: {
     title: "Oprogramowanie dla malarzy Szwajcaria - oferty, rejestracja czasu i faktury QR | Finito Pro",
-    description: "Najlepsze oprogramowanie dla malarzy w Szwajcarii. Oferty w 3 minuty, cyfrowe fotoraporty, faktury QR i rejestracja czasu. 30 dni bezplatnego testu.",
+    description: "Najlepsze oprogramowanie dla malarzy w Szwajcarii. Oferty w 3 minuty, cyfrowe fotoraporty, faktury QR i rejestracja czasu. 14 dni bezplatnego testu.",
     keywords: ["oprogramowanie dla malarzy", "oprogramowanie malarskie Szwajcaria", "cyfryzacja firmy malarskiej", "oferty malarze", "rejestracja czasu malarze", "faktura QR malarze"],
   },
   gipser: {

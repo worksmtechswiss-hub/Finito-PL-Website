@@ -118,7 +118,7 @@ export function VorherNachher() {
             whileHover={{ scale: 1.03, y: -2 }}
             whileTap={{ scale: 0.98 }}
           >
-            Testuj 30 dni za darmo
+            Testuj 14 dni za darmo
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </motion.a>
         </motion.div>

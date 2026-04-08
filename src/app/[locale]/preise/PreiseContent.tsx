@@ -34,7 +34,7 @@ const tiers = [
     priceLabel: "zł",
     period: "/ miesiąc / użytkownik",
     highlighted: true,
-    cta: "Testuj 30 dni za darmo",
+    cta: "Testuj 14 dni za darmo",
     ctaHref: "https://app.finitopro.pl/register",
   },
   {
@@ -113,7 +113,7 @@ const faqs = [
   },
   {
     q: "Co się stanie po okresie testowym?",
-    a: "Po 30 dniach możesz wybrać subskrypcję lub pozostać na darmowym planie Starter. Twoje dane nie zostaną utracone.",
+    a: "Po 14 dniach możesz wybrać subskrypcję lub pozostać na darmowym planie Starter. Twoje dane nie zostaną utracone.",
   },
   {
     q: "Czy mogę anulować w dowolnym momencie?",
@@ -541,7 +541,7 @@ export function PreiseContent() {
               Gotowy, aby zacząć?
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Testuj 30 dni za darmo. Bez karty kredytowej. Możesz anulować
+              Testuj 14 dni za darmo. Bez karty kredytowej. Możesz anulować
               w dowolnym momencie.
             </p>
             <motion.a

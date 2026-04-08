@@ -338,7 +338,7 @@ export function BranchPageContent({
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}
               >
-                30 dni bezplatnego testu
+                14 dni bezplatnego testu
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
               <Link
@@ -752,7 +752,7 @@ export function BranchPageContent({
               Gotowy na cyfryzacje swojej firmy {branch.titleDe}?
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Zacznij teraz z Finito Pro - 30 dni bezplatnie, bez karty kredytowej.
+              Zacznij teraz z Finito Pro - 14 dni bezplatnie, bez karty kredytowej.
               Przekonaj sie sam.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

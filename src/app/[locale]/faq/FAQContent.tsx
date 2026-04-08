@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "Czy jest darmowa wersja próbna?",
     answer:
-      "Tak! Możesz testować Finito Pro przez 30 dni za darmo i bez zobowiązań. Bez karty kredytowej, bez ukrytych kosztów. Otrzymujesz pełny dostęp do wszystkich funkcji MŚP. Po zakończeniu okresu próbnego możesz wybrać abonament lub korzystać z darmowego planu Starter.",
+      "Tak! Możesz testować Finito Pro przez 14 dni za darmo i bez zobowiązań. Bez karty kredytowej, bez ukrytych kosztów. Otrzymujesz pełny dostęp do wszystkich funkcji MŚP. Po zakończeniu okresu próbnego możesz wybrać abonament lub korzystać z darmowego planu Starter.",
     category: "Ogólne",
   },
   {
@@ -315,7 +315,7 @@ export function FAQContent() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                30 dni za darmo
+                14 dni za darmo
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </motion.a>
               <a

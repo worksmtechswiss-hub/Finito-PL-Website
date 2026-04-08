@@ -267,7 +267,7 @@ export function KundenContent() {
               Dołącz do rodziny Finito Pro
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Testuj za darmo przez 30 dni i sam przekonaj się, dlaczego szwajcarskie MŚP wybierają Finito Pro.
+              Testuj za darmo przez 14 dni i sam przekonaj się, dlaczego szwajcarskie MŚP wybierają Finito Pro.
             </p>
             <motion.a
               href="https://app.finitopro.pl/register"

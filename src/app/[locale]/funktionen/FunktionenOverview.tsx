@@ -259,7 +259,7 @@ export function FunktionenOverview() {
               Wszystkie funkcje. Jedna cena.
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Wypróbuj Finito Pro przez 30 dni za darmo i sam przekonaj się o wszystkich funkcjach.
+              Wypróbuj Finito Pro przez 14 dni za darmo i sam przekonaj się o wszystkich funkcjach.
             </p>
             <motion.a
               href="https://app.finitopro.pl/register"

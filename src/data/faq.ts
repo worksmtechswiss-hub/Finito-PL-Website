@@ -12,9 +12,9 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Czy jest darmowy okres próbny?',
     questionEn: 'Czy jest darmowy okres próbny?',
     answerDe:
-      'Tak, mozesz testowac Finito Pro przez 30 dni za darmo i bez zobowiazan. Wszystkie funkcje pakietu MŚP sa w pelni dostepne podczas okresu próbnego. Nie jest wymagana karta kredytowa, brak automatycznego przedluzenia.',
+      'Tak, mozesz testowac Finito Pro przez 14 dni za darmo i bez zobowiazan. Wszystkie funkcje pakietu MŚP sa w pelni dostepne podczas okresu próbnego. Nie jest wymagana karta kredytowa, brak automatycznego przedluzenia.',
     answerEn:
-      'Tak, mozesz testowac Finito Pro przez 30 dni za darmo i bez zobowiazan. Wszystkie funkcje pakietu MŚP sa w pelni dostepne podczas okresu próbnego. Nie jest wymagana karta kredytowa, brak automatycznego przedluzenia.',
+      'Tak, mozesz testowac Finito Pro przez 14 dni za darmo i bez zobowiazan. Wszystkie funkcje pakietu MŚP sa w pelni dostepne podczas okresu próbnego. Nie jest wymagana karta kredytowa, brak automatycznego przedluzenia.',
   },
   {
     id: 'kündigung',
