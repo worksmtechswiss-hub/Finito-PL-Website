@@ -6,11 +6,11 @@ import { useInView } from "@/hooks/useInView";
 import { TrendingDown, ArrowRight } from "lucide-react";
 
 const savingsBreakdown = [
-  { label: "Offerten erstellen", before: "45 Min", after: "5 Min", saved: "−88%", percent: 88 },
-  { label: "Rechnungen schreiben", before: "30 Min", after: "2 Min", saved: "−93%", percent: 93 },
-  { label: "Zeiterfassung", before: "15 Min", after: "1 Klick", saved: "−95%", percent: 95 },
-  { label: "Projektplanung", before: "60 Min", after: "10 Min", saved: "−83%", percent: 83 },
-  { label: "Kundenkommunikation", before: "20 Min", after: "5 Min", saved: "−75%", percent: 75 },
+  { label: "Tworzenie ofert", before: "45 min", after: "5 min", saved: "−88%", percent: 88 },
+  { label: "Wystawianie faktur", before: "30 min", after: "2 min", saved: "−93%", percent: 93 },
+  { label: "Rejestracja czasu", before: "15 min", after: "1 klik", saved: "−95%", percent: 95 },
+  { label: "Planowanie projektów", before: "60 min", after: "10 min", saved: "−83%", percent: 83 },
+  { label: "Komunikacja z klientem", before: "20 min", after: "5 min", saved: "−75%", percent: 75 },
 ];
 
 function AnimatedValue({
@@ -78,7 +78,7 @@ export function SavingsBanner() {
               transition={{ duration: 0.5 }}
             >
               <TrendingDown className="w-4 h-4 text-green-300" />
-              <span className="text-sm text-white/80 font-medium">Gesamtersparnis pro Jahr</span>
+              <span className="text-sm text-white/80 font-medium">Łączne oszczędności rocznie</span>
             </motion.div>
 
             <div className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-4 tabular-nums">
@@ -86,7 +86,7 @@ export function SavingsBanner() {
             </div>
 
             <p className="text-lg sm:text-xl text-white/60 mb-8 max-w-md leading-relaxed">
-              So viel spart ein typisches KMU mit 5 Mitarbeitern und 200 Projekten pro Jahr mit Finito Pro.
+              Tyle oszczędza typowe MŚP z 5 pracownikami i 200 projektami rocznie dzięki Finito Pro.
             </p>
 
             <motion.a
@@ -95,7 +95,7 @@ export function SavingsBanner() {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
             >
-              Jetzt Kosten senken
+              Obniż koszty teraz
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.a>
           </motion.div>
@@ -108,7 +108,7 @@ export function SavingsBanner() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="space-y-3"
           >
-            <p className="text-white/50 text-xs font-medium uppercase tracking-wider mb-4">So setzt sich die Ersparnis zusammen</p>
+            <p className="text-white/50 text-xs font-medium uppercase tracking-wider mb-4">Z czego składają się oszczędności</p>
             {savingsBreakdown.map((item, i) => (
               <motion.div
                 key={item.label}

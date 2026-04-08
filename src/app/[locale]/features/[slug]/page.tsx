@@ -62,8 +62,8 @@ export default async function FeatureDetailPage({
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             breadcrumbSchema([
-              { name: "Home", path: "/" },
-              { name: "Funktionen", path: "/funktionen" },
+              { name: "Strona glowna", path: "/" },
+              { name: "Funkcje", path: "/funktionen" },
               { name: feature.title, path: `/features/${slug}` },
             ])
           ),

@@ -20,106 +20,106 @@ import { Link } from "@/i18n/navigation";
 
 const beispiele = [
   {
-    branche: "Malerbetrieb",
+    branche: "Firma malarska",
     icon: Paintbrush,
-    firma: "5 Mitarbeiter, Zürich",
+    firma: "5 pracowników, Zurych",
     vorher: [
-      "Offerten von Hand in Word erstellt (45 Min. pro Offerte)",
-      "Arbeitszeiten auf Papier notiert, oft vergessen",
-      "Rechnungen erst Wochen nach Projektende verschickt",
+      "Oferty tworzone ręcznie w Wordzie (45 min na ofertę)",
+      "Czas pracy notowany na papierze, często zapomniany",
+      "Faktury wysyłane dopiero tygodnie po zakończeniu projektu",
     ],
     nachher: [
-      "Offerten in 5 Minuten aus Vorlagen erstellt",
-      "Automatische Zeiterfassung per App am Einsatzort",
-      "Rechnung direkt nach Projektabschluss mit einem Klick",
+      "Oferty w 5 minut z szablonów",
+      "Automatyczna rejestracja czasu przez aplikację na miejscu",
+      "Faktura od razu po zakończeniu projektu jednym kliknięciem",
     ],
-    ersparnis: "12 Stunden/Woche",
-    highlight: "90% weniger Offertenzeit",
+    ersparnis: "12 godzin/tydzień",
+    highlight: "90% mniej czasu na oferty",
   },
   {
-    branche: "Elektrobetrieb",
+    branche: "Firma elektryczna",
     icon: Zap,
-    firma: "8 Mitarbeiter, Bern",
+    firma: "8 pracowników, Berno",
     vorher: [
-      "Excel-Listen für Materialverfolgung",
-      "Keine Übersicht über offene Rechnungen",
-      "Ferienverwaltung per Wandkalender",
+      "Listy Excel do śledzenia materiałów",
+      "Brak przeglądu otwartych faktur",
+      "Zarządzanie urlopami przez kalendarz ścienny",
     ],
     nachher: [
-      "Digitale Lagerverwaltung mit Bestandswarnungen",
-      "Dashboard zeigt alle offenen Posten auf einen Blick",
-      "Digitale Ferien- und Abwesenheitsverwaltung",
+      "Cyfrowe zarządzanie magazynem z alertami stanów",
+      "Dashboard pokazuje wszystkie otwarte pozycje na pierwszy rzut oka",
+      "Cyfrowe zarządzanie urlopami i nieobecnościami",
     ],
-    ersparnis: "CHF 2'800/Monat",
-    highlight: "0 vergessene Rechnungen",
+    ersparnis: "CHF 2'800/miesiąc",
+    highlight: "0 zapomnianych faktur",
   },
   {
     branche: "Facility Service",
     icon: Building2,
-    firma: "12 Mitarbeiter, Basel",
+    firma: "12 pracowników, Bazylea",
     vorher: [
-      "Einsatzpläne per WhatsApp koordiniert",
-      "Kundenreklamationen ohne Dokumentation",
-      "Monatsrechnung brauchte 2 Tage Aufwand",
+      "Plany zleceń koordynowane przez WhatsApp",
+      "Reklamacje klientów bez dokumentacji",
+      "Faktura miesięczna wymagała 2 dni pracy",
     ],
     nachher: [
-      "Zentrale Einsatzplanung mit App-Benachrichtigung",
-      "Lückenlose Fotodokumentation bei jedem Einsatz",
-      "Automatische Monatsabrechnung in 10 Minuten",
+      "Centralne planowanie zleceń z powiadomieniami w aplikacji",
+      "Kompletna dokumentacja fotograficzna przy każdym zleceniu",
+      "Automatyczne rozliczenie miesięczne w 10 minut",
     ],
-    ersparnis: "15 Stunden/Woche",
-    highlight: "98% Kundenzufriedenheit",
+    ersparnis: "15 godzin/tydzień",
+    highlight: "98% zadowolenia klientów",
   },
   {
-    branche: "Sanitärbetrieb",
+    branche: "Firma hydrauliczna",
     icon: Wrench,
-    firma: "3 Mitarbeiter, Luzern",
+    firma: "3 pracowników, Lucerna",
     vorher: [
-      "Regierapporte per Hand ausgefüllt",
-      "Kunden mussten für Statusupdates anrufen",
-      "Buchhaltung extern vergeben (teuer)",
+      "Raporty robocze wypełniane ręcznie",
+      "Klienci musieli dzwonić po aktualizacje statusu",
+      "Księgowość zlecana zewnętrznie (drogie)",
     ],
     nachher: [
-      "Digitale Regierapporte direkt auf dem Smartphone",
-      "Kundenportal für Echtzeit-Projektstatus",
-      "Integrierte Buchhaltung spart Treuhandkosten",
+      "Cyfrowe raporty robocze bezpośrednio na smartfonie",
+      "Portal klienta ze statusem projektu w czasie rzeczywistym",
+      "Zintegrowana księgowość oszczędza koszty biura rachunkowego",
     ],
-    ersparnis: "CHF 1'500/Monat",
-    highlight: "Treuhandkosten halbiert",
+    ersparnis: "CHF 1'500/miesiąc",
+    highlight: "Koszty biura rachunkowego zmniejszone o połowę",
   },
   {
-    branche: "Gartenbau",
+    branche: "Ogrodnictwo",
     icon: TreePine,
-    firma: "6 Mitarbeiter, St. Gallen",
+    firma: "6 pracowników, St. Gallen",
     vorher: [
-      "Saisonplanung per Papierkalender",
-      "Nachkalkulationen fehlten komplett",
-      "Material wurde doppelt bestellt",
+      "Planowanie sezonowe na papierowym kalendarzu",
+      "Całkowity brak kalkulacji końcowych",
+      "Materiały zamawiane podwójnie",
     ],
     nachher: [
-      "Digitale Saison- und Projektplanung",
-      "Automatische Nachkalkulation nach Projektende",
-      "Lagerverwaltung verhindert Doppelbestellungen",
+      "Cyfrowe planowanie sezonowe i projektowe",
+      "Automatyczna kalkulacja końcowa po zakończeniu projektu",
+      "Zarządzanie magazynem zapobiega podwójnym zamówieniom",
     ],
-    ersparnis: "CHF 3'200/Monat",
-    highlight: "30% weniger Materialkosten",
+    ersparnis: "CHF 3'200/miesiąc",
+    highlight: "30% mniej kosztów materiałów",
   },
   {
-    branche: "Schreinerei",
+    branche: "Stolarnia",
     icon: Scissors,
-    firma: "4 Mitarbeiter, Winterthur",
+    firma: "4 pracowników, Winterthur",
     vorher: [
-      "Aufträge per Telefon und Zettel",
-      "Keine Übersicht über Projektfortschritt",
-      "Mitarbeiter wussten nicht was als nächstes kommt",
+      "Zlecenia przez telefon i kartki",
+      "Brak przeglądu postępu projektu",
+      "Pracownicy nie wiedzieli, co robić dalej",
     ],
     nachher: [
-      "Alle Aufträge digital mit Prioritäten",
-      "Kanban-Board zeigt jeden Projektstatus",
-      "Mitarbeiter-App mit täglicher Aufgabenliste",
+      "Wszystkie zlecenia cyfrowo z priorytetami",
+      "Tablica Kanban pokazuje status każdego projektu",
+      "Aplikacja dla pracowników z codzienną listą zadań",
     ],
-    ersparnis: "8 Stunden/Woche",
-    highlight: "Projekte 20% schneller fertig",
+    ersparnis: "8 godzin/tydzień",
+    highlight: "Projekty 20% szybciej ukończone",
   },
 ];
 
@@ -136,13 +136,13 @@ export function PraxisBeispiele() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900 mb-4">
-            Praxisbeispiele aus dem{" "}
+            Przykłady z{" "}
             <span className="bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] bg-clip-text text-transparent">
-              Alltag
+              praktyki
             </span>
           </h2>
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-            So nutzen Schweizer KMU Finito Pro - echte Ergebnisse von echten Betrieben.
+            Tak szwajcarskie MŚP korzystają z Finito Pro - prawdziwe wyniki z prawdziwych firm.
           </p>
         </motion.div>
 
@@ -182,7 +182,7 @@ export function PraxisBeispiele() {
               <div className="p-5 space-y-4">
                 {/* Vorher */}
                 <div>
-                  <p className="text-xs font-semibold text-red-400 uppercase tracking-wider mb-2">Vorher</p>
+                  <p className="text-xs font-semibold text-red-400 uppercase tracking-wider mb-2">Przed</p>
                   <ul className="space-y-1.5">
                     {beispiel.vorher.map((item, i) => (
                       <li key={i} className="flex items-start gap-2 text-xs text-neutral-500">
@@ -195,7 +195,7 @@ export function PraxisBeispiele() {
 
                 {/* Nachher */}
                 <div>
-                  <p className="text-xs font-semibold text-green-500 uppercase tracking-wider mb-2">Mit Finito Pro</p>
+                  <p className="text-xs font-semibold text-green-500 uppercase tracking-wider mb-2">Z Finito Pro</p>
                   <ul className="space-y-1.5">
                     {beispiel.nachher.map((item, i) => (
                       <li key={i} className="flex items-start gap-2 text-xs text-neutral-700">
@@ -208,7 +208,7 @@ export function PraxisBeispiele() {
 
                 {/* Ersparnis */}
                 <div className="pt-3 border-t border-neutral-100 flex items-center justify-between">
-                  <span className="text-xs text-neutral-400">Ersparnis</span>
+                  <span className="text-xs text-neutral-400">Oszczędności</span>
                   <span className="text-sm font-bold text-primary-600">{beispiel.ersparnis}</span>
                 </div>
               </div>
@@ -228,7 +228,7 @@ export function PraxisBeispiele() {
             href="/automationen"
             className="inline-flex items-center gap-2 text-primary-600 font-medium hover:text-primary-700 transition-colors group"
           >
-            Mehr Praxisbeispiele & Automationen
+            Więcej przykładów i automatyzacji
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </motion.div>

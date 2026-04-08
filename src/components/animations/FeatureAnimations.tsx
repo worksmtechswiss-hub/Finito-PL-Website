@@ -59,7 +59,7 @@ function ProjektAnimation() {
   return (
     <AnimationWrapper>
       <div className="flex gap-3 px-3">
-        {["Offen", "In Arbeit", "Erledigt"].map((col, ci) => (
+        {["Otwarte", "W toku", "Zakończone"].map((col, ci) => (
           <div key={col} className="flex flex-col gap-1.5 w-20">
             <span className="text-[9px] font-semibold text-neutral-400 text-center">{col}</span>
             {[0, 1].map((ri) => (
@@ -244,10 +244,10 @@ function FerienAnimation() {
     <AnimationWrapper>
       <div className="w-36">
         <div className="flex justify-between px-1 mb-1">
-          <span className="text-[8px] font-bold text-neutral-500">Juli 2025</span>
+          <span className="text-[8px] font-bold text-neutral-500">Lipiec 2025</span>
         </div>
         <div className="grid grid-cols-7 gap-0.5">
-          {["M","D","M","D","F","S","S"].map((d,i) => (
+          {["P","W","Ś","C","P","S","N"].map((d,i) => (
             <span key={i} className="text-[7px] text-neutral-300 text-center">{d}</span>
           ))}
           {days.map((d) => (
@@ -342,7 +342,7 @@ function LagerAnimation() {
         viewport={{ once: true }}
         transition={{ delay: 1 }}
       >
-        3 Artikel tief
+        3 pozycje wgłąb
       </motion.div>
     </AnimationWrapper>
   );
@@ -353,9 +353,9 @@ function LagerAnimation() {
 /* ------------------------------------------------------------------ */
 function BuchhaltungAnimation() {
   const rows = [
-    { label: "Einnahmen", value: "CHF 48'200", color: "text-green-600" },
-    { label: "Ausgaben", value: "CHF 21'340", color: "text-red-500" },
-    { label: "Gewinn", value: "CHF 26'860", color: "text-primary-600" },
+    { label: "Przychody", value: "CHF 48'200", color: "text-green-600" },
+    { label: "Wydatki", value: "CHF 21'340", color: "text-red-500" },
+    { label: "Zysk", value: "CHF 26'860", color: "text-primary-600" },
   ];
   return (
     <AnimationWrapper>
@@ -537,7 +537,7 @@ function ServiceAbosAnimation() {
         viewport={{ once: true }}
         transition={{ delay: 0.5 }}
       >
-        Monatlich automatisch
+        Miesięcznie automatycznie
       </motion.span>
     </AnimationWrapper>
   );

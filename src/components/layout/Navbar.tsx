@@ -57,21 +57,21 @@ const featureItems = [
 ];
 
 const branchItems = [
-  { icon: Paintbrush, slug: "maler", label: "Maler" },
-  { icon: BrickWall, slug: "gipser", label: "Gipser" },
-  { icon: Zap, slug: "elektriker", label: "Elektriker" },
-  { icon: Wrench, slug: "sanitaer", label: "Sanitär" },
-  { icon: Scissors, slug: "schreiner", label: "Schreiner" },
-  { icon: HardHat, slug: "dachdecker", label: "Dachdecker" },
-  { icon: Sparkles, slug: "bodenleger", label: "Bodenleger" },
-  { icon: Fence, slug: "geruestbauer", label: "Gerüstbauer" },
-  { icon: Hammer, slug: "maurer", label: "Maurer" },
+  { icon: Paintbrush, slug: "maler", label: "Malarze" },
+  { icon: BrickWall, slug: "gipser", label: "Tynkarze" },
+  { icon: Zap, slug: "elektriker", label: "Elektrycy" },
+  { icon: Wrench, slug: "sanitaer", label: "Hydraulicy" },
+  { icon: Scissors, slug: "schreiner", label: "Stolarze" },
+  { icon: HardHat, slug: "dachdecker", label: "Dekarze" },
+  { icon: Sparkles, slug: "bodenleger", label: "Posadzkarze" },
+  { icon: Fence, slug: "geruestbauer", label: "Rusztowania" },
+  { icon: Hammer, slug: "maurer", label: "Murarze" },
   { icon: Building2, slug: "facility-service", label: "Facility Service" },
-  { icon: TreePine, slug: "gartenbau", label: "Gartenbau" },
-  { icon: Truck, slug: "umzug", label: "Umzug" },
-  { icon: Ruler, slug: "architekten", label: "Architekten" },
-  { icon: Megaphone, slug: "agenturen", label: "Agenturen" },
-  { icon: User, slug: "einmann-betriebe", label: "Einmann-Betriebe" },
+  { icon: TreePine, slug: "gartenbau", label: "Ogrodnictwo" },
+  { icon: Truck, slug: "umzug", label: "Przeprowadzki" },
+  { icon: Ruler, slug: "architekten", label: "Architekci" },
+  { icon: Megaphone, slug: "agenturen", label: "Agencje" },
+  { icon: User, slug: "einmann-betriebe", label: "Jednoosobowe firmy" },
 ];
 
 export function Navbar() {
@@ -189,7 +189,7 @@ export function Navbar() {
                               <ExternalLink className="w-5 h-5 text-primary-600" />
                             </div>
                             <span className="text-sm font-semibold text-primary-600 group-hover:text-primary-700">
-                              Alle Module
+                              Wszystkie moduły
                             </span>
                           </Link>
                         </div>
@@ -277,7 +277,7 @@ export function Navbar() {
                       : "text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100"
                 )}
               >
-                Automationen
+                Automatyzacje
               </Link>
               <Link
                 href="/kontakt"
@@ -396,7 +396,7 @@ export function Navbar() {
                 className="block px-4 py-3 text-base font-medium text-neutral-900 hover:bg-neutral-50 rounded-lg"
                 onClick={() => setMobileOpen(false)}
               >
-                Automationen
+                Automatyzacje
               </Link>
               <Link
                 href="/kontakt"

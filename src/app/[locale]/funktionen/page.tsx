@@ -10,19 +10,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Alle Funktionen - Finito Pro KMU Software",
+    title: "Wszystkie funkcje - Finito Pro oprogramowanie MŚP",
     description:
-      "Entdecken Sie alle 13 Funktionen von Finito Pro: Dashboard, Projektmanagement, QR-Rechnungen, Offerten, Zeiterfassung, CRM, Ferienmanagement und mehr.",
+      "Odkryj wszystkie 13 funkcji Finito Pro: Dashboard, zarządzanie projektami, faktury QR, oferty, rejestracja czasu pracy, CRM, zarządzanie urlopami i wiele więcej.",
     path: "/funktionen",
     locale,
     keywords: [
-      "Finito Pro Funktionen",
-      "KMU Software Funktionen",
-      "Handwerker Software Features",
-      "Schweizer Business Software",
-      "Projektmanagement",
-      "QR-Rechnungen",
-      "Zeiterfassung",
+      "Funkcje Finito Pro",
+      "Funkcje oprogramowania MŚP",
+      "Funkcje oprogramowania dla rzemieślników",
+      "Szwajcarskie oprogramowanie biznesowe",
+      "Zarządzanie projektami",
+      "Faktury QR",
+      "Rejestracja czasu pracy",
     ],
   });
 }

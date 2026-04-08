@@ -10,9 +10,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Datenschutzerklärung - Finito Pro",
+    title: "Polityka prywatności - Finito Pro",
     description:
-      "Datenschutzerklärung von Finito Pro. Erfahren Sie, wie wir Ihre Daten schützen und verarbeiten. Schweizer Server, DSGVO-konform.",
+      "Polityka prywatności Finito Pro. Dowiedz się, jak chronimy i przetwarzamy Państwa dane. Serwery w Szwajcarii, zgodność z RODO.",
     path: "/datenschutz",
     locale,
   });

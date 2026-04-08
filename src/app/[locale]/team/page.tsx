@@ -10,16 +10,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Team & Story - Finito Pro",
+    title: "Zespół i historia - Finito Pro",
     description:
-      "Lernen Sie das Team hinter Finito Pro kennen. Unsere Mission: KMU in der Schweiz mit einfacher, leistungsstarker Software zu unterstützen.",
+      "Poznaj zespół stojący za Finito Pro. Nasza misja: wspieranie MŚP w Szwajcarii prostym i wydajnym oprogramowaniem.",
     path: "/team",
     locale,
     keywords: [
-      "Finito Pro Team",
-      "Schweizer Startup",
-      "KMU Software Schweiz",
-      "Software für Handwerker",
+      "zespół Finito Pro",
+      "szwajcarski startup",
+      "oprogramowanie MŚP Szwajcaria",
+      "oprogramowanie dla rzemieślników",
     ],
   });
 }

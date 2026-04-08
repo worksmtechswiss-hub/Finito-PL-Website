@@ -46,7 +46,7 @@ export function TrustBanner() {
               <div className="px-6 py-3 bg-white rounded-xl border border-neutral-100 shadow-sm flex items-center justify-center min-w-[140px] h-14">
                 <Image
                   src={item.src}
-                  alt={`${item.name} - nutzt Finito Pro`}
+                  alt={`${item.name} - korzysta z Finito Pro`}
                   width={item.width}
                   height={item.height}
                   className={`max-h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity ${item.invert ? "invert" : ""}`}

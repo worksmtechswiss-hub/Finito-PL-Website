@@ -10,9 +10,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Allgemeine Geschäftsbedingungen - Finito Pro",
+    title: "Ogólne Warunki Umowy - Finito Pro",
     description:
-      "Allgemeine Geschäftsbedingungen (AGB) von Finito Pro. Nutzungsbedingungen für unsere KMU Software.",
+      "Ogólne Warunki Umowy (OWU) Finito Pro. Warunki korzystania z naszego oprogramowania dla MŚP.",
     path: "/agbs",
     locale,
   });

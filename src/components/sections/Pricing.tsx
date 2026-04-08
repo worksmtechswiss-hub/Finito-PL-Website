@@ -5,23 +5,23 @@ import { motion } from "framer-motion";
 import { Check, ArrowRight } from "lucide-react";
 
 const kmuFeatures = [
-  "QR-Rechnungen (Swiss QR-Code)",
-  "Offerten erstellen",
-  "Projektverwaltung",
-  "Kundenverwaltung (CRM)",
-  "Kundenportal",
-  "Zeiterfassung",
-  "Buchhaltung",
-  "Lagerverwaltung",
-  "Ferienmanagement",
-  "Mitarbeiter-App",
-  "Foto-Dokumentation",
-  "Service-Abos",
-  "CEO-Dashboard (KPIs)",
-  "API-Zugang",
-  "Multi-Währung",
-  "Daten auf Schweizer Servern",
-  "Support",
+  "Faktury QR (Swiss QR-Code)",
+  "Tworzenie ofert",
+  "Zarządzanie projektami",
+  "Zarządzanie klientami (CRM)",
+  "Portal klienta",
+  "Rejestracja czasu",
+  "Księgowość",
+  "Zarządzanie magazynem",
+  "Zarządzanie urlopami",
+  "Aplikacja dla pracowników",
+  "Dokumentacja fotograficzna",
+  "Abonamenty serwisowe",
+  "Dashboard CEO (KPI)",
+  "Dostęp API",
+  "Multi-waluta",
+  "Dane na serwerach w Szwajcarii",
+  "Wsparcie",
 ];
 
 export function Pricing() {
@@ -58,16 +58,16 @@ export function Pricing() {
           <div className="relative rounded-3xl bg-white border-2 border-[#8b5cf6]/20 p-10 shadow-xl shadow-[#8b5cf6]/5">
             {/* Popular badge */}
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-6 py-1.5 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] text-white text-sm font-semibold rounded-full shadow-lg shadow-[#8b5cf6]/25">
-              Beliebtester Plan
+              Najpopularniejszy plan
             </div>
 
             {/* Plan name */}
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-neutral-900 mb-2">
-                KMU
+                MŚP
               </h3>
               <p className="text-neutral-500 text-sm">
-                Alles was dein Handwerksbetrieb braucht
+                Wszystko, czego potrzebuje Twoja firma rzemieślnicza
               </p>
             </div>
 
@@ -78,12 +78,12 @@ export function Pricing() {
                   CHF 30
                 </span>
                 <span className="text-neutral-400 text-sm">
-                  / Monat pro Benutzer
+                  / miesiąc na użytkownika
                 </span>
               </div>
             </div>
             <p className="text-center text-[#8b5cf6] font-medium text-sm mb-8">
-              Ab CHF 1 pro Tag
+              Od CHF 1 dziennie
             </p>
 
             {/* Divider */}
@@ -110,13 +110,13 @@ export function Pricing() {
               <span className="absolute inset-0 bg-gradient-to-r from-[#8b5cf6] via-[#a78bfa] to-[#7c3aed] bg-[length:200%_100%] animate-[shimmer_3s_ease-in-out_infinite]" />
               <span className="absolute inset-0 rounded-2xl shadow-[0_0_20px_rgba(139,92,246,0.4)] animate-[pulse_2s_ease-in-out_infinite]" />
               <span className="relative z-10 flex items-center justify-center gap-2">
-                Kostenlos starten
+                Rozpocznij za darmo
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </span>
             </motion.a>
 
             <p className="text-center text-xs text-neutral-400 mt-4">
-              30 Tage kostenlos testen. Keine Kreditkarte nötig.
+              Testuj 30 dni za darmo. Bez karty kredytowej.
             </p>
           </div>
         </motion.div>
@@ -131,29 +131,29 @@ export function Pricing() {
           <div className="relative rounded-3xl bg-surface-light-secondary border border-neutral-200 p-10 h-full flex flex-col">
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-neutral-900 mb-2">
-                Grossfirmen
+                Duże firmy
               </h3>
               <p className="text-neutral-500 text-sm">
-                Für Unternehmen die mehr wollen
+                Dla firm, które chcą więcej
               </p>
             </div>
 
             <div className="mb-8">
-              <span className="text-3xl font-bold text-neutral-900">Individuell</span>
-              <p className="text-neutral-400 text-sm mt-1">Massgeschneidert für Ihr Unternehmen</p>
+              <span className="text-3xl font-bold text-neutral-900">Indywidualnie</span>
+              <p className="text-neutral-400 text-sm mt-1">Dostosowane do Twojej firmy</p>
             </div>
 
             <div className="h-px bg-neutral-200 mb-8" />
 
             <ul className="space-y-3 mb-10 flex-1">
               {[
-                "Alles aus dem KMU-Plan inklusive",
-                "Custom Apps & Automationen auf Basis von Finito",
-                "Massgeschneiderte Workflows für Ihr Unternehmen",
-                "Individuelle Schnittstellen & Integrationen",
-                "Team-Schulungen (Online & Vor Ort)",
-                "Dedizierter Ansprechpartner",
-                "Priority Support",
+                "Wszystko z planu MŚP w cenie",
+                "Niestandardowe aplikacje i automatyzacje na bazie Finito",
+                "Dostosowane przepływy pracy dla Twojej firmy",
+                "Indywidualne interfejsy i integracje",
+                "Szkolenia zespołowe (online i na miejscu)",
+                "Dedykowany opiekun",
+                "Priorytetowe wsparcie",
               ].map((feature) => (
                 <li key={feature} className="flex items-start gap-2.5">
                   <Check className="w-4 h-4 mt-0.5 shrink-0 text-[#8b5cf6]" />
@@ -166,7 +166,7 @@ export function Pricing() {
               href="/de/kontakt"
               className="block w-full text-center py-4 px-6 rounded-2xl font-semibold text-[#8b5cf6] text-base border-2 border-[#8b5cf6]/20 hover:bg-[#8b5cf6]/5 transition-colors"
             >
-              Kontakt aufnehmen
+              Skontaktuj się
             </a>
           </div>
         </motion.div>

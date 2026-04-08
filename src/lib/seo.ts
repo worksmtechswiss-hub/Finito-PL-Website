@@ -54,7 +54,7 @@ export const organizationSchema = {
     "@type": "Offer",
     price: "0",
     priceCurrency: "CHF",
-    description: "30 Tage kostenlos testen",
+    description: "Testuj 30 dni za darmo",
   },
   aggregateRating: {
     "@type": "AggregateRating",

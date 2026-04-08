@@ -8,33 +8,33 @@ import { staggerContainer, staggerItem } from "@/lib/animations";
 const appFeatures = [
   {
     icon: Clock,
-    title: "Zeiterfassung",
-    desc: "Start/Stopp mit einem Klick – automatisch dem richtigen Projekt zugeordnet.",
+    title: "Rejestracja czasu",
+    desc: "Start/Stop jednym kliknięciem - automatyczne przypisanie do właściwego projektu.",
   },
   {
     icon: Camera,
-    title: "Foto-Dokumentation",
-    desc: "Fotos direkt aufnehmen, automatisch ins Projekt hochgeladen.",
+    title: "Dokumentacja fotograficzna",
+    desc: "Zdjęcia robione bezpośrednio, automatycznie przesyłane do projektu.",
   },
   {
     icon: CheckCircle,
-    title: "Aufgaben",
-    desc: "Alle zugewiesenen Aufgaben auf einen Blick – wissen was zu tun ist.",
+    title: "Zadania",
+    desc: "Wszystkie przypisane zadania w jednym miejscu - wiesz co robić.",
   },
   {
     icon: MapPin,
-    title: "Navigation",
-    desc: "Baustellen-Adresse eingeben und direkt losnavigieren.",
+    title: "Nawigacja",
+    desc: "Wpisz adres budowy i od razu nawiguj.",
   },
   {
     icon: MessageCircle,
-    title: "Kommunikation",
-    desc: "Team-Chat und Projekt-Updates in Echtzeit.",
+    title: "Komunikacja",
+    desc: "Czat zespołowy i aktualizacje projektów w czasie rzeczywistym.",
   },
   {
     icon: Smartphone,
-    title: "Regierapporte",
-    desc: "Digitale Rapporte erstellen – direkt auf dem Smartphone.",
+    title: "Raporty robocze",
+    desc: "Tworzenie cyfrowych raportów - bezpośrednio na smartfonie.",
   },
 ];
 
@@ -83,7 +83,7 @@ export function MitarbeiterApp() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.3 }}
                       >
-                        <p className="text-white/60 text-[11px] mb-0.5">Guten Morgen</p>
+                        <p className="text-white/60 text-[11px] mb-0.5">Dzień dobry</p>
                         <p className="text-white font-semibold text-base mb-4">Marco</p>
                       </motion.div>
 
@@ -103,7 +103,7 @@ export function MitarbeiterApp() {
                           <div className="w-7 h-7 bg-green-400/20 rounded-lg flex items-center justify-center mb-2">
                             <Clock className="w-3.5 h-3.5 text-green-300" />
                           </div>
-                          <p className="text-[10px] text-white/70">Zeit erfassen</p>
+                          <p className="text-[10px] text-white/70">Rejestruj czas</p>
                           <p className="text-white font-semibold text-xs">Start</p>
                         </motion.div>
                         <motion.div
@@ -114,8 +114,8 @@ export function MitarbeiterApp() {
                           <div className="w-7 h-7 bg-blue-400/20 rounded-lg flex items-center justify-center mb-2">
                             <Camera className="w-3.5 h-3.5 text-blue-300" />
                           </div>
-                          <p className="text-[10px] text-white/70">Foto</p>
-                          <p className="text-white font-semibold text-xs">Aufnehmen</p>
+                          <p className="text-[10px] text-white/70">Zdjęcie</p>
+                          <p className="text-white font-semibold text-xs">Zrób</p>
                         </motion.div>
                       </motion.div>
 
@@ -127,11 +127,11 @@ export function MitarbeiterApp() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.7 }}
                       >
-                        <p className="text-[10px] text-white/50 uppercase tracking-wider mb-1">Heutige Aufgaben</p>
+                        <p className="text-[10px] text-white/50 uppercase tracking-wider mb-1">Dzisiejsze zadania</p>
                         {[
-                          { text: "3.5 Zi Wohnung streichen", done: true },
-                          { text: "Material abholen", done: false },
-                          { text: "Fotos hochladen", done: false },
+                          { text: "Malowanie mieszkania 3.5 pokoje", done: true },
+                          { text: "Odbiór materiałów", done: false },
+                          { text: "Wgraj zdjęcia", done: false },
                         ].map((task, i) => (
                           <motion.div
                             key={task.text}
@@ -166,7 +166,7 @@ export function MitarbeiterApp() {
                           <MapPin className="w-3.5 h-3.5 text-red-300" />
                         </div>
                         <div className="flex-1">
-                          <p className="text-[10px] text-white/50">Nächster Einsatz</p>
+                          <p className="text-[10px] text-white/50">Następne zlecenie</p>
                           <p className="text-white text-[11px] font-medium">Bahnhofstrasse 42, Zürich</p>
                         </div>
                       </motion.div>
@@ -186,8 +186,8 @@ export function MitarbeiterApp() {
                     <CheckCircle className="w-4 h-4 text-green-600" />
                   </div>
                   <div>
-                    <p className="text-xs font-semibold text-neutral-900">Zeit erfasst</p>
-                    <p className="text-[10px] text-neutral-400">Projekt 3.5 Zimmer</p>
+                    <p className="text-xs font-semibold text-neutral-900">Czas zarejestrowany</p>
+                    <p className="text-[10px] text-neutral-400">Projekt 3.5 pokoje</p>
                   </div>
                 </div>
               </motion.div>
@@ -203,8 +203,8 @@ export function MitarbeiterApp() {
                     <Camera className="w-4 h-4 text-primary-600" />
                   </div>
                   <div>
-                    <p className="text-xs font-semibold text-neutral-900">3 Fotos</p>
-                    <p className="text-[10px] text-neutral-400">hochgeladen</p>
+                    <p className="text-xs font-semibold text-neutral-900">3 zdjęcia</p>
+                    <p className="text-[10px] text-neutral-400">przesłane</p>
                   </div>
                 </div>
               </motion.div>
@@ -220,16 +220,16 @@ export function MitarbeiterApp() {
           >
             <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary-50 text-primary-700 text-sm font-medium rounded-full mb-6">
               <Smartphone className="w-4 h-4" />
-              Mitarbeiter-App
+              Aplikacja dla pracowników
             </span>
 
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Ihr Team immer <span className="gradient-text">verbunden</span>
+              Twój zespół zawsze <span className="gradient-text">połączony</span>
             </h2>
 
             <p className="text-lg text-neutral-500 mb-10 leading-relaxed">
-              Die Finito App funktioniert auf jedem Smartphone. Ihre Mitarbeiter haben alles
-              was sie brauchen direkt in der Hosentasche – von der Zeiterfassung bis zur Navigation.
+              Aplikacja Finito działa na każdym smartfonie. Twoi pracownicy mają wszystko,
+              czego potrzebują, bezpośrednio w kieszeni - od rejestracji czasu po nawigację.
             </p>
 
             <motion.div
@@ -260,7 +260,7 @@ export function MitarbeiterApp() {
               href="/features/mitarbeiter-app"
               className="inline-flex items-center gap-2 text-primary-600 font-medium hover:gap-3 transition-all group"
             >
-              Mehr über die Mitarbeiter-App
+              Więcej o aplikacji dla pracowników
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>

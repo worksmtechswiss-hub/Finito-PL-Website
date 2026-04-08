@@ -5,34 +5,34 @@ import { ArrowRight, X, Check, Frown, Smile } from "lucide-react";
 
 const comparisons = [
   {
-    category: "Offerten erstellen",
-    vorher: "45 Minuten in Word kopieren",
-    nachher: "5 Minuten aus Vorlagen",
+    category: "Tworzenie ofert",
+    vorher: "45 minut kopiowania w Wordzie",
+    nachher: "5 minut z szablonów",
   },
   {
-    category: "Arbeitszeiten erfassen",
-    vorher: "Zettel und Excel, oft vergessen",
-    nachher: "1-Klick in der App, automatisch zugeordnet",
+    category: "Rejestracja czasu pracy",
+    vorher: "Kartki i Excel, często zapomniane",
+    nachher: "1 kliknięcie w aplikacji, automatyczne przypisanie",
   },
   {
-    category: "Rechnungen verschicken",
-    vorher: "Wochen Verzögerung, manuell in Word",
-    nachher: "Sofort nach Projektende, QR-Rechnung automatisch",
+    category: "Wysyłanie faktur",
+    vorher: "Tygodnie opóźnienia, ręcznie w Wordzie",
+    nachher: "Od razu po zakończeniu projektu, faktura QR automatycznie",
   },
   {
-    category: "Projektübersicht",
-    vorher: "Im Kopf, auf Zetteln, in WhatsApp",
-    nachher: "Ein Dashboard für alles",
+    category: "Przegląd projektów",
+    vorher: "W głowie, na kartkach, w WhatsApp",
+    nachher: "Jeden dashboard do wszystkiego",
   },
   {
-    category: "Kundenkommunikation",
-    vorher: "Anrufe, E-Mails, WhatsApp durcheinander",
-    nachher: "Kundenportal mit Echtzeit-Status",
+    category: "Komunikacja z klientem",
+    vorher: "Telefony, e-maile, WhatsApp w chaosie",
+    nachher: "Portal klienta ze statusem w czasie rzeczywistym",
   },
   {
-    category: "Ferienplanung",
-    vorher: "Wandkalender im Büro",
-    nachher: "Digitale Abwesenheitsverwaltung",
+    category: "Planowanie urlopów",
+    vorher: "Kalendarz ścienny w biurze",
+    nachher: "Cyfrowe zarządzanie nieobecnościami",
   },
 ];
 
@@ -49,10 +49,10 @@ export function VorherNachher() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900 mb-4">
-            So verändert Finito Pro Ihren Alltag
+            Tak Finito Pro zmienia Twój dzień pracy
           </h2>
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-            Der direkte Vergleich - sehen Sie den Unterschied.
+            Bezpośrednie porównanie - zobacz różnicę.
           </p>
         </motion.div>
 
@@ -69,11 +69,11 @@ export function VorherNachher() {
             <div />
             <div className="flex items-center justify-center gap-2 py-3 px-4 bg-red-50 rounded-xl">
               <Frown className="w-5 h-5 text-red-400" />
-              <span className="text-sm font-semibold text-red-500">Ohne Finito</span>
+              <span className="text-sm font-semibold text-red-500">Bez Finito</span>
             </div>
             <div className="flex items-center justify-center gap-2 py-3 px-4 bg-green-50 rounded-xl">
               <Smile className="w-5 h-5 text-green-500" />
-              <span className="text-sm font-semibold text-green-600">Mit Finito Pro</span>
+              <span className="text-sm font-semibold text-green-600">Z Finito Pro</span>
             </div>
           </motion.div>
 
@@ -118,7 +118,7 @@ export function VorherNachher() {
             whileHover={{ scale: 1.03, y: -2 }}
             whileTap={{ scale: 0.98 }}
           >
-            30 Tage kostenlos testen
+            Testuj 30 dni za darmo
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </motion.a>
         </motion.div>

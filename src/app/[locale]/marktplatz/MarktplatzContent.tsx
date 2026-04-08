@@ -18,55 +18,55 @@ import { staggerContainer, staggerItem } from "@/lib/animations";
 const integrations = [
   {
     icon: Calculator,
-    title: "Buchhaltungs-Export",
-    desc: "Exportieren Sie Ihre Finanzdaten direkt an gaengige Schweizer Buchhaltungssoftware. CSV, PDF und weitere Formate.",
-    status: "Verfügbar",
+    title: "Eksport księgowy",
+    desc: "Eksportuj dane finansowe bezpośrednio do popularnego szwajcarskiego oprogramowania księgowego. CSV, PDF i inne formaty.",
+    status: "Dostępne",
     statusColor: "bg-success/10 text-success",
   },
   {
     icon: FileSpreadsheet,
-    title: "Excel & CSV Import",
-    desc: "Importieren Sie bestehende Kundenlisten, Artikelstaemme und Projektdaten aus Excel oder CSV-Dateien.",
-    status: "Verfügbar",
+    title: "Import Excel i CSV",
+    desc: "Importuj istniejące listy klientów, bazy artykułów i dane projektów z plików Excel lub CSV.",
+    status: "Dostępne",
     statusColor: "bg-success/10 text-success",
   },
   {
     icon: Mail,
-    title: "E-Mail-Integration",
-    desc: "Versenden Sie Rechnungen und Offerten direkt per E-Mail aus Finito Pro. Mit Zustellbestaetigung.",
-    status: "Verfügbar",
+    title: "Integracja e-mail",
+    desc: "Wysyłaj faktury i oferty bezpośrednio e-mailem z Finito Pro. Z potwierdzeniem dostarczenia.",
+    status: "Dostępne",
     statusColor: "bg-success/10 text-success",
   },
   {
     icon: Cloud,
-    title: "Cloud-Speicher",
-    desc: "Verbinden Sie Ihren Cloud-Speicher für automatische Backups und Dokumentenablage.",
-    status: "In Entwicklung",
+    title: "Chmura",
+    desc: "Połącz swoją chmurę, aby automatycznie tworzyć kopie zapasowe i przechowywać dokumenty.",
+    status: "W budowie",
     statusColor: "bg-warning/10 text-warning",
   },
   {
     icon: Database,
-    title: "ERP-Anbindung",
-    desc: "Verbinden Sie Finito Pro mit Ihrem bestehenden ERP-System für automatischen Datenaustausch.",
+    title: "Integracja z ERP",
+    desc: "Połącz Finito Pro ze swoim istniejącym systemem ERP, aby automatycznie wymieniać dane.",
     status: "Enterprise",
     statusColor: "bg-primary-50 text-primary-600",
   },
   {
     icon: Puzzle,
-    title: "Custom Integration",
-    desc: "Nutzen Sie unsere REST API, um Finito Pro mit Ihren individuellen Systemen zu verbinden.",
-    status: "API verfügbar",
+    title: "Integracja na zamówienie",
+    desc: "Wykorzystaj nasze REST API, aby połączyć Finito Pro ze swoimi indywidualnymi systemami.",
+    status: "API dostępne",
     statusColor: "bg-accent-50 text-accent-600",
   },
 ];
 
 const comingSoon = [
-  "Kalender-Synchronisation (Google, Outlook)",
-  "Automatischer Zahlungsabgleich mit Schweizer Banken",
-  "Dokumenten-Scanner mit OCR",
-  "GPS-basierte Routenoptimierung",
-  "WhatsApp Business Integration",
-  "Erweiterte Berichts-Templates",
+  "Synchronizacja kalendarza (Google, Outlook)",
+  "Automatyczne uzgadnianie płatności ze szwajcarskimi bankami",
+  "Skaner dokumentów z OCR",
+  "Optymalizacja tras oparta na GPS",
+  "Integracja WhatsApp Business",
+  "Rozszerzone szablony raportów",
 ];
 
 export function MarktplatzContent() {
@@ -81,11 +81,11 @@ export function MarktplatzContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              <span className="gradient-text-animated">Marktplatz</span>
+              <span className="gradient-text-animated">Marketplace</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Erweiterungen und Integrationen, die Finito Pro noch leistungsfaehiger machen.
-              Verbinden Sie Ihre bestehenden Tools nahtlos.
+              Rozszerzenia i integracje, które czynią Finito Pro jeszcze wydajniejszym.
+              Płynnie połącz swoje istniejące narzędzia.
             </p>
           </motion.div>
         </div>
@@ -104,10 +104,10 @@ export function MarktplatzContent() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Integrationen & Erweiterungen
+              Integracje i rozszerzenia
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Verbinden Sie Finito Pro mit Ihren bestehenden Systemen und Workflows.
+              Połącz Finito Pro ze swoimi istniejącymi systemami i przepływami pracy.
             </p>
           </motion.div>
 
@@ -155,10 +155,10 @@ export function MarktplatzContent() {
               Roadmap
             </div>
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Bald verfügbar
+              Wkrótce dostępne
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Wir arbeiten kontinuierlich an neuen Erweiterungen. Hier ein Einblick in unsere Roadmap.
+              Stale pracujemy nad nowymi rozszerzeniami. Oto wgląd w naszą mapę drogową.
             </p>
           </motion.div>
 
@@ -191,25 +191,25 @@ export function MarktplatzContent() {
           >
             <ShieldCheck className="w-12 h-12 text-primary-600 mx-auto mb-6" />
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Vermissen Sie eine Integration?
+              Brakuje Ci jakiejś integracji?
             </h2>
             <p className="text-lg text-neutral-500 mb-8 max-w-xl mx-auto">
-              Teilen Sie uns mit, welche Tools Sie nutzen. Wir prüfen die Umsetzung
-              und informieren Sie, sobald die Integration verfügbar ist.
+              Powiedz nam, jakich narzędzi używasz. Sprawdzimy możliwość realizacji
+              i poinformujemy Cię, gdy integracja będzie dostępna.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/kontakt"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-400 text-white font-semibold rounded-2xl shadow-glow hover:shadow-glow-lg transition-all"
               >
-                Integration anfragen
+                Zapytaj o integrację
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <Link
                 href="/apis"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-neutral-200 text-neutral-700 font-medium rounded-2xl hover:bg-surface-light-secondary transition-all"
               >
-                API Dokumentation
+                Dokumentacja API
               </Link>
             </div>
           </motion.div>

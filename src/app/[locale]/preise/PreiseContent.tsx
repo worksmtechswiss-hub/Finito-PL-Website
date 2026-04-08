@@ -18,81 +18,81 @@ const tiers = [
   {
     id: "starter",
     name: "Starter",
-    desc: "Perfekt zum Einstieg für Einzelunternehmer und kleine Teams.",
+    desc: "Idealny na start dla jednoosobowych firm i małych zespołów.",
     price: "0",
-    priceLabel: "Gratis",
+    priceLabel: "Za darmo",
     period: "",
     highlighted: false,
-    cta: "Gratis starten",
+    cta: "Zacznij za darmo",
     ctaHref: "https://app.finitopro.ch/register",
   },
   {
     id: "kmu",
-    name: "KMU",
-    desc: "Die volle Power für wachsende Handwerksbetriebe und Dienstleister.",
+    name: "MŚP",
+    desc: "Pełna moc dla rozwijających się firm rzemieślniczych i usługowych.",
     price: "30",
     priceLabel: "CHF",
-    period: "/ Monat / User",
+    period: "/ miesiąc / użytkownik",
     highlighted: true,
-    cta: "30 Tage gratis testen",
+    cta: "Testuj 30 dni za darmo",
     ctaHref: "https://app.finitopro.ch/register",
   },
   {
     id: "enterprise",
-    name: "Grossfirmen",
-    desc: "Massgeschneiderte Lösung für grössere Unternehmen mit individuellen Anforderungen.",
+    name: "Duże firmy",
+    desc: "Rozwiązanie dostosowane do większych firm z indywidualnymi wymaganiami.",
     price: null,
-    priceLabel: "Individuell",
+    priceLabel: "Indywidualnie",
     period: "",
     highlighted: false,
-    cta: "Kontakt aufnehmen",
+    cta: "Skontaktuj się",
     ctaHref: "/kontakt",
   },
 ];
 
 const featureCategories = [
   {
-    category: "Grundfunktionen",
+    category: "Podstawowe funkcje",
     features: [
-      { name: "Zeiterfassung", starter: true, kmu: true, enterprise: true },
-      { name: "Foto-Dokumentation", starter: true, kmu: true, enterprise: true },
-      { name: "Kalender", starter: true, kmu: true, enterprise: true },
-      { name: "Navigation", starter: true, kmu: true, enterprise: true },
-      { name: "Aktivitäten-Log", starter: true, kmu: true, enterprise: true },
-      { name: "Daten auf Schweizer Servern", starter: true, kmu: true, enterprise: true },
+      { name: "Rejestracja czasu", starter: true, kmu: true, enterprise: true },
+      { name: "Dokumentacja fotograficzna", starter: true, kmu: true, enterprise: true },
+      { name: "Kalendarz", starter: true, kmu: true, enterprise: true },
+      { name: "Nawigacja", starter: true, kmu: true, enterprise: true },
+      { name: "Dziennik aktywności", starter: true, kmu: true, enterprise: true },
+      { name: "Dane na serwerach w Szwajcarii", starter: true, kmu: true, enterprise: true },
     ],
   },
   {
-    category: "Geschäftsprozesse",
+    category: "Procesy biznesowe",
     features: [
-      { name: "QR-Rechnungen (Swiss QR-Code)", starter: false, kmu: true, enterprise: true },
-      { name: "Offerten erstellen", starter: false, kmu: true, enterprise: true },
-      { name: "Projektverwaltung", starter: false, kmu: true, enterprise: true },
-      { name: "Kundenverwaltung (CRM)", starter: false, kmu: true, enterprise: true },
-      { name: "Kundenportal", starter: false, kmu: true, enterprise: true },
-      { name: "Buchhaltung", starter: false, kmu: true, enterprise: true },
-      { name: "Lagerverwaltung", starter: false, kmu: true, enterprise: true },
+      { name: "Faktury QR (Swiss QR-Code)", starter: false, kmu: true, enterprise: true },
+      { name: "Tworzenie ofert", starter: false, kmu: true, enterprise: true },
+      { name: "Zarządzanie projektami", starter: false, kmu: true, enterprise: true },
+      { name: "Zarządzanie klientami (CRM)", starter: false, kmu: true, enterprise: true },
+      { name: "Portal klienta", starter: false, kmu: true, enterprise: true },
+      { name: "Księgowość", starter: false, kmu: true, enterprise: true },
+      { name: "Zarządzanie magazynem", starter: false, kmu: true, enterprise: true },
     ],
   },
   {
-    category: "Team & Management",
+    category: "Zespół i zarządzanie",
     features: [
-      { name: "Ferienmanagement", starter: false, kmu: true, enterprise: true },
-      { name: "Mitarbeiter-App", starter: false, kmu: true, enterprise: true },
-      { name: "Service-Abos & Wartungsverträge", starter: false, kmu: true, enterprise: true },
-      { name: "CEO-Dashboard (KPIs)", starter: false, kmu: true, enterprise: true },
-      { name: "Multi-Währung", starter: false, kmu: true, enterprise: true },
+      { name: "Zarządzanie urlopami", starter: false, kmu: true, enterprise: true },
+      { name: "Aplikacja dla pracowników", starter: false, kmu: true, enterprise: true },
+      { name: "Abonamenty serwisowe i umowy konserwacyjne", starter: false, kmu: true, enterprise: true },
+      { name: "Dashboard CEO (KPI)", starter: false, kmu: true, enterprise: true },
+      { name: "Multi-waluta", starter: false, kmu: true, enterprise: true },
     ],
   },
   {
-    category: "Integration & Support",
+    category: "Integracja i wsparcie",
     features: [
-      { name: "API-Zugang", starter: false, kmu: true, enterprise: true },
-      { name: "E-Mail & In-App Support", starter: false, kmu: true, enterprise: true },
-      { name: "Custom Integrationen", starter: false, kmu: false, enterprise: true },
-      { name: "Eigene Features anfragen", starter: false, kmu: false, enterprise: true },
-      { name: "Team-Schulungen", starter: false, kmu: false, enterprise: true },
-      { name: "Dedizierter Support-Manager", starter: false, kmu: false, enterprise: true },
+      { name: "Dostęp API", starter: false, kmu: true, enterprise: true },
+      { name: "Wsparcie e-mail i w aplikacji", starter: false, kmu: true, enterprise: true },
+      { name: "Niestandardowe integracje", starter: false, kmu: false, enterprise: true },
+      { name: "Zamówienie własnych funkcji", starter: false, kmu: false, enterprise: true },
+      { name: "Szkolenia zespołowe", starter: false, kmu: false, enterprise: true },
+      { name: "Dedykowany menedżer wsparcia", starter: false, kmu: false, enterprise: true },
     ],
   },
 ];
@@ -100,32 +100,32 @@ const featureCategories = [
 const priceComparisons = [
   { item: "Croissant", price: "CHF 2.50", emoji: "🥐" },
   { item: "Red Bull", price: "CHF 2.90", emoji: "🥤" },
-  { item: "Kaffee to go", price: "CHF 5.50", emoji: "☕" },
+  { item: "Kawa na wynos", price: "CHF 5.50", emoji: "☕" },
   { item: "Kebab", price: "CHF 9.50", emoji: "🥙" },
-  { item: "Kinoticket", price: "CHF 18.00", emoji: "🎬" },
-  { item: "Parkticket (1 Std.)", price: "CHF 4.00", emoji: "🅿️" },
+  { item: "Bilet do kina", price: "CHF 18.00", emoji: "🎬" },
+  { item: "Bilet parkingowy (1 godz.)", price: "CHF 4.00", emoji: "🅿️" },
 ];
 
 const faqs = [
   {
-    q: "Muss ich meine Kreditkarte angeben?",
-    a: "Nein, die 30-tägige Testversion ist komplett kostenlos. Erst wenn Sie sich für ein Abo entscheiden, werden Zahlungsdaten benötigt.",
+    q: "Czy muszę podać kartę kredytową?",
+    a: "Nie, 30-dniowa wersja testowa jest całkowicie bezpłatna. Dane płatnicze są potrzebne dopiero po wybraniu subskrypcji.",
   },
   {
-    q: "Was passiert nach der Testversion?",
-    a: "Nach 30 Tagen können Sie ein Abo wählen oder beim kostenlosen Starter-Plan bleiben. Ihre Daten gehen nicht verloren.",
+    q: "Co się stanie po okresie testowym?",
+    a: "Po 30 dniach możesz wybrać subskrypcję lub pozostać na darmowym planie Starter. Twoje dane nie zostaną utracone.",
   },
   {
-    q: "Kann ich jederzeit kündigen?",
-    a: "Ja, Sie können Ihr Abo jederzeit kündigen. Die Differenz für den restlichen Zeitraum wird erstattet. Keine versteckten Gebühren.",
+    q: "Czy mogę anulować w dowolnym momencie?",
+    a: "Tak, możesz anulować subskrypcję w dowolnym momencie. Różnica za pozostały okres zostanie zwrócona. Bez ukrytych opłat.",
   },
   {
-    q: "Gibt es einen Jahresrabatt?",
-    a: "Ja! Bei jährlicher Zahlung erhalten Sie 2 Monate gratis. Kontaktieren Sie uns für ein individuelles Angebot.",
+    q: "Czy jest zniżka roczna?",
+    a: "Tak! Przy płatności rocznej otrzymasz 2 miesiące gratis. Skontaktuj się z nami, aby uzyskać indywidualną ofertę.",
   },
   {
-    q: "Welche Zahlungsmethoden gibt es?",
-    a: "Sie können monatlich oder jährlich zahlen. Wir akzeptieren Kreditkarten (Visa, Mastercard) und Rechnung.",
+    q: "Jakie metody płatności są dostępne?",
+    a: "Możesz płacić miesięcznie lub rocznie. Akceptujemy karty kredytowe (Visa, Mastercard) i fakturę.",
   },
 ];
 
@@ -154,11 +154,11 @@ export function PreiseContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              <span className="gradient-text-animated">Faire Preise</span> für jede Firmengrösse
+              <span className="gradient-text-animated">Uczciwe ceny</span> dla każdej wielkości firmy
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Starten Sie gratis und wachsen Sie mit dem Plan, der zu Ihrem
-              Unternehmen passt. Keine versteckten Kosten.
+              Zacznij za darmo i rozwijaj się z planem dopasowanym do Twojej
+              firmy. Bez ukrytych kosztów.
             </p>
           </motion.div>
         </div>
@@ -189,7 +189,7 @@ export function PreiseContent() {
               >
                 {tier.highlighted && (
                   <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 bg-gradient-to-r from-primary-600 to-accent-500 text-white text-xs font-semibold rounded-full">
-                    Beliebteste Wahl
+                    Najpopularniejszy wybór
                   </div>
                 )}
 
@@ -214,7 +214,7 @@ export function PreiseContent() {
                   {tier.price !== null ? (
                     <div className="flex items-baseline gap-1">
                       {tier.price === "0" ? (
-                        <span className="text-4xl font-bold">Gratis</span>
+                        <span className="text-4xl font-bold">Za darmo</span>
                       ) : (
                         <>
                           <span className="text-sm text-neutral-400">CHF</span>
@@ -272,10 +272,10 @@ export function PreiseContent() {
             className="text-center mb-10"
           >
             <h2 className="text-2xl sm:text-3xl font-semibold text-neutral-900 mb-3">
-              Alles auf einen Blick
+              Wszystko w jednym miejscu
             </h2>
             <p className="text-neutral-500 max-w-xl mx-auto">
-              Das Finito Pro Dashboard zeigt Ihnen alle wichtigen Kennzahlen auf einen Blick.
+              Dashboard Finito Pro pokazuje wszystkie ważne wskaźniki w jednym miejscu.
             </p>
           </motion.div>
 
@@ -312,10 +312,10 @@ export function PreiseContent() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Alle Funktionen im Vergleich
+              Porównanie wszystkich funkcji
             </h2>
             <p className="text-lg text-neutral-500">
-              Finden Sie den Plan, der zu Ihnen passt.
+              Znajdź plan, który do Ciebie pasuje.
             </p>
           </motion.div>
 
@@ -329,16 +329,16 @@ export function PreiseContent() {
             {/* Table Header */}
             <div className="grid grid-cols-4 gap-4 p-6 border-b border-neutral-100 bg-surface-light-secondary">
               <div className="text-sm font-semibold text-neutral-900">
-                Funktion
+                Funkcja
               </div>
               <div className="text-sm font-semibold text-neutral-900 text-center">
                 Starter
               </div>
               <div className="text-sm font-semibold text-center">
-                <span className="gradient-text">KMU</span>
+                <span className="gradient-text">MŚP</span>
               </div>
               <div className="text-sm font-semibold text-neutral-900 text-center">
-                Grossfirmen
+                Duże firmy
               </div>
             </div>
 
@@ -400,10 +400,10 @@ export function PreiseContent() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              CHF 1 pro Tag = weniger als...
+              CHF 1 dziennie = mniej niż...
             </h2>
             <p className="text-lg text-neutral-500">
-              Eine professionelle Business-Software für weniger als Ihr täglicher Kaffee.
+              Profesjonalne oprogramowanie biznesowe za mniej niż Twoja codzienna kawa.
             </p>
           </motion.div>
 
@@ -439,7 +439,7 @@ export function PreiseContent() {
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-primary-50 rounded-2xl border border-primary-100">
               <Sparkles className="w-5 h-5 text-primary-600" />
               <span className="text-sm font-medium text-primary-700">
-                Finito Pro KMU: nur CHF 1 pro Tag pro Mitarbeiter
+                Finito Pro MŚP: tylko CHF 1 dziennie na pracownika
               </span>
             </div>
           </motion.div>
@@ -457,7 +457,7 @@ export function PreiseContent() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Fragen zu den Preisen
+              Pytania dotyczące cen
             </h2>
           </motion.div>
 
@@ -520,7 +520,7 @@ export function PreiseContent() {
               href="/faq"
               className="inline-flex items-center gap-2 text-primary-600 font-medium hover:gap-3 transition-all"
             >
-              Alle FAQ ansehen
+              Zobacz wszystkie FAQ
               <ArrowRight className="w-4 h-4" />
             </Link>
           </motion.div>
@@ -538,11 +538,11 @@ export function PreiseContent() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-6 leading-tight">
-              Bereit loszulegen?
+              Gotowy, aby zacząć?
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              30 Tage kostenlos testen. Keine Kreditkarte nötig. Jederzeit
-              kündbar.
+              Testuj 30 dni za darmo. Bez karty kredytowej. Możesz anulować
+              w dowolnym momencie.
             </p>
             <motion.a
               href="https://app.finitopro.ch/register"
@@ -550,7 +550,7 @@ export function PreiseContent() {
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.98 }}
             >
-              Jetzt gratis starten
+              Zacznij za darmo
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.a>
           </motion.div>

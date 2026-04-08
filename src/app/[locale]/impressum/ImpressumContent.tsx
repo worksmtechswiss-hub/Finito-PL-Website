@@ -13,10 +13,10 @@ export function ImpressumContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl font-semibold text-white mb-6">
-              <span className="gradient-text-animated">Impressum</span>
+              <span className="gradient-text-animated">Informacje prawne</span>
             </h1>
             <p className="text-lg text-white/60">
-              Angaben gemäss Schweizer Recht.
+              Dane zgodnie z prawem szwajcarskim.
             </p>
           </motion.div>
         </div>
@@ -32,12 +32,12 @@ export function ImpressumContent() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Kontaktadresse</h2>
+              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Adres kontaktowy</h2>
               <div className="text-neutral-600 leading-relaxed text-sm">
                 <p>Finito Pro</p>
-                <p>Schweiz</p>
-                <p className="mt-2">E-Mail: hello@finitopro.ch</p>
-                <p>Website: www.finitopro.ch</p>
+                <p>Szwajcaria</p>
+                <p className="mt-2">E-mail: hello@finitopro.ch</p>
+                <p>Strona internetowa: www.finitopro.ch</p>
               </div>
             </motion.div>
 
@@ -47,7 +47,7 @@ export function ImpressumContent() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.05 }}
             >
-              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Vertretungsberechtigte Personen</h2>
+              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Osoby uprawnione do reprezentacji</h2>
               <p className="text-neutral-600 text-sm">
                 Carlos, Lukas, Kamil, Nico, Izabela, Natalia
               </p>
@@ -59,15 +59,14 @@ export function ImpressumContent() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Haftungsausschluss</h2>
+              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Wyłączenie odpowiedzialności</h2>
               <p className="text-neutral-600 leading-relaxed text-sm">
-                Der Autor übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen
-                Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit
-                der Informationen. Haftungsansprüche gegen den Autor wegen Schäden
-                materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung
-                bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der
-                Verbindung oder durch technische Störungen entstanden sind, werden
-                ausgeschlossen.
+                Autor nie udziela żadnych gwarancji co do merytorycznej poprawności,
+                dokładności, aktualności, wiarygodności i kompletności zamieszczonych
+                informacji. Roszczenia z tytułu odpowiedzialności wobec autora za szkody
+                materialne lub niematerialne wynikające z dostępu do opublikowanych
+                informacji, ich wykorzystania bądź niewykorzystania, z nadużycia połączenia
+                lub z zakłóceń technicznych są wyłączone.
               </p>
             </motion.div>
 
@@ -77,12 +76,12 @@ export function ImpressumContent() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.15 }}
             >
-              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Haftung für Links</h2>
+              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Odpowiedzialność za linki</h2>
               <p className="text-neutral-600 leading-relaxed text-sm">
-                Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres
-                Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten
-                abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene
-                Gefahr des Nutzers.
+                Odesłania i linki do stron internetowych osób trzecich wykraczają poza
+                zakres naszej odpowiedzialności. Wszelka odpowiedzialność za takie strony
+                internetowe zostaje odrzucona. Dostęp do takich stron internetowych i
+                korzystanie z nich odbywa się na własne ryzyko użytkownika.
               </p>
             </motion.div>
 
@@ -92,13 +91,13 @@ export function ImpressumContent() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Urheberrechte</h2>
+              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Prawa autorskie</h2>
               <p className="text-neutral-600 leading-relaxed text-sm">
-                Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder
-                anderen Dateien auf dieser Website gehören ausschliesslich Finito Pro oder
-                den speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher
-                Elemente ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus
-                einzuholen.
+                Prawa autorskie oraz wszelkie inne prawa do treści, obrazów, zdjęć i
+                innych plików zamieszczonych na niniejszej stronie internetowej należą
+                wyłącznie do Finito Pro lub wyraźnie wskazanych właścicieli praw. Na
+                reprodukcję jakichkolwiek elementów wymagana jest uprzednia pisemna zgoda
+                właściciela praw autorskich.
               </p>
             </motion.div>
           </div>

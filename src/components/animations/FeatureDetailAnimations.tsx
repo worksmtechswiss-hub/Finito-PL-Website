@@ -36,10 +36,10 @@ function DashboardHero() {
     { h: "65%", delay: 1.0 }, { h: "75%", delay: 1.1 }, { h: "55%", delay: 1.2 },
   ];
   const kpis = [
-    { label: "Umsatz", value: "CHF 284'500", change: "+18%", positive: true },
-    { label: "Offene Rechnungen", value: "12", change: "-3", positive: true },
-    { label: "Aktive Projekte", value: "8", change: "+2", positive: true },
-    { label: "Cashflow", value: "CHF 48'200", change: "+24%", positive: true },
+    { label: "Przychód", value: "CHF 284'500", change: "+18%", positive: true },
+    { label: "Otwarte faktury", value: "12", change: "-3", positive: true },
+    { label: "Aktywne projekty", value: "8", change: "+2", positive: true },
+    { label: "Przepływy pieniężne", value: "CHF 48'200", change: "+24%", positive: true },
   ];
   return (
     <LargeWrapper>
@@ -62,7 +62,7 @@ function DashboardHero() {
         ))}
       </div>
       <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/5">
-        <div className="text-xs text-white/40 mb-3">Monatsumsatz 2025</div>
+        <div className="text-xs text-white/40 mb-3">Przychód miesięczny 2025</div>
         <div className="flex items-end gap-1.5 h-28">
           {bars.map((bar, i) => (
             <motion.div
@@ -76,7 +76,7 @@ function DashboardHero() {
           ))}
         </div>
         <div className="flex justify-between mt-2">
-          {["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"].map((m) => (
+          {["Sty","Lut","Mar","Kwi","Maj","Cze","Lip","Sie","Wrz","Paź","Lis","Gru"].map((m) => (
             <span key={m} className="text-[7px] text-white/20 flex-1 text-center">{m}</span>
           ))}
         </div>
@@ -90,10 +90,10 @@ function DashboardHero() {
 /* ================================================================== */
 function ProjektHero() {
   const columns = [
-    { title: "Offen", color: "bg-orange-400", items: ["Offerte Meier", "Renovation Bad"] },
-    { title: "In Arbeit", color: "bg-blue-400", items: ["Malerarbeiten Keller", "Fassade Müller", "Umbau Zürich"] },
-    { title: "Prüfung", color: "bg-purple-400", items: ["Schlussrechnung"] },
-    { title: "Erledigt", color: "bg-green-400", items: ["Wohnung Bern", "Büro Luzern"] },
+    { title: "Otwarte", color: "bg-orange-400", items: ["Oferta Meier", "Remont łazienki"] },
+    { title: "W toku", color: "bg-blue-400", items: ["Malowanie piwnicy", "Elewacja Müller", "Przebudowa Zurych"] },
+    { title: "Weryfikacja", color: "bg-purple-400", items: ["Faktura końcowa"] },
+    { title: "Zakończone", color: "bg-green-400", items: ["Mieszkanie Berno", "Biuro Lucerna"] },
   ];
   return (
     <LargeWrapper>
@@ -145,9 +145,9 @@ function ProjektHero() {
 /* ================================================================== */
 function RechnungenHero() {
   const lines = [
-    { label: "Malerarbeiten Wohnung", amount: "CHF 3'450.00" },
-    { label: "Material (Farbe, Grundierung)", amount: "CHF 890.00" },
-    { label: "Anfahrt", amount: "CHF 120.00" },
+    { label: "Malowanie mieszkania", amount: "CHF 3'450.00" },
+    { label: "Materiał (farba, grunt)", amount: "CHF 890.00" },
+    { label: "Dojazd", amount: "CHF 120.00" },
   ];
   return (
     <LargeWrapper>
@@ -160,7 +160,7 @@ function RechnungenHero() {
           transition={{ duration: 0.5 }}
         >
           <div className="flex justify-between items-center mb-3">
-            <span className="text-xs font-bold text-neutral-800">Rechnung #2025-042</span>
+            <span className="text-xs font-bold text-neutral-800">Faktura #2025-042</span>
             <span className="text-[9px] bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">QR-Ready</span>
           </div>
           {lines.map((line, i) => (
@@ -177,7 +177,7 @@ function RechnungenHero() {
             </motion.div>
           ))}
           <div className="border-t-2 border-neutral-200 mt-2 pt-2 flex justify-between">
-            <span className="text-xs font-bold text-neutral-800">Total (inkl. MwSt)</span>
+            <span className="text-xs font-bold text-neutral-800">Suma (z VAT)</span>
             <span className="text-xs font-bold text-primary-600">CHF 4'816.20</span>
           </div>
         </motion.div>
@@ -227,10 +227,10 @@ function OffertenHero() {
           transition={{ duration: 0.5 }}
         >
           <div className="flex justify-between items-center mb-4">
-            <span className="text-xs font-bold text-neutral-800">Offerte erstellen</span>
-            <span className="text-[9px] bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full font-medium">Vorlage</span>
+            <span className="text-xs font-bold text-neutral-800">Utwórz ofertę</span>
+            <span className="text-[9px] bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full font-medium">Szablon</span>
           </div>
-          {["Malerarbeiten aussen", "Grundierung + 2x Anstrich", "Gerüstmiete (3 Tage)", "Abdeckarbeiten"].map((item, i) => (
+          {["Malowanie zewnętrzne", "Gruntowanie + 2x malowanie", "Wynajem rusztowania (3 dni)", "Prace zabezpieczające"].map((item, i) => (
             <motion.div
               key={item}
               className="flex items-center gap-2 py-1.5"
@@ -261,9 +261,9 @@ function OffertenHero() {
           viewport={{ once: true }}
           transition={{ delay: 1.2 }}
         >
-          <span className="text-[10px] text-white/40">Vorher: 30 Min.</span>
+          <span className="text-[10px] text-white/40">Przed: 30 min.</span>
           <span className="text-white/30">→</span>
-          <span className="text-[10px] text-green-400 font-semibold">Jetzt: 3 Min.</span>
+          <span className="text-[10px] text-green-400 font-semibold">Teraz: 3 min.</span>
         </motion.div>
       </div>
     </LargeWrapper>
@@ -275,16 +275,16 @@ function OffertenHero() {
 /* ================================================================== */
 function ZeitHero() {
   const entries = [
-    { project: "Renovation Bad", time: "08:00 - 12:15", hours: "4h 15m", user: "MK" },
-    { project: "Fassade Müller", time: "13:00 - 17:30", hours: "4h 30m", user: "MK" },
-    { project: "Malerarbeiten Keller", time: "08:30 - 16:00", hours: "7h 30m", user: "SB" },
+    { project: "Remont łazienki", time: "08:00 - 12:15", hours: "4h 15m", user: "MK" },
+    { project: "Elewacja Müller", time: "13:00 - 17:30", hours: "4h 30m", user: "MK" },
+    { project: "Malowanie piwnicy", time: "08:30 - 16:00", hours: "7h 30m", user: "SB" },
   ];
   return (
     <LargeWrapper>
       <div className="w-full max-w-md mx-auto">
         <div className="flex items-center justify-between mb-4">
-          <span className="text-xs font-semibold text-white/60">Montag, 24. März 2025</span>
-          <span className="text-xs text-primary-400 font-bold">16h 15m total</span>
+          <span className="text-xs font-semibold text-white/60">Poniedziałek, 24 marca 2025</span>
+          <span className="text-xs text-primary-400 font-bold">16h 15m łącznie</span>
         </div>
         <div className="space-y-2">
           {entries.map((entry, i) => (
@@ -324,7 +324,7 @@ function ZeitHero() {
         >
           <div className="flex items-center gap-2 px-4 py-2 bg-green-500/20 rounded-full border border-green-400/20">
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-[10px] text-green-300 font-medium">Live-Erfassung aktiv</span>
+            <span className="text-[10px] text-green-300 font-medium">Rejestracja na żywo aktywna</span>
           </div>
         </motion.div>
       </div>
@@ -337,17 +337,17 @@ function ZeitHero() {
 /* ================================================================== */
 function CRMHero() {
   const contacts = [
-    { name: "Meier AG", type: "Gewerbe", projects: 5, revenue: "CHF 42'000" },
-    { name: "Familie Brunner", type: "Privat", projects: 2, revenue: "CHF 8'500" },
-    { name: "Immo Plus GmbH", type: "Gewerbe", projects: 12, revenue: "CHF 156'000" },
-    { name: "Stadt Zürich", type: "Öffentlich", projects: 3, revenue: "CHF 28'000" },
+    { name: "Meier AG", type: "Firma", projects: 5, revenue: "CHF 42'000" },
+    { name: "Familie Brunner", type: "Osoba prywatna", projects: 2, revenue: "CHF 8'500" },
+    { name: "Immo Plus GmbH", type: "Firma", projects: 12, revenue: "CHF 156'000" },
+    { name: "Stadt Zürich", type: "Instytucja publiczna", projects: 3, revenue: "CHF 28'000" },
   ];
   return (
     <LargeWrapper>
       <div className="w-full max-w-md mx-auto space-y-2">
         <div className="flex items-center gap-2 mb-3">
           <div className="flex-1 h-8 bg-white/5 rounded-lg border border-white/10 flex items-center px-3">
-            <span className="text-[10px] text-white/30">Kunden suchen...</span>
+            <span className="text-[10px] text-white/30">Szukaj klientów...</span>
           </div>
         </div>
         {contacts.map((c, i) => (
@@ -364,7 +364,7 @@ function CRMHero() {
             </div>
             <div className="flex-1 min-w-0">
               <div className="text-[11px] font-medium text-white/80">{c.name}</div>
-              <div className="text-[9px] text-white/30">{c.type} · {c.projects} Projekte</div>
+              <div className="text-[9px] text-white/30">{c.type} · {c.projects} Projekty</div>
             </div>
             <span className="text-[10px] font-semibold text-primary-300">{c.revenue}</span>
           </motion.div>
@@ -385,11 +385,11 @@ function FerienHero() {
     <LargeWrapper>
       <div className="w-full max-w-sm mx-auto">
         <div className="flex justify-between items-center mb-3">
-          <span className="text-sm font-semibold text-white/80">Juli 2025</span>
-          <span className="text-[10px] text-white/40">Resttage: 14 von 25</span>
+          <span className="text-sm font-semibold text-white/80">Lipiec 2025</span>
+          <span className="text-[10px] text-white/40">Pozostałe dni: 14 z 25</span>
         </div>
         <div className="grid grid-cols-7 gap-1">
-          {["Mo","Di","Mi","Do","Fr","Sa","So"].map((d) => (
+          {["Pn","Wt","Śr","Cz","Pt","So","Nd"].map((d) => (
             <span key={d} className="text-[8px] text-white/30 text-center py-1">{d}</span>
           ))}
           {([null, null] as (number | null)[]).concat(days.map(d => d)).slice(0, 35).map((d, i) => (
@@ -412,8 +412,8 @@ function FerienHero() {
           ))}
         </div>
         <div className="flex gap-4 mt-3 justify-center">
-          <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 rounded bg-primary-500/60" /><span className="text-[8px] text-white/40">Beantragt</span></div>
-          <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 rounded bg-green-500/30" /><span className="text-[8px] text-white/40">Genehmigt</span></div>
+          <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 rounded bg-primary-500/60" /><span className="text-[8px] text-white/40">Złożony</span></div>
+          <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 rounded bg-green-500/30" /><span className="text-[8px] text-white/40">Zatwierdzony</span></div>
         </div>
       </div>
     </LargeWrapper>
@@ -428,9 +428,9 @@ function FotoHero() {
     <LargeWrapper>
       <div className="flex gap-4 items-center justify-center">
         {[
-          { label: "Vorher", time: "09:15", color: "border-red-400/40" },
-          { label: "Während", time: "14:30", color: "border-yellow-400/40" },
-          { label: "Nachher", time: "17:00", color: "border-green-400/40" },
+          { label: "Przed", time: "09:15", color: "border-red-400/40" },
+          { label: "W trakcie", time: "14:30", color: "border-yellow-400/40" },
+          { label: "Po", time: "17:00", color: "border-green-400/40" },
         ].map((photo, i) => (
           <motion.div
             key={photo.label}
@@ -463,17 +463,17 @@ function FotoHero() {
 /* ================================================================== */
 function LagerHero() {
   const items = [
-    { name: "Wandfarbe Weiss (10L)", stock: 24, min: 10, status: "ok" },
-    { name: "Grundierung Universal", stock: 8, min: 5, status: "ok" },
-    { name: "Abklebeband (50m)", stock: 3, min: 10, status: "low" },
-    { name: "Pinselset Premium", stock: 12, min: 4, status: "ok" },
+    { name: "Farba ścienna biała (10L)", stock: 24, min: 10, status: "ok" },
+    { name: "Grunt uniwersalny", stock: 8, min: 5, status: "ok" },
+    { name: "Taśma maskująca (50m)", stock: 3, min: 10, status: "low" },
+    { name: "Zestaw pędzli Premium", stock: 12, min: 4, status: "ok" },
   ];
   return (
     <LargeWrapper>
       <div className="w-full max-w-md mx-auto">
         <div className="flex items-center justify-between mb-4">
-          <span className="text-xs font-semibold text-white/60">Lagerverwaltung</span>
-          <span className="text-[10px] text-orange-400 font-medium">1 Warnung</span>
+          <span className="text-xs font-semibold text-white/60">Zarządzanie magazynem</span>
+          <span className="text-[10px] text-orange-400 font-medium">1 ostrzeżenie</span>
         </div>
         <div className="space-y-2">
           {items.map((item, i) => (
@@ -506,7 +506,7 @@ function LagerHero() {
                   animate={{ opacity: [0.6, 1, 0.6] }}
                   transition={{ duration: 2, repeat: Infinity }}
                 >
-                  Nachbestellen
+                  Zamów ponownie
                 </motion.span>
               )}
             </motion.div>
@@ -522,19 +522,19 @@ function LagerHero() {
 /* ================================================================== */
 function BuchhaltungHero() {
   const rows = [
-    { date: "24.03", desc: "Rechnung Meier AG", debit: "", credit: "CHF 4'816.20", type: "Einnahme" },
-    { date: "23.03", desc: "Material Farben AG", debit: "CHF 1'240.00", credit: "", type: "Ausgabe" },
-    { date: "22.03", desc: "Rechnung Brunner", debit: "", credit: "CHF 2'100.00", type: "Einnahme" },
-    { date: "21.03", desc: "Versicherung", debit: "CHF 480.00", credit: "", type: "Ausgabe" },
+    { date: "24.03", desc: "Faktura Meier AG", debit: "", credit: "CHF 4'816.20", type: "Przychód" },
+    { date: "23.03", desc: "Materiał Farben AG", debit: "CHF 1'240.00", credit: "", type: "Wydatek" },
+    { date: "22.03", desc: "Faktura Brunner", debit: "", credit: "CHF 2'100.00", type: "Przychód" },
+    { date: "21.03", desc: "Ubezpieczenie", debit: "CHF 480.00", credit: "", type: "Wydatek" },
   ];
   return (
     <LargeWrapper>
       <div className="w-full max-w-lg mx-auto">
         <div className="grid grid-cols-3 gap-3 mb-5">
           {[
-            { label: "Einnahmen", value: "CHF 284'500", color: "text-green-400" },
-            { label: "Ausgaben", value: "CHF 148'200", color: "text-red-400" },
-            { label: "Gewinn", value: "CHF 136'300", color: "text-primary-300" },
+            { label: "Przychody", value: "CHF 284'500", color: "text-green-400" },
+            { label: "Wydatki", value: "CHF 148'200", color: "text-red-400" },
+            { label: "Zysk", value: "CHF 136'300", color: "text-primary-300" },
           ].map((kpi, i) => (
             <motion.div
               key={kpi.label}
@@ -587,11 +587,11 @@ function AppHero() {
         >
           <div className="w-16 h-3 bg-neutral-700 rounded-b-xl mx-auto" />
           <div className="p-3 pt-4 space-y-2">
-            <div className="text-[9px] font-semibold text-white/60 text-center">Heute</div>
+            <div className="text-[9px] font-semibold text-white/60 text-center">Dzisiaj</div>
             {[
-              { icon: "📋", label: "Malerarbeiten Keller", time: "08:00" },
-              { icon: "📸", label: "3 Fotos hochgeladen", time: "10:30" },
-              { icon: "⏱", label: "4h 15m erfasst", time: "12:15" },
+              { icon: "📋", label: "Malowanie piwnicy", time: "08:00" },
+              { icon: "📸", label: "3 zdjęcia przesłane", time: "10:30" },
+              { icon: "⏱", label: "4h 15m zarejestrowane", time: "12:15" },
             ].map((item, i) => (
               <motion.div
                 key={item.label}
@@ -615,7 +615,7 @@ function AppHero() {
               viewport={{ once: true }}
               transition={{ delay: 0.8 }}
             >
-              <span className="text-[8px] text-green-300 font-medium">Offline-Modus aktiv ✓</span>
+              <span className="text-[8px] text-green-300 font-medium">Tryb offline aktywny ✓</span>
             </motion.div>
           </div>
         </motion.div>
@@ -632,7 +632,7 @@ function KundenportalHero() {
     <LargeWrapper>
       <div className="w-full max-w-sm mx-auto">
         <div className="bg-white/10 rounded-xl p-4 border border-white/10 mb-3">
-          <div className="text-[10px] text-white/40 mb-2">Projektfortschritt: Renovation Bad</div>
+          <div className="text-[10px] text-white/40 mb-2">Postęp projektu: Remont łazienki</div>
           <div className="h-3 bg-white/5 rounded-full overflow-hidden">
             <motion.div
               className="h-full rounded-full bg-gradient-to-r from-primary-500 to-accent-400"
@@ -646,10 +646,10 @@ function KundenportalHero() {
         </div>
         <div className="grid grid-cols-2 gap-2">
           {[
-            { label: "Offerte ansehen", status: "✓ Freigegeben" },
-            { label: "Fotos (12)", status: "Aktualisiert" },
-            { label: "Rechnung", status: "Ausstehend" },
-            { label: "Nachrichten", status: "2 neu" },
+            { label: "Zobacz ofertę", status: "✓ Zatwierdzone" },
+            { label: "Zdjęcia (12)", status: "Zaktualizowano" },
+            { label: "Faktura", status: "Oczekuje" },
+            { label: "Wiadomości", status: "2 nowe" },
           ].map((item, i) => (
             <motion.div
               key={item.label}
@@ -674,16 +674,16 @@ function KundenportalHero() {
 /* ================================================================== */
 function ServiceAbosHero() {
   const abos = [
-    { name: "Reinigung Büro Meier", interval: "Wöchentlich", next: "Mo, 31.03", active: true },
-    { name: "Wartung Heizung Brunner", interval: "Jährlich", next: "15.10.2025", active: true },
-    { name: "Gartenpflege Villa Zürich", interval: "2-wöchentlich", next: "Di, 01.04", active: true },
+    { name: "Sprzątanie biura Meier", interval: "Co tydzień", next: "Pn, 31.03", active: true },
+    { name: "Konserwacja ogrzewania Brunner", interval: "Co rok", next: "15.10.2025", active: true },
+    { name: "Pielęgnacja ogrodu Villa Zurych", interval: "Co 2 tygodnie", next: "Wt, 01.04", active: true },
   ];
   return (
     <LargeWrapper>
       <div className="w-full max-w-md mx-auto">
         <div className="flex items-center justify-between mb-4">
-          <span className="text-xs font-semibold text-white/60">Aktive Service-Abos</span>
-          <span className="text-[10px] text-primary-400 font-semibold">3 aktiv</span>
+          <span className="text-xs font-semibold text-white/60">Aktywne abonamenty serwisowe</span>
+          <span className="text-[10px] text-primary-400 font-semibold">3 aktywne</span>
         </div>
         <div className="space-y-2">
           {abos.map((abo, i) => (
@@ -706,7 +706,7 @@ function ServiceAbosHero() {
               </motion.div>
               <div className="flex-1 min-w-0">
                 <div className="text-[10px] font-medium text-white/80">{abo.name}</div>
-                <div className="text-[8px] text-white/30">{abo.interval} · Nächste: {abo.next}</div>
+                <div className="text-[8px] text-white/30">{abo.interval} · Następne: {abo.next}</div>
               </div>
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             </motion.div>

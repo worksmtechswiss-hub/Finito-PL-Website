@@ -15,11 +15,11 @@ export function APIsContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              <span className="gradient-text-animated">API</span> Dokumentation
+              Dokumentacja <span className="gradient-text-animated">API</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Integrieren Sie Finito Pro in Ihre bestehenden Systeme. Unsere
-              REST API ermöglicht nahtlose Automatisierung und Datenaustausch.
+              Zintegruj Finito Pro ze swoimi istniejącymi systemami. Nasze
+              REST API umożliwia płynną automatyzację i wymianę danych.
             </p>
           </motion.div>
         </div>
@@ -35,17 +35,17 @@ export function APIsContent() {
               {
                 icon: Code2,
                 title: "REST API",
-                desc: "Vollstaendige REST API mit JSON-Responses. Einfach zu integrieren in jede Programmiersprache.",
+                desc: "Kompletne REST API z odpowiedziami JSON. Łatwa integracja z każdym językiem programowania.",
               },
               {
                 icon: Lock,
-                title: "Sichere Authentifizierung",
-                desc: "API-Keys und OAuth 2.0 für sichere Zugriffskontrolle. Granulare Berechtigungen pro Endpunkt.",
+                title: "Bezpieczne uwierzytelnianie",
+                desc: "Klucze API i OAuth 2.0 zapewniające bezpieczną kontrolę dostępu. Szczegółowe uprawnienia dla każdego endpointu.",
               },
               {
                 icon: Zap,
                 title: "Webhooks",
-                desc: "Echtzeit-Benachrichtigungen bei Ereignissen wie neuen Rechnungen, Projektupdates oder Zeiteintraegen.",
+                desc: "Powiadomienia w czasie rzeczywistym o zdarzeniach, takich jak nowe faktury, aktualizacje projektów czy wpisy czasu pracy.",
               },
             ].map((item, i) => (
               <motion.div
@@ -85,7 +85,7 @@ export function APIsContent() {
                 src="https://api.finitopro.ch/api/v1/schema/swagger-ui/"
                 className="w-full border-0"
                 style={{ height: "700px" }}
-                title="Finito Pro API Documentation"
+                title="Dokumentacja API Finito Pro"
                 loading="lazy"
               />
             </div>
@@ -100,7 +100,7 @@ export function APIsContent() {
             className="text-center mt-16"
           >
             <p className="text-neutral-500 mb-6">
-              API-Zugang ist im KMU- und Grossfirmen-Paket enthalten.
+              Dostęp do API jest zawarty w pakiecie MŚP i Duże firmy.
             </p>
             <motion.a
               href="https://app.finitopro.ch/register"
@@ -108,7 +108,7 @@ export function APIsContent() {
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.98 }}
             >
-              Jetzt starten
+              Rozpocznij teraz
               <ArrowRight className="w-5 h-5" />
             </motion.a>
           </motion.div>

@@ -4,74 +4,74 @@ import { motion } from "framer-motion";
 
 const sections = [
   {
-    title: "1. Geltungsbereich",
-    content: `Diese Allgemeinen Geschaeftsbedingungen (AGB) gelten für die Nutzung der Software-Plattform "Finito Pro" sowie aller damit verbundenen Dienstleistungen. Mit der Registrierung oder Nutzung der Plattform akzeptieren Sie diese AGB.`,
+    title: "1. Zakres obowiązywania",
+    content: `Niniejsze Ogólne Warunki Umowy (OWU) obowiązują w odniesieniu do korzystania z platformy oprogramowania „Finito Pro" oraz wszystkich powiązanych usług. Rejestrując się lub korzystając z platformy, akceptują Państwo niniejsze OWU.`,
   },
   {
-    title: "2. Vertragsgegenstand",
-    content: `Finito Pro stellt eine cloudbasierte Software-as-a-Service (SaaS) Lösung zur Verfügung, die KMU bei der Verwaltung von Projekten, Kunden, Rechnungen, Zeiterfassung und weiteren Geschaeftsprozessen unterstützt.`,
+    title: "2. Przedmiot umowy",
+    content: `Finito Pro udostępnia oparte na chmurze rozwiązanie typu Software-as-a-Service (SaaS), które wspiera MŚP w zarządzaniu projektami, klientami, fakturami, rejestracją czasu pracy oraz innymi procesami biznesowymi.`,
   },
   {
-    title: "3. Registrierung und Kontofuehrung",
-    content: `- Die Registrierung ist kostenlos und fuehrt zu einer 30-taegigen Testphase
-- Sie sind für die Richtigkeit Ihrer Angaben verantwortlich
-- Login-Daten muessen vertraulich behandelt werden
-- Jedes Konto darf nur von einer Organisation genutzt werden
-- Sie sind für alle Aktivitaeten unter Ihrem Konto verantwortlich`,
+    title: "3. Rejestracja i prowadzenie konta",
+    content: `- Rejestracja jest bezpłatna i obejmuje 30-dniowy okres próbny
+- Są Państwo odpowiedzialni za prawidłowość podanych danych
+- Dane logowania należy traktować jako poufne
+- Każde konto może być używane wyłącznie przez jedną organizację
+- Są Państwo odpowiedzialni za wszelkie działania podejmowane w ramach swojego konta`,
   },
   {
-    title: "4. Leistungsumfang und Verfügbarkeit",
-    content: `- Der Funktionsumfang richtet sich nach dem gewaehlten Abonnement (Starter, KMU, Grossfirmen)
-- Wir sind bemueht, eine Verfügbarkeit von 99,5% zu gewährleisten
-- Geplante Wartungsarbeiten werden im Voraus angekündigt
-- Wir behalten uns das Recht vor, die Plattform weiterzuentwickeln und Funktionen anzupassen`,
+    title: "4. Zakres usług i dostępność",
+    content: `- Zakres funkcji zależy od wybranej subskrypcji (Starter, MŚP, Duże firmy)
+- Dokładamy starań, aby zapewnić dostępność na poziomie 99,5%
+- Planowane prace konserwacyjne będą ogłaszane z wyprzedzeniem
+- Zastrzegamy sobie prawo do dalszego rozwoju platformy i dostosowywania funkcji`,
   },
   {
-    title: "5. Preise und Zahlungsbedingungen",
-    content: `- Die aktuellen Preise finden Sie auf unserer Preisseite
-- Alle Preise verstehen sich in CHF und exklusive MwSt
-- Rechnungen werden monatlich oder jaehrlich im Voraus gestellt
-- Zahlungen sind innerhalb von 30 Tagen faellig
-- Bei Zahlungsverzug behalten wir uns das Recht vor, den Zugang einzuschraenken`,
+    title: "5. Ceny i warunki płatności",
+    content: `- Aktualne ceny znajdują się na naszej stronie z cennikiem
+- Wszystkie ceny podane są w CHF i nie zawierają podatku VAT
+- Faktury wystawiane są z góry w cyklu miesięcznym lub rocznym
+- Płatności są wymagane w ciągu 30 dni
+- W przypadku zwłoki w płatności zastrzegamy sobie prawo do ograniczenia dostępu`,
   },
   {
-    title: "6. Kündigungsbedingungen",
-    content: `- Das Abonnement kann jederzeit gekündigt werden
-- Die Kündigung wird zum Ende des laufenden Abrechnungszeitraums wirksam
-- Nach Kündigung bleiben Ihre Daten noch 90 Tage verfügbar für den Export
-- Der Starter-Plan (gratis) kann jederzeit ohne Frist gekündigt werden`,
+    title: "6. Warunki wypowiedzenia",
+    content: `- Subskrypcję można wypowiedzieć w dowolnym momencie
+- Wypowiedzenie staje się skuteczne z końcem bieżącego okresu rozliczeniowego
+- Po wypowiedzeniu Państwa dane pozostają dostępne do eksportu przez 90 dni
+- Plan Starter (bezpłatny) może zostać wypowiedziany w dowolnym momencie bez zachowania okresu wypowiedzenia`,
   },
   {
-    title: "7. Datenschutz und Datensicherheit",
-    content: `- Alle Daten werden auf Servern in der Schweiz gespeichert
-- Wir halten das Schweizer Datenschutzgesetz (DSG) und die DSGVO ein
-- Nähere Informationen finden Sie in unserer separaten Datenschutzerklaerung
-- Daten werden verschluesselt übertragen und gespeichert
-- Regelmaessige Sicherheitsaudits gewährleisten den Schutz Ihrer Daten`,
+    title: "7. Ochrona danych i bezpieczeństwo danych",
+    content: `- Wszystkie dane są przechowywane na serwerach w Szwajcarii
+- Przestrzegamy szwajcarskiej ustawy o ochronie danych (DSG) oraz RODO
+- Szczegółowe informacje znajdą Państwo w naszej odrębnej polityce prywatności
+- Dane są przesyłane i przechowywane w formie zaszyfrowanej
+- Regularne audyty bezpieczeństwa zapewniają ochronę Państwa danych`,
   },
   {
-    title: "8. Geistiges Eigentum",
-    content: `- Die Software, einschliesslich Code, Design und Dokumentation, ist Eigentum von Finito Pro
-- Sie erhalten ein nicht-exklusives, nicht übertragbares Nutzungsrecht für die Dauer des Abonnements
-- Ihre Inhalte und Daten bleiben Ihr Eigentum
-- Sie gewähren uns das Recht, Ihre Daten zur Bereitstellung der Dienstleistung zu verarbeiten`,
+    title: "8. Własność intelektualna",
+    content: `- Oprogramowanie, w tym kod, projekt graficzny i dokumentacja, stanowi własność Finito Pro
+- Otrzymują Państwo niewyłączne, niezbywalne prawo do korzystania na czas trwania subskrypcji
+- Państwa treści i dane pozostają Państwa własnością
+- Udzielają nam Państwo prawa do przetwarzania Państwa danych w celu świadczenia usługi`,
   },
   {
-    title: "9. Haftungsbeschraenkung",
-    content: `- Finito Pro haftet nicht für indirekte Schaeden oder entgangenen Gewinn
-- Die Haftung ist auf den Betrag der in den letzten 12 Monaten gezahlten Gebühren beschraenkt
-- Wir übernehmen keine Haftung für Datenverlust, soweit regelmaessige Backups durchgeführt werden
-- Hoehere Gewalt (Naturkatastrophen, Stromausfaelle, etc.) schliesst die Haftung aus`,
+    title: "9. Ograniczenie odpowiedzialności",
+    content: `- Finito Pro nie ponosi odpowiedzialności za szkody pośrednie ani utracone zyski
+- Odpowiedzialność jest ograniczona do kwoty opłat uiszczonych w ciągu ostatnich 12 miesięcy
+- Nie ponosimy odpowiedzialności za utratę danych, o ile wykonywane są regularne kopie zapasowe
+- Siła wyższa (klęski żywiołowe, awarie zasilania itp.) wyłącza odpowiedzialność`,
   },
   {
-    title: "10. Änderungen der AGB",
-    content: `Wir behalten uns das Recht vor, diese AGB jederzeit anzupassen. Wesentliche Änderungen werden mindestens 30 Tage im Voraus per E-Mail angekündigt. Die weitere Nutzung nach Inkrafttreten der Änderungen gilt als Zustimmung.
+    title: "10. Zmiany OWU",
+    content: `Zastrzegamy sobie prawo do zmiany niniejszych OWU w dowolnym momencie. Istotne zmiany będą ogłaszane z co najmniej 30-dniowym wyprzedzeniem drogą mailową. Dalsze korzystanie z usługi po wejściu zmian w życie jest równoznaczne z ich akceptacją.
 
-Stand: Maerz 2026`,
+Stan na: marzec 2026`,
   },
   {
-    title: "11. Anwendbares Recht und Gerichtsstand",
-    content: `Es gilt Schweizer Recht. Gerichtsstand ist Zuerich, Schweiz. Für Verbraucher gelten die zwingenden Bestimmungen des Wohnsitzstaates.`,
+    title: "11. Prawo właściwe i właściwość sądu",
+    content: `Obowiązuje prawo szwajcarskie. Sądem właściwym jest sąd w Zurychu, Szwajcaria. W odniesieniu do konsumentów zastosowanie mają bezwzględnie obowiązujące przepisy państwa zamieszkania.`,
   },
 ];
 
@@ -86,10 +86,10 @@ export function AGBsContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl font-semibold text-white mb-6">
-              <span className="gradient-text-animated">Allgemeine Geschaeftsbedingungen</span>
+              <span className="gradient-text-animated">Ogólne Warunki Umowy</span>
             </h1>
             <p className="text-lg text-white/60">
-              Nutzungsbedingungen für die Finito Pro Plattform.
+              Warunki korzystania z platformy Finito Pro.
             </p>
           </motion.div>
         </div>

@@ -11,23 +11,23 @@ import {
 import { staggerContainer, staggerItem, fadeUp } from "@/lib/animations";
 
 const branches = [
-  { icon: Paintbrush, slug: "maler", title: "Maler", desc: "Leistungskataloge für schnelle Offerten, Projekt-Sharing mit Kunden" },
-  { icon: Hammer, slug: "gipser", title: "Gipser", desc: "Digitale Fotorapporte, Lagerverwaltung mit Artikelverfolgung" },
-  { icon: Zap, slug: "elektriker", title: "Elektriker", desc: "Schaltpläne mobil, Lagerverwaltung mit Lieferanten-Links" },
-  { icon: Droplets, slug: "sanitaer", title: "Sanitär", desc: "Mobile Zeiterfassung am Einsatzort, digitale Regierapporte" },
-  { icon: Ruler, slug: "schreiner", title: "Schreiner", desc: "Massanfertigungen dokumentieren, Werkstatt-Auslastung im Dashboard" },
-  { icon: Home, slug: "dachdecker", title: "Dachdecker", desc: "Mitarbeiterplanung mit Kalender, digitales Projektarchiv (25+ Jahre)" },
-  { icon: Grid3x3, slug: "bodenleger", title: "Bodenleger", desc: "Quadratmeter-Kalkulation, Material-Restmengen tracken" },
-  { icon: Building2, slug: "geruestbauer", title: "Gerüstbauer", desc: "Gerüst-Teile im Lager tracken, Mietabrechnungen automatisch" },
-  { icon: Blocks, slug: "maurer", title: "Maurer", desc: "Automatisches Bautagebuch, Mehrprojekt-Übersicht mit Filtern" },
-  { icon: Building, slug: "facility-service", title: "Facility Service", desc: "Automatisierte Wartungsintervalle, Partnerkoordination" },
-  { icon: Sparkles, slug: "reinigung", title: "Reinigung", desc: "Routenplanung, Qualitätsdokumentation mit Fotos" },
-  { icon: TreePine, slug: "gartenbau", title: "Gartenbau", desc: "Saisonale Projektplanung, Pflanzendokumentation" },
-  { icon: Truck, slug: "umzug", title: "Umzug", desc: "Tagesplanung mit Routenoptimierung, Inventarlisten mit Fotos" },
-  { icon: Thermometer, slug: "haustechnik", title: "Haustechnik", desc: "Anlagendokumentation, Wartungsplanung und -protokolle" },
-  { icon: PenTool, slug: "architekten", title: "Architekten", desc: "Projektdokumente zentral, Aufgabenboard für Phasen" },
-  { icon: Palette, slug: "agenturen", title: "Agenturen", desc: "Zeiterfassung für Abrechnung, individuelle Benutzerrechte" },
-  { icon: User, slug: "einmann-betriebe", title: "Einmann-Betriebe", desc: "Komplettes Büro auf dem Smartphone, Vorlagen sparen 80% Zeit" },
+  { icon: Paintbrush, slug: "maler", title: "Malarze", desc: "Katalogi usług do szybkiego tworzenia ofert, udostępnianie projektów klientom" },
+  { icon: Hammer, slug: "gipser", title: "Tynkarze", desc: "Cyfrowe raporty fotograficzne, zarządzanie magazynem ze śledzeniem artykułów" },
+  { icon: Zap, slug: "elektriker", title: "Elektrycy", desc: "Schematy elektryczne na urządzeniach mobilnych, zarządzanie magazynem z linkami do dostawców" },
+  { icon: Droplets, slug: "sanitaer", title: "Hydraulicy", desc: "Mobilna rejestracja czasu pracy na miejscu, cyfrowe raporty robocze" },
+  { icon: Ruler, slug: "schreiner", title: "Stolarze", desc: "Dokumentowanie zamówień na wymiar, obciążenie warsztatu w dashboardzie" },
+  { icon: Home, slug: "dachdecker", title: "Dekarze", desc: "Planowanie pracowników z kalendarzem, cyfrowe archiwum projektów (25+ lat)" },
+  { icon: Grid3x3, slug: "bodenleger", title: "Posadzkarze", desc: "Kalkulacja metrów kwadratowych, śledzenie resztek materiałów" },
+  { icon: Building2, slug: "geruestbauer", title: "Firmy rusztowaniowe", desc: "Śledzenie elementów rusztowań w magazynie, automatyczne rozliczenia wynajmu" },
+  { icon: Blocks, slug: "maurer", title: "Murarze", desc: "Automatyczny dziennik budowy, przegląd wielu projektów z filtrami" },
+  { icon: Building, slug: "facility-service", title: "Facility Service", desc: "Automatyczne interwały konserwacyjne, koordynacja z partnerami" },
+  { icon: Sparkles, slug: "reinigung", title: "Firmy sprzątające", desc: "Planowanie tras, dokumentacja jakości ze zdjęciami" },
+  { icon: TreePine, slug: "gartenbau", title: "Ogrodnictwo", desc: "Sezonowe planowanie projektów, dokumentacja roślin" },
+  { icon: Truck, slug: "umzug", title: "Przeprowadzki", desc: "Planowanie dnia z optymalizacją tras, listy inwentaryzacyjne ze zdjęciami" },
+  { icon: Thermometer, slug: "haustechnik", title: "Instalacje budowlane", desc: "Dokumentacja instalacji, planowanie i protokoły konserwacji" },
+  { icon: PenTool, slug: "architekten", title: "Architekci", desc: "Centralne zarządzanie dokumentami projektowymi, tablica zadań dla poszczególnych faz" },
+  { icon: Palette, slug: "agenturen", title: "Agencje", desc: "Rejestracja czasu pracy do rozliczeń, indywidualne uprawnienia użytkowników" },
+  { icon: User, slug: "einmann-betriebe", title: "Jednoosobowe firmy", desc: "Kompletne biuro na smartfonie, szablony oszczędzają 80% czasu" },
 ];
 
 export function BranchenOverview() {
@@ -72,13 +72,13 @@ export function BranchenOverview() {
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div {...fadeUp}>
             <span className="inline-block px-4 py-1.5 bg-white/10 text-white/70 text-sm font-medium rounded-full border border-white/10 mb-6">
-              17 Branchen, eine Lösung
+              17 branż, jedno rozwiązanie
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              Für jede <span className="gradient-text-animated">Branche</span> die richtige Lösung
+              Odpowiednie <span className="gradient-text-animated">rozwiązanie</span> dla każdej branży
             </h1>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
-              Finito Pro passt sich an Ihre Branche an - mit branchenspezifischen Funktionen und Workflows.
+              Finito Pro dostosowuje się do Twojej branży - z funkcjami i procesami dopasowanymi do specyfiki danego sektora.
             </p>
           </motion.div>
         </div>
@@ -96,10 +96,10 @@ export function BranchenOverview() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Alle Branchen im Überblick
+              Przegląd wszystkich branż
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Wählen Sie Ihre Branche und entdecken Sie, wie Finito Pro Ihren Arbeitsalltag vereinfacht.
+              Wybierz swoją branżę i odkryj, jak Finito Pro upraszcza Twoją codzienną pracę.
             </p>
           </motion.div>
 
@@ -126,7 +126,7 @@ export function BranchenOverview() {
                     {branch.desc}
                   </p>
                   <span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-600 group-hover:gap-2.5 transition-all">
-                    Mehr erfahren <ArrowRight className="w-4 h-4" />
+                    Dowiedz się więcej <ArrowRight className="w-4 h-4" />
                   </span>
                 </Link>
               </motion.div>
@@ -146,10 +146,10 @@ export function BranchenOverview() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Eine Software, alle Branchen
+              Jedno oprogramowanie, wszystkie branże
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Finito Pro bietet eine flexible Oberfläche, die sich an Ihre Branche anpasst.
+              Finito Pro oferuje elastyczny interfejs, który dostosowuje się do Twojej branży.
             </p>
           </motion.div>
 
@@ -163,7 +163,7 @@ export function BranchenOverview() {
             <div className="relative rounded-2xl overflow-hidden shadow-card-hover border border-neutral-200">
               <Image
                 src="/images/Finito-Software.png"
-                alt="Finito Pro Software - Übersicht für alle Branchen"
+                alt="Finito Pro - przegląd dla wszystkich branż"
                 width={1200}
                 height={675}
                 className="w-full h-auto"
@@ -180,7 +180,7 @@ export function BranchenOverview() {
             >
               <Image
                 src="/images/Finito-Mob.png"
-                alt="Finito Pro Mobile App"
+                alt="Finito Pro - aplikacja mobilna"
                 width={200}
                 height={400}
                 className="w-full h-auto drop-shadow-2xl"
@@ -202,11 +202,11 @@ export function BranchenOverview() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-6">
-              Ihre Branche nicht dabei?
+              Nie ma Twojej branży?
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Finito Pro ist flexibel einsetzbar. Kontaktieren Sie uns und wir zeigen Ihnen,
-              wie die Software für Ihr Geschäft funktioniert.
+              Finito Pro jest wszechstronny w zastosowaniu. Skontaktuj się z nami, a pokażemy Ci,
+              jak oprogramowanie sprawdzi się w Twojej firmie.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -215,14 +215,14 @@ export function BranchenOverview() {
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Kostenlos testen
+                Wypróbuj za darmo
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
               <Link
                 href="/kontakt"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-white/20 text-white font-medium rounded-2xl hover:bg-white/5 transition-all"
               >
-                Kontakt aufnehmen
+                Skontaktuj się z nami
               </Link>
             </div>
           </motion.div>

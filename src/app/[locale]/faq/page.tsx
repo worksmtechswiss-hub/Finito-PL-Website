@@ -10,17 +10,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "FAQ - Häufige Fragen zu Finito Pro",
+    title: "FAQ - Często zadawane pytania o Finito Pro",
     description:
-      "Antworten auf die häufigsten Fragen zu Finito Pro: Testversion, Preise, Funktionen, Datensicherheit, Mobile App und mehr.",
+      "Odpowiedzi na najczęściej zadawane pytania o Finito Pro: wersja próbna, ceny, funkcje, bezpieczeństwo danych, aplikacja mobilna i więcej.",
     path: "/faq",
     locale,
     keywords: [
       "Finito Pro FAQ",
-      "KMU Software Fragen",
-      "Handwerker Software Hilfe",
-      "Finito Pro Testversion",
-      "Schweizer Software FAQ",
+      "Pytania o oprogramowanie MŚP",
+      "Pomoc oprogramowanie dla rzemieślników",
+      "Finito Pro wersja próbna",
+      "Szwajcarskie oprogramowanie FAQ",
     ],
   });
 }

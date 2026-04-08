@@ -48,11 +48,11 @@ const CTA = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Finito Pro | KMU Software Schweiz - Projektmanagement, Rechnungen & CRM",
+  title: "Finito Pro | Oprogramowanie dla MSP ze Szwajcarii - zarzadzanie projektami, faktury i CRM",
   description:
-    "Finito Pro - Die All-in-One KMU Software für Schweizer Handwerksbetriebe. Projekte verwalten, QR-Rechnungen erstellen, Zeiterfassung & CRM. 30 Tage gratis testen!",
+    "Finito Pro - Kompleksowe oprogramowanie dla MSP dla szwajcarskich firm rzemieslniczych. Zarzadzanie projektami, tworzenie faktur QR, rejestracja czasu i CRM. 30 dni bezplatnego testu!",
   keywords:
-    "KMU Software Schweiz, Projektmanagement Software, Handwerker Software, QR Rechnung Software, Schweizer Software",
+    "oprogramowanie MSP Szwajcaria, oprogramowanie do zarzadzania projektami, oprogramowanie rzemieslnicze, oprogramowanie faktury QR, oprogramowanie szwajcarskie",
 };
 
 export default async function HomePage({

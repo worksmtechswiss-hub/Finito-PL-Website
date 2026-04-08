@@ -79,7 +79,7 @@ export function FeatureShowcase({
                 className="inline-flex items-center gap-2 text-sm text-white/50 hover:text-white/80 transition-colors mb-8"
               >
                 <ArrowLeft className="w-3.5 h-3.5" />
-                Alle Funktionen
+                Wszystkie funkcje
               </Link>
             </motion.div>
 
@@ -111,7 +111,7 @@ export function FeatureShowcase({
                 whileHover={{ scale: 1.05, y: -3 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Jetzt 30 Tage gratis testen
+                Testuj 30 dni za darmo
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </motion.a>
             </motion.div>
@@ -165,7 +165,7 @@ export function FeatureShowcase({
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Vorteile auf einen Blick
+              Korzyści w skrócie
             </h2>
           </motion.div>
           <motion.div
@@ -203,7 +203,7 @@ export function FeatureShowcase({
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900">
-              Vorher vs. Nachher
+              Przed vs. Po
             </h2>
           </motion.div>
 
@@ -218,7 +218,7 @@ export function FeatureShowcase({
               <div className="w-10 h-10 bg-red-100 rounded-xl flex items-center justify-center mb-6">
                 <span className="text-red-500 text-xl font-semibold">!</span>
               </div>
-              <h3 className="text-xl font-semibold text-neutral-900 mb-4">Ohne Finito</h3>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-4">Bez Finito</h3>
               <p className="text-neutral-600 leading-relaxed">{problemText}</p>
             </motion.div>
 
@@ -232,7 +232,7 @@ export function FeatureShowcase({
               <div className="w-10 h-10 bg-primary-100 rounded-xl flex items-center justify-center mb-6">
                 <CheckCircle2 className="w-5 h-5 text-primary-600" />
               </div>
-              <h3 className="text-xl font-semibold text-neutral-900 mb-4">Mit Finito Pro</h3>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-4">Z Finito Pro</h3>
               <p className="text-neutral-600 leading-relaxed">{solutionText}</p>
             </motion.div>
           </div>
@@ -250,10 +250,10 @@ export function FeatureShowcase({
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              So funktioniert es im Detail
+              Jak to działa w szczegółach
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Entdecken Sie die wichtigsten Funktionen Schritt für Schritt
+              Poznaj najważniejsze funkcje krok po kroku
             </p>
           </motion.div>
 
@@ -278,7 +278,7 @@ export function FeatureShowcase({
                   <div className="flex-1">
                     <span className="inline-flex items-center gap-2 text-sm font-medium text-primary-600 mb-4">
                       <Star className="w-4 h-4" />
-                      Schritt {index + 1}
+                      Krok {index + 1}
                     </span>
                     <h3 className="text-2xl lg:text-3xl font-semibold text-neutral-900 mb-4">
                       {sub.title}
@@ -305,7 +305,7 @@ export function FeatureShowcase({
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Für wen ist das?
+              Dla kogo to jest?
             </h2>
           </motion.div>
 
@@ -350,10 +350,10 @@ export function FeatureShowcase({
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Funktioniert perfekt mit
+              Działa idealnie z
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Entdecken Sie weitere Funktionen, die nahtlos zusammenarbeiten
+              Odkryj kolejne funkcje, które płynnie ze sobą współpracują
             </p>
           </motion.div>
 
@@ -395,10 +395,10 @@ export function FeatureShowcase({
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-white mb-6 leading-tight">
-              Bereit, {title} auszuprobieren?
+              Gotowy, aby wypróbować {title}?
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Starten Sie jetzt mit Finito Pro. 30 Tage kostenlos, keine Kreditkarte nötig.
+              Zacznij teraz z Finito Pro. 30 dni za darmo, bez karty kredytowej.
             </p>
             <motion.a
               href="https://app.finitopro.ch/register"
@@ -406,7 +406,7 @@ export function FeatureShowcase({
               whileHover={{ scale: 1.05, y: -3 }}
               whileTap={{ scale: 0.98 }}
             >
-              Kostenlos starten
+              Rozpocznij za darmo
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.a>
           </motion.div>

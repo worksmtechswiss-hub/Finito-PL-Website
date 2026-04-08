@@ -10,11 +10,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Branchen - Software für jede Branche | Finito Pro",
-    description: "Finito Pro passt sich an Ihre Branche an. Software für Maler, Gipser, Elektriker, Sanitär, Schreiner und viele weitere Handwerksbranchen.",
+    title: "Branże - oprogramowanie dla każdej branży | Finito Pro",
+    description: "Finito Pro dostosowuje się do Twojej branży. Oprogramowanie dla malarzy, tynkarzy, elektryków, hydraulików, stolarzy i wielu innych branż rzemieślniczych.",
     path: "/branchen",
     locale,
-    keywords: ["Handwerker Software", "Branchen Software", "KMU Software Schweiz"],
+    keywords: ["Oprogramowanie dla rzemieślników", "Oprogramowanie branżowe", "Oprogramowanie MŚP Szwajcaria"],
   });
 }
 

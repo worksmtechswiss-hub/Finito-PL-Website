@@ -19,405 +19,405 @@ export const branches: Branch[] = [
   {
     id: 'maler',
     icon: 'Paintbrush',
-    titleDe: 'Maler',
-    titleEn: 'Painters',
+    titleDe: 'Malarze',
+    titleEn: 'Malarze',
     descriptionDe:
-      'Digitale Offerten mit gespeicherten Leistungskatalogen und transparente Projektfortschritte für Ihre Kunden.',
+      'Cyfrowe oferty z zapisanymi katalogami uslug i przejrzysty postep projektu dla Twoich klientów.',
     descriptionEn:
-      'Digital quotes with saved service catalogs and transparent project progress for your customers.',
+      'Cyfrowe oferty z zapisanymi katalogami uslug i przejrzysty postep projektu dla Twoich klientów.',
     slug: 'maler',
     useCasesDe: [
       {
-        title: 'Leistungskataloge für schnelle Offerten',
+        title: 'Katalogi uslug do szybkich ofert',
         description:
-          'Speichern Sie Ihre häufigsten Malerarbeiten als Katalog ab. Innenanstrich, Fassadenrenovation oder Tapezierarbeiten - erstellen Sie Offerten in Minuten statt Stunden.',
+          'Zapisz najczesciej wykonywane prace malarskie jako katalog. Malowanie wnetrz, renowacja fasad czy tapetowanie - twórz oferty w minuty zamiast godzin.',
       },
       {
-        title: 'Projektfortschritt mit Kunden teilen',
+        title: 'Udostepnianie postepu projektu klientom',
         description:
-          'Teilen Sie Vorher/Nachher-Fotos und den aktuellen Stand direkt mit Ihren Kunden über das Kundenportal. Transparenz schafft Vertrauen.',
+          'Udostepniaj zdjecia przed/po i aktualny stan bezposrednio swoim klientom przez portal klienta. Przejrzystosc buduje zaufanie.',
       },
       {
-        title: 'Farbverwaltung und Materialbestellung',
+        title: 'Zarzadzanie kolorami i zamawianie materialów',
         description:
-          'Verwalten Sie Farbtoene, Mengen und Materialbedarf pro Projekt. Automatische Bestandsübersicht verhindert Engpaesse auf der Baustelle.',
+          'Zarzadzaj odcieniami kolorów, ilosciami i zapotrzebowaniem na materialy dla kazdego projektu. Automatyczny przeglad stanów zapobiega brakom na placu budowy.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Service catalogs for fast quotes',
+        title: 'Katalogi uslug do szybkich ofert',
         description:
-          'Save your most common painting jobs as a catalog. Interior painting, facade renovation, or wallpapering - create quotes in minutes instead of hours.',
+          'Zapisz najczesciej wykonywane prace malarskie jako katalog. Malowanie wnetrz, renowacja fasad czy tapetowanie - twórz oferty w minuty zamiast godzin.',
       },
       {
-        title: 'Share project progress with clients',
+        title: 'Udostepnianie postepu projektu klientom',
         description:
-          'Share before/after photos and current status directly with your clients through the customer portal. Transparency builds trust.',
+          'Udostepniaj zdjecia przed/po i aktualny stan bezposrednio swoim klientom przez portal klienta. Przejrzystosc buduje zaufanie.',
       },
       {
-        title: 'Color management and material ordering',
+        title: 'Zarzadzanie kolorami i zamawianie materialów',
         description:
-          'Manage color shades, quantities, and material needs per project. Automatic inventory overview prevents shortages on the construction site.',
+          'Zarzadzaj odcieniami kolorów, ilosciami i zapotrzebowaniem na materialy dla kazdego projektu. Automatyczny przeglad stanów zapobiega brakom na placu budowy.',
       },
     ],
   },
   {
     id: 'gipser',
     icon: 'Hammer',
-    titleDe: 'Gipser',
-    titleEn: 'Plasterers',
+    titleDe: 'Tynkarze',
+    titleEn: 'Tynkarze',
     descriptionDe:
-      'Digitale Fotoberichte und Lagerverwaltung für Gipserarbeiten. Dokumentieren Sie jeden Arbeitsschritt lueckenlos.',
+      'Cyfrowe fotoraporty i zarzadzanie magazynem dla prac tynkarskich. Dokumentuj kazdy etap pracy bez luk.',
     descriptionEn:
-      'Digital photo reports and inventory management for plastering work. Document every step without gaps.',
+      'Cyfrowe fotoraporty i zarzadzanie magazynem dla prac tynkarskich. Dokumentuj kazdy etap pracy bez luk.',
     slug: 'gipser',
     useCasesDe: [
       {
-        title: 'Digitale Fotoberichte',
+        title: 'Cyfrowe fotoraporty',
         description:
-          'Dokumentieren Sie Untergrund, Zwischenschritte und Endergebnis mit Fotos direkt im Projekt. Perfekt als Qualitätsnachweis und für Versicherungsfaelle.',
+          'Dokumentuj podloze, etapy posrednie i efekt koncowy zdjeciami bezposrednio w projekcie. Doskonale jako dowód jakosci i dla przypadków ubezpieczeniowych.',
       },
       {
-        title: 'Lagerverwaltung für Material',
+        title: 'Zarzadzanie magazynem materialów',
         description:
-          'Behalten Sie den Überblick über Gips, Putz, Armierungsgewebe und Werkzeuge. Automatischer Abzug pro Projekt zeigt den tatsaechlichen Verbrauch.',
+          'Kontroluj zapasy gipsu, tynku, siatki zbrojeniowej i narzedzi. Automatyczne odliczanie na projekt pokazuje rzeczywiste zuzycie.',
       },
       {
-        title: 'Aufmass und Flaechenberechnung',
+        title: 'Obmiary i obliczanie powierzchni',
         description:
-          'Erfassen Sie Flaechen und Mengen direkt vor Ort. Die Daten fliessen automatisch in Ihre Offerten und Rechnungen ein.',
+          'Rejestruj powierzchnie i ilosci bezposrednio na miejscu. Dane automatycznie wplywaja do Twoich ofert i faktur.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Digital photo reports',
+        title: 'Cyfrowe fotoraporty',
         description:
-          'Document substrate, intermediate steps, and final results with photos directly in the project. Perfect as quality proof and for insurance claims.',
+          'Dokumentuj podloze, etapy posrednie i efekt koncowy zdjeciami bezposrednio w projekcie. Doskonale jako dowód jakosci i dla przypadków ubezpieczeniowych.',
       },
       {
-        title: 'Inventory management for materials',
+        title: 'Zarzadzanie magazynem materialów',
         description:
-          'Keep track of plaster, render, reinforcement mesh, and tools. Automatic deduction per project shows actual consumption.',
+          'Kontroluj zapasy gipsu, tynku, siatki zbrojeniowej i narzedzi. Automatyczne odliczanie na projekt pokazuje rzeczywiste zuzycie.',
       },
       {
-        title: 'Measurements and area calculations',
+        title: 'Obmiary i obliczanie powierzchni',
         description:
-          'Record areas and quantities directly on site. The data automatically flows into your quotes and invoices.',
+          'Rejestruj powierzchnie i ilosci bezposrednio na miejscu. Dane automatycznie wplywaja do Twoich ofert i faktur.',
       },
     ],
   },
   {
     id: 'elektriker',
     icon: 'Zap',
-    titleDe: 'Elektriker',
-    titleEn: 'Electricians',
+    titleDe: 'Elektrycy',
+    titleEn: 'Elektrycy',
     descriptionDe:
-      'Schemas auf dem Smartphone und Lagerverwaltung mit Lieferanten-Verlinkung für effiziente Elektroinstallationen.',
+      'Schematy na smartfonie i zarzadzanie magazynem z powiazaniem z dostawcami dla wydajnych instalacji elektrycznych.',
     descriptionEn:
-      'Schematics on your smartphone and inventory management with supplier links for efficient electrical installations.',
+      'Schematy na smartfonie i zarzadzanie magazynem z powiazaniem z dostawcami dla wydajnych instalacji elektrycznych.',
     slug: 'elektriker',
     useCasesDe: [
       {
-        title: 'Schemas auf dem Smartphone',
+        title: 'Schematy na smartfonie',
         description:
-          'Greifen Sie auf Elektroschemas und technische Dokumente direkt auf der Baustelle zu. Alle Planunterlagen immer dabei, ohne schwere Ordner.',
+          'Uzyskaj dostep do schematów elektrycznych i dokumentów technicznych bezposrednio na placu budowy. Wszystkie plany zawsze przy sobie, bez ciezkich segregatorów.',
       },
       {
-        title: 'Lagerverwaltung mit Lieferanten-Verlinkung',
+        title: 'Zarzadzanie magazynem z powiazaniem z dostawcami',
         description:
-          'Verwalten Sie Kabel, Schalter, Sicherungen und Spezialteile mit direkter Verlinkung zu Ihren Lieferanten für schnelle Nachbestellung.',
+          'Zarzadzaj kablami, wlacznikami, bezpiecznikami i czesciami specjalnymi z bezposrednim powiazaniem z dostawcami w celu szybkiego ponownego zamówienia.',
       },
       {
-        title: 'Regieberichte digital',
+        title: 'Cyfrowe raporty dzienne',
         description:
-          'Erstellen Sie Regierapporte direkt vor Ort mit Zeiterfassung, Material und Fotos. Der Kunde kann digital unterschreiben.',
+          'Twórz raporty dzienne bezposrednio na miejscu z rejestracją czasu, materialami i zdjeciami. Klient moze podpisac cyfrowo.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Schematics on your smartphone',
+        title: 'Schematy na smartfonie',
         description:
-          'Access electrical schematics and technical documents directly on the construction site. All plans always with you, without heavy folders.',
+          'Uzyskaj dostep do schematów elektrycznych i dokumentów technicznych bezposrednio na placu budowy. Wszystkie plany zawsze przy sobie, bez ciezkich segregatorów.',
       },
       {
-        title: 'Inventory management with supplier linking',
+        title: 'Zarzadzanie magazynem z powiazaniem z dostawcami',
         description:
-          'Manage cables, switches, fuses, and special parts with direct linking to your suppliers for fast reordering.',
+          'Zarzadzaj kablami, wlacznikami, bezpiecznikami i czesciami specjalnymi z bezposrednim powiazaniem z dostawcami w celu szybkiego ponownego zamówienia.',
       },
       {
-        title: 'Digital time and material reports',
+        title: 'Cyfrowe raporty dzienne',
         description:
-          'Create time and material reports directly on site with time tracking, materials, and photos. The customer can sign digitally.',
+          'Twórz raporty dzienne bezposrednio na miejscu z rejestracją czasu, materialami i zdjeciami. Klient moze podpisac cyfrowo.',
       },
     ],
   },
   {
     id: 'sanitär',
     icon: 'Droplets',
-    titleDe: 'Sanitär',
-    titleEn: 'Plumbers',
+    titleDe: 'Hydraulicy',
+    titleEn: 'Hydraulicy',
     descriptionDe:
-      'Mobile Zeiterfassung beim Kunden und digitale Regierapporte für Sanitärinstallationen und Reparaturen.',
+      'Mobilna rejestracja czasu pracy u klienta i cyfrowe raporty dzienne dla instalacji i napraw hydraulicznych.',
     descriptionEn:
-      'Mobile time tracking at the customer site and digital time-and-material reports for plumbing installations and repairs.',
+      'Mobilna rejestracja czasu pracy u klienta i cyfrowe raporty dzienne dla instalacji i napraw hydraulicznych.',
     slug: 'sanitär',
     useCasesDe: [
       {
-        title: 'Mobile Zeiterfassung beim Kunden',
+        title: 'Mobilna rejestracja czasu pracy u klienta',
         description:
-          'Starten Sie die Zeiterfassung beim Eintreffen und stoppen Sie beim Verlassen. Inklusive Fahrzeit, Arbeitszeit und Pausen - alles sauber getrennt.',
+          'Rozpocznij rejestracje czasu po przybyciu i zatrzymaj po wyjsciu. W tym czas dojazdu, czas pracy i przerwy - wszystko przejrzyscie rozdzielone.',
       },
       {
-        title: 'Digitale Regierapporte',
+        title: 'Cyfrowe raporty dzienne',
         description:
-          'Erstellen Sie Regierapporte mit Material, Arbeitszeit und Fotos direkt auf der Baustelle. Lassen Sie den Kunden sofort digital unterschreiben.',
+          'Twórz raporty dzienne z materialami, czasem pracy i zdjeciami bezposrednio na placu budowy. Klient moze od razu podpisac cyfrowo.',
       },
       {
-        title: 'Ersatzteil-Verwaltung',
+        title: 'Zarzadzanie czesciami zamiennymi',
         description:
-          'Verwalten Sie Ihren Servicebus-Bestand und bestellen Sie fehlende Teile nach. Automatische Verbrauchserfassung pro Einsatz.',
+          'Zarzadzaj zapasami w samochodzie serwisowym i zamawiaj brakujace czesci. Automatyczna rejestracja zuzycia na zlecenie.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Mobile time tracking at the customer site',
+        title: 'Mobilna rejestracja czasu pracy u klienta',
         description:
-          'Start time tracking on arrival and stop on departure. Including travel time, work time, and breaks - all neatly separated.',
+          'Rozpocznij rejestracje czasu po przybyciu i zatrzymaj po wyjsciu. W tym czas dojazdu, czas pracy i przerwy - wszystko przejrzyscie rozdzielone.',
       },
       {
-        title: 'Digital time-and-material reports',
+        title: 'Cyfrowe raporty dzienne',
         description:
-          'Create time-and-material reports with materials, work time, and photos directly on the construction site. Have the customer sign digitally right away.',
+          'Twórz raporty dzienne z materialami, czasem pracy i zdjeciami bezposrednio na placu budowy. Klient moze od razu podpisac cyfrowo.',
       },
       {
-        title: 'Spare parts management',
+        title: 'Zarzadzanie czesciami zamiennymi',
         description:
-          'Manage your service van inventory and reorder missing parts. Automatic consumption tracking per job.',
+          'Zarzadzaj zapasami w samochodzie serwisowym i zamawiaj brakujace czesci. Automatyczna rejestracja zuzycia na zlecenie.',
       },
     ],
   },
   {
     id: 'schreiner',
     icon: 'Ruler',
-    titleDe: 'Schreiner',
-    titleEn: 'Carpenters',
+    titleDe: 'Stolarze',
+    titleEn: 'Stolarze',
     descriptionDe:
-      'Individuelle Auftragsdokumentation und Werkstattkapazitaet im Dashboard für Schreinereien und Moebelbauer.',
+      'Indywidualna dokumentacja zlecen i wydajnosc warsztatu w dashboardzie dla stolarni i producentów mebli.',
     descriptionEn:
-      'Custom order documentation and workshop capacity in the dashboard for carpentry shops and furniture makers.',
+      'Indywidualna dokumentacja zlecen i wydajnosc warsztatu w dashboardzie dla stolarni i producentów mebli.',
     slug: 'schreiner',
     useCasesDe: [
       {
-        title: 'Individuelle Auftragsdokumentation',
+        title: 'Indywidualna dokumentacja zlecen',
         description:
-          'Dokumentieren Sie Sonderanfertigungen mit Massen, Materialwahl und Kundenabsprachen. Jedes Detail ist festgehalten und jederzeit abrufbar.',
+          'Dokumentuj zamówienia specjalne z wymiarami, doborem materialów i ustaleniami z klientem. Kazdy szczegól jest zapisany i dostepny w kazdej chwili.',
       },
       {
-        title: 'Werkstattkapazitaet im Dashboard',
+        title: 'Wydajnosc warsztatu w dashboardzie',
         description:
-          'Sehen Sie auf einen Blick, welche Aufträge in der Werkstatt sind, wer daran arbeitet und wann die Auslieferung geplant ist.',
+          'Zobacz na pierwszy rzut oka, jakie zlecenia sa w warsztacie, kto nad nimi pracuje i kiedy planowana jest dostawa.',
       },
       {
-        title: 'Offerten für Massanfertigungen',
+        title: 'Oferty na zamówienia indywidualne',
         description:
-          'Erstellen Sie detaillierte Offerten für individuelle Moebel und Einbauten. Mit Positionierung für Material, Arbeitszeit und Montage.',
+          'Twórz szczególowe oferty na indywidualne meble i zabudowy. Z pozycjami na material, czas pracy i montaz.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Custom order documentation',
+        title: 'Indywidualna dokumentacja zlecen',
         description:
-          'Document custom-made items with measurements, material choices, and client agreements. Every detail is recorded and accessible at any time.',
+          'Dokumentuj zamówienia specjalne z wymiarami, doborem materialów i ustaleniami z klientem. Kazdy szczegól jest zapisany i dostepny w kazdej chwili.',
       },
       {
-        title: 'Workshop capacity in the dashboard',
+        title: 'Wydajnosc warsztatu w dashboardzie',
         description:
-          'See at a glance which orders are in the workshop, who is working on them, and when delivery is planned.',
+          'Zobacz na pierwszy rzut oka, jakie zlecenia sa w warsztacie, kto nad nimi pracuje i kiedy planowana jest dostawa.',
       },
       {
-        title: 'Quotes for custom work',
+        title: 'Oferty na zamówienia indywidualne',
         description:
-          'Create detailed quotes for individual furniture and built-ins. With line items for material, labor, and installation.',
+          'Twórz szczególowe oferty na indywidualne meble i zabudowy. Z pozycjami na material, czas pracy i montaz.',
       },
     ],
   },
   {
     id: 'dachdecker',
     icon: 'Home',
-    titleDe: 'Dachdecker',
-    titleEn: 'Roofers',
+    titleDe: 'Dekarze',
+    titleEn: 'Dekarze',
     descriptionDe:
-      'Mitarbeiterplanung mit Kalender und digitales Projektarchiv für über 25 Jahre. Perfekt für Dachsanierungen und Neubauten.',
+      'Planowanie pracowników z kalendarzem i cyfrowe archiwum projektów na ponad 25 lat. Idealne do renowacji dachów i nowych budów.',
     descriptionEn:
-      'Employee planning with calendar and digital project archive for over 25 years. Perfect for roof renovations and new builds.',
+      'Planowanie pracowników z kalendarzem i cyfrowe archiwum projektów na ponad 25 lat. Idealne do renowacji dachów i nowych budów.',
     slug: 'dachdecker',
     useCasesDe: [
       {
-        title: 'Mitarbeiterplanung mit Kalender',
+        title: 'Planowanie pracowników z kalendarzem',
         description:
-          'Planen Sie Ihre Teams auf verschiedene Baustellen. Der Kalender zeigt Verfügbarkeit, geplante Einsaetze und Ferien auf einen Blick.',
+          'Planuj swoje zespoly na rózne place budowy. Kalendarz pokazuje dostepnosc, zaplanowane zlecenia i urlopy na pierwszy rzut oka.',
       },
       {
-        title: 'Digitales Projektarchiv für 25+ Jahre',
+        title: 'Cyfrowe archiwum projektów na 25+ lat',
         description:
-          'Speichern Sie alle Projektdaten, Fotos und Dokumente verschluesselt für mindestens 25 Jahre. Perfekt für Garantiefaelle und Nacharbeiten.',
+          'Przechowuj wszystkie dane projektów, zdjecia i dokumenty w postaci zaszyfrowanej przez co najmniej 25 lat. Idealne dla przypadków gwarancyjnych i prac dodatkowych.',
       },
       {
-        title: 'Wetter- und Sicherheitsdokumentation',
+        title: 'Dokumentacja pogody i bezpieczenstwa',
         description:
-          'Dokumentieren Sie Wetterbedingungen und Sicherheitsmassnahmen pro Arbeitstag. Wichtig für die Qualitätssicherung und Haftungsfragen.',
+          'Dokumentuj warunki pogodowe i srodki bezpieczenstwa na kazdy dzien pracy. Wazne dla zapewnienia jakosci i kwestii odpowiedzialnosci.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Employee planning with calendar',
+        title: 'Planowanie pracowników z kalendarzem',
         description:
-          'Plan your teams across different construction sites. The calendar shows availability, planned assignments, and vacations at a glance.',
+          'Planuj swoje zespoly na rózne place budowy. Kalendarz pokazuje dostepnosc, zaplanowane zlecenia i urlopy na pierwszy rzut oka.',
       },
       {
-        title: 'Digital project archive for 25+ years',
+        title: 'Cyfrowe archiwum projektów na 25+ lat',
         description:
-          'Store all project data, photos, and documents encrypted for at least 25 years. Perfect for warranty cases and follow-up work.',
+          'Przechowuj wszystkie dane projektów, zdjecia i dokumenty w postaci zaszyfrowanej przez co najmniej 25 lat. Idealne dla przypadków gwarancyjnych i prac dodatkowych.',
       },
       {
-        title: 'Weather and safety documentation',
+        title: 'Dokumentacja pogody i bezpieczenstwa',
         description:
-          'Document weather conditions and safety measures per work day. Important for quality assurance and liability issues.',
+          'Dokumentuj warunki pogodowe i srodki bezpieczenstwa na kazdy dzien pracy. Wazne dla zapewnienia jakosci i kwestii odpowiedzialnosci.',
       },
     ],
   },
   {
     id: 'bodenleger',
     icon: 'Grid3x3',
-    titleDe: 'Bodenleger',
-    titleEn: 'Floor Layers',
+    titleDe: 'Posadzkarze',
+    titleEn: 'Posadzkarze',
     descriptionDe:
-      'Quadratmeterberechnungen und Restmaterial-Tracking für Parkett, Fliesen und Bodenbelaege aller Art.',
+      'Obliczanie metrazy i sledzenie pozostalych materialów dla parkietu, plytek i wszelkiego rodzaju podlóg.',
     descriptionEn:
-      'Square meter calculations and leftover material tracking for parquet, tiles, and all types of flooring.',
+      'Obliczanie metrazy i sledzenie pozostalych materialów dla parkietu, plytek i wszelkiego rodzaju podlóg.',
     slug: 'bodenleger',
     useCasesDe: [
       {
-        title: 'Quadratmeterberechnungen',
+        title: 'Obliczanie metrazy',
         description:
-          'Berechnen Sie Materialmengen anhand von Raumflaechen automatisch. Inklusive Verschnitt-Zuschlag und Sonderformate für praezise Bestellungen.',
+          'Automatycznie obliczaj ilosci materialów na podstawie powierzchni pomieszczen. W tym naddatek na ciecie i formaty specjalne dla precyzyjnych zamówien.',
       },
       {
-        title: 'Restmaterial-Tracking',
+        title: 'Sledzenie pozostalych materialów',
         description:
-          'Verfolgen Sie uebrig gebliebenes Material nach Projekt. Restposten können für kleinere Aufträge oder Reparaturen wiederverwendet werden.',
+          'Slédz material pozostaly po projekcie. Resztki moga byc ponownie wykorzystane do mniejszych zlecen lub napraw.',
       },
       {
-        title: 'Verlegemuster-Dokumentation',
+        title: 'Dokumentacja wzorów ukladania',
         description:
-          'Dokumentieren Sie das gewaehlte Verlegemuster mit Fotos und Notizen. So ist bei Nachbestellungen oder Reparaturen alles klar.',
+          'Dokumentuj wybrany wzór ukladania zdjeciami i notatkami. Dzieki temu przy ponownych zamówieniach lub naprawach wszystko jest jasne.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Square meter calculations',
+        title: 'Obliczanie metrazy',
         description:
-          'Automatically calculate material quantities based on room areas. Including cutting waste surcharge and special formats for precise orders.',
+          'Automatycznie obliczaj ilosci materialów na podstawie powierzchni pomieszczen. W tym naddatek na ciecie i formaty specjalne dla precyzyjnych zamówien.',
       },
       {
-        title: 'Leftover material tracking',
+        title: 'Sledzenie pozostalych materialów',
         description:
-          'Track leftover material by project. Remaining stock can be reused for smaller jobs or repairs.',
+          'Slédz material pozostaly po projekcie. Resztki moga byc ponownie wykorzystane do mniejszych zlecen lub napraw.',
       },
       {
-        title: 'Laying pattern documentation',
+        title: 'Dokumentacja wzorów ukladania',
         description:
-          'Document the chosen laying pattern with photos and notes. This way everything is clear for reorders or repairs.',
+          'Dokumentuj wybrany wzór ukladania zdjeciami i notatkami. Dzieki temu przy ponownych zamówieniach lub naprawach wszystko jest jasne.',
       },
     ],
   },
   {
     id: 'gerüstbauer',
     icon: 'Building2',
-    titleDe: 'Gerüstbauer',
-    titleEn: 'Scaffolders',
+    titleDe: 'Firmy rusztowaniowe',
+    titleEn: 'Firmy rusztowaniowe',
     descriptionDe:
-      'Gerüstteile-Tracking und automatische Mietabrechnung. Behalten Sie den Überblick über alle Teile und Standorte.',
+      'Sledzenie czesci rusztowan i automatyczne rozliczanie wynajmu. Kontroluj wszystkie czesci i lokalizacje.',
     descriptionEn:
-      'Scaffolding parts tracking and automatic rental billing. Keep track of all parts and locations.',
+      'Sledzenie czesci rusztowan i automatyczne rozliczanie wynajmu. Kontroluj wszystkie czesci i lokalizacje.',
     slug: 'gerüstbauer',
     useCasesDe: [
       {
-        title: 'Gerüstteile-Tracking',
+        title: 'Sledzenie czesci rusztowan',
         description:
-          'Verfolgen Sie jedes Gerüstteil von der Auslieferung bis zur Ruecknahme. Wissen Sie immer, welche Teile wo stehen und wie lange.',
+          'Slédz kazda czesc rusztowania od dostawy do zwrotu. Zawsze wiesz, które czesci sa gdzie i od jak dawna.',
       },
       {
-        title: 'Automatische Mietabrechnung',
+        title: 'Automatyczne rozliczanie wynajmu',
         description:
-          'Berechnen Sie Mietkosten automatisch basierend auf Standzeit und Gerüst-Typ. Rechnungen werden automatisch generiert und an den Kunden versendet.',
+          'Automatycznie obliczaj koszty wynajmu na podstawie czasu ustawienia i typu rusztowania. Faktury sa automatycznie generowane i wysylane do klienta.',
       },
       {
-        title: 'Sicherheitsinspektionen dokumentieren',
+        title: 'Dokumentowanie inspekcji bezpieczenstwa',
         description:
-          'Dokumentieren Sie regelmaessige Sicherheitsinspektionen mit Fotos und Checklisten. Erfuellen Sie alle gesetzlichen Anforderungen lueckenlos.',
+          'Dokumentuj regularne inspekcje bezpieczenstwa zdjeciami i listami kontrolnymi. Spelniaj wszystkie wymagania prawne bez luk.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Scaffolding parts tracking',
+        title: 'Sledzenie czesci rusztowan',
         description:
-          'Track every scaffolding part from delivery to return. Always know which parts are where and for how long.',
+          'Slédz kazda czesc rusztowania od dostawy do zwrotu. Zawsze wiesz, które czesci sa gdzie i od jak dawna.',
       },
       {
-        title: 'Automatic rental billing',
+        title: 'Automatyczne rozliczanie wynajmu',
         description:
-          'Calculate rental costs automatically based on standing time and scaffolding type. Invoices are automatically generated and sent to the customer.',
+          'Automatycznie obliczaj koszty wynajmu na podstawie czasu ustawienia i typu rusztowania. Faktury sa automatycznie generowane i wysylane do klienta.',
       },
       {
-        title: 'Document safety inspections',
+        title: 'Dokumentowanie inspekcji bezpieczenstwa',
         description:
-          'Document regular safety inspections with photos and checklists. Meet all legal requirements without gaps.',
+          'Dokumentuj regularne inspekcje bezpieczenstwa zdjeciami i listami kontrolnymi. Spelniaj wszystkie wymagania prawne bez luk.',
       },
     ],
   },
   {
     id: 'maurer',
     icon: 'Blocks',
-    titleDe: 'Maurer',
-    titleEn: 'Masons',
+    titleDe: 'Murarze',
+    titleEn: 'Murarze',
     descriptionDe:
-      'Automatisches Bautagebuch und Multi-Projekt-Übersicht mit Statusfiltern für Maurerarbeiten und Bauprojekte.',
+      'Automatyczny dziennik budowy i przeglad wielu projektów z filtrami statusu dla prac murarskich i projektów budowlanych.',
     descriptionEn:
-      'Automatic construction diary and multi-project overview with status filters for masonry and construction projects.',
+      'Automatyczny dziennik budowy i przeglad wielu projektów z filtrami statusu dla prac murarskich i projektów budowlanych.',
     slug: 'maurer',
     useCasesDe: [
       {
-        title: 'Automatisches Bautagebuch',
+        title: 'Automatyczny dziennik budowy',
         description:
-          'Fuehren Sie das Bautagebuch automatisch mit Wetter, Anwesenheit, Arbeitsfortschritt und Fotos. Alle Eintraege sind rechtssicher dokumentiert.',
+          'Prowadz dziennik budowy automatycznie z pogoda, obecnoscia, postepem prac i zdjeciami. Wszystkie wpisy sa udokumentowane w sposób prawnie wiazacy.',
       },
       {
-        title: 'Multi-Projekt-Übersicht mit Statusfiltern',
+        title: 'Przeglad wielu projektów z filtrami statusu',
         description:
-          'Verwalten Sie mehrere Baustellen gleichzeitig. Filtern Sie nach Status, Prioritaet oder Faelligkeit für den perfekten Überblick.',
+          'Zarzadzaj wieloma placami budowy jednoczesnie. Filtruj wedlug statusu, priorytetu lub terminu dla doskonalego przegladu.',
       },
       {
-        title: 'Material- und Betonbestellung',
+        title: 'Zamawianie materialów i betonu',
         description:
-          'Berechnen und bestellen Sie Material basierend auf dem Baufortschritt. Automatische Mengenermittlung spart Zeit und reduziert Verschwendung.',
+          'Obliczaj i zamawiaj materialy na podstawie postepu budowy. Automatyczne obliczanie ilosci oszczedza czas i redukuje marnotrawstwo.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Automatic construction diary',
+        title: 'Automatyczny dziennik budowy',
         description:
-          'Keep the construction diary automatically with weather, attendance, work progress, and photos. All entries are legally documented.',
+          'Prowadz dziennik budowy automatycznie z pogoda, obecnoscia, postepem prac i zdjeciami. Wszystkie wpisy sa udokumentowane w sposób prawnie wiazacy.',
       },
       {
-        title: 'Multi-project overview with status filters',
+        title: 'Przeglad wielu projektów z filtrami statusu',
         description:
-          'Manage multiple construction sites simultaneously. Filter by status, priority, or due date for the perfect overview.',
+          'Zarzadzaj wieloma placami budowy jednoczesnie. Filtruj wedlug statusu, priorytetu lub terminu dla doskonalego przegladu.',
       },
       {
-        title: 'Material and concrete ordering',
+        title: 'Zamawianie materialów i betonu',
         description:
-          'Calculate and order material based on construction progress. Automatic quantity calculation saves time and reduces waste.',
+          'Obliczaj i zamawiaj materialy na podstawie postepu budowy. Automatyczne obliczanie ilosci oszczedza czas i redukuje marnotrawstwo.',
       },
     ],
   },
@@ -425,359 +425,359 @@ export const branches: Branch[] = [
     id: 'facility-service',
     icon: 'Building',
     titleDe: 'Facility Service',
-    titleEn: 'Facility Services',
+    titleEn: 'Facility Service',
     descriptionDe:
-      'Automatisierte Wartungsintervalle und Partnerkoordination für professionelles Gebaeudemanagement.',
+      'Zautomatyzowane interwaly konserwacji i koordynacja partnerów dla profesjonalnego zarzadzania budynkami.',
     descriptionEn:
-      'Automated maintenance intervals and partner coordination for professional facility management.',
+      'Zautomatyzowane interwaly konserwacji i koordynacja partnerów dla profesjonalnego zarzadzania budynkami.',
     slug: 'facility-service',
     useCasesDe: [
       {
-        title: 'Automatisierte Wartungsintervalle',
+        title: 'Zautomatyzowane interwaly konserwacji',
         description:
-          'Definieren Sie Wartungsintervalle für Heizung, Lueftung, Aufzuege und mehr. Finito Pro erinnert automatisch und erstellt die Aufträge.',
+          'Zdefiniuj interwaly konserwacji dla ogrzewania, wentylacji, wind i innych. Finito Pro automatycznie przypomina i tworzy zlecenia.',
       },
       {
-        title: 'Partnerkoordination',
+        title: 'Koordynacja partnerów',
         description:
-          'Koordinieren Sie externe Partner und Subunternehmer über die Plattform. Jeder sieht seine Aufgaben und Termine in Echtzeit.',
+          'Koordynuj zewnetrznych partnerów i podwykonawców przez platforme. Kazdy widzi swoje zadania i terminy w czasie rzeczywistym.',
       },
       {
-        title: 'Gebaeudeverwaltung mit Objektdossier',
+        title: 'Zarzadzanie budynkami z dossier obiektu',
         description:
-          'Fuehren Sie ein digitales Dossier pro Gebaeudeteil mit Wartungshistorie, Geraetedaten und zustaendigen Personen.',
+          'Prowadz cyfrowe dossier dla kazdej czesci budynku z historia konserwacji, danymi urzadzen i osobami odpowiedzialnymi.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Automated maintenance intervals',
+        title: 'Zautomatyzowane interwaly konserwacji',
         description:
-          'Define maintenance intervals for heating, ventilation, elevators, and more. Finito Pro reminds automatically and creates the orders.',
+          'Zdefiniuj interwaly konserwacji dla ogrzewania, wentylacji, wind i innych. Finito Pro automatycznie przypomina i tworzy zlecenia.',
       },
       {
-        title: 'Partner coordination',
+        title: 'Koordynacja partnerów',
         description:
-          'Coordinate external partners and subcontractors through the platform. Everyone sees their tasks and appointments in real time.',
+          'Koordynuj zewnetrznych partnerów i podwykonawców przez platforme. Kazdy widzi swoje zadania i terminy w czasie rzeczywistym.',
       },
       {
-        title: 'Building management with property dossier',
+        title: 'Zarzadzanie budynkami z dossier obiektu',
         description:
-          'Maintain a digital dossier per building part with maintenance history, equipment data, and responsible persons.',
+          'Prowadz cyfrowe dossier dla kazdej czesci budynku z historia konserwacji, danymi urzadzen i osobami odpowiedzialnymi.',
       },
     ],
   },
   {
     id: 'reinigung',
     icon: 'Sparkles',
-    titleDe: 'Reinigung',
-    titleEn: 'Cleaning Services',
+    titleDe: 'Firmy sprzatajace',
+    titleEn: 'Firmy sprzatajace',
     descriptionDe:
-      'Routenplanung und Qualitätsdokumentation mit Fotos für professionelle Reinigungsunternehmen.',
+      'Planowanie tras i dokumentacja jakosci ze zdjeciami dla profesjonalnych firm sprzatajacych.',
     descriptionEn:
-      'Route planning and quality documentation with photos for professional cleaning companies.',
+      'Planowanie tras i dokumentacja jakosci ze zdjeciami dla profesjonalnych firm sprzatajacych.',
     slug: 'reinigung',
     useCasesDe: [
       {
-        title: 'Routenplanung für Teams',
+        title: 'Planowanie tras dla zespolów',
         description:
-          'Planen Sie optimale Routen für Ihre Reinigungsteams. Sehen Sie welches Team wo eingesetzt wird und minimieren Sie Fahrzeiten.',
+          'Planuj optymalne trasy dla swoich zespolów sprzatajacych. Zobacz, który zespól jest gdzie przydzielony i minimalizuj czas dojazdu.',
       },
       {
-        title: 'Qualitätsdokumentation mit Fotos',
+        title: 'Dokumentacja jakosci ze zdjeciami',
         description:
-          'Dokumentieren Sie die Reinigungsqualitaet mit Fotos vor und nach dem Einsatz. Perfekt als Nachweis für Ihre Auftraggeber.',
+          'Dokumentuj jakosc sprzatania zdjeciami przed i po wykonaniu zlecenia. Doskonale jako dowód dla zleceniodawców.',
       },
       {
-        title: 'Checklisten pro Objekt',
+        title: 'Listy kontrolne na obiekt',
         description:
-          'Erstellen Sie individuelle Reinigungschecklisten pro Gebaeudeteil. Mitarbeiter haken die erledigten Aufgaben auf dem Smartphone ab.',
+          'Twórz indywidualne listy kontrolne sprzatania dla kazdej czesci budynku. Pracownicy odznaczaja wykonane zadania na smartfonie.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Route planning for teams',
+        title: 'Planowanie tras dla zespolów',
         description:
-          'Plan optimal routes for your cleaning teams. See which team is deployed where and minimize travel time.',
+          'Planuj optymalne trasy dla swoich zespolów sprzatajacych. Zobacz, który zespól jest gdzie przydzielony i minimalizuj czas dojazdu.',
       },
       {
-        title: 'Quality documentation with photos',
+        title: 'Dokumentacja jakosci ze zdjeciami',
         description:
-          'Document cleaning quality with photos before and after the job. Perfect as proof for your clients.',
+          'Dokumentuj jakosc sprzatania zdjeciami przed i po wykonaniu zlecenia. Doskonale jako dowód dla zleceniodawców.',
       },
       {
-        title: 'Checklists per property',
+        title: 'Listy kontrolne na obiekt',
         description:
-          'Create individual cleaning checklists per building section. Employees check off completed tasks on their smartphone.',
+          'Twórz indywidualne listy kontrolne sprzatania dla kazdej czesci budynku. Pracownicy odznaczaja wykonane zadania na smartfonie.',
       },
     ],
   },
   {
     id: 'gartenbau',
     icon: 'TreePine',
-    titleDe: 'Gartenbau',
-    titleEn: 'Landscaping',
+    titleDe: 'Ogrodnictwo',
+    titleEn: 'Ogrodnictwo',
     descriptionDe:
-      'Saisonale Projektplanung und Pflanzendokumentation für Gartenbau und Landschaftspflege.',
+      'Sezonowe planowanie projektów i dokumentacja roslin dla ogrodnictwa i pielegnacji krajobrazu.',
     descriptionEn:
-      'Seasonal project planning and plant documentation for landscaping and garden maintenance.',
+      'Sezonowe planowanie projektów i dokumentacja roslin dla ogrodnictwa i pielegnacji krajobrazu.',
     slug: 'gartenbau',
     useCasesDe: [
       {
-        title: 'Saisonale Projektplanung',
+        title: 'Sezonowe planowanie projektów',
         description:
-          'Planen Sie Ihre Projekte entlang der Jahreszeiten. Automatische Erinnerungen für saisonale Arbeiten wie Rueckschnitt, Duengung oder Winterdienst.',
+          'Planuj swoje projekty wzdluz pór roku. Automatyczne przypomnienia o pracach sezonowych, takich jak przycinanie, nawozenie czy zimowa obsluga.',
       },
       {
-        title: 'Pflanzendokumentation',
+        title: 'Dokumentacja roslin',
         description:
-          'Dokumentieren Sie gepflanzte Arten, Standorte und Pflegehinweise pro Garten. Perfekt für wiederkehrende Pflegeaufträge.',
+          'Dokumentuj posadzone gatunki, lokalizacje i wskazówki pielegnacyjne dla kazdego ogrodu. Idealne do powtarzajacych sie zlecen pielegnacyjnych.',
       },
       {
-        title: 'Pflegeplaene für Kunden',
+        title: 'Plany pielegnacji dla klientów',
         description:
-          'Erstellen Sie individuelle Pflegeplaene und teilen Sie diese mit Ihren Kunden. Mit Fotos des Gartenfortschritts über die Saisons.',
+          'Twórz indywidualne plany pielegnacji i udostepniaj je swoim klientom. Ze zdjeciami postepu ogrodu przez sezony.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Seasonal project planning',
+        title: 'Sezonowe planowanie projektów',
         description:
-          'Plan your projects along the seasons. Automatic reminders for seasonal work like pruning, fertilizing, or winter service.',
+          'Planuj swoje projekty wzdluz pór roku. Automatyczne przypomnienia o pracach sezonowych, takich jak przycinanie, nawozenie czy zimowa obsluga.',
       },
       {
-        title: 'Plant documentation',
+        title: 'Dokumentacja roslin',
         description:
-          'Document planted species, locations, and care instructions per garden. Perfect for recurring maintenance contracts.',
+          'Dokumentuj posadzone gatunki, lokalizacje i wskazówki pielegnacyjne dla kazdego ogrodu. Idealne do powtarzajacych sie zlecen pielegnacyjnych.',
       },
       {
-        title: 'Care plans for clients',
+        title: 'Plany pielegnacji dla klientów',
         description:
-          'Create individual care plans and share them with your clients. With photos of garden progress across seasons.',
+          'Twórz indywidualne plany pielegnacji i udostepniaj je swoim klientom. Ze zdjeciami postepu ogrodu przez sezony.',
       },
     ],
   },
   {
     id: 'umzug',
     icon: 'Truck',
-    titleDe: 'Umzug',
-    titleEn: 'Moving Services',
+    titleDe: 'Firmy przeprowadzkowe',
+    titleEn: 'Firmy przeprowadzkowe',
     descriptionDe:
-      'Taegliche Routenplanung und Inventarlisten mit Fotodokumentation für Umzugsunternehmen.',
+      'Codzienne planowanie tras i listy inwentarzowe z dokumentacja fotograficzna dla firm przeprowadzkowych.',
     descriptionEn:
-      'Daily route planning and inventory lists with photo documentation for moving companies.',
+      'Codzienne planowanie tras i listy inwentarzowe z dokumentacja fotograficzna dla firm przeprowadzkowych.',
     slug: 'umzug',
     useCasesDe: [
       {
-        title: 'Taegliche Routenplanung',
+        title: 'Codzienne planowanie tras',
         description:
-          'Planen Sie die taeglichen Routen Ihrer Umzugsteams. Optimieren Sie Fahrwege und koordinieren Sie Be- und Entladestellen effizient.',
+          'Planuj codzienne trasy swoich zespolów przeprowadzkowych. Optymalizuj drogi dojazdu i koordynuj miejsca zaladunku i rozladunku efektywnie.',
       },
       {
-        title: 'Inventarlisten mit Fotodokumentation',
+        title: 'Listy inwentarzowe z dokumentacja fotograficzna',
         description:
-          'Erstellen Sie detaillierte Inventarlisten mit Fotos jedes Gegenstand. Perfekt als Nachweis für Versicherungen und gegen Schadensforderungen.',
+          'Twórz szczególowe listy inwentarzowe ze zdjeciami kazdego przedmiotu. Doskonale jako dowód dla ubezpieczen i przeciwko roszczeniom odszkodowawczym.',
       },
       {
-        title: 'Schadensprotokoll',
+        title: 'Protokól szkód',
         description:
-          'Dokumentieren Sie den Zustand von Moebeln und Gegenstaenden vor und nach dem Umzug. Mit Zeitstempel und GPS-Daten für maximale Sicherheit.',
+          'Dokumentuj stan mebli i przedmiotów przed i po przeprowadzce. Ze znacznikiem czasu i danymi GPS dla maksymalnego bezpieczenstwa.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Daily route planning',
+        title: 'Codzienne planowanie tras',
         description:
-          'Plan the daily routes of your moving teams. Optimize travel routes and coordinate loading and unloading points efficiently.',
+          'Planuj codzienne trasy swoich zespolów przeprowadzkowych. Optymalizuj drogi dojazdu i koordynuj miejsca zaladunku i rozladunku efektywnie.',
       },
       {
-        title: 'Inventory lists with photo documentation',
+        title: 'Listy inwentarzowe z dokumentacja fotograficzna',
         description:
-          'Create detailed inventory lists with photos of each item. Perfect as proof for insurance and against damage claims.',
+          'Twórz szczególowe listy inwentarzowe ze zdjeciami kazdego przedmiotu. Doskonale jako dowód dla ubezpieczen i przeciwko roszczeniom odszkodowawczym.',
       },
       {
-        title: 'Damage protocol',
+        title: 'Protokól szkód',
         description:
-          'Document the condition of furniture and items before and after the move. With timestamps and GPS data for maximum security.',
+          'Dokumentuj stan mebli i przedmiotów przed i po przeprowadzce. Ze znacznikiem czasu i danymi GPS dla maksymalnego bezpieczenstwa.',
       },
     ],
   },
   {
     id: 'haustechnik',
     icon: 'Thermometer',
-    titleDe: 'Haustechnik',
-    titleEn: 'Building Services',
+    titleDe: 'Instalacje budowlane',
+    titleEn: 'Instalacje budowlane',
     descriptionDe:
-      'HVAC-Auftragsdokumentation und Wartungsplanung für Heizungs-, Lueftungs- und Klimatechnik.',
+      'Dokumentacja zlecen HVAC i planowanie konserwacji dla techniki grzewczej, wentylacyjnej i klimatyzacyjnej.',
     descriptionEn:
-      'HVAC job documentation and maintenance scheduling for heating, ventilation, and air conditioning.',
+      'Dokumentacja zlecen HVAC i planowanie konserwacji dla techniki grzewczej, wentylacyjnej i klimatyzacyjnej.',
     slug: 'haustechnik',
     useCasesDe: [
       {
-        title: 'HVAC-Auftragsdokumentation',
+        title: 'Dokumentacja zlecen HVAC',
         description:
-          'Dokumentieren Sie Heizungs-, Lueftungs- und Klimaanlagen-Arbeiten mit technischen Details, Fotos und Messwerten direkt vor Ort.',
+          'Dokumentuj prace przy instalacjach grzewczych, wentylacyjnych i klimatyzacyjnych ze szczególami technicznymi, zdjeciami i wartosciami pomiarowymi bezposrednio na miejscu.',
       },
       {
-        title: 'Wartungsplanung und -erinnerungen',
+        title: 'Planowanie i przypomnienia o konserwacji',
         description:
-          'Planen Sie regelmaessige Wartungen für alle Anlagen. Automatische Erinnerungen stellen sicher, dass kein Termin vergessen wird.',
+          'Planuj regularne konserwacje dla wszystkich instalacji. Automatyczne przypomnienia zapewniaja, ze zaden termin nie zostanie pominiety.',
       },
       {
-        title: 'Anlagenhistorie pro Gebaeudeteil',
+        title: 'Historia instalacji na czesc budynku',
         description:
-          'Fuehren Sie eine lueckenlose Historie pro Anlage mit allen Wartungen, Reparaturen und ausgetauschten Teilen.',
+          'Prowadz kompletna historie kazdej instalacji ze wszystkimi konserwacjami, naprawami i wymienionymi czesciami.',
       },
     ],
     useCasesEn: [
       {
-        title: 'HVAC job documentation',
+        title: 'Dokumentacja zlecen HVAC',
         description:
-          'Document heating, ventilation, and air conditioning work with technical details, photos, and measurements directly on site.',
+          'Dokumentuj prace przy instalacjach grzewczych, wentylacyjnych i klimatyzacyjnych ze szczególami technicznymi, zdjeciami i wartosciami pomiarowymi bezposrednio na miejscu.',
       },
       {
-        title: 'Maintenance scheduling and reminders',
+        title: 'Planowanie i przypomnienia o konserwacji',
         description:
-          'Schedule regular maintenance for all systems. Automatic reminders ensure no appointment is forgotten.',
+          'Planuj regularne konserwacje dla wszystkich instalacji. Automatyczne przypomnienia zapewniaja, ze zaden termin nie zostanie pominiety.',
       },
       {
-        title: 'System history per building section',
+        title: 'Historia instalacji na czesc budynku',
         description:
-          'Maintain a complete history per system with all maintenance, repairs, and replaced parts.',
+          'Prowadz kompletna historie kazdej instalacji ze wszystkimi konserwacjami, naprawami i wymienionymi czesciami.',
       },
     ],
   },
   {
     id: 'architekten',
     icon: 'PenTool',
-    titleDe: 'Architekten',
-    titleEn: 'Architects',
+    titleDe: 'Architekci',
+    titleEn: 'Architekci',
     descriptionDe:
-      'Zentrale Projektdokumente und Task-Board für Projektphasen. Behalten Sie den Überblick über alle Bauprojekte.',
+      'Centralne dokumenty projektowe i tablica zadan dla faz projektu. Kontroluj wszystkie projekty budowlane.',
     descriptionEn:
-      'Central project documents and task board for project phases. Keep track of all construction projects.',
+      'Centralne dokumenty projektowe i tablica zadan dla faz projektu. Kontroluj wszystkie projekty budowlane.',
     slug: 'architekten',
     useCasesDe: [
       {
-        title: 'Zentrale Projektdokumente',
+        title: 'Centralne dokumenty projektowe',
         description:
-          'Verwalten Sie alle Plaene, Berechnungen und Korrespondenz an einem Ort. Jedes Teammitglied hat Zugriff auf die aktuellste Version.',
+          'Zarzadzaj wszystkimi planami, obliczeniami i korespondencja w jednym miejscu. Kazdy czlonek zespolu ma dostep do najnowszej wersji.',
       },
       {
-        title: 'Task-Board für Projektphasen',
+        title: 'Tablica zadan dla faz projektu',
         description:
-          'Organisieren Sie Projekte in Phasen von der Planung bis zur Abnahme. Weisen Sie Aufgaben zu und verfolgen Sie den Fortschritt in Echtzeit.',
+          'Organizuj projekty w fazy od planowania po odbiór. Przydzielaj zadania i slédz postep w czasie rzeczywistym.',
       },
       {
-        title: 'Bauherren-Kommunikation',
+        title: 'Komunikacja z inwestorem',
         description:
-          'Teilen Sie Projektfortschritte, Planungsstaende und Entscheidungen transparent mit Ihren Bauherren über das Kundenportal.',
+          'Udostepniaj postepy projektu, stany planowania i decyzje przejrzyscie swoim inwestorom przez portal klienta.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Central project documents',
+        title: 'Centralne dokumenty projektowe',
         description:
-          'Manage all plans, calculations, and correspondence in one place. Every team member has access to the latest version.',
+          'Zarzadzaj wszystkimi planami, obliczeniami i korespondencja w jednym miejscu. Kazdy czlonek zespolu ma dostep do najnowszej wersji.',
       },
       {
-        title: 'Task board for project phases',
+        title: 'Tablica zadan dla faz projektu',
         description:
-          'Organize projects in phases from planning to handover. Assign tasks and track progress in real time.',
+          'Organizuj projekty w fazy od planowania po odbiór. Przydzielaj zadania i slédz postep w czasie rzeczywistym.',
       },
       {
-        title: 'Client communication',
+        title: 'Komunikacja z inwestorem',
         description:
-          'Share project progress, planning status, and decisions transparently with your clients through the customer portal.',
+          'Udostepniaj postepy projektu, stany planowania i decyzje przejrzyscie swoim inwestorom przez portal klienta.',
       },
     ],
   },
   {
     id: 'agenturen',
     icon: 'Palette',
-    titleDe: 'Agenturen',
-    titleEn: 'Agencies',
+    titleDe: 'Agencje',
+    titleEn: 'Agencje',
     descriptionDe:
-      'Projektbasierte Zeiterfassung für die Abrechnung und individuelle Benutzerrechte für Ihr Team.',
+      'Projektowa rejestracja czasu pracy do rozliczen i indywidualne uprawnienia uzytkowników dla Twojego zespolu.',
     descriptionEn:
-      'Project-based time tracking for billing and individual user permissions for your team.',
+      'Projektowa rejestracja czasu pracy do rozliczen i indywidualne uprawnienia uzytkowników dla Twojego zespolu.',
     slug: 'agenturen',
     useCasesDe: [
       {
-        title: 'Projektbasierte Zeiterfassung für Abrechnung',
+        title: 'Projektowa rejestracja czasu do rozliczen',
         description:
-          'Erfassen Sie Zeiten pro Projekt und Kunde für transparente Abrechnungen. Stundenberichte können direkt als Rechnungsgrundlage verwendet werden.',
+          'Rejestruj czas na projekt i klienta dla przejrzystych rozliczen. Raporty godzinowe moga byc bezposrednio wykorzystane jako podstawa faktur.',
       },
       {
-        title: 'Individuelle Benutzerrechte',
+        title: 'Indywidualne uprawnienia uzytkowników',
         description:
-          'Definieren Sie genau, wer was sehen und bearbeiten darf. Von Projektmanagern über Designer bis zu Freelancern - jeder hat die passenden Rechte.',
+          'Okresl dokladnie, kto co moze widziec i edytowac. Od kierowników projektów przez designerów po freelancerów - kazdy ma odpowiednie uprawnienia.',
       },
       {
-        title: 'Kunden- und Projekt-Budgets',
+        title: 'Budzety klientów i projektów',
         description:
-          'Verwalten Sie Budgets pro Kunde und Projekt. Automatische Warnungen bei Budgetüberschreitung schuetzen vor finanziellen Überraschungen.',
+          'Zarzadzaj budzetami na klienta i projekt. Automatyczne ostrzezenia o przekroczeniu budzetu chronia przed finansowymi niespodziankami.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Project-based time tracking for billing',
+        title: 'Projektowa rejestracja czasu do rozliczen',
         description:
-          'Track time per project and client for transparent billing. Hour reports can be used directly as the basis for invoices.',
+          'Rejestruj czas na projekt i klienta dla przejrzystych rozliczen. Raporty godzinowe moga byc bezposrednio wykorzystane jako podstawa faktur.',
       },
       {
-        title: 'Individual user permissions',
+        title: 'Indywidualne uprawnienia uzytkowników',
         description:
-          'Define exactly who can see and edit what. From project managers to designers to freelancers - everyone has the right permissions.',
+          'Okresl dokladnie, kto co moze widziec i edytowac. Od kierowników projektów przez designerów po freelancerów - kazdy ma odpowiednie uprawnienia.',
       },
       {
-        title: 'Client and project budgets',
+        title: 'Budzety klientów i projektów',
         description:
-          'Manage budgets per client and project. Automatic warnings when exceeding budgets protect against financial surprises.',
+          'Zarzadzaj budzetami na klienta i projekt. Automatyczne ostrzezenia o przekroczeniu budzetu chronia przed finansowymi niespodziankami.',
       },
     ],
   },
   {
     id: 'einmann-betriebe',
     icon: 'User',
-    titleDe: 'Einmann-Betriebe',
-    titleEn: 'One-Person Businesses',
+    titleDe: 'Jednoosobowe firmy',
+    titleEn: 'Jednoosobowe firmy',
     descriptionDe:
-      'Das komplette Büro auf dem Smartphone. Vorlagen sparen bis zu 80% Administrationszeit für Einzelunternehmer.',
+      'Kompletne biuro na smartfonie. Szablony oszczedzaja do 80% czasu administracyjnego dla jednoosobowych przedsiebiorców.',
     descriptionEn:
-      'The complete office on your smartphone. Templates save up to 80% of admin time for sole proprietors.',
+      'Kompletne biuro na smartfonie. Szablony oszczedzaja do 80% czasu administracyjnego dla jednoosobowych przedsiebiorców.',
     slug: 'einmann-betriebe',
     useCasesDe: [
       {
-        title: 'Komplettes Büro auf dem Smartphone',
+        title: 'Kompletne biuro na smartfonie',
         description:
-          'Offerten, Rechnungen, Zeiterfassung und Kundenverwaltung - alles in einer App. Kein PC nötig, erledigen Sie alles unterwegs.',
+          'Oferty, faktury, rejestracja czasu i zarzadzanie klientami - wszystko w jednej aplikacji. Bez potrzeby komputera, zalatwisz wszystko w drodze.',
       },
       {
-        title: 'Vorlagen sparen 80% Administrationszeit',
+        title: 'Szablony oszczedzaja 80% czasu administracyjnego',
         description:
-          'Nutzen Sie vorgefertigte Vorlagen für Offerten, Rechnungen und Rapporte. Was frueher Stunden dauerte, erledigen Sie jetzt in Minuten.',
+          'Korzystaj z gotowych szablonów ofert, faktur i raportów. To, co wczesniej zajmowalo godziny, teraz zrobisz w kilka minut.',
       },
       {
-        title: 'Automatische Buchhaltungsvorbereitung',
+        title: 'Automatyczne przygotowanie ksiegowosci',
         description:
-          'Alle Einnahmen und Ausgaben werden automatisch erfasst. Am Jahresende exportieren Sie alles für Ihren Treuhander mit einem Klick.',
+          'Wszystkie przychody i wydatki sa automatycznie rejestrowane. Na koniec roku eksportujesz wszystko dla swojego ksiegowego jednym kliknieciem.',
       },
     ],
     useCasesEn: [
       {
-        title: 'Complete office on your smartphone',
+        title: 'Kompletne biuro na smartfonie',
         description:
-          'Quotes, invoices, time tracking, and customer management - all in one app. No PC needed, handle everything on the go.',
+          'Oferty, faktury, rejestracja czasu i zarzadzanie klientami - wszystko w jednej aplikacji. Bez potrzeby komputera, zalatwisz wszystko w drodze.',
       },
       {
-        title: 'Templates save 80% of admin time',
+        title: 'Szablony oszczedzaja 80% czasu administracyjnego',
         description:
-          'Use pre-made templates for quotes, invoices, and reports. What used to take hours, you now complete in minutes.',
+          'Korzystaj z gotowych szablonów ofert, faktur i raportów. To, co wczesniej zajmowalo godziny, teraz zrobisz w kilka minut.',
       },
       {
-        title: 'Automatic accounting preparation',
+        title: 'Automatyczne przygotowanie ksiegowosci',
         description:
-          'All income and expenses are recorded automatically. At year-end, export everything for your accountant with one click.',
+          'Wszystkie przychody i wydatki sa automatycznie rejestrowane. Na koniec roku eksportujesz wszystko dla swojego ksiegowego jednym kliknieciem.',
       },
     ],
   },

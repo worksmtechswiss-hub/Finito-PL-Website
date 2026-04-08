@@ -12,14 +12,14 @@ export async function generateMetadata({
   return generatePageMetadata({
     title: "Kontakt - Finito Pro",
     description:
-      "Kontaktieren Sie das Finito Pro Team. Wir helfen Ihnen gerne bei Fragen zu unserer KMU Software. Per E-Mail, WhatsApp oder Kontaktformular.",
+      "Skontaktuj sie z zespolem Finito Pro. Chetnie pomozemy w pytaniach dotyczacych naszego oprogramowania dla MSP. Przez e-mail, WhatsApp lub formularz kontaktowy.",
     path: "/kontakt",
     locale,
     keywords: [
-      "Finito Pro Kontakt",
-      "KMU Software Support",
-      "Schweizer Software Kontakt",
-      "Handwerker Software Hilfe",
+      "Finito Pro kontakt",
+      "wsparcie oprogramowania MSP",
+      "kontakt szwajcarskie oprogramowanie",
+      "pomoc oprogramowanie rzemieslnicze",
     ],
   });
 }

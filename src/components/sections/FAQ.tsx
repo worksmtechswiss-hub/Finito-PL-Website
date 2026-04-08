@@ -17,24 +17,24 @@ const faqKeys = [
 
 const faqs = [
   {
-    questionDe: "Gibt es eine kostenlose Testversion?",
-    answerDe: "Ja! Sie können Finito Pro 30 Tage lang kostenlos und unverbindlich testen. Keine Kreditkarte nötig, keine versteckten Kosten. Unser freundliches Team hilft Ihnen gerne beim Einstieg.",
+    questionDe: "Czy istnieje darmowa wersja testowa?",
+    answerDe: "Tak! Możesz testować Finito Pro przez 30 dni za darmo i bez zobowiązań. Bez karty kredytowej, bez ukrytych kosztów. Nasz zespół chętnie pomoże Ci na starcie.",
   },
   {
-    questionDe: "Wann kann ich mein Abo kündigen?",
-    answerDe: "Sie können Ihr Abonnement jederzeit kündigen. Die Differenz für den restlichen Zeitraum wird Ihnen erstattet. Keine langfristigen Verträge oder versteckten Gebühren.",
+    questionDe: "Kiedy mogę anulować subskrypcję?",
+    answerDe: "Możesz anulować subskrypcję w dowolnym momencie. Różnica za pozostały okres zostanie Ci zwrócona. Bez długoterminowych umów i ukrytych opłat.",
   },
   {
-    questionDe: "Kann ich zusätzliche Funktionen anfordern?",
-    answerDe: "Ja, absolut! Wir entwickeln Finito kontinuierlich weiter, basierend auf dem Feedback unserer Nutzer. Teilen Sie uns Ihre Wünsche mit und wir prüfen die Umsetzung.",
+    questionDe: "Czy mogę poprosić o dodatkowe funkcje?",
+    answerDe: "Tak, oczywiście! Stale rozwijamy Finito na podstawie opinii naszych użytkowników. Podziel się z nami swoimi pomysłami, a my sprawdzimy możliwość ich realizacji.",
   },
   {
-    questionDe: "Wie lange bleiben meine Daten gespeichert?",
-    answerDe: "Ihre Daten werden 25 Jahre lang sicher und verschlüsselt auf Schweizer Servern gespeichert. Sie haben jederzeit vollen Zugriff auf alle Ihre historischen Projekte und Dokumente.",
+    questionDe: "Jak długo przechowywane są moje dane?",
+    answerDe: "Twoje dane są bezpiecznie i w zaszyfrowanej formie przechowywane na serwerach w Szwajcarii przez 25 lat. Masz pełny dostęp do wszystkich historycznych projektów i dokumentów w każdej chwili.",
   },
   {
-    questionDe: "Gibt es eine mobile App?",
-    answerDe: "Ja! Die Finito Mitarbeiter-App funktioniert auf jedem Smartphone und Tablet. Ihre Mitarbeiter können Zeiten erfassen, Fotos hochladen, Aufgaben einsehen und mit dem Team kommunizieren – alles von unterwegs.",
+    questionDe: "Czy istnieje aplikacja mobilna?",
+    answerDe: "Tak! Aplikacja Finito dla pracowników działa na każdym smartfonie i tablecie. Twoi pracownicy mogą rejestrować czas, przesyłać zdjęcia, przeglądać zadania i komunikować się z zespołem - wszystko w terenie.",
   },
 ];
 

@@ -8,89 +8,89 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
   {
-    question: "Gibt es eine kostenlose Testversion?",
+    question: "Czy jest darmowa wersja próbna?",
     answer:
-      "Ja! Sie können Finito Pro 30 Tage lang kostenlos und unverbindlich testen. Keine Kreditkarte nötig, keine versteckten Kosten. Sie erhalten vollen Zugriff auf alle KMU-Funktionen. Nach Ablauf der Testphase können Sie ein Abo wählen oder den kostenlosen Starter-Plan nutzen.",
-    category: "Allgemein",
+      "Tak! Możesz testować Finito Pro przez 30 dni za darmo i bez zobowiązań. Bez karty kredytowej, bez ukrytych kosztów. Otrzymujesz pełny dostęp do wszystkich funkcji MŚP. Po zakończeniu okresu próbnego możesz wybrać abonament lub korzystać z darmowego planu Starter.",
+    category: "Ogólne",
   },
   {
-    question: "Wann kann ich mein Abo kündigen?",
+    question: "Kiedy mogę anulować abonament?",
     answer:
-      "Sie können Ihr Abonnement jederzeit kündigen - ohne Kündigungsfrist oder versteckte Gebühren. Die Differenz für den restlichen Zeitraum wird Ihnen anteilig erstattet. Ihre Daten bleiben danach noch 90 Tage verfügbar, damit Sie alles in Ruhe exportieren können.",
-    category: "Allgemein",
+      "Możesz anulować abonament w dowolnym momencie - bez okresu wypowiedzenia i ukrytych opłat. Różnica za pozostały okres zostanie proporcjonalnie zwrócona. Twoje dane pozostaną dostępne jeszcze przez 90 dni, abyś mógł spokojnie je wyeksportować.",
+    category: "Ogólne",
   },
   {
-    question: "Kann ich zusätzliche Funktionen anfordern?",
+    question: "Czy mogę poprosić o dodatkowe funkcje?",
     answer:
-      "Ja, absolut! Wir entwickeln Finito Pro kontinuierlich weiter, basierend auf dem Feedback unserer Nutzer. Teilen Sie uns Ihre Wünsche mit und wir prüfen die Umsetzung. Grossfirmen-Kunden können sogar individuelle Features beauftragen, die speziell auf ihre Bedürfnisse zugeschnitten werden.",
-    category: "Funktionen",
+      "Tak, oczywiście! Stale rozwijamy Finito Pro na podstawie opinii naszych użytkowników. Podziel się z nami swoimi potrzebami, a sprawdzimy możliwość ich realizacji. Klienci korporacyjni mogą nawet zlecić indywidualne funkcje dostosowane specjalnie do ich potrzeb.",
+    category: "Funkcje",
   },
   {
-    question: "Wie behalte ich die Übersicht über alle Projekte?",
+    question: "Jak mogę mieć przegląd wszystkich projektów?",
     answer:
-      "Finito Pro bietet ein übersichtliches Dashboard mit allen laufenden Projekten auf einen Blick. Zusätzlich gibt es eine separate Projektsektion, in der Sie nach Status, Kunde, Datum und Team filtern können. Jedes Projekt zeigt den Fortschritt, offene Aufgaben und zugewiesene Mitarbeiter an.",
-    category: "Funktionen",
+      "Finito Pro oferuje przejrzysty dashboard ze wszystkimi bieżącymi projektami w jednym miejscu. Dodatkowo istnieje osobna sekcja projektów, w której możesz filtrować według statusu, klienta, daty i zespołu. Każdy projekt pokazuje postęp, otwarte zadania i przypisanych pracowników.",
+    category: "Funkcje",
   },
   {
-    question: "Wie lange bleiben meine Daten gespeichert?",
+    question: "Jak długo przechowywane są moje dane?",
     answer:
-      "Ihre Daten werden 25 Jahre lang sicher und verschlüsselt auf Schweizer Servern gespeichert. Sie haben jederzeit vollen Zugriff auf alle Ihre historischen Projekte, Rechnungen und Dokumente. Wir halten uns strikt an die Schweizer Datenschutzgesetze und die DSGVO.",
-    category: "Sicherheit",
+      "Twoje dane są bezpiecznie i w formie zaszyfrowanej przechowywane na serwerach w Szwajcarii przez 25 lat. Masz stały pełny dostęp do wszystkich swoich historycznych projektów, faktur i dokumentów. Ściśle przestrzegamy szwajcarskich przepisów o ochronie danych oraz RODO.",
+    category: "Bezpieczeństwo",
   },
   {
-    question: "Gibt es eine mobile Version?",
+    question: "Czy istnieje wersja mobilna?",
     answer:
-      "Ja! Die Finito Mitarbeiter-App funktioniert auf jedem Smartphone und Tablet - egal ob iPhone, Android oder iPad. Ihre Mitarbeiter können Zeiten erfassen, Fotos hochladen, Aufgaben einsehen und mit dem Team kommunizieren - alles von unterwegs. Die App synchronisiert automatisch mit dem Desktop.",
-    category: "Funktionen",
+      "Tak! Aplikacja Finito dla pracowników działa na każdym smartfonie i tablecie - niezależnie od tego, czy to iPhone, Android czy iPad. Twoi pracownicy mogą rejestrować czas pracy, przesyłać zdjęcia, przeglądać zadania i komunikować się z zespołem - wszystko w terenie. Aplikacja automatycznie synchronizuje się z wersją desktopową.",
+    category: "Funkcje",
   },
   {
-    question: "Kann ich mit Finito Pro Rechnungen erstellen?",
+    question: "Czy mogę tworzyć faktury w Finito Pro?",
     answer:
-      "Ja, Finito Pro erstellt professionelle Rechnungen mit Swiss QR-Code, die den Schweizer Standards entsprechen. Rechnungen können automatisch aus Projekten generiert oder manuell erstellt werden. Jede Rechnung enthält einen QR-Einzahlungsschein, der direkt per E-Mail oder Post versendet werden kann.",
-    category: "Funktionen",
+      "Tak, Finito Pro tworzy profesjonalne faktury ze szwajcarskim kodem QR zgodne ze standardami szwajcarskimi. Faktury mogą być automatycznie generowane z projektów lub tworzone ręcznie. Każda faktura zawiera polecenie zapłaty QR, które można wysłać bezpośrednio e-mailem lub pocztą.",
+    category: "Funkcje",
   },
   {
-    question: "Welche Zahlungsmethoden werden akzeptiert?",
+    question: "Jakie metody płatności są akceptowane?",
     answer:
-      "Sie können Ihr Abo monatlich oder jährlich (mit 2 Monaten gratis) bezahlen. Wir akzeptieren Kreditkarten (Visa, Mastercard, American Express) und Rechnung. Für Grossfirmen bieten wir individuelle Zahlungsvereinbarungen an.",
-    category: "Allgemein",
+      "Możesz opłacać abonament miesięcznie lub rocznie (z 2 miesiącami gratis). Akceptujemy karty kredytowe (Visa, Mastercard, American Express) oraz płatność na fakturę. Dla dużych firm oferujemy indywidualne warunki płatności.",
+    category: "Ogólne",
   },
   {
-    question: "Kann ich Teammitglieder einladen und Zugriffsrechte verwalten?",
+    question: "Czy mogę zapraszać członków zespołu i zarządzać prawami dostępu?",
     answer:
-      "Ja, Sie können beliebig viele Teammitglieder einladen. Für jeden User können individuelle Zugriffsrechte festgelegt werden - von Administrator bis Mitarbeiter mit eingeschränktem Zugriff. So behalten Sie die Kontrolle darüber, wer was sehen und bearbeiten kann.",
-    category: "Funktionen",
+      "Tak, możesz zaprosić dowolną liczbę członków zespołu. Dla każdego użytkownika można ustawić indywidualne prawa dostępu - od administratora po pracownika z ograniczonym dostępem. Dzięki temu masz kontrolę nad tym, kto co może widzieć i edytować.",
+    category: "Funkcje",
   },
   {
-    question: "Gibt es eine Integration mit anderen Tools?",
+    question: "Czy jest integracja z innymi narzędziami?",
     answer:
-      "Ja, Finito Pro bietet eine REST-API für die Integration mit anderen Softwarelösungen. Standardmässig unterstützen wir Verbindungen zu gängigen Buchhaltungstools und Kalendern. Grossfirmen-Kunden können zusätzlich Custom Integrationen beauftragen.",
-    category: "Funktionen",
+      "Tak, Finito Pro oferuje API REST do integracji z innymi rozwiązaniami programistycznymi. Standardowo wspieramy połączenia z popularnymi narzędziami księgowymi i kalendarzami. Klienci korporacyjni mogą dodatkowo zlecić niestandardowe integracje.",
+    category: "Funkcje",
   },
   {
-    question: "Wie erreiche ich den technischen Support?",
+    question: "Jak mogę skontaktować się ze wsparciem technicznym?",
     answer:
-      "Unser Support-Team erreichen Sie per E-Mail an hello@finitopro.ch oder direkt über den In-App Chat. KMU-Kunden erhalten in der Regel innerhalb von 24 Stunden eine Antwort. Grossfirmen-Kunden haben Zugang zu einem dedizierten Support-Manager und priorisierten Antwortzeiten.",
-    category: "Support",
+      "Z naszym zespołem wsparcia możesz skontaktować się e-mailem pod adresem hello@finitopro.ch lub bezpośrednio przez czat w aplikacji. Klienci MŚP otrzymują odpowiedź zazwyczaj w ciągu 24 godzin. Klienci korporacyjni mają dostęp do dedykowanego menedżera wsparcia i priorytetowych czasów odpowiedzi.",
+    category: "Wsparcie",
   },
   {
-    question: "Kann ich wiederkehrende Wartungsverträge verwalten?",
+    question: "Czy mogę zarządzać powtarzającymi się umowami serwisowymi?",
     answer:
-      "Ja! Mit der Service-Abo-Funktion können Sie wiederkehrende Wartungsverträge erstellen und automatisieren. Das System erinnert Sie und Ihre Kunden automatisch an fällige Wartungen, erstellt die entsprechenden Aufträge und kann die Rechnungen automatisch generieren.",
-    category: "Funktionen",
+      "Tak! Dzięki funkcji abonamentów serwisowych możesz tworzyć i automatyzować powtarzające się umowy serwisowe. System automatycznie przypomina Tobie i Twoim klientom o zaplanowanych przeglądach, tworzy odpowiednie zlecenia i może automatycznie generować faktury.",
+    category: "Funkcje",
   },
 ];
 
-const categories = ["Alle", "Allgemein", "Funktionen", "Sicherheit", "Support"];
+const categories = ["Wszystkie", "Ogólne", "Funkcje", "Bezpieczeństwo", "Wsparcie"];
 
 export function FAQContent() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
-  const [activeCategory, setActiveCategory] = useState("Alle");
+  const [activeCategory, setActiveCategory] = useState("Wszystkie");
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredFaqs = faqs.filter((faq) => {
     const matchesCategory =
-      activeCategory === "Alle" || faq.category === activeCategory;
+      activeCategory === "Wszystkie" || faq.category === activeCategory;
     const matchesSearch =
       searchQuery === "" ||
       faq.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -109,10 +109,10 @@ export function FAQContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              <span className="gradient-text-animated">Häufige Fragen</span>
+              <span className="gradient-text-animated">Często zadawane pytania</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Hier finden Sie Antworten auf die wichtigsten Fragen rund um
+              Tutaj znajdziesz odpowiedzi na najważniejsze pytania dotyczące
               Finito Pro.
             </p>
           </motion.div>
@@ -137,7 +137,7 @@ export function FAQContent() {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-neutral-400" />
               <input
                 type="text"
-                placeholder="Frage suchen..."
+                placeholder="Szukaj pytania..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-4 py-3.5 bg-surface-light-secondary border border-neutral-200 rounded-xl text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
@@ -232,16 +232,16 @@ export function FAQContent() {
               className="text-center py-16"
             >
               <p className="text-neutral-400 mb-4">
-                Keine Fragen zu diesem Suchbegriff gefunden.
+                Nie znaleziono pytań pasujących do tego wyszukiwania.
               </p>
               <button
                 onClick={() => {
                   setSearchQuery("");
-                  setActiveCategory("Alle");
+                  setActiveCategory("Wszystkie");
                 }}
                 className="text-primary-600 text-sm font-medium hover:underline"
               >
-                Filter zurücksetzen
+                Zresetuj filtry
               </button>
             </motion.div>
           )}
@@ -258,16 +258,16 @@ export function FAQContent() {
             <div className="w-full bg-primary-50 rounded-2xl p-6 border border-primary-100 text-center">
               <Image
                 src="/images/customer-support.svg"
-                alt="Kundensupport"
+                alt="Obsługa klienta"
                 width={64}
                 height={64}
                 className="w-16 h-16 mx-auto mb-3"
               />
               <h3 className="font-semibold text-neutral-900 text-sm mb-1">
-                Brauchen Sie Hilfe?
+                Potrzebujesz pomocy?
               </h3>
               <p className="text-xs text-neutral-500 mb-3">
-                Unser Support-Team hilft Ihnen gerne weiter.
+                Nasz zespół wsparcia chętnie Ci pomoże.
               </p>
               <a
                 href="mailto:hello@finitopro.ch"
@@ -281,7 +281,7 @@ export function FAQContent() {
             <div className="relative">
               <Image
                 src="/images/Finito-Mob.png"
-                alt="Finito Pro Mobile App - Immer dabei"
+                alt="Finito Pro - aplikacja mobilna zawsze pod ręką"
                 width={240}
                 height={480}
                 className="w-full max-w-[220px] h-auto drop-shadow-xl"
@@ -303,10 +303,10 @@ export function FAQContent() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-semibold text-neutral-900 mb-4">
-              Ihre Frage war nicht dabei?
+              Nie znalazłeś odpowiedzi na swoje pytanie?
             </h2>
             <p className="text-neutral-500 mb-8">
-              Kontaktieren Sie uns - wir helfen Ihnen gerne persönlich weiter.
+              Skontaktuj się z nami - chętnie pomożemy Ci osobiście.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <motion.a
@@ -315,14 +315,14 @@ export function FAQContent() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                30 Tage gratis testen
+                30 dni za darmo
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </motion.a>
               <a
                 href="mailto:hello@finitopro.ch"
                 className="inline-flex items-center gap-2 px-8 py-4 border border-neutral-200 text-neutral-700 font-medium rounded-2xl text-sm hover:bg-white hover:shadow-card transition-all"
               >
-                E-Mail schreiben
+                Napisz e-mail
               </a>
             </div>
           </motion.div>

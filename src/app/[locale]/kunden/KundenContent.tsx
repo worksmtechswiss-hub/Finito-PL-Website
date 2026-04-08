@@ -10,52 +10,52 @@ const testimonials = [
   {
     name: "Marco S.",
     company: "Malerbetrieb Suter",
-    branch: "Maler",
-    text: "Seit wir Finito Pro nutzen, erstellen wir Offerten in der Hälfte der Zeit. Das Kundenportal beeindruckt unsere Auftraggeber und schafft Transparenz.",
+    branch: "Malarze",
+    text: "Od kiedy korzystamy z Finito Pro, tworzymy oferty w połowie czasu. Portal klienta robi wrażenie na naszych zleceniodawcach i zapewnia przejrzystość.",
     rating: 5,
   },
   {
     name: "Stefan B.",
     company: "Elektro Brunner AG",
-    branch: "Elektriker",
-    text: "Die mobile Lagerverwaltung mit Lieferanten-Links hat unsere Nachbestellungen revolutioniert. Kein Papierkram mehr auf der Baustelle.",
+    branch: "Elektrycy",
+    text: "Mobilne zarządzanie magazynem z linkami do dostawców zrewolucjonizowało nasze zamówienia uzupełniające. Koniec z papierową robotą na placu budowy.",
     rating: 5,
   },
   {
     name: "Andrea M.",
     company: "Reinigung Plus GmbH",
-    branch: "Reinigung",
-    text: "Routenplanung und Qualitätsdokumentation in einer App - das hat unsere Effizienz um 40% gesteigert. Die Kunden lieben die Vorher/Nachher-Fotos.",
+    branch: "Sprzątanie",
+    text: "Planowanie tras i dokumentacja jakości w jednej aplikacji - to zwiększyło naszą wydajność o 40%. Klienci uwielbiają zdjęcia przed/po.",
     rating: 5,
   },
   {
     name: "Thomas K.",
     company: "Gartenbau Koller",
-    branch: "Gartenbau",
-    text: "Die saisonale Planung ist ein Gamechanger. Finito Pro erinnert mich automatisch an wiederkehrende Pflegearbeiten - kein Kunde wird vergessen.",
+    branch: "Ogrodnictwo",
+    text: "Planowanie sezonowe to prawdziwy przełom. Finito Pro automatycznie przypomina mi o powtarzających się pracach pielęgnacyjnych - żaden klient nie zostaje pominięty.",
     rating: 5,
   },
   {
     name: "Lisa W.",
     company: "Kreativbüro Weber",
-    branch: "Agentur",
-    text: "Endlich eine Zeiterfassung, die auch für Agenturen passt. Stundenberichte pro Projekt sind auf Knopfdruck fertig - perfekt für unsere Abrechnungen.",
+    branch: "Agencja",
+    text: "Wreszcie rejestracja czasu pracy, która pasuje także do agencji. Raporty godzinowe według projektów są gotowe jednym kliknięciem - idealne do naszych rozliczeń.",
     rating: 4,
   },
   {
     name: "Patrick H.",
     company: "Haustechnik Huber",
-    branch: "Haustechnik",
-    text: "Wartungsplanung war früher ein Albtraum. Mit Finito Pro werden alle Anlagen sauber erfasst und die automatischen Erinnerungen sind Gold wert.",
+    branch: "Instalacje budowlane",
+    text: "Planowanie konserwacji było kiedyś koszmarem. Z Finito Pro wszystkie instalacje są czytelnie zarejestrowane, a automatyczne przypomnienia są na wagę złota.",
     rating: 5,
   },
 ];
 
 const stats = [
-  { value: "500+", label: "Betriebe nutzen Finito Pro" },
-  { value: "17", label: "Branchen unterstützt" },
-  { value: "4.8/5", label: "Durchschnittliche Bewertung" },
-  { value: "25+", label: "Jahre Datenspeicherung" },
+  { value: "500+", label: "Firm korzysta z Finito Pro" },
+  { value: "17", label: "Obsługiwanych branż" },
+  { value: "4.8/5", label: "Średnia ocena" },
+  { value: "25+", label: "Lat przechowywania danych" },
 ];
 
 export function KundenContent() {
@@ -70,11 +70,11 @@ export function KundenContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              Unsere <span className="gradient-text-animated">Kunden</span>
+              Nasi <span className="gradient-text-animated">klienci</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Schweizer KMU vertrauen auf Finito Pro. Erfahren Sie, wie
-              Handwerksbetriebe und Dienstleister ihren Alltag digitalisieren.
+              Szwajcarskie MŚP ufają Finito Pro. Dowiedz się, jak
+              firmy rzemieślnicze i usługowe cyfryzują swoją codzienną pracę.
             </p>
           </motion.div>
         </div>
@@ -117,10 +117,10 @@ export function KundenContent() {
             className="text-center mb-10"
           >
             <h2 className="text-2xl sm:text-3xl font-semibold text-neutral-900 mb-3">
-              So arbeiten unsere Kunden
+              Tak pracują nasi klienci
             </h2>
             <p className="text-neutral-500 max-w-xl mx-auto">
-              Von der Projektübersicht bis zur Lagerverwaltung - alles in einer Lösung.
+              Od przeglądu projektów po zarządzanie magazynem - wszystko w jednym rozwiązaniu.
             </p>
           </motion.div>
 
@@ -134,7 +134,7 @@ export function KundenContent() {
             <div className="rounded-2xl overflow-hidden shadow-card border border-neutral-200">
               <Image
                 src="/images/Projekt-Übersicht.png"
-                alt="Finito Pro Projektübersicht - Alle Projekte auf einen Blick"
+                alt="Finito Pro - przegląd projektów w jednym miejscu"
                 width={600}
                 height={400}
                 className="w-full h-auto"
@@ -144,7 +144,7 @@ export function KundenContent() {
             <div className="rounded-2xl overflow-hidden shadow-card border border-neutral-200">
               <Image
                 src="/images/Lagerverwaltung-Finito-Pro.png"
-                alt="Finito Pro Lagerverwaltung - Material immer im Überblick"
+                alt="Finito Pro - zarządzanie magazynem z pełną kontrolą"
                 width={600}
                 height={400}
                 className="w-full h-auto"
@@ -166,10 +166,10 @@ export function KundenContent() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Das sagen unsere Kunden
+              Co mówią nasi klienci
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Echte Stimmen von Schweizer Betrieben, die mit Finito Pro arbeiten.
+              Prawdziwe opinie szwajcarskich firm, które pracują z Finito Pro.
             </p>
           </motion.div>
 
@@ -224,15 +224,15 @@ export function KundenContent() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Warum Betriebe uns vertrauen
+              Dlaczego firmy nam ufają
             </h2>
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { icon: Shield, title: "Schweizer Server", desc: "Alle Daten werden verschlüsselt in der Schweiz gespeichert. 100% DSGVO-konform." },
-              { icon: Users, title: "Persönlicher Support", desc: "Kein Callcenter - echte Menschen helfen Ihnen bei Fragen und Einrichtung." },
-              { icon: TrendingUp, title: "Stetige Weiterentwicklung", desc: "Regelmässige Updates basierend auf dem Feedback unserer Nutzer." },
+              { icon: Shield, title: "Serwery w Szwajcarii", desc: "Wszystkie dane są szyfrowane i przechowywane w Szwajcarii. 100% zgodności z RODO." },
+              { icon: Users, title: "Osobiste wsparcie", desc: "Żadnego call center - prawdziwi ludzie pomagają Ci w pytaniach i konfiguracji." },
+              { icon: TrendingUp, title: "Ciągły rozwój", desc: "Regularne aktualizacje oparte na opiniach naszych użytkowników." },
             ].map((item, i) => (
               <motion.div
                 key={item.title}
@@ -264,10 +264,10 @@ export function KundenContent() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-6">
-              Werden Sie Teil der Finito-Pro-Familie
+              Dołącz do rodziny Finito Pro
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              30 Tage kostenlos testen und selbst erleben, warum Schweizer KMU auf Finito Pro setzen.
+              Testuj za darmo przez 30 dni i sam przekonaj się, dlaczego szwajcarskie MŚP wybierają Finito Pro.
             </p>
             <motion.a
               href="https://app.finitopro.ch/register"
@@ -275,7 +275,7 @@ export function KundenContent() {
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.98 }}
             >
-              Jetzt kostenlos starten
+              Zacznij za darmo
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.a>
           </motion.div>

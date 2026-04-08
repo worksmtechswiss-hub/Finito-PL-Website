@@ -10,19 +10,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Automationen & Zeitersparnis | Finito Pro",
+    title: "Automatyzacje i oszczędność czasu | Finito Pro",
     description:
-      "Entdecken Sie wie Finito Pro Ihre Prozesse automatisiert. Praxisbeispiele zeigen: Bis zu 30% Zeitersparnis und weniger Fehler.",
+      "Odkryj, jak Finito Pro automatyzuje Twoje procesy. Przykłady z praktyki pokazują: do 30% oszczędności czasu i mniej błędów.",
     path: "/automationen",
     locale,
     keywords: [
-      "Automatisierung KMU",
-      "Zeitersparnis Software",
-      "Handwerker Automatisierung",
-      "Prozessoptimierung Schweiz",
-      "Offerten automatisieren",
-      "QR-Rechnungen automatisch",
-      "Zeiterfassung automatisch",
+      "automatyzacja MŚP",
+      "oszczędność czasu oprogramowanie",
+      "automatyzacja dla rzemieślników",
+      "optymalizacja procesów Szwajcaria",
+      "automatyzacja ofert",
+      "faktury QR automatyczne",
+      "automatyczny czas pracy",
     ],
   });
 }
@@ -42,7 +42,7 @@ export default async function AutomationenPage({
           __html: JSON.stringify(
             breadcrumbSchema([
               { name: "Home", path: "/" },
-              { name: "Automationen", path: "/automationen" },
+              { name: "Automatyzacje", path: "/automationen" },
             ])
           ),
         }}

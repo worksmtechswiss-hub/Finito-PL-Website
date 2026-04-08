@@ -6,25 +6,25 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     quote:
-      "Seit wir Finito nutzen, erstellen wir Offerten in 3 statt 30 Minuten. Das hat unser Geschäft verändert.",
+      "Od kiedy korzystamy z Finito, tworzymy oferty w 3 zamiast 30 minut. To zmieniło nasz biznes.",
     company: "Marty AG",
-    location: "Zürich",
+    location: "Zurych",
     logo: "/images/marty-logo-weiss-5.png",
     logoWidth: 80,
   },
   {
     quote:
-      "Die Zeiterfassung und QR-Rechnungen sparen uns jeden Monat Stunden an Verwaltungsarbeit.",
+      "Rejestracja czasu i faktury QR oszczędzają nam co miesiąc godziny pracy administracyjnej.",
     company: "BeriBau AG",
-    location: "Bern",
+    location: "Berno",
     logo: "/images/656636e32c996022a7438d10_Logo-BeriBau-AG-2.webp",
     logoWidth: 90,
   },
   {
     quote:
-      "Endlich haben wir alle Projekte an einem Ort. Unsere Kunden lieben das Kundenportal.",
+      "Wreszcie mamy wszystkie projekty w jednym miejscu. Nasi klienci uwielbiają portal klienta.",
     company: "Rex Facility Services GmbH",
-    location: "Basel",
+    location: "Bazylea",
     logo: "/images/logo-rex.svg",
     logoWidth: 100,
   },
@@ -43,7 +43,7 @@ export function Testimonials() {
           className="text-center mb-20"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900">
-            Das sagen unsere Kunden
+            Co mówią nasi klienci
           </h2>
         </motion.div>
 

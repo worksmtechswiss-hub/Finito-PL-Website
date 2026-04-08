@@ -146,8 +146,8 @@ export function KontaktContent() {
               <span className="gradient-text-animated">Kontakt</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Haben Sie Fragen zu Finito Pro? Wir sind gerne für Sie da und
-              helfen Ihnen weiter.
+              Masz pytania dotyczące Finito Pro? Chętnie Ci pomożemy
+              i doradzimy.
             </p>
           </motion.div>
         </div>
@@ -172,12 +172,12 @@ export function KontaktContent() {
 
               <div>
                 <h2 className="text-2xl font-semibold text-neutral-900 mb-4">
-                  Sprechen Sie mit uns
+                  Porozmawiaj z nami
                 </h2>
                 <p className="text-neutral-500 leading-relaxed">
-                  Unser Team aus der Schweiz steht Ihnen persönlich zur
-                  Verfügung. Egal ob Sie eine Demo möchten, Fragen haben oder
-                  Feedback geben wollen.
+                  Nasz zespół ze Szwajcarii jest do Twojej dyspozycji.
+                  Niezależnie od tego, czy chcesz demo, masz pytania, czy
+                  chcesz przekazać opinię.
                 </p>
               </div>
 
@@ -194,7 +194,7 @@ export function KontaktContent() {
                     <h3 className="font-medium text-neutral-900 mb-1">E-Mail</h3>
                     <p className="text-sm text-primary-600">hello@finitopro.ch</p>
                     <p className="text-xs text-neutral-400 mt-1">
-                      Wir antworten innert 24 Stunden
+                      Odpowiadamy w ciągu 24 godzin
                     </p>
                   </div>
                 </a>
@@ -210,9 +210,9 @@ export function KontaktContent() {
                   </div>
                   <div>
                     <h3 className="font-medium text-neutral-900 mb-1">WhatsApp</h3>
-                    <p className="text-sm text-accent-600">Jetzt chatten</p>
+                    <p className="text-sm text-accent-600">Czatuj teraz</p>
                     <p className="text-xs text-neutral-400 mt-1">
-                      Schnelle Antworten, persönlicher Kontakt
+                      Szybkie odpowiedzi, osobisty kontakt
                     </p>
                   </div>
                 </a>
@@ -228,7 +228,7 @@ export function KontaktContent() {
                     <h3 className="font-medium text-neutral-900 mb-1">Telefon</h3>
                     <p className="text-sm text-primary-600">+41 78 267 59 82</p>
                     <p className="text-xs text-neutral-400 mt-1">
-                      Mo – Fr, 08:00 – 18:00 Uhr
+                      Pn - Pt, 08:00 - 18:00
                     </p>
                   </div>
                 </a>
@@ -238,11 +238,11 @@ export function KontaktContent() {
                     <MapPin className="w-5 h-5 text-neutral-400" />
                   </div>
                   <div>
-                    <h3 className="font-medium text-neutral-900 mb-1">Standort</h3>
+                    <h3 className="font-medium text-neutral-900 mb-1">Lokalizacja</h3>
                     <p className="text-sm text-neutral-500">Schlosstalstrasse 210</p>
                     <p className="text-sm text-neutral-500">8408 Winterthur</p>
                     <p className="text-xs text-neutral-400 mt-1">
-                      100% Schweizer Unternehmen
+                      100% szwajcarska firma
                     </p>
                   </div>
                 </div>
@@ -250,14 +250,14 @@ export function KontaktContent() {
 
               {/* Quick Links */}
               <div className="pt-4">
-                <p className="text-sm text-neutral-400 mb-3">Oder direkt loslegen:</p>
+                <p className="text-sm text-neutral-400 mb-3">Lub zacznij od razu:</p>
                 <motion.a
                   href="https://app.finitopro.ch/register"
                   className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-600 to-accent-500 text-white font-medium rounded-xl text-sm shadow-glow-sm hover:shadow-glow transition-all"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  30 Tage gratis testen
+                  Testuj 30 dni za darmo
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </motion.a>
               </div>
@@ -267,7 +267,7 @@ export function KontaktContent() {
             <motion.div variants={staggerItem} className="lg:col-span-3 relative">
               <div className="bg-surface-light-secondary rounded-2xl border border-neutral-100 p-8 sm:p-10">
                 <h3 className="text-xl font-semibold text-neutral-900 mb-6">
-                  Nachricht senden
+                  Wyślij wiadomość
                 </h3>
 
                 {submitted ? (
@@ -280,10 +280,10 @@ export function KontaktContent() {
                       <Send className="w-7 h-7 text-success" />
                     </div>
                     <h4 className="text-lg font-semibold text-neutral-900 mb-2">
-                      Nachricht gesendet!
+                      Wiadomość wysłana!
                     </h4>
                     <p className="text-neutral-500 text-sm">
-                      Vielen Dank, wir melden uns bei Ihnen.
+                      Dziękujemy, skontaktujemy się z Tobą.
                     </p>
                   </motion.div>
                 ) : (
@@ -304,7 +304,7 @@ export function KontaktContent() {
                             setFormData({ ...formData, firma: e.target.value })
                           }
                           className="w-full px-4 py-3 bg-white border border-neutral-200 rounded-xl text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
-                          placeholder="Ihre Firma"
+                          placeholder="Twoja firma"
                         />
                       </div>
                       <div>
@@ -312,7 +312,7 @@ export function KontaktContent() {
                           htmlFor="name"
                           className="block text-sm font-medium text-neutral-700 mb-1.5"
                         >
-                          Name <span className="text-error">*</span>
+                          Imię <span className="text-error">*</span>
                         </label>
                         <input
                           type="text"
@@ -323,7 +323,7 @@ export function KontaktContent() {
                             setFormData({ ...formData, name: e.target.value })
                           }
                           className="w-full px-4 py-3 bg-white border border-neutral-200 rounded-xl text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
-                          placeholder="Ihr Name"
+                          placeholder="Twoje imię"
                         />
                       </div>
                     </div>
@@ -363,7 +363,7 @@ export function KontaktContent() {
                             setFormData({ ...formData, email: e.target.value })
                           }
                           className="w-full px-4 py-3 bg-white border border-neutral-200 rounded-xl text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
-                          placeholder="ihre@email.ch"
+                          placeholder="twoj@email.ch"
                         />
                       </div>
                     </div>
@@ -373,7 +373,7 @@ export function KontaktContent() {
                         htmlFor="nachricht"
                         className="block text-sm font-medium text-neutral-700 mb-1.5"
                       >
-                        Nachricht <span className="text-error">*</span>
+                        Wiadomość <span className="text-error">*</span>
                       </label>
                       <textarea
                         id="nachricht"
@@ -384,7 +384,7 @@ export function KontaktContent() {
                           setFormData({ ...formData, nachricht: e.target.value })
                         }
                         className="w-full px-4 py-3 bg-white border border-neutral-200 rounded-xl text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors resize-none"
-                        placeholder="Wie können wir Ihnen helfen?"
+                        placeholder="Jak możemy Ci pomóc?"
                       />
                     </div>
 
@@ -394,7 +394,7 @@ export function KontaktContent() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                     >
-                      Nachricht senden
+                      Wyślij wiadomość
                       <Send className="w-4 h-4" />
                     </motion.button>
                   </form>

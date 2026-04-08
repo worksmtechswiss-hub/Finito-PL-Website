@@ -10,16 +10,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Kunden & Referenzen - Finito Pro",
+    title: "Klienci i referencje - Finito Pro",
     description:
-      "Schweizer Handwerksbetriebe und KMU vertrauen auf Finito Pro. Entdecken Sie Kundenstimmen und Erfolgsgeschichten.",
+      "Szwajcarskie firmy rzemieślnicze i MŚP ufają Finito Pro. Poznaj opinie klientów i historie sukcesu.",
     path: "/kunden",
     locale,
     keywords: [
-      "Finito Pro Kunden",
-      "KMU Software Referenzen",
-      "Handwerker Software Erfahrungen",
-      "Schweizer KMU Erfolgsgeschichten",
+      "Klienci Finito Pro",
+      "Referencje oprogramowania MŚP",
+      "Doświadczenia z oprogramowaniem dla rzemieślników",
+      "Historie sukcesu szwajcarskich MŚP",
     ],
   });
 }

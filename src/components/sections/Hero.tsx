@@ -12,11 +12,11 @@ import {
 
 const featureCards = [
   { icon: LayoutDashboard, label: "Dashboard" },
-  { icon: FolderKanban, label: "Projekte" },
-  { icon: Receipt, label: "QR-Rechnungen" },
-  { icon: FileText, label: "Offerten" },
-  { icon: Clock, label: "Zeiterfassung" },
-  { icon: Users, label: "Kundenportal" },
+  { icon: FolderKanban, label: "Projekty" },
+  { icon: Receipt, label: "Faktury QR" },
+  { icon: FileText, label: "Oferty" },
+  { icon: Clock, label: "Rejestracja czasu" },
+  { icon: Users, label: "Portal klienta" },
 ];
 
 export function Hero() {
@@ -71,7 +71,7 @@ export function Hero() {
               <span className="absolute inset-0 bg-gradient-to-r from-[#8b5cf6] via-[#a78bfa] to-[#7c3aed] bg-[length:200%_100%] animate-shimmer" />
               <span className="absolute inset-0 rounded-2xl shadow-[0_0_30px_rgba(139,92,246,0.5)] animate-glow-pulse" />
               <span className="relative z-10 flex items-center gap-2">
-                Kostenlos starten
+                Rozpocznij za darmo
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </a>
@@ -100,7 +100,7 @@ export function Hero() {
 
               <div className="relative">
                 <h2 className="text-2xl sm:text-3xl font-semibold text-white mb-8">
-                  Alles in einer App
+                  Wszystko w jednej aplikacji
                 </h2>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">

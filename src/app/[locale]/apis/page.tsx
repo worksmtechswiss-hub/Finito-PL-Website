@@ -10,16 +10,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "API Dokumentation - Finito Pro",
+    title: "Dokumentacja API - Finito Pro",
     description:
-      "Finito Pro REST API Dokumentation. Integrieren Sie Finito Pro in Ihre bestehenden Systeme mit unserer umfassenden API.",
+      "Dokumentacja REST API Finito Pro. Zintegruj Finito Pro ze swoimi istniejącymi systemami dzięki naszemu kompleksowemu API.",
     path: "/apis",
     locale,
     keywords: [
       "Finito Pro API",
-      "KMU Software API",
-      "REST API Integration",
-      "Schweizer Software API",
+      "oprogramowanie MŚP API",
+      "integracja REST API",
+      "szwajcarskie oprogramowanie API",
     ],
   });
 }

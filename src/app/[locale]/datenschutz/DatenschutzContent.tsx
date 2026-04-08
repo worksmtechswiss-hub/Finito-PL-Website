@@ -4,90 +4,90 @@ import { motion } from "framer-motion";
 
 const sections = [
   {
-    title: "1. Verantwortliche Stelle",
-    content: `Verantwortlich für die Datenverarbeitung auf dieser Website ist:
+    title: "1. Administrator danych",
+    content: `Administratorem danych osobowych przetwarzanych za pośrednictwem niniejszej strony internetowej jest:
 
 Finito Pro
-Schweiz
-E-Mail: hello@finitopro.ch
-Website: www.finitopro.ch`,
+Szwajcaria
+E-mail: hello@finitopro.ch
+Strona internetowa: www.finitopro.ch`,
   },
   {
-    title: "2. Erhebung und Speicherung personenbezogener Daten",
-    content: `Beim Besuch unserer Website werden automatisch folgende Daten erhoben:
+    title: "2. Gromadzenie i przechowywanie danych osobowych",
+    content: `Podczas odwiedzania naszej strony internetowej automatycznie gromadzone są następujące dane:
 
-- IP-Adresse (anonymisiert)
-- Datum und Uhrzeit des Zugriffs
-- Aufgerufene Seiten und Dateien
-- Referrer-URL
-- Verwendeter Browser und Betriebssystem
+- Adres IP (zanonimizowany)
+- Data i godzina dostępu
+- Odwiedzone strony i pliki
+- Adres URL strony odsyłającej
+- Używana przeglądarka i system operacyjny
 
-Diese Daten werden zur technischen Bereitstellung der Website und zur Verbesserung unseres Angebots verwendet. Eine Zuordnung zu einzelnen Personen findet nicht statt.`,
+Dane te są wykorzystywane w celu technicznego udostępniania strony internetowej oraz doskonalenia naszej oferty. Nie następuje przyporządkowanie do poszczególnych osób.`,
   },
   {
-    title: "3. Nutzung der Finito Pro Software",
-    content: `Bei der Registrierung und Nutzung von Finito Pro erheben wir:
+    title: "3. Korzystanie z oprogramowania Finito Pro",
+    content: `Podczas rejestracji i korzystania z Finito Pro gromadzimy:
 
-- Name und Vorname
-- E-Mail-Adresse
-- Firmenname und Adresse
-- Telefonnummer (optional)
-- Zahlungsinformationen (bei kostenpflichtigen Abos)
+- Imię i nazwisko
+- Adres e-mail
+- Nazwę i adres firmy
+- Numer telefonu (opcjonalnie)
+- Dane płatnicze (w przypadku płatnych subskrypcji)
 
-Diese Daten sind für die Vertragserfüllung und Bereitstellung unserer Dienstleistung erforderlich (Art. 6 Abs. 1 lit. b DSGVO).`,
+Dane te są niezbędne do realizacji umowy i świadczenia naszej usługi (art. 6 ust. 1 lit. b RODO).`,
   },
   {
-    title: "4. Datenspeicherung und Sicherheit",
-    content: `Alle Daten werden auf Servern in der Schweiz gespeichert und sind durch moderne Verschlüsselungstechnologien geschützt.
+    title: "4. Przechowywanie danych i bezpieczeństwo",
+    content: `Wszystkie dane są przechowywane na serwerach w Szwajcarii i chronione za pomocą nowoczesnych technologii szyfrowania.
 
-- Speicherdauer: Geschäftsdaten werden bis zu 25 Jahre aufbewahrt (gesetzliche Aufbewahrungspflicht)
-- Verschlüsselung: TLS/SSL-Verschlüsselung bei der Datenübertragung
-- Zugriffskontrolle: Mehrstufiges Berechtigungssystem
-- Backups: Regelmässige verschlüsselte Backups auf redundanten Systemen`,
+- Okres przechowywania: dane biznesowe są przechowywane do 25 lat (ustawowy obowiązek przechowywania)
+- Szyfrowanie: szyfrowanie TLS/SSL podczas przesyłania danych
+- Kontrola dostępu: wielopoziomowy system uprawnień
+- Kopie zapasowe: regularne szyfrowane kopie zapasowe na redundantnych systemach`,
   },
   {
-    title: "5. Cookies und Tracking",
-    content: `Unsere Website verwendet Cookies, um die Nutzererfahrung zu verbessern:
+    title: "5. Pliki cookie i śledzenie",
+    content: `Nasza strona internetowa wykorzystuje pliki cookie w celu poprawy doświadczeń użytkownika:
 
-- Notwendige Cookies: Für die Grundfunktionen der Website erforderlich
-- Analyse-Cookies: Google Analytics (mit IP-Anonymisierung) zur Verbesserung unseres Angebots
-- Marketing-Cookies: Werden nur mit Ihrer ausdrücklichen Einwilligung gesetzt
+- Niezbędne pliki cookie: wymagane do podstawowego funkcjonowania strony
+- Analityczne pliki cookie: Google Analytics (z anonimizacją IP) w celu doskonalenia naszej oferty
+- Marketingowe pliki cookie: ustawiane wyłącznie za Państwa wyraźną zgodą
 
-Sie können Cookies jederzeit in Ihren Browsereinstellungen deaktivieren.`,
+Pliki cookie można w każdej chwili dezaktywować w ustawieniach przeglądarki.`,
   },
   {
-    title: "6. Weitergabe an Dritte",
-    content: `Wir geben Ihre personenbezogenen Daten nur weiter, wenn:
+    title: "6. Przekazywanie danych osobom trzecim",
+    content: `Przekazujemy Państwa dane osobowe wyłącznie w przypadku, gdy:
 
-- Sie ausdrücklich eingewilligt haben
-- Es für die Vertragserfüllung erforderlich ist
-- Eine gesetzliche Verpflichtung besteht
+- Wyrazili Państwo na to wyraźną zgodę
+- Jest to niezbędne do realizacji umowy
+- Istnieje obowiązek prawny
 
-Wir setzen folgende Dienstleister ein:
-- Hosting-Provider (Schweizer Rechenzentren)
-- Zahlungsabwickler (für Abogebühren)
-- E-Mail-Dienst (für Transaktions-E-Mails)
+Korzystamy z następujących usługodawców:
+- Dostawca hostingu (szwajcarskie centra danych)
+- Operator płatności (do obsługi opłat abonamentowych)
+- Usługa poczty elektronicznej (do wiadomości transakcyjnych)
 
-Alle Dienstleister sind vertraglich zur Einhaltung des Datenschutzes verpflichtet.`,
+Wszyscy usługodawcy są zobowiązani umownie do przestrzegania przepisów o ochronie danych.`,
   },
   {
-    title: "7. Ihre Rechte",
-    content: `Sie haben folgende Rechte bezüglich Ihrer personenbezogenen Daten:
+    title: "7. Państwa prawa",
+    content: `Przysługują Państwu następujące prawa w odniesieniu do Państwa danych osobowych:
 
-- Recht auf Auskunft (Art. 15 DSGVO)
-- Recht auf Berichtigung (Art. 16 DSGVO)
-- Recht auf Löschung (Art. 17 DSGVO)
-- Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)
-- Recht auf Datenübertragbarkeit (Art. 20 DSGVO)
-- Widerspruchsrecht (Art. 21 DSGVO)
+- Prawo dostępu do danych (art. 15 RODO)
+- Prawo do sprostowania danych (art. 16 RODO)
+- Prawo do usunięcia danych (art. 17 RODO)
+- Prawo do ograniczenia przetwarzania (art. 18 RODO)
+- Prawo do przenoszenia danych (art. 20 RODO)
+- Prawo do sprzeciwu (art. 21 RODO)
 
-Zur Ausübung Ihrer Rechte kontaktieren Sie uns unter hello@finitopro.ch.`,
+W celu skorzystania z przysługujących Państwu praw prosimy o kontakt pod adresem hello@finitopro.ch.`,
   },
   {
-    title: "8. Änderungen dieser Datenschutzerklärung",
-    content: `Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie an geänderte Rechtslagen oder Änderungen unserer Dienstleistung anzupassen. Die aktuelle Version finden Sie stets auf dieser Seite.
+    title: "8. Zmiany niniejszej polityki prywatności",
+    content: `Zastrzegamy sobie prawo do dostosowania niniejszej polityki prywatności w celu uwzględnienia zmian stanu prawnego lub zmian w zakresie naszych usług. Aktualną wersję znajdą Państwo zawsze na niniejszej stronie.
 
-Stand: März 2026`,
+Stan na: marzec 2026`,
   },
 ];
 
@@ -102,11 +102,11 @@ export function DatenschutzContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl font-semibold text-white mb-6">
-              <span className="gradient-text-animated">Datenschutz</span>
+              <span className="gradient-text-animated">Polityka prywatności</span>
             </h1>
             <p className="text-lg text-white/60">
-              Ihre Daten sind bei uns sicher - gespeichert in der Schweiz,
-              geschützt nach höchsten Standards.
+              Państwa dane są u nas bezpieczne — przechowywane w Szwajcarii,
+              chronione zgodnie z najwyższymi standardami.
             </p>
           </motion.div>
         </div>

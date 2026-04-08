@@ -28,104 +28,104 @@ const features = [
     slug: "dashboard",
     title: "Dashboard",
     description:
-      "Alle wichtigen Kennzahlen auf einen Blick. Finanzielle KPIs, aktive Projekte und Jahresberichte in Echtzeit.",
-    category: "Überblick",
+      "Wszystkie kluczowe wskaźniki w jednym miejscu. Finansowe KPI, aktywne projekty i raporty roczne w czasie rzeczywistym.",
+    category: "Przegląd",
   },
   {
     icon: FolderKanban,
     slug: "projektmanagement",
-    title: "Projektmanagement",
+    title: "Zarządzanie projektami",
     description:
-      "Mobile Aufgabenverwaltung, Foto-Dokumentation und Team-Koordination für Ihre Projekte.",
-    category: "Kernfunktionen",
+      "Mobilne zarządzanie zadaniami, dokumentacja fotograficzna i koordynacja zespołu dla Twoich projektów.",
+    category: "Funkcje główne",
   },
   {
     icon: Receipt,
     slug: "rechnungen",
-    title: "QR-Rechnungen",
+    title: "Faktury QR",
     description:
-      "Schweizer QR-Rechnungen nach ISO 20022. MwSt-Berechnung, Zahlungserinnerungen und Bankabgleich.",
-    category: "Finanzen",
+      "Szwajcarskie faktury QR zgodne z ISO 20022. Obliczanie VAT, przypomnienia o płatnościach i uzgadnianie z bankiem.",
+    category: "Finanse",
   },
   {
     icon: FileText,
     slug: "offerten",
-    title: "Offerten",
+    title: "Oferty",
     description:
-      "Schnelle digitale Offerten mit gespeicherten Leistungskatalogen. Per Knopfdruck zum Auftrag.",
-    category: "Finanzen",
+      "Szybkie oferty cyfrowe z zapisanymi katalogami usług. Jednym kliknięciem do zlecenia.",
+    category: "Finanse",
   },
   {
     icon: Clock,
     slug: "zeiterfassung",
-    title: "Zeiterfassung",
+    title: "Rejestracja czasu pracy",
     description:
-      "Projektbasierte Zeiterfassung mit Monatsberichten, Überstunden-Tracking und Lohnexport.",
-    category: "Kernfunktionen",
+      "Rejestracja czasu pracy z podziałem na projekty, raporty miesięczne, śledzenie nadgodzin i eksport wynagrodzeń.",
+    category: "Funkcje główne",
   },
   {
     icon: UserCircle,
     slug: "crm",
-    title: "CRM & Kundenverwaltung",
+    title: "CRM i zarządzanie klientami",
     description:
-      "Zentrale Kontaktverwaltung mit kompletter Kundenhistorie, Tags und Kundenportal.",
-    category: "Kernfunktionen",
+      "Centralne zarządzanie kontaktami z pełną historią klienta, tagami i portalem klienta.",
+    category: "Funkcje główne",
   },
   {
     icon: CalendarDays,
     slug: "ferienmanagement",
-    title: "Ferienmanagement",
+    title: "Zarządzanie urlopami",
     description:
-      "Mobile Ferienantraege, Resttage-Übersicht und Genehmigungsworkflow mit Teamkalender.",
-    category: "Personal",
+      "Mobilne wnioski urlopowe, przegląd pozostałych dni i proces zatwierdzania z kalendarzem zespołu.",
+    category: "Kadry",
   },
   {
     icon: Camera,
     slug: "foto-dokumentation",
-    title: "Foto-Dokumentation",
+    title: "Dokumentacja fotograficzna",
     description:
-      "Vorher/Nachher-Fotos mit automatischer Projektzuordnung, Zeitstempel und GPS-Daten.",
-    category: "Baustelle",
+      "Zdjęcia przed/po z automatycznym przypisaniem do projektu, znacznikiem czasu i danymi GPS.",
+    category: "Plac budowy",
   },
   {
     icon: Package,
     slug: "lagerverwaltung",
-    title: "Lagerverwaltung",
+    title: "Zarządzanie magazynem",
     description:
-      "Material- und Werkzeugverwaltung mit automatischem Abzug pro Projekt und Mindestbestand-Warnungen.",
-    category: "Baustelle",
+      "Zarządzanie materiałami i narzędziami z automatycznym odliczaniem na projekt i ostrzeżeniami o minimalnym stanie.",
+    category: "Plac budowy",
   },
   {
     icon: Calculator,
     slug: "buchhaltung",
-    title: "Buchhaltung",
+    title: "Księgowość",
     description:
-      "Einnahmen/Ausgaben verwalten, MwSt-Abrechnung und Export für Ihren Treuhander.",
-    category: "Finanzen",
+      "Zarządzanie przychodami i wydatkami, rozliczanie VAT oraz eksport dla Twojego księgowego.",
+    category: "Finanse",
   },
   {
     icon: Smartphone,
     slug: "mitarbeiter-app",
-    title: "Mitarbeiter-App",
+    title: "Aplikacja pracownika",
     description:
-      "Aufgaben, Zeiterfassung, Fotos und Kommunikation - alles vom Smartphone, auch offline.",
-    category: "Baustelle",
+      "Zadania, rejestracja czasu, zdjęcia i komunikacja - wszystko ze smartfona, także offline.",
+    category: "Plac budowy",
   },
   {
     icon: Users,
     slug: "kundenportal",
-    title: "Kundenportal",
+    title: "Portal klienta",
     description:
-      "Projektfortschritt teilen, Offerten freigeben und transparente Kommunikation mit Kunden.",
-    category: "Kommunikation",
+      "Udostępnianie postępów projektu, zatwierdzanie ofert i transparentna komunikacja z klientami.",
+    category: "Komunikacja",
   },
   {
     icon: Repeat,
     slug: "service-abos",
-    title: "Service-Abos",
+    title: "Abonamenty serwisowe",
     description:
-      "Wiederkehrende Aufträge automatisch verwalten mit Projekterstellung nach Zeitplan.",
-    category: "Automatisierung",
+      "Automatyczne zarządzanie powtarzającymi się zleceniami z tworzeniem projektów według harmonogramu.",
+    category: "Automatyzacja",
   },
 ];
 
@@ -145,19 +145,19 @@ export function FunktionenOverview() {
               variants={staggerItem}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm mb-8"
             >
-              <span className="text-sm text-white/70">13 Funktionen, 1 Plattform</span>
+              <span className="text-sm text-white/70">13 funkcji, 1 platforma</span>
             </motion.div>
             <motion.h1
               variants={staggerItem}
               className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white leading-tight tracking-tight mb-6"
             >
-              <span className="gradient-text-animated">Alle Funktionen</span> für Ihren Betrieb
+              <span className="gradient-text-animated">Wszystkie funkcje</span> dla Twojej firmy
             </motion.h1>
             <motion.p
               variants={staggerItem}
               className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed"
             >
-              Von der Offerte bis zur Rechnung, vom Lager bis zum Kundenportal - Finito Pro deckt jeden Aspekt Ihres Handwerksbetriebs ab.
+              Od oferty po fakturę, od magazynu po portal klienta - Finito Pro obejmuje każdy aspekt Twojej firmy rzemieślniczej.
             </motion.p>
           </motion.div>
         </div>
@@ -187,7 +187,7 @@ export function FunktionenOverview() {
               </div>
               <Image
                 src="/images/mockup4.png"
-                alt="Finito Pro - Alle Funktionen auf einen Blick"
+                alt="Finito Pro - wszystkie funkcje w jednym miejscu"
                 width={1200}
                 height={750}
                 className="w-full rounded-b-xl"
@@ -233,7 +233,7 @@ export function FunktionenOverview() {
                         {feature.description}
                       </p>
                       <span className="inline-flex items-center gap-1 text-sm font-medium text-primary-600 group-hover:gap-2 transition-all">
-                        Mehr erfahren
+                        Dowiedz się więcej
                         <ArrowRight className="w-3.5 h-3.5" />
                       </span>
                     </div>
@@ -256,10 +256,10 @@ export function FunktionenOverview() {
             transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] as const }}
           >
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-white mb-6 leading-tight">
-              Alle Funktionen. Ein Preis.
+              Wszystkie funkcje. Jedna cena.
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Testen Sie Finito Pro 30 Tage kostenlos und überzeugen Sie sich selbst von allen Funktionen.
+              Wypróbuj Finito Pro przez 30 dni za darmo i sam przekonaj się o wszystkich funkcjach.
             </p>
             <motion.a
               href="https://app.finitopro.ch/register"
@@ -267,7 +267,7 @@ export function FunktionenOverview() {
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.98 }}
             >
-              Jetzt kostenlos testen
+              Wypróbuj za darmo
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.a>
           </motion.div>

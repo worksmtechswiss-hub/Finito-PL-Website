@@ -9,23 +9,23 @@ import { cn } from "@/lib/utils";
 const values = [
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Innowacja",
     description:
-      "Wir entwickeln moderne Lösungen, die den Arbeitsalltag von KMU tatsächlich vereinfachen. Keine überladenen Systeme, sondern smarte Tools.",
+      "Tworzymy nowoczesne rozwiązania, które naprawdę upraszczają codzienną pracę MŚP. Żadnych przeładowanych systemów - tylko inteligentne narzędzia.",
     color: "primary" as const,
   },
   {
     icon: Heart,
-    title: "Einfachheit",
+    title: "Prostota",
     description:
-      "Software muss einfach sein. Unsere Nutzer sollen ohne Schulung sofort loslegen können. Jede Funktion wird mit Blick auf Benutzerfreundlichkeit entwickelt.",
+      "Oprogramowanie musi być proste. Nasi użytkownicy powinni móc natychmiast rozpocząć pracę bez szkolenia. Każda funkcja jest tworzona z myślą o łatwości obsługi.",
     color: "accent" as const,
   },
   {
     icon: Users,
-    title: "Kundennähe",
+    title: "Bliskość klienta",
     description:
-      "Wir hören unseren Kunden zu. Ihre Rückmeldungen fliessen direkt in die Entwicklung ein. Persönlicher Support ist für uns selbstverständlich.",
+      "Słuchamy naszych klientów. Ich opinie trafiają bezpośrednio do procesu rozwoju. Osobiste wsparcie jest dla nas oczywistością.",
     color: "primary" as const,
   },
 ];
@@ -51,11 +51,11 @@ export function TeamContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              <span className="gradient-text-animated">Die Finito Story</span>
+              <span className="gradient-text-animated">Historia Finito</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Unsere Software für Dienstleister - entwickelt in der Schweiz, für
-              Schweizer KMU.
+              Nasze oprogramowanie dla usługodawców - stworzone w Szwajcarii, dla
+              szwajcarskich MŚP.
             </p>
           </motion.div>
         </div>
@@ -74,21 +74,21 @@ export function TeamContent() {
             className="text-center"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-8">
-              Warum <span className="gradient-text">Finito Pro</span>?
+              Dlaczego <span className="gradient-text">Finito Pro</span>?
             </h2>
             <div className="space-y-6 text-lg text-neutral-600 leading-relaxed max-w-3xl mx-auto">
               <p>
-                Wir glauben, dass kleine und mittelständische Unternehmen das
-                Fundament unserer Gesellschaft bilden. Handwerker, Dienstleister
-                und lokale Betriebe verdienen die gleiche Qualität an Software
-                wie grosse Konzerne - nur eben zugeschnitten auf ihre
-                Bedürfnisse.
+                Wierzymy, że małe i średnie przedsiębiorstwa stanowią
+                fundament naszego społeczeństwa. Rzemieślnicy, usługodawcy
+                i lokalne firmy zasługują na taką samą jakość oprogramowania
+                jak duże korporacje - tylko dostosowaną do ich
+                potrzeb.
               </p>
               <p>
-                Finito Pro entstand aus der direkten Zusammenarbeit mit
-                Handwerksbetrieben in der Schweiz. Wir haben zugehört, verstanden
-                und eine Lösung gebaut, die wirklich funktioniert: intuitiv,
-                bezahlbar und Swiss Made.
+                Finito Pro powstało z bezpośredniej współpracy z
+                firmami rzemieślniczymi w Szwajcarii. Słuchaliśmy, rozumieliśmy
+                i zbudowaliśmy rozwiązanie, które naprawdę działa: intuicyjne,
+                przystępne cenowo i Swiss Made.
               </p>
             </div>
           </motion.div>
@@ -106,10 +106,10 @@ export function TeamContent() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Unsere Werte
+              Nasze wartości
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Drei Prinzipien, die uns bei jeder Entscheidung leiten.
+              Trzy zasady, którymi kierujemy się przy każdej decyzji.
             </p>
           </motion.div>
 
@@ -179,7 +179,7 @@ export function TeamContent() {
             <div className="relative w-full max-w-md aspect-[4/3] rounded-2xl overflow-hidden shadow-card">
               <Image
                 src="/images/Vision.png"
-                alt="Die Vision von Finito Pro - Software für Schweizer KMU"
+                alt="Wizja Finito Pro - oprogramowanie dla szwajcarskich MŚP"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 448px"
@@ -199,12 +199,12 @@ export function TeamContent() {
                 <Rocket className="w-6 h-6 text-primary-600" />
               </div>
               <h3 className="text-2xl font-semibold text-neutral-900 mb-4">
-                Unsere Vision
+                Nasza wizja
               </h3>
               <p className="text-neutral-600 leading-relaxed">
-                Jeder Handwerksbetrieb in der Schweiz hat eine Software, die mit
-                ihm wächst. Wir wollen die erste Wahl für KMU sein, die ihre
-                Prozesse digitalisieren möchten - einfach, sicher und fair.
+                Każda firma rzemieślnicza w Szwajcarii ma oprogramowanie, które
+                rośnie razem z nią. Chcemy być pierwszym wyborem dla MŚP, które
+                chcą zdigitalizować swoje procesy - prosto, bezpiecznie i uczciwie.
               </p>
             </motion.div>
 
@@ -219,12 +219,12 @@ export function TeamContent() {
                 <Target className="w-6 h-6 text-accent-600" />
               </div>
               <h3 className="text-2xl font-semibold text-neutral-900 mb-4">
-                Unsere Mission
+                Nasza misja
               </h3>
               <p className="text-neutral-600 leading-relaxed">
-                Wir entwickeln die intuitivste All-in-One-Software für Schweizer
-                KMU. Von der Offerte bis zur Rechnung, von der Zeiterfassung bis
-                zum Kundenportal - alles in einer Lösung, die jeder versteht.
+                Tworzymy najbardziej intuicyjne oprogramowanie all-in-one dla szwajcarskich
+                MŚP. Od oferty po fakturę, od rejestracji czasu pracy po
+                portal klienta - wszystko w jednym rozwiązaniu, które każdy rozumie.
               </p>
             </motion.div>
           </div>
@@ -242,11 +242,11 @@ export function TeamContent() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Das Team
+              Zespół
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Unser Team mit einer gemeinsamen Leidenschaft: Software, die KMU
-              wirklich hilft.
+              Nasz zespół z jedną wspólną pasją: oprogramowanie, które naprawdę
+              pomaga MŚP.
             </p>
           </motion.div>
 
@@ -267,7 +267,7 @@ export function TeamContent() {
                   <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-card group-hover:shadow-card-hover transition-all group-hover:scale-105 ring-3 ring-white">
                     <Image
                       src={member.image}
-                      alt={`${member.name} - ${member.role} bei Finito Pro`}
+                      alt={`${member.name} - ${member.role} w Finito Pro`}
                       width={112}
                       height={112}
                       className="w-full h-full object-cover"
@@ -301,7 +301,7 @@ export function TeamContent() {
           >
             <Image
               src="/images/team-2.png"
-              alt="Das Finito Pro Team - gemeinsam für Schweizer KMU"
+              alt="Zespół Finito Pro - razem dla szwajcarskich MŚP"
               width={1200}
               height={600}
               className="w-full h-auto object-cover"
@@ -309,8 +309,8 @@ export function TeamContent() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/40 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
-              <p className="text-white font-semibold text-lg">Unser Team</p>
-              <p className="text-white/70 text-sm">Gemeinsam für Schweizer KMU</p>
+              <p className="text-white font-semibold text-lg">Nasz zespół</p>
+              <p className="text-white/70 text-sm">Razem dla szwajcarskich MŚP</p>
             </div>
           </motion.div>
         </div>
@@ -327,11 +327,11 @@ export function TeamContent() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-6 leading-tight">
-              Überzeugen Sie sich selbst
+              Przekonaj się sam
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Testen Sie Finito Pro 30 Tage kostenlos und erleben Sie, wie
-              einfach Ihr Geschäftsalltag sein kann.
+              Testuj Finito Pro przez 30 dni za darmo i przekonaj się, jak
+              prosta może być Twoja codzienna praca.
             </p>
             <motion.a
               href="https://app.finitopro.ch/register"
@@ -339,7 +339,7 @@ export function TeamContent() {
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.98 }}
             >
-              Jetzt gratis starten
+              Zacznij za darmo
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.a>
           </motion.div>

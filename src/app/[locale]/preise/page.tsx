@@ -10,17 +10,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Preise - Finito Pro KMU Software",
+    title: "Cennik - Finito Pro oprogramowanie dla MSP",
     description:
-      "Finito Pro Preise: Starter gratis, KMU ab CHF 30/Monat. Alle Funktionen im Vergleich. 30 Tage kostenlos testen - keine Kreditkarte nötig.",
+      "Cennik Finito Pro: Starter za darmo, MSP od CHF 30/miesiac. Porownanie wszystkich funkcji. 30 dni bezplatnego testu - bez karty kredytowej.",
     path: "/preise",
     locale,
     keywords: [
-      "Finito Pro Preise",
-      "KMU Software Kosten",
-      "Handwerker Software Preise",
-      "Schweizer Software günstig",
-      "Business Software Vergleich",
+      "Finito Pro cennik",
+      "koszty oprogramowania MSP",
+      "ceny oprogramowania rzemieslniczego",
+      "szwajcarskie oprogramowanie tanio",
+      "porownanie oprogramowania biznesowego",
     ],
   });
 }

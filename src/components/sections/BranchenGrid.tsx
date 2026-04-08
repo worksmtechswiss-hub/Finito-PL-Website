@@ -17,14 +17,14 @@ import {
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 const branches = [
-  { icon: Paintbrush, slug: "maler", labelDe: "Maler", labelEn: "Painters", descDe: "Offerten mit gespeicherten Leistungskatalogen, Projekt-Sharing mit Kunden" },
-  { icon: BrickWall, slug: "gipser", labelDe: "Gipser", labelEn: "Plasterers", descDe: "Digitale Fotorapporte, Lagerverwaltung mit Artikelverfolgung" },
-  { icon: Zap, slug: "elektriker", labelDe: "Elektriker", labelEn: "Electricians", descDe: "Schaltpläne mobil auf der Baustelle, Lagerverwaltung mit Lieferanten-Links" },
-  { icon: Wrench, slug: "sanitaer", labelDe: "Sanitär", labelEn: "Plumbers", descDe: "Mobile Zeiterfassung direkt am Einsatzort, digitale Regierapporte" },
-  { icon: HardHat, slug: "dachdecker", labelDe: "Dachdecker", labelEn: "Roofers", descDe: "Mitarbeiterplanung mit Kalender, digitales Projektarchiv (25+ Jahre)" },
-  { icon: TreePine, slug: "gartenbau", labelDe: "Gartenbau", labelEn: "Landscaping", descDe: "Saisonale Projektplanung, Pflanzendokumentation für Folgejahre" },
-  { icon: Building2, slug: "facility-service", labelDe: "Facility Service", labelEn: "Facility Service", descDe: "Automatisierte Wartungsintervalle, Partnerkoordination für Grossprojekte" },
-  { icon: Truck, slug: "umzug", labelDe: "Umzug", labelEn: "Moving", descDe: "Tagesplanung mit Routenoptimierung, Inventarlisten mit Foto-Dokumentation" },
+  { icon: Paintbrush, slug: "maler", labelDe: "Malarze", labelEn: "Painters", descDe: "Oferty z zapisanymi katalogami usług, udostępnianie projektów klientom" },
+  { icon: BrickWall, slug: "gipser", labelDe: "Tynkarze", labelEn: "Plasterers", descDe: "Cyfrowe raporty fotograficzne, zarządzanie magazynem ze śledzeniem artykułów" },
+  { icon: Zap, slug: "elektriker", labelDe: "Elektrycy", labelEn: "Electricians", descDe: "Schematy elektryczne mobilnie na budowie, zarządzanie magazynem z linkami do dostawców" },
+  { icon: Wrench, slug: "sanitaer", labelDe: "Hydraulicy", labelEn: "Plumbers", descDe: "Mobilna rejestracja czasu bezpośrednio na miejscu, cyfrowe raporty robocze" },
+  { icon: HardHat, slug: "dachdecker", labelDe: "Dekarze", labelEn: "Roofers", descDe: "Planowanie pracowników z kalendarzem, cyfrowe archiwum projektów (25+ lat)" },
+  { icon: TreePine, slug: "gartenbau", labelDe: "Ogrodnictwo", labelEn: "Landscaping", descDe: "Sezonowe planowanie projektów, dokumentacja roślin na kolejne lata" },
+  { icon: Building2, slug: "facility-service", labelDe: "Facility Service", labelEn: "Facility Service", descDe: "Zautomatyzowane interwały konserwacji, koordynacja partnerów w dużych projektach" },
+  { icon: Truck, slug: "umzug", labelDe: "Przeprowadzki", labelEn: "Moving", descDe: "Planowanie dnia z optymalizacją tras, listy inwentaryzacyjne z dokumentacją fotograficzną" },
 ];
 
 export function BranchenGrid() {

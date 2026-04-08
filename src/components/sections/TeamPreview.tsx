@@ -118,35 +118,35 @@ export function TeamPreview() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Echte Menschen,{" "}
+              Prawdziwi ludzie,{" "}
               <span className="bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] bg-clip-text text-transparent">
-                echte Hilfe
+                prawdziwa pomoc
               </span>
             </h2>
 
             <p className="text-lg text-neutral-500 mb-6 leading-relaxed">
-              Hinter Finito Pro steht ein Team aus der Schweiz, das Ihre Herausforderungen kennt.
-              Persönlicher Support ist für uns selbstverständlich - keine Warteschleifen, keine Chatbots.
+              Za Finito Pro stoi zespół ze Szwajcarii, który zna Twoje wyzwania.
+              Osobiste wsparcie jest dla nas oczywistością - bez kolejek, bez chatbotów.
             </p>
 
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 rounded-full bg-green-400" />
-                <span className="text-neutral-700 text-sm">Persönlicher Ansprechpartner für jeden Kunden</span>
+                <span className="text-neutral-700 text-sm">Osobisty opiekun dla każdego klienta</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 rounded-full bg-green-400" />
-                <span className="text-neutral-700 text-sm">Onboarding-Unterstützung inklusive</span>
+                <span className="text-neutral-700 text-sm">Wsparcie onboardingowe w cenie</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 rounded-full bg-green-400" />
-                <span className="text-neutral-700 text-sm">Antwort innerhalb von 24 Stunden - meistens schneller</span>
+                <span className="text-neutral-700 text-sm">Odpowiedź w ciągu 24 godzin - zazwyczaj szybciej</span>
               </div>
             </div>
 
             {/* Social Media Links */}
             <div className="mb-8">
-              <p className="text-sm text-neutral-400 mb-3">Folgen Sie uns</p>
+              <p className="text-sm text-neutral-400 mb-3">Obserwuj nas</p>
               <div className="flex items-center gap-3">
                 {socialLinks.map((social) => (
                   <a
@@ -167,7 +167,7 @@ export function TeamPreview() {
               href="/team"
               className="inline-flex items-center gap-2 text-primary-600 font-medium hover:text-primary-700 transition-colors group"
             >
-              Mehr über unser Team
+              Więcej o naszym zespole
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>

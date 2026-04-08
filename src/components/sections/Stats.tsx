@@ -63,8 +63,8 @@ const savingsData = [
     suffix: "",
     prefix: "",
     formatNumber: false,
-    unit: "Stunden/Jahr gespart",
-    detail: "= 13 Arbeitswochen",
+    unit: "godzin/rok zaoszczędzonych",
+    detail: "= 13 tygodni pracy",
   },
   {
     icon: Banknote,
@@ -72,8 +72,8 @@ const savingsData = [
     suffix: "",
     prefix: "CHF ",
     formatNumber: true,
-    unit: "eingespart",
-    detail: "bei CHF 60/h",
+    unit: "zaoszczędzonych",
+    detail: "przy CHF 60/h",
   },
   {
     icon: FileCheck,
@@ -81,8 +81,8 @@ const savingsData = [
     suffix: "",
     prefix: "",
     formatNumber: false,
-    unit: "vergessene Rechnungen",
-    detail: "automatische Erinnerungen",
+    unit: "zapomnianych faktur",
+    detail: "automatyczne przypomnienia",
   },
   {
     icon: ShieldCheck,
@@ -90,8 +90,8 @@ const savingsData = [
     suffix: "%",
     prefix: "",
     formatNumber: false,
-    unit: "digitale Dokumentation",
-    detail: "revisionssicher archiviert",
+    unit: "cyfrowa dokumentacja",
+    detail: "zarchiwizowane zgodnie z przepisami",
   },
 ];
 
@@ -112,10 +112,10 @@ export function Stats() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900 mb-4">
-            So viel spart ein typisches KMU
+            Tyle oszczędza typowe MŚP
           </h2>
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-            Bei einem typischen KMU mit 5 Mitarbeitern und 200 Projekten pro Jahr:
+            Przy typowym MŚP z 5 pracownikami i 200 projektami rocznie:
           </p>
         </motion.div>
 
@@ -170,7 +170,7 @@ export function Stats() {
             href="/automationen"
             className="inline-flex items-center gap-2 text-primary-600 font-medium hover:text-primary-700 transition-colors group"
           >
-            Alle Praxisbeispiele ansehen
+            Zobacz wszystkie przykłady
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </motion.div>

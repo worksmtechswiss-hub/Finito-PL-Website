@@ -10,9 +10,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Impressum - Finito Pro",
+    title: "Informacje prawne - Finito Pro",
     description:
-      "Impressum von Finito Pro. Angaben gemäss Schweizer Recht. Kontaktinformationen und rechtliche Hinweise.",
+      "Informacje prawne Finito Pro. Dane zgodnie z prawem szwajcarskim. Dane kontaktowe i informacje prawne.",
     path: "/impressum",
     locale,
   });

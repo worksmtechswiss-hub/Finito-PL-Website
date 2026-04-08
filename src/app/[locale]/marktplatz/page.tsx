@@ -10,16 +10,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Marktplatz - Finito Pro Erweiterungen",
+    title: "Marketplace - Rozszerzenia Finito Pro",
     description:
-      "Entdecken Sie Erweiterungen und Integrationen für Finito Pro. Verbinden Sie Ihre Lieblings-Tools und erweitern Sie den Funktionsumfang.",
+      "Odkryj rozszerzenia i integracje dla Finito Pro. Połącz swoje ulubione narzędzia i rozszerz zakres funkcji.",
     path: "/marktplatz",
     locale,
     keywords: [
-      "Finito Pro Marktplatz",
-      "KMU Software Erweiterungen",
-      "Business Software Integrationen",
-      "Finito Pro Add-Ons",
+      "Finito Pro marketplace",
+      "rozszerzenia oprogramowania MŚP",
+      "integracje oprogramowania biznesowego",
+      "Finito Pro dodatki",
     ],
   });
 }

@@ -69,7 +69,7 @@ export function CookieBanner() {
               <button
                 onClick={reject}
                 className="absolute top-3 right-3 sm:hidden p-1 text-neutral-500 hover:text-white"
-                aria-label="Schliessen"
+                aria-label="Zamknij"
               >
                 <X className="w-4 h-4" />
               </button>

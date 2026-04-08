@@ -19,43 +19,43 @@ const tabs = [
     video: "/videos/1Dashboard-Desktop-transcode.mp4",
     videoWebm: "/videos/1Dashboard-Desktop-transcode.webm",
     poster: "/videos/1Dashboard-Desktop-poster-00001.jpg",
-    description: "Alle KPIs auf einen Blick",
+    description: "Wszystkie KPI w jednym miejscu",
   },
   {
     id: "projekte",
-    label: "Projekte",
+    label: "Projekty",
     icon: FolderKanban,
     video: "/videos/1Projekt-Management-transcode.mp4",
     videoWebm: "/videos/1Projekt-Management-transcode.webm",
     poster: "/videos/1Projekt-Management-poster-00001.jpg",
-    description: "Projekte effizient verwalten",
+    description: "Efektywne zarządzanie projektami",
   },
   {
     id: "rechnungen",
-    label: "Rechnungen",
+    label: "Faktury",
     icon: Receipt,
     video: "/videos/1Rechnungen-PC-transcode.mp4",
     videoWebm: "/videos/1Rechnungen-PC-transcode.webm",
     poster: "/videos/1Rechnungen-PC-poster-00001.jpg",
-    description: "QR-Rechnungen in Sekunden",
+    description: "Faktury QR w kilka sekund",
   },
   {
     id: "offerten",
-    label: "Offerten",
+    label: "Oferty",
     icon: FileText,
     video: "/videos/1Offerte-PC-transcode.mp4",
     videoWebm: "/videos/1Offerte-PC-transcode.webm",
     poster: "/videos/1Offerte-PC-poster-00001.jpg",
-    description: "Professionelle Offerten erstellen",
+    description: "Tworzenie profesjonalnych ofert",
   },
   {
     id: "kalender",
-    label: "Kalender",
+    label: "Kalendarz",
     icon: CalendarDays,
     video: "/videos/1Dashboard-Desktop-transcode.mp4",
     videoWebm: "/videos/1Dashboard-Desktop-transcode.webm",
     poster: "/videos/1Dashboard-Desktop-poster-00001.jpg",
-    description: "Termine und Planung",
+    description: "Terminy i planowanie",
   },
 ];
 
@@ -74,14 +74,14 @@ export function FeatureVideoShowcase() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900 mb-4">
-            Die{" "}
+            Kompleksowe{" "}
             <span className="bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] bg-clip-text text-transparent">
               All-in-One
             </span>{" "}
-            Projektmanagement-Lösung
+            rozwiązanie do zarządzania projektami
           </h2>
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-            Schweizer Software für Schweizer Handwerker
+            Szwajcarskie oprogramowanie dla firm rzemieślniczych
           </p>
         </motion.div>
 

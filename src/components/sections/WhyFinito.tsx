@@ -6,21 +6,21 @@ import { ShieldCheck, Rocket, TrendingUp } from "lucide-react";
 const reasons = [
   {
     icon: ShieldCheck,
-    title: "100% Schweizer Daten",
+    title: "100% dane w Szwajcarii",
     description:
-      "Alle Daten werden verschlüsselt auf Schweizer Servern gespeichert. DSGVO-konform.",
+      "Wszystkie dane są szyfrowane i przechowywane na serwerach w Szwajcarii. Zgodność z RODO.",
   },
   {
     icon: Rocket,
-    title: "In 5 Minuten startklar",
+    title: "Gotowy w 5 minut",
     description:
-      "Keine Installation, keine Schulung. Einfach registrieren und loslegen.",
+      "Bez instalacji, bez szkolenia. Po prostu zarejestruj się i zacznij.",
   },
   {
     icon: TrendingUp,
-    title: "Wächst mit Ihrem Unternehmen",
+    title: "Rośnie razem z Twoją firmą",
     description:
-      "Von 1 bis 100 Mitarbeiter. Flexible Preise, keine Mindestlaufzeit.",
+      "Od 1 do 100 pracowników. Elastyczne ceny, bez minimalnego okresu umowy.",
   },
 ];
 
@@ -37,7 +37,7 @@ export function WhyFinito() {
           className="text-center mb-20"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900">
-            Warum Finito?
+            Dlaczego Finito?
           </h2>
         </motion.div>
 

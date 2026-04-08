@@ -68,92 +68,92 @@ interface AutomationExample {
 const automationExamples: AutomationExample[] = [
   {
     icon: FileText,
-    title: "Offerte erstellen",
-    vorher: "Word-Vorlage suchen, Preise nachschlagen, formatieren",
-    vorherZeit: "30 Min.",
-    nachher: "Gespeicherte Leistungskataloge, automatische Preise",
-    nachherZeit: "3 Min.",
-    ersparnis: "90% Zeitersparnis = 27 Minuten pro Offerte",
+    title: "Tworzenie oferty",
+    vorher: "Szukanie szablonu Word, sprawdzanie cen, formatowanie",
+    vorherZeit: "30 min",
+    nachher: "Zapisane katalogi usług, automatyczne ceny",
+    nachherZeit: "3 min",
+    ersparnis: "90% oszczędności czasu = 27 minut na ofertę",
     prozent: 90,
   },
   {
     icon: Receipt,
-    title: "Rechnung schreiben & versenden",
-    vorher: "Word, QR-Code manuell erstellen, PDF exportieren, E-Mail",
-    vorherZeit: "20 Min.",
-    nachher: "Automatisch aus Projekt generiert, QR-Code, sofort versenden",
-    nachherZeit: "1 Min.",
-    ersparnis: "95% Zeitersparnis = Statt 20 Min. nur 1 Minute",
+    title: "Wystawianie i wysyłanie faktury",
+    vorher: "Word, ręczne tworzenie kodu QR, eksport PDF, e-mail",
+    vorherZeit: "20 min",
+    nachher: "Automatyczne generowanie z projektu, kod QR, natychmiastowa wysyłka",
+    nachherZeit: "1 min",
+    ersparnis: "95% oszczędności czasu = zamiast 20 min tylko 1 minuta",
     prozent: 95,
   },
   {
     icon: CalendarClock,
-    title: "Monatsrapport Zeiterfassung",
-    vorher: "Excel zusammentragen, pruefen, formatieren",
-    vorherZeit: "2 Std./Monat",
-    nachher: "Automatischer Monatsrapport auf Knopfdruck",
-    nachherZeit: "0 Min.",
-    ersparnis: "100% = 24 Stunden pro Jahr gespart",
+    title: "Miesięczny raport czasu pracy",
+    vorher: "Zbieranie danych w Excelu, weryfikacja, formatowanie",
+    vorherZeit: "2 godz./mies.",
+    nachher: "Automatyczny raport miesięczny jednym kliknięciem",
+    nachherZeit: "0 min",
+    ersparnis: "100% = 24 godziny zaoszczędzone rocznie",
     prozent: 100,
   },
   {
     icon: Camera,
-    title: "Projekt-Dokumentation",
-    vorher: "Fotos sortieren, beschriften, manuell zuordnen",
-    vorherZeit: "15 Min./Projekt",
-    nachher: "Automatische Zuordnung beim Fotografieren",
-    nachherZeit: "0 Min.",
-    ersparnis: "Bei 200 Projekten/Jahr = 50 Stunden gespart",
+    title: "Dokumentacja projektu",
+    vorher: "Sortowanie zdjęć, opisywanie, ręczne przypisywanie",
+    vorherZeit: "15 min/projekt",
+    nachher: "Automatyczne przypisanie podczas fotografowania",
+    nachherZeit: "0 min",
+    ersparnis: "Przy 200 projektach/rok = 50 godzin zaoszczędzonych",
     prozent: 100,
   },
   {
     icon: RefreshCw,
-    title: "Wiederkehrende Auftraege (Service-Abos)",
-    vorher: "Manuell erinnern, Projekt anlegen, Rechnung schreiben",
-    vorherZeit: "30 Min./Auftrag",
-    nachher: "Automatisch neues Projekt + Rechnung zum richtigen Zeitpunkt",
-    nachherZeit: "0 Min.",
-    ersparnis: "0 vergessene Auftraege, 100% automatisch",
+    title: "Zlecenia cykliczne (abonamenty serwisowe)",
+    vorher: "Ręczne przypominanie, tworzenie projektu, wystawianie faktury",
+    vorherZeit: "30 min/zlecenie",
+    nachher: "Automatycznie nowy projekt + faktura we właściwym czasie",
+    nachherZeit: "0 min",
+    ersparnis: "0 zapomnianych zleceń, 100% automatycznie",
     prozent: 100,
   },
   {
     icon: Palmtree,
-    title: "Ferienplanung",
-    vorher: "E-Mail schreiben, Chef anrufen, Excel aktualisieren",
-    vorherZeit: "45 Min./Antrag",
-    nachher: "Antrag in App, automatische Genehmigung, Kalender aktualisiert",
-    nachherZeit: "30 Sek.",
-    ersparnis: "99% = Bei 50 Anträgen/Jahr = 37 Stunden gespart",
+    title: "Planowanie urlopów",
+    vorher: "Pisanie e-maila, dzwonienie do szefa, aktualizacja Excela",
+    vorherZeit: "45 min/wniosek",
+    nachher: "Wniosek w aplikacji, automatyczna akceptacja, zaktualizowany kalendarz",
+    nachherZeit: "30 sek.",
+    ersparnis: "99% = przy 50 wnioskach/rok = 37 godzin zaoszczędzonych",
     prozent: 99,
   },
   {
     icon: Warehouse,
-    title: "Lagerverwaltung",
-    vorher: "Manuelles Zählen, Excel-Listen, Material fehlt auf Baustelle",
-    vorherZeit: "60 Min./Woche",
-    nachher: "Automatischer Materialabzug bei Projektzuweisung",
-    nachherZeit: "0 Min.",
-    ersparnis: "0 Materialengpässe, 100% Bestandsübersicht",
+    title: "Zarządzanie magazynem",
+    vorher: "Ręczne liczenie, listy w Excelu, brak materiałów na budowie",
+    vorherZeit: "60 min/tydzień",
+    nachher: "Automatyczne odliczanie materiałów przy przypisaniu do projektu",
+    nachherZeit: "0 min",
+    ersparnis: "0 braków materiałowych, 100% przegląd stanów",
     prozent: 100,
   },
   {
     icon: MessageCircle,
-    title: "Kundenkommunikation",
-    vorher: "Kunde ruft 3x an (\"Wie weit seid ihr?\"), Fotos per WhatsApp",
-    vorherZeit: "15 Min./Kunde",
-    nachher: "Kunde sieht Fortschritt im Kundenportal in Echtzeit",
-    nachherZeit: "0 Min.",
-    ersparnis: "80% weniger Kundenanrufe",
+    title: "Komunikacja z klientem",
+    vorher: "Klient dzwoni 3x (\"Na jakim etapie jesteście?\"), zdjęcia przez WhatsApp",
+    vorherZeit: "15 min/klient",
+    nachher: "Klient widzi postęp w portalu klienta w czasie rzeczywistym",
+    nachherZeit: "0 min",
+    ersparnis: "80% mniej telefonów od klientów",
     prozent: 80,
   },
   {
     icon: Calculator,
-    title: "Jahresabschluss / Buchhaltung",
-    vorher: "2 Wochen Chaos: Belege suchen, Treuhänder anrufen",
-    vorherZeit: "2 Wochen",
-    nachher: "1 Klick Export, alle Daten sortiert",
-    nachherZeit: "2 Std.",
-    ersparnis: "Von 2 Wochen auf 2 Stunden",
+    title: "Zamknięcie roku / księgowość",
+    vorher: "2 tygodnie chaosu: szukanie dowodów, dzwonienie do księgowego",
+    vorherZeit: "2 tygodnie",
+    nachher: "Eksport jednym kliknięciem, wszystkie dane posortowane",
+    nachherZeit: "2 godz.",
+    ersparnis: "Z 2 tygodni do 2 godzin",
     prozent: 98,
   },
 ];
@@ -163,23 +163,23 @@ const totalSavings = [
     icon: Clock,
     value: 520,
     suffix: "",
-    label: "Stunden/Jahr gespart",
-    sub: "= 13 Arbeitswochen",
+    label: "godzin/rok zaoszczędzonych",
+    sub: "= 13 tygodni roboczych",
   },
   {
     icon: Banknote,
     value: 31200,
     suffix: "",
-    label: "CHF eingespart",
-    sub: "bei CHF 60/h",
+    label: "CHF zaoszczędzonych",
+    sub: "przy stawce CHF 60/godz.",
     format: true,
   },
   {
     icon: ShieldCheck,
     value: 0,
     suffix: "",
-    label: "vergessene Rechnungen",
-    sub: "Nie wieder Umsatz verlieren",
+    label: "zapomnianych faktur",
+    sub: "Nigdy więcej utraconych przychodów",
     static: true,
     staticDisplay: "0",
   },
@@ -187,8 +187,8 @@ const totalSavings = [
     icon: FolderCheck,
     value: 100,
     suffix: "%",
-    label: "digitale Dokumentation",
-    sub: "Papierlos und sicher",
+    label: "cyfrowa dokumentacja",
+    sub: "Bezpapierowo i bezpiecznie",
   },
 ];
 
@@ -202,8 +202,8 @@ function ComparisonBar({ prozent }: { prozent: number }) {
   return (
     <div ref={ref} className="mt-4">
       <div className="flex justify-between text-xs text-neutral-400 mb-1.5">
-        <span>Vorher</span>
-        <span>Mit Finito</span>
+        <span>Przed</span>
+        <span>Z Finito</span>
       </div>
       <div className="relative h-3 bg-neutral-100 rounded-full overflow-hidden">
         {/* "Vorher" bar (full width, faded) */}
@@ -218,7 +218,7 @@ function ComparisonBar({ prozent }: { prozent: number }) {
       </div>
       <div className="text-right mt-1">
         <span className="text-xs font-semibold text-violet-600">
-          {prozent}% Zeitersparnis
+          {prozent}% oszczędności czasu
         </span>
       </div>
     </div>
@@ -243,15 +243,15 @@ export function AutomationenContent() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 text-white/70 text-sm font-medium rounded-full border border-white/10 mb-6">
               <Zap className="w-4 h-4 text-violet-400" />
-              Automationen & Zeitersparnis
+              Automatyzacje i oszczędność czasu
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              Automatisieren{" "}
-              <span className="gradient-text-animated">statt administrieren</span>
+              Automatyzuj{" "}
+              <span className="gradient-text-animated">zamiast administrować</span>
             </h1>
             <p className="text-lg text-white/50 max-w-2xl mx-auto mb-10">
-              Sehen Sie anhand konkreter Praxisbeispiele, wie viel Zeit und Geld
-              Sie mit Finito sparen.
+              Zobacz na konkretnych przykładach z praktyki, ile czasu i pieniędzy
+              oszczędzisz z Finito.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -260,14 +260,14 @@ export function AutomationenContent() {
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}
               >
-                30 Tage kostenlos testen
+                Testuj 30 dni za darmo
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
               <Link
                 href="/kontakt"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-white/20 text-white font-medium rounded-2xl hover:bg-white/5 transition-all"
               >
-                Demo anfordern
+                Zamów demo
               </Link>
             </div>
           </motion.div>
@@ -287,13 +287,13 @@ export function AutomationenContent() {
             className="text-center mb-16"
           >
             <span className="inline-block px-4 py-1.5 bg-violet-50 text-violet-600 text-sm font-medium rounded-full mb-4">
-              Vorher vs. Nachher
+              Przed vs. Po
             </span>
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Praxisbeispiele: So viel Zeit sparen Sie wirklich
+              Przykłady z praktyki: tyle czasu naprawdę oszczędzisz
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Konkrete Vergleiche aus dem Alltag von KMU und Handwerksbetrieben.
+              Konkretne porównania z codziennej pracy MŚP i firm rzemieślniczych.
             </p>
           </motion.div>
 
@@ -327,7 +327,7 @@ export function AutomationenContent() {
                     <div className="flex items-center gap-2 mb-1">
                       <span className="inline-block w-2 h-2 rounded-full bg-neutral-300" />
                       <span className="text-xs font-semibold text-neutral-400 uppercase tracking-wider">
-                        Vorher
+                        Przed
                       </span>
                       <span className="ml-auto text-sm font-bold text-neutral-600">
                         {example.vorherZeit}
@@ -343,7 +343,7 @@ export function AutomationenContent() {
                     <div className="flex items-center gap-2 mb-1">
                       <span className="inline-block w-2 h-2 rounded-full bg-violet-500" />
                       <span className="text-xs font-semibold text-violet-600 uppercase tracking-wider">
-                        Mit Finito
+                        Z Finito
                       </span>
                       <span className="ml-auto text-sm font-bold text-violet-600">
                         {example.nachherZeit}
@@ -384,14 +384,14 @@ export function AutomationenContent() {
             className="text-center mb-16"
           >
             <span className="inline-block px-4 py-1.5 bg-violet-50 text-violet-600 text-sm font-medium rounded-full mb-4">
-              Gesamtersparnis
+              Łączne oszczędności
             </span>
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              So viel spart ein typisches KMU
+              Tyle oszczędza typowe MŚP
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Bei einem typischen KMU mit 5 Mitarbeitern und 200 Projekten pro
-              Jahr:
+              Dla typowego MŚP z 5 pracownikami i 200 projektami
+              rocznie:
             </p>
           </motion.div>
 
@@ -457,19 +457,19 @@ export function AutomationenContent() {
                 Enterprise
               </div>
               <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-6">
-                Noch mehr Automatisierung gewuenscht?
+                Potrzebujesz jeszcze więcej automatyzacji?
               </h2>
               <p className="text-lg text-neutral-500 mb-6 leading-relaxed">
-                Fuer Grossfirmen entwickeln wir Custom Apps und Automationen auf
-                Basis von Finito. Individuelle Workflows, Schnittstellen und
-                Integrationen - massgeschneidert fuer Ihr Unternehmen.
+                Dla dużych firm tworzymy dedykowane aplikacje i automatyzacje
+                na bazie Finito. Indywidualne przepływy pracy, interfejsy i
+                integracje - szyte na miarę Twojej firmy.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
-                  "Individuelle Workflows und Prozesse",
-                  "API-Schnittstellen zu Ihrer bestehenden Software",
-                  "Custom Apps fuer spezifische Anforderungen",
-                  "Persoenliche Beratung und Implementierung",
+                  "Indywidualne przepływy pracy i procesy",
+                  "Interfejsy API do istniejącego oprogramowania",
+                  "Dedykowane aplikacje dla specyficznych wymagań",
+                  "Osobiste doradztwo i wdrożenie",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <div className="w-5 h-5 rounded-full bg-violet-100 flex items-center justify-center mt-0.5 shrink-0">
@@ -483,7 +483,7 @@ export function AutomationenContent() {
                 href="/kontakt"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 text-white font-semibold rounded-xl hover:bg-violet-700 transition-colors"
               >
-                Kontakt aufnehmen
+                Skontaktuj się
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </motion.div>
@@ -501,9 +501,9 @@ export function AutomationenContent() {
                 <div className="relative bg-gradient-to-br from-neutral-900 to-neutral-800 rounded-2xl p-8 border border-neutral-700/50">
                   <div className="space-y-4">
                     {[
-                      { label: "Workflow", value: "Automatisiert", color: "bg-violet-500" },
-                      { label: "Schnittstelle", value: "ERP verbunden", color: "bg-emerald-500" },
-                      { label: "Trigger", value: "Echtzeit", color: "bg-amber-500" },
+                      { label: "Workflow", value: "Zautomatyzowany", color: "bg-violet-500" },
+                      { label: "Interfejs", value: "ERP połączone", color: "bg-emerald-500" },
+                      { label: "Trigger", value: "Czas rzeczywisty", color: "bg-amber-500" },
                     ].map((row) => (
                       <div
                         key={row.label}
@@ -523,10 +523,10 @@ export function AutomationenContent() {
                   </div>
                   <div className="mt-6 p-4 bg-violet-500/10 rounded-xl border border-violet-500/20">
                     <p className="text-sm text-violet-300 font-medium">
-                      Custom Integration aktiv
+                      Integracja na zamówienie aktywna
                     </p>
                     <p className="text-xs text-violet-400/60 mt-1">
-                      3 Workflows - 12 Automationen - 0 Fehler
+                      3 przepływy pracy - 12 automatyzacji - 0 błędów
                     </p>
                   </div>
                 </div>
@@ -549,11 +549,11 @@ export function AutomationenContent() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-6">
-              Starten Sie jetzt und sparen Sie ab dem ersten Tag
+              Zacznij teraz i oszczędzaj od pierwszego dnia
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              30 Tage kostenlos, keine Kreditkarte noetig. Ueberzeugen Sie sich
-              selbst, wie viel Zeit Finito Pro Ihnen spart.
+              30 dni za darmo, bez karty kredytowej. Przekonaj się
+              sam, ile czasu oszczędzisz z Finito Pro.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -562,14 +562,14 @@ export function AutomationenContent() {
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Jetzt kostenlos testen
+                Testuj teraz za darmo
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
               <Link
                 href="/kontakt"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-white/20 text-white font-medium rounded-2xl hover:bg-white/5 transition-all"
               >
-                Demo anfordern
+                Zamów demo
               </Link>
             </div>
           </motion.div>
