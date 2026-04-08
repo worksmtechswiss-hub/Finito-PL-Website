@@ -34,10 +34,12 @@ export function ImpressumContent() {
             >
               <h2 className="text-xl font-semibold text-neutral-900 mb-4">Adres kontaktowy</h2>
               <div className="text-neutral-600 leading-relaxed text-sm">
-                <p>Finito Pro</p>
-                <p>Szwajcaria</p>
+                <p className="font-medium">Octolabs Sp. z o.o.</p>
+                <p>Ho¿a 29, 00-521 Warszawa, Polska</p>
+                <p className="mt-2">KRS: 0001185907 | NIP: 7011270907 | REGON: 542315362</p>
+                <p className="mt-2">Osoba kontaktowa: Kamil Gonera</p>
                 <p className="mt-2">E-mail: hello@finitopro.ch</p>
-                <p>Strona internetowa: www.finitopro.ch</p>
+                <p>Strona internetowa: www.finitopro.pl</p>
               </div>
             </motion.div>
 
@@ -49,7 +51,7 @@ export function ImpressumContent() {
             >
               <h2 className="text-xl font-semibold text-neutral-900 mb-4">Osoby uprawnione do reprezentacji</h2>
               <p className="text-neutral-600 text-sm">
-                Carlos, Lukas, Kamil, Nico, Izabela, Natalia
+                Kamil Gonera
               </p>
             </motion.div>
 

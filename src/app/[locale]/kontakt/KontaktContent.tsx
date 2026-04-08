@@ -239,10 +239,10 @@ export function KontaktContent() {
                   </div>
                   <div>
                     <h3 className="font-medium text-neutral-900 mb-1">Lokalizacja</h3>
-                    <p className="text-sm text-neutral-500">Schlosstalstrasse 210</p>
-                    <p className="text-sm text-neutral-500">8408 Winterthur</p>
+                    <p className="text-sm text-neutral-500">Octolabs Sp. z o.o.</p>
+                    <p className="text-sm text-neutral-500">Ho¿a 29, 00-521 Warszawa</p>
                     <p className="text-xs text-neutral-400 mt-1">
-                      100% szwajcarska firma
+                      Osoba kontaktowa: Kamil Gonera
                     </p>
                   </div>
                 </div>
