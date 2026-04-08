@@ -9,7 +9,7 @@ const sections = [
 
 Finito Pro
 Szwajcaria
-E-mail: hello@finitopro.ch
+E-mail: kontakt@finitopro.pl
 Strona internetowa: www.finitopro.ch`,
   },
   {
@@ -81,7 +81,7 @@ Wszyscy usługodawcy są zobowiązani umownie do przestrzegania przepisów o och
 - Prawo do przenoszenia danych (art. 20 RODO)
 - Prawo do sprzeciwu (art. 21 RODO)
 
-W celu skorzystania z przysługujących Państwu praw prosimy o kontakt pod adresem hello@finitopro.ch.`,
+W celu skorzystania z przysługujących Państwu praw prosimy o kontakt pod adresem kontakt@finitopro.pl.`,
   },
   {
     title: "8. Zmiany niniejszej polityki prywatności",

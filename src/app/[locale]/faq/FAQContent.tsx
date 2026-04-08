@@ -70,7 +70,7 @@ const faqs = [
   {
     question: "Jak mogę skontaktować się ze wsparciem technicznym?",
     answer:
-      "Z naszym zespołem wsparcia możesz skontaktować się e-mailem pod adresem hello@finitopro.ch lub bezpośrednio przez czat w aplikacji. Klienci MŚP otrzymują odpowiedź zazwyczaj w ciągu 24 godzin. Klienci korporacyjni mają dostęp do dedykowanego menedżera wsparcia i priorytetowych czasów odpowiedzi.",
+      "Z naszym zespołem wsparcia możesz skontaktować się e-mailem pod adresem kontakt@finitopro.pl lub bezpośrednio przez czat w aplikacji. Klienci MŚP otrzymują odpowiedź zazwyczaj w ciągu 24 godzin. Klienci korporacyjni mają dostęp do dedykowanego menedżera wsparcia i priorytetowych czasów odpowiedzi.",
     category: "Wsparcie",
   },
   {
@@ -270,10 +270,10 @@ export function FAQContent() {
                 Nasz zespół wsparcia chętnie Ci pomoże.
               </p>
               <a
-                href="mailto:hello@finitopro.ch"
+                href="mailto:kontakt@finitopro.pl"
                 className="text-xs font-medium text-primary-600 hover:underline"
               >
-                hello@finitopro.ch
+                kontakt@finitopro.pl
               </a>
             </div>
 
@@ -319,7 +319,7 @@ export function FAQContent() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </motion.a>
               <a
-                href="mailto:hello@finitopro.ch"
+                href="mailto:kontakt@finitopro.pl"
                 className="inline-flex items-center gap-2 px-8 py-4 border border-neutral-200 text-neutral-700 font-medium rounded-2xl text-sm hover:bg-white hover:shadow-card transition-all"
               >
                 Napisz e-mail

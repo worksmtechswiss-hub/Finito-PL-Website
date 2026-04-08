@@ -184,7 +184,7 @@ export function KontaktContent() {
               {/* Contact Cards */}
               <div className="space-y-4">
                 <a
-                  href="mailto:hello@finitopro.ch"
+                  href="mailto:kontakt@finitopro.pl"
                   className="group flex items-start gap-4 p-5 rounded-2xl border border-neutral-100 hover:border-primary-200 hover:shadow-card transition-all"
                 >
                   <div className="w-11 h-11 bg-primary-50 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-primary-100 transition-colors">
@@ -192,7 +192,7 @@ export function KontaktContent() {
                   </div>
                   <div>
                     <h3 className="font-medium text-neutral-900 mb-1">E-Mail</h3>
-                    <p className="text-sm text-primary-600">hello@finitopro.ch</p>
+                    <p className="text-sm text-primary-600">kontakt@finitopro.pl</p>
                     <p className="text-xs text-neutral-400 mt-1">
                       Odpowiadamy w ciągu 24 godzin
                     </p>

@@ -38,7 +38,7 @@ export function ImpressumContent() {
                 <p>Ho¿a 29, 00-521 Warszawa, Polska</p>
                 <p className="mt-2">KRS: 0001185907 | NIP: 7011270907 | REGON: 542315362</p>
                 <p className="mt-2">Osoba kontaktowa: Kamil Gonera</p>
-                <p className="mt-2">E-mail: hello@finitopro.ch</p>
+                <p className="mt-2">E-mail: kontakt@finitopro.pl</p>
                 <p>Strona internetowa: www.finitopro.pl</p>
               </div>
             </motion.div>
