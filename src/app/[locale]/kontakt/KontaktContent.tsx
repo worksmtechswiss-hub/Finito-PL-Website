@@ -238,10 +238,13 @@ export function KontaktContent() {
                     <MapPin className="w-5 h-5 text-neutral-400" />
                   </div>
                   <div>
-                    <h3 className="font-medium text-neutral-900 mb-1">Lokalizacja</h3>
-                    <p className="text-sm text-neutral-500">Octolabs Sp. z o.o.</p>
-                    <p className="text-sm text-neutral-500">Ho�a 29, 00-521 Warszawa</p>
+                    <h3 className="font-medium text-neutral-900 mb-1">Obsługa klienta w Polsce</h3>
+                    <p className="text-sm text-neutral-700 font-medium">OCTOLABS Sp. z o.o.</p>
+                    <p className="text-sm text-neutral-500">Hoża 29, 00-521 Warszawa</p>
                     <p className="text-xs text-neutral-400 mt-1">
+                      KRS: 0001185907 · NIP: 7011270907 · REGON: 542315362
+                    </p>
+                    <p className="text-xs text-neutral-400">
                       Osoba kontaktowa: Kamil Gonera
                     </p>
                   </div>
