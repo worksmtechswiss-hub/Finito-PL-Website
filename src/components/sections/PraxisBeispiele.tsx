@@ -22,7 +22,7 @@ const beispiele = [
   {
     branche: "Firma malarska",
     icon: Paintbrush,
-    firma: "5 pracowników, Zurych",
+    firma: "5 pracowników, Warszawa",
     vorher: [
       "Oferty tworzone ręcznie w Wordzie (45 min na ofertę)",
       "Czas pracy notowany na papierze, często zapomniany",
@@ -39,7 +39,7 @@ const beispiele = [
   {
     branche: "Firma elektryczna",
     icon: Zap,
-    firma: "8 pracowników, Berno",
+    firma: "8 pracowników, Kraków",
     vorher: [
       "Listy Excel do śledzenia materiałów",
       "Brak przeglądu otwartych faktur",
@@ -50,13 +50,13 @@ const beispiele = [
       "Dashboard pokazuje wszystkie otwarte pozycje na pierwszy rzut oka",
       "Cyfrowe zarządzanie urlopami i nieobecnościami",
     ],
-    ersparnis: "2'800 zł/miesiąc",
+    ersparnis: "2 800 zł/miesiąc",
     highlight: "0 zapomnianych faktur",
   },
   {
     branche: "Facility Service",
     icon: Building2,
-    firma: "12 pracowników, Bazylea",
+    firma: "12 pracowników, Wrocław",
     vorher: [
       "Plany zleceń koordynowane przez WhatsApp",
       "Reklamacje klientów bez dokumentacji",
@@ -73,7 +73,7 @@ const beispiele = [
   {
     branche: "Firma hydrauliczna",
     icon: Wrench,
-    firma: "3 pracowników, Lucerna",
+    firma: "3 pracowników, Poznań",
     vorher: [
       "Raporty robocze wypełniane ręcznie",
       "Klienci musieli dzwonić po aktualizacje statusu",
@@ -84,13 +84,13 @@ const beispiele = [
       "Portal klienta ze statusem projektu w czasie rzeczywistym",
       "Zintegrowana księgowość oszczędza koszty biura rachunkowego",
     ],
-    ersparnis: "1'500 zł/miesiąc",
+    ersparnis: "1 500 zł/miesiąc",
     highlight: "Koszty biura rachunkowego zmniejszone o połowę",
   },
   {
     branche: "Ogrodnictwo",
     icon: TreePine,
-    firma: "6 pracowników, St. Gallen",
+    firma: "6 pracowników, Gdańsk",
     vorher: [
       "Planowanie sezonowe na papierowym kalendarzu",
       "Całkowity brak kalkulacji końcowych",
@@ -101,13 +101,13 @@ const beispiele = [
       "Automatyczna kalkulacja końcowa po zakończeniu projektu",
       "Zarządzanie magazynem zapobiega podwójnym zamówieniom",
     ],
-    ersparnis: "3'200 zł/miesiąc",
+    ersparnis: "3 200 zł/miesiąc",
     highlight: "30% mniej kosztów materiałów",
   },
   {
     branche: "Stolarnia",
     icon: Scissors,
-    firma: "4 pracowników, Winterthur",
+    firma: "4 pracowników, Łódź",
     vorher: [
       "Zlecenia przez telefon i kartki",
       "Brak przeglądu postępu projektu",

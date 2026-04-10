@@ -282,22 +282,22 @@
     "title": "Co mówią nasi klienci",
     "subtitle": "Ponad 200 szwajcarskich firm ufa Finito",
     "testimonial1": {
-      "quote": "Odkąd korzystamy z Finito, oszczędzamy co tydzień kilka godzin na fakturowaniu. Faktury QR to prawdziwa rewolucja.",
-      "author": "Marco Bianchi",
+      "quote": "Odkąd korzystamy z Finito, oszczędzamy co tydzień kilka godzin na fakturowaniu. Automatyczne faktury to prawdziwa rewolucja.",
+      "author": "Marek Kowalski",
       "role": "Właściciel",
-      "company": "Bianchi Malerarbeiten AG, Zurych"
+      "company": "Kowalski Malowanie, Warszawa"
     },
     "testimonial2": {
       "quote": "Wreszcie oprogramowanie, które naprawdę jest stworzone dla rzemieślników. Mój zespół korzysta z aplikacji codziennie na placu budowy.",
-      "author": "Sandra Mueller",
+      "author": "Anna Nowak",
       "role": "Dyrektor zarządzająca",
-      "company": "Mueller Elektro GmbH, Berno"
+      "company": "Nowak Elektro, Kraków"
     },
     "testimonial3": {
-      "quote": "Funkcja wycen całkowicie zmieniła nasz proces sprzedaży. Od oferty do zlecenia w minuty zamiast dni.",
-      "author": "Thomas Widmer",
+      "quote": "Funkcja ofertowania całkowicie zmieniła nasz proces sprzedaży. Od oferty do zlecenia w minuty zamiast dni.",
+      "author": "Tomasz Wiśniewski",
       "role": "Dyrektor zarządzający",
-      "company": "Widmer Sanitaer, Lucerna"
+      "company": "Wiśniewski Hydraulika, Poznań"
     }
   },
   "pricing": {

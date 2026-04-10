@@ -8,7 +8,7 @@ const testimonials = [
     quote:
       "Od kiedy korzystamy z Finito, tworzymy oferty w 3 zamiast 30 minut. To zmieniło nasz biznes.",
     company: "Marty AG",
-    location: "Zurych",
+    location: "Warszawa",
     logo: "/images/marty-logo-weiss-5.png",
     logoWidth: 80,
   },
@@ -16,7 +16,7 @@ const testimonials = [
     quote:
       "Rejestracja czasu i faktury QR oszczędzają nam co miesiąc godziny pracy administracyjnej.",
     company: "BeriBau AG",
-    location: "Berno",
+    location: "Kraków",
     logo: "/images/656636e32c996022a7438d10_Logo-BeriBau-AG-2.webp",
     logoWidth: 90,
   },
@@ -24,7 +24,7 @@ const testimonials = [
     quote:
       "Wreszcie mamy wszystkie projekty w jednym miejscu. Nasi klienci uwielbiają portal klienta.",
     company: "Rex Facility Services GmbH",
-    location: "Bazylea",
+    location: "Wrocław",
     logo: "/images/logo-rex.svg",
     logoWidth: 100,
   },

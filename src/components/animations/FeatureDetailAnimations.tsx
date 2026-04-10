@@ -90,10 +90,10 @@ function DashboardHero() {
 /* ================================================================== */
 function ProjektHero() {
   const columns = [
-    { title: "Otwarte", color: "bg-orange-400", items: ["Oferta Meier", "Remont łazienki"] },
-    { title: "W toku", color: "bg-blue-400", items: ["Malowanie piwnicy", "Elewacja Müller", "Przebudowa Zurych"] },
+    { title: "Otwarte", color: "bg-orange-400", items: ["Oferta Kowalski", "Remont łazienki"] },
+    { title: "W toku", color: "bg-blue-400", items: ["Malowanie piwnicy", "Elewacja Nowak", "Przebudowa Mokotów"] },
     { title: "Weryfikacja", color: "bg-purple-400", items: ["Faktura końcowa"] },
-    { title: "Zakończone", color: "bg-green-400", items: ["Mieszkanie Berno", "Biuro Lucerna"] },
+    { title: "Zakończone", color: "bg-green-400", items: ["Mieszkanie Wola", "Biuro Śródmieście"] },
   ];
   return (
     <LargeWrapper>
@@ -674,9 +674,9 @@ function KundenportalHero() {
 /* ================================================================== */
 function ServiceAbosHero() {
   const abos = [
-    { name: "Sprzątanie biura Meier", interval: "Co tydzień", next: "Pn, 31.03", active: true },
-    { name: "Konserwacja ogrzewania Brunner", interval: "Co rok", next: "15.10.2025", active: true },
-    { name: "Pielęgnacja ogrodu Villa Zurych", interval: "Co 2 tygodnie", next: "Wt, 01.04", active: true },
+    { name: "Sprzątanie biura Kowalski", interval: "Co tydzień", next: "Pn, 31.03", active: true },
+    { name: "Konserwacja ogrzewania Nowak", interval: "Co rok", next: "15.10.2025", active: true },
+    { name: "Pielęgnacja ogrodu Wilanów", interval: "Co 2 tygodnie", next: "Wt, 01.04", active: true },
   ];
   return (
     <LargeWrapper>
