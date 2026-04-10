@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Finito Pro | Oprogramowanie dla MŚP w Szwajcarii - Zarządzanie projektami, faktury i CRM",
-    "description": "Finito Pro to kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury QR, dbaj o klientów i koordynuj zespół. 100% dane w Szwajcarii. 14 dni za darmo.",
-    "keywords": "oprogramowanie MŚP Szwajcaria, zarządzanie projektami, faktury QR, CRM, oprogramowanie rzemieślnicze, rejestracja czasu pracy, wyceny, oprogramowanie szwajcarskie"
+    "title": "Finito Pro | Program do zarządzania firmą usługową — projekty, faktury, ewidencja czasu",
+    "description": "Kompleksowy program do zarządzania firmą. Projekty, faktury, ewidencja czasu pracy, CRM — wszystko w jednym. 14 dni za darmo.",
+    "keywords": "program do zarządzania firmą, oprogramowanie dla MŚP, ewidencja czasu pracy online, program do fakturowania, CRM dla małych firm, oprogramowanie ERP"
   },
   "nav": {
     "features": "Moduły",
@@ -19,22 +19,22 @@
     "close": "Zamknij"
   },
   "hero": {
-    "badge": "Nowość: Rejestracja czasu pracy i zarządzanie urlopami",
-    "title": "Szwajcarskie oprogramowanie dla firm usługowych",
-    "subtitle": "Zarządzaj projektami, twórz faktury QR, koordynuj zespół - wszystko w jednej aplikacji. 100% dane w Szwajcarii.",
+    "badge": "Nowość: Ewidencja czasu pracy i zarządzanie urlopami",
+    "title": "Program do zarządzania firmą usługową",
+    "subtitle": "Zarządzaj projektami, wystawiaj faktury, kontroluj czas pracy zespołu — z jednej aplikacji.",
     "cta": "Rozpocznij za darmo",
     "ctaSecondary": "Zobacz demo",
-    "trust": "Bez karty kredytowej · 14 dni za darmo · Serwery w Szwajcarii"
+    "trust": "Bez karty kredytowej · 14 dni za darmo · Bezpieczne serwery w Europie"
   },
   "trustBanner": {
-    "title": "Zaufało nam ponad 200 szwajcarskich firm",
+    "title": "Zaufało nam ponad 200 firm usługowych",
     "rating": "4,8 na 5 gwiazdek",
     "reviews": "na podstawie ponad 150 opinii"
   },
   "workflow": {
     "title": "Jak działa Finito",
     "subtitle": "Od wyceny do faktury - w 3 prostych krokach",
-    "step1Title": "Utwórz wycenę",
+    "step1Title": "Przygotuj ofertę",
     "step1Desc": "Twórz profesjonalne wyceny w kilka minut. Zapisane katalogi usług z cenami sprawiają, że to błyskawiczne.",
     "step2Title": "Realizuj projekt",
     "step2Desc": "Twój zespół pracuje z aplikacją na smartfonie. Dokumentacja zdjęciowa, rejestracja czasu, zarządzanie materiałami - wszystko cyfrowo.",
@@ -395,7 +395,7 @@
     "a10": "Tak, plan Duże firmy zawiera pełny dostęp do API. Dzięki niemu możesz zintegrować Finito z istniejącymi systemami i zautomatyzować procesy robocze."
   },
   "cta": {
-    "title": "Gotowy na cyfryzację swojej firmy?",
+    "title": "Czas przenieść firmę do chmury",
     "subtitle": "14 dni za darmo. Bez karty kredytowej.",
     "button": "Rozpocznij za darmo",
     "secondaryButton": "Umów demo",
@@ -414,7 +414,7 @@
     "subscribe": "Subskrybuj",
     "subscribeSuccess": "Dziękujemy za rejestrację!",
     "madeIn": "Made with Love in Switzerland",
-    "copyright": "2024 Finito Pro. Wszelkie prawa zastrzeżone.",
+    "copyright": "2026 Finito Pro. Wszelkie prawa zastrzeżone.",
     "team": "Zespół",
     "help": "Pomoc",
     "blog": "Blog",

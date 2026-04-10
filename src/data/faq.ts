@@ -12,107 +12,107 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Czy jest darmowy okres próbny?',
     questionEn: 'Czy jest darmowy okres próbny?',
     answerDe:
-      'Tak, mozesz testowac Finito Pro przez 14 dni za darmo i bez zobowiazan. Wszystkie funkcje pakietu MŚP sa w pelni dostepne podczas okresu próbnego. Nie jest wymagana karta kredytowa, brak automatycznego przedluzenia.',
+      'Tak, możesz testować Finito Pro przez 14 dni za darmo i bez zobowiązań. Wszystkie funkcje pakietu MŚP są w pełni dostępne podczas okresu próbnego. Nie jest wymagana karta kredytowa, brak automatycznego przedłużenia.',
     answerEn:
-      'Tak, mozesz testowac Finito Pro przez 14 dni za darmo i bez zobowiazan. Wszystkie funkcje pakietu MŚP sa w pelni dostepne podczas okresu próbnego. Nie jest wymagana karta kredytowa, brak automatycznego przedluzenia.',
+      'Tak, możesz testować Finito Pro przez 14 dni za darmo i bez zobowiązań. Wszystkie funkcje pakietu MŚP są w pełni dostępne podczas okresu próbnego. Nie jest wymagana karta kredytowa, brak automatycznego przedłużenia.',
   },
   {
     id: 'kündigung',
-    questionDe: 'Czy moge zrezygnowac w dowolnym momencie?',
-    questionEn: 'Czy moge zrezygnowac w dowolnym momencie?',
+    questionDe: 'Czy mogę zrezygnować w dowolnym momencie?',
+    questionEn: 'Czy mogę zrezygnować w dowolnym momencie?',
     answerDe:
-      'Tak, mozesz zrezygnowac z subskrypcji w dowolnym momencie. Nie ma minimalnego okresu umowy ani ukrytych kosztów. Po rezygnacji masz dostep do wszystkich funkcji do konca oplaconego okresu. Swoje dane mozesz wyeksportowac w dowolnym momencie.',
+      'Tak, możesz zrezygnować z subskrypcji w dowolnym momencie. Nie ma minimalnego okresu umowy ani ukrytych kosztów. Po rezygnacji masz dostęp do wszystkich funkcji do końca opłaconego okresu. Swoje dane możesz wyeksportować w dowolnym momencie.',
     answerEn:
-      'Tak, mozesz zrezygnowac z subskrypcji w dowolnym momencie. Nie ma minimalnego okresu umowy ani ukrytych kosztów. Po rezygnacji masz dostep do wszystkich funkcji do konca oplaconego okresu. Swoje dane mozesz wyeksportowac w dowolnym momencie.',
+      'Tak, możesz zrezygnować z subskrypcji w dowolnym momencie. Nie ma minimalnego okresu umowy ani ukrytych kosztów. Po rezygnacji masz dostęp do wszystkich funkcji do końca opłaconego okresu. Swoje dane możesz wyeksportować w dowolnym momencie.',
   },
   {
     id: 'individuelle-funktionen',
-    questionDe: 'Czy moge zamówic indywidualne funkcje?',
-    questionEn: 'Czy moge zamówic indywidualne funkcje?',
+    questionDe: 'Czy mogę zamówić indywidualne funkcje?',
+    questionEn: 'Czy mogę zamówić indywidualne funkcje?',
     answerDe:
-      'Tak, cieszymy sie z Twoich opinii! Podziel sie swoimi zyczeniami za pomoca formularza opinii w aplikacji. Weryfikujemy kazda sugestie i czesto zglaszane funkcje dodajemy do naszej mapy rozwoju. W pakiecie dla duzych firm indywidualne dostosowania moga byc wdrozone bezposrednio.',
+      'Tak, cieszymy się z Twoich opinii! Podziel się swoimi życzeniami za pomocą formularza opinii w aplikacji. Weryfikujemy każdą sugestię i często zgłaszane funkcje dodajemy do naszej mapy rozwoju. W pakiecie dla dużych firm indywidualne dostosowania mogą być wdrożone bezpośrednio.',
     answerEn:
-      'Tak, cieszymy sie z Twoich opinii! Podziel sie swoimi zyczeniami za pomoca formularza opinii w aplikacji. Weryfikujemy kazda sugestie i czesto zglaszane funkcje dodajemy do naszej mapy rozwoju. W pakiecie dla duzych firm indywidualne dostosowania moga byc wdrozone bezposrednio.',
+      'Tak, cieszymy się z Twoich opinii! Podziel się swoimi życzeniami za pomocą formularza opinii w aplikacji. Weryfikujemy każdą sugestię i często zgłaszane funkcje dodajemy do naszej mapy rozwoju. W pakiecie dla dużych firm indywidualne dostosowania mogą być wdrożone bezpośrednio.',
   },
   {
     id: 'projektübersicht',
-    questionDe: 'Jak moge sledzic wszystkie projekty?',
-    questionEn: 'Jak moge sledzic wszystkie projekty?',
+    questionDe: 'Jak mogę śledzić wszystkie projekty?',
+    questionEn: 'Jak mogę śledzić wszystkie projekty?',
     answerDe:
-      'Dashboard pokazuje wszystkie aktywne projekty ze wskaznikiem postepu na pierwszy rzut oka. Dodatkowo dostepny jest oddzielny przeglad projektów z filtrami wedlug statusu, priorytetu, klienta i okresu. Mozesz przelaczac miedzy widokiem listy, kalendarza i tablicy.',
+      'Dashboard pokazuje wszystkie aktywne projekty ze wskaźnikiem postępu na pierwszy rzut oka. Dodatkowo dostępny jest oddzielny przegląd projektów z filtrami według statusu, priorytetu, klienta i okresu. Możesz przełączać między widokiem listy, kalendarza i tablicy.',
     answerEn:
-      'Dashboard pokazuje wszystkie aktywne projekty ze wskaznikiem postepu na pierwszy rzut oka. Dodatkowo dostepny jest oddzielny przeglad projektów z filtrami wedlug statusu, priorytetu, klienta i okresu. Mozesz przelaczac miedzy widokiem listy, kalendarza i tablicy.',
+      'Dashboard pokazuje wszystkie aktywne projekty ze wskaźnikiem postępu na pierwszy rzut oka. Dodatkowo dostępny jest oddzielny przegląd projektów z filtrami według statusu, priorytetu, klienta i okresu. Możesz przełączać między widokiem listy, kalendarza i tablicy.',
   },
   {
     id: 'datenspeicherung',
-    questionDe: 'Jak dlugo przechowywane sa moje dane?',
-    questionEn: 'Jak dlugo przechowywane sa moje dane?',
+    questionDe: 'Jak długo przechowywane są moje dane?',
+    questionEn: 'Jak długo przechowywane są moje dane?',
     answerDe:
-      'Twoje dane sa przechowywane w postaci zaszyfrowanej na serwerach w Szwajcarii przez co najmniej 25 lat. Jest to szczególnie wazne w przypadku gwarancji, roszczen ubezpieczeniowych i ustawowych obowiazków przechowywania. Zawsze masz pelna kontrole nad swoimi danymi i mozesz je wyeksportowac lub zlecic ich usuniecie.',
+      'Twoje dane są przechowywane w postaci zaszyfrowanej na serwerach w Szwajcarii przez co najmniej 25 lat. Jest to szczególnie ważne w przypadku gwarancji, roszczeń ubezpieczeniowych i ustawowych obowiązków przechowywania. Zawsze masz pełną kontrolę nad swoimi danymi i możesz je wyeksportować lub zlecić ich usunięcie.',
     answerEn:
-      'Twoje dane sa przechowywane w postaci zaszyfrowanej na serwerach w Szwajcarii przez co najmniej 25 lat. Jest to szczególnie wazne w przypadku gwarancji, roszczen ubezpieczeniowych i ustawowych obowiazków przechowywania. Zawsze masz pelna kontrole nad swoimi danymi i mozesz je wyeksportowac lub zlecic ich usuniecie.',
+      'Twoje dane są przechowywane w postaci zaszyfrowanej na serwerach w Szwajcarii przez co najmniej 25 lat. Jest to szczególnie ważne w przypadku gwarancji, roszczeń ubezpieczeniowych i ustawowych obowiązków przechowywania. Zawsze masz pełną kontrolę nad swoimi danymi i możesz je wyeksportować lub zlecić ich usunięcie.',
   },
   {
     id: 'mobile-version',
     questionDe: 'Czy istnieje wersja mobilna?',
     questionEn: 'Czy istnieje wersja mobilna?',
     answerDe:
-      'Tak, Finito Pro dziala na kazdym smartfonie i tablecie. Aplikacja webowa jest w pelni responsywna i zoptymalizowana pod katem uzytkowania mobilnego. Twoi pracownicy moga rejestrowac czas pracy, przesylac zdjecia i zarzadzac zadaniami - wszystko bezposrednio ze smartfona, nawet bez polaczenia z internetem dzieki trybowi offline.',
+      'Tak, Finito Pro działa na każdym smartfonie i tablecie. Aplikacja webowa jest w pełni responsywna i zoptymalizowana pod kątem użytkowania mobilnego. Twoi pracownicy mogą rejestrować czas pracy, przesyłać zdjęcia i zarządzać zadaniami - wszystko bezpośrednio ze smartfona, nawet bez połączenia z internetem dzięki trybowi offline.',
     answerEn:
-      'Tak, Finito Pro dziala na kazdym smartfonie i tablecie. Aplikacja webowa jest w pelni responsywna i zoptymalizowana pod katem uzytkowania mobilnego. Twoi pracownicy moga rejestrowac czas pracy, przesylac zdjecia i zarzadzac zadaniami - wszystko bezposrednio ze smartfona, nawet bez polaczenia z internetem dzieki trybowi offline.',
+      'Tak, Finito Pro działa na każdym smartfonie i tablecie. Aplikacja webowa jest w pełni responsywna i zoptymalizowana pod kątem użytkowania mobilnego. Twoi pracownicy mogą rejestrować czas pracy, przesyłać zdjęcia i zarządzać zadaniami - wszystko bezpośrednio ze smartfona, nawet bez połączenia z internetem dzięki trybowi offline.',
   },
   {
     id: 'rechnungen-erstellen',
-    questionDe: 'Jak tworzyc faktury?',
-    questionEn: 'Jak tworzyc faktury?',
+    questionDe: 'Jak tworzyć faktury?',
+    questionEn: 'Jak tworzyć faktury?',
     answerDe:
-      'Faktury mozna tworzyc na dwa sposoby: automatycznie z ukonczonym projektem lub zaakceptowana oferta jednym kliknieciem, lub recznie z dowolnymi pozycjami. Wszystkie faktury automatycznie zawieraja szwajcarski kod QR do latwo platnosci. VAT jest obliczany automatycznie.',
+      'Faktury można tworzyć na dwa sposoby: automatycznie z ukończonym projektem lub zaakceptowaną ofertą jednym kliknięciem, lub ręcznie z dowolnymi pozycjami. Wszystkie faktury automatycznie zawierają szwajcarski kod QR do łatwej płatności. VAT jest obliczany automatycznie.',
     answerEn:
-      'Faktury mozna tworzyc na dwa sposoby: automatycznie z ukonczonym projektem lub zaakceptowana oferta jednym kliknieciem, lub recznie z dowolnymi pozycjami. Wszystkie faktury automatycznie zawieraja szwajcarski kod QR do latwo platnosci. VAT jest obliczany automatycznie.',
+      'Faktury można tworzyć na dwa sposoby: automatycznie z ukończonym projektem lub zaakceptowaną ofertą jednym kliknięciem, lub ręcznie z dowolnymi pozycjami. Wszystkie faktury automatycznie zawierają szwajcarski kod QR do łatwej płatności. VAT jest obliczany automatycznie.',
   },
   {
     id: 'zahlungsmethoden',
-    questionDe: 'Jakie metody platnosci sa akceptowane?',
-    questionEn: 'Jakie metody platnosci sa akceptowane?',
+    questionDe: 'Jakie metody płatności są akceptowane?',
+    questionEn: 'Jakie metody płatności są akceptowane?',
     answerDe:
-      'Akceptujemy karty kredytowe (Visa, Mastercard) oraz platnosc na fakture. Mozesz wybrac miedzy rozliczeniem miesiecznym a rocznym. Przy platnosci rocznej otrzymujesz 10% rabatu. Faktura jest wystawiana na poczatku kazdego miesiaca.',
+      'Akceptujemy karty kredytowe (Visa, Mastercard) oraz płatność na fakturę. Możesz wybrać między rozliczeniem miesięcznym a rocznym. Przy płatności rocznej otrzymujesz 10% rabatu. Faktura jest wystawiana na początku każdego miesiąca.',
     answerEn:
-      'Akceptujemy karty kredytowe (Visa, Mastercard) oraz platnosc na fakture. Mozesz wybrac miedzy rozliczeniem miesiecznym a rocznym. Przy platnosci rocznej otrzymujesz 10% rabatu. Faktura jest wystawiana na poczatku kazdego miesiaca.',
+      'Akceptujemy karty kredytowe (Visa, Mastercard) oraz płatność na fakturę. Możesz wybrać między rozliczeniem miesięcznym a rocznym. Przy płatności rocznej otrzymujesz 10% rabatu. Faktura jest wystawiana na początku każdego miesiąca.',
   },
   {
     id: 'teammitglieder-rechte',
-    questionDe: 'Czy moge zapraszac czlonków zespolu z róznymi uprawnieniami?',
-    questionEn: 'Czy moge zapraszac czlonków zespolu z róznymi uprawnieniami?',
+    questionDe: 'Czy mogę zapraszać członków zespołu z różnymi uprawnieniami?',
+    questionEn: 'Czy mogę zapraszać członków zespołu z różnymi uprawnieniami?',
     answerDe:
-      'Tak, mozesz ustawic indywidualne prawa dostepu dla kazdego czlonka zespolu. Od administratora z pelnymi uprawnieniami, przez kierowników projektów, az po pracowników, którzy widza tylko swoje zadania i rejestracje czasu. W ten sposób chronisz wrazliwe dane biznesowe i dajesz kazdemu dokladnie takie uprawnienia, jakich potrzebuje.',
+      'Tak, możesz ustawić indywidualne prawa dostępu dla każdego członka zespołu. Od administratora z pełnymi uprawnieniami, przez kierowników projektów, aż po pracowników, którzy widzą tylko swoje zadania i rejestracje czasu. W ten sposób chronisz wrażliwe dane biznesowe i dajesz każdemu dokładnie takie uprawnienia, jakich potrzebuje.',
     answerEn:
-      'Tak, mozesz ustawic indywidualne prawa dostepu dla kazdego czlonka zespolu. Od administratora z pelnymi uprawnieniami, przez kierowników projektów, az po pracowników, którzy widza tylko swoje zadania i rejestracje czasu. W ten sposób chronisz wrazliwe dane biznesowe i dajesz kazdemu dokladnie takie uprawnienia, jakich potrzebuje.',
+      'Tak, możesz ustawić indywidualne prawa dostępu dla każdego członka zespołu. Od administratora z pełnymi uprawnieniami, przez kierowników projektów, aż po pracowników, którzy widzą tylko swoje zadania i rejestracje czasu. W ten sposób chronisz wrażliwe dane biznesowe i dajesz każdemu dokładnie takie uprawnienia, jakich potrzebuje.',
   },
   {
     id: 'integration-tools',
-    questionDe: 'Czy Finito Pro mozna polaczyc z innymi narzedziami?',
-    questionEn: 'Czy Finito Pro mozna polaczyc z innymi narzedziami?',
+    questionDe: 'Czy Finito Pro można połączyć z innymi narzędziami?',
+    questionEn: 'Czy Finito Pro można połączyć z innymi narzędziami?',
     answerDe:
-      'Tak, Finito Pro oferuje API do integracji z innymi systemami. Standardowo mozesz eksportowac dane w popularnych formatach (CSV, PDF, JSON), które moga byc importowane przez wiekszość systemów ksiegowych i ERP. W pakiecie dla duzych firm mozliwe sa indywidualne integracje.',
+      'Tak, Finito Pro oferuje API do integracji z innymi systemami. Standardowo możesz eksportować dane w popularnych formatach (CSV, PDF, JSON), które mogą być importowane przez większość systemów księgowych i ERP. W pakiecie dla dużych firm możliwe są indywidualne integracje.',
     answerEn:
-      'Tak, Finito Pro oferuje API do integracji z innymi systemami. Standardowo mozesz eksportowac dane w popularnych formatach (CSV, PDF, JSON), które moga byc importowane przez wiekszość systemów ksiegowych i ERP. W pakiecie dla duzych firm mozliwe sa indywidualne integracje.',
+      'Tak, Finito Pro oferuje API do integracji z innymi systemami. Standardowo możesz eksportować dane w popularnych formatach (CSV, PDF, JSON), które mogą być importowane przez większość systemów księgowych i ERP. W pakiecie dla dużych firm możliwe są indywidualne integracje.',
   },
   {
     id: 'technischer-support',
-    questionDe: 'Jakie wsparcie techniczne jest dostepne?',
-    questionEn: 'Jakie wsparcie techniczne jest dostepne?',
+    questionDe: 'Jakie wsparcie techniczne jest dostępne?',
+    questionEn: 'Jakie wsparcie techniczne jest dostępne?',
     answerDe:
-      'Nasz zespól wsparcia jest dostepny przez e-mail i czat w aplikacji. W pakiecie MŚP otrzymujesz priorytetowe wsparcie z szybszym czasem odpowiedzi. W pakiecie dla duzych firm masz dedykowana osobe kontaktowa z gwarantowanym czasem reakcji zgodnie z SLA. Dodatkowo dostepna jest obszerna baza wiedzy z instrukcjami i filmami.',
+      'Nasz zespół wsparcia jest dostępny przez e-mail i czat w aplikacji. W pakiecie MŚP otrzymujesz priorytetowe wsparcie z szybszym czasem odpowiedzi. W pakiecie dla dużych firm masz dedykowaną osobę kontaktową z gwarantowanym czasem reakcji zgodnie z SLA. Dodatkowo dostępna jest obszerna baza wiedzy z instrukcjami i filmami.',
     answerEn:
-      'Nasz zespól wsparcia jest dostepny przez e-mail i czat w aplikacji. W pakiecie MŚP otrzymujesz priorytetowe wsparcie z szybszym czasem odpowiedzi. W pakiecie dla duzych firm masz dedykowana osobe kontaktowa z gwarantowanym czasem reakcji zgodnie z SLA. Dodatkowo dostepna jest obszerna baza wiedzy z instrukcjami i filmami.',
+      'Nasz zespół wsparcia jest dostępny przez e-mail i czat w aplikacji. W pakiecie MŚP otrzymujesz priorytetowe wsparcie z szybszym czasem odpowiedzi. W pakiecie dla dużych firm masz dedykowaną osobę kontaktową z gwarantowanym czasem reakcji zgodnie z SLA. Dodatkowo dostępna jest obszerna baza wiedzy z instrukcjami i filmami.',
   },
   {
     id: 'wartungsvertraege',
-    questionDe: 'Czy moge zarzadzac powtarzajacymi sie zleceniami konserwacyjnymi i serwisowymi?',
-    questionEn: 'Czy moge zarzadzac powtarzajacymi sie zleceniami konserwacyjnymi i serwisowymi?',
+    questionDe: 'Czy mogę zarządzać powtarzającymi się zleceniami konserwacyjnymi i serwisowymi?',
+    questionEn: 'Czy mogę zarządzać powtarzającymi się zleceniami konserwacyjnymi i serwisowymi?',
     answerDe:
-      'Tak, dzieki funkcji abonamentów serwisowych mozesz automatyzowac powtarzajace sie zlecenia. Zdefiniuj interwaly (tygodniowo, miesieczne, kwartalne, roczne), a Finito Pro automatycznie tworzy odpowiednie projekty i zadania. W tym przypomnienia, automatyczne fakturowanie i kompletna dokumentacja wszystkich zlecen serwisowych.',
+      'Tak, dzięki funkcji abonamentów serwisowych możesz automatyzować powtarzające się zlecenia. Zdefiniuj interwały (tygodniowo, miesięczne, kwartalne, roczne), a Finito Pro automatycznie tworzy odpowiednie projekty i zadania. W tym przypomnienia, automatyczne fakturowanie i kompletna dokumentacja wszystkich zleceń serwisowych.',
     answerEn:
-      'Tak, dzieki funkcji abonamentów serwisowych mozesz automatyzowac powtarzajace sie zlecenia. Zdefiniuj interwaly (tygodniowo, miesieczne, kwartalne, roczne), a Finito Pro automatycznie tworzy odpowiednie projekty i zadania. W tym przypomnienia, automatyczne fakturowanie i kompletna dokumentacja wszystkich zlecen serwisowych.',
+      'Tak, dzięki funkcji abonamentów serwisowych możesz automatyzować powtarzające się zlecenia. Zdefiniuj interwały (tygodniowo, miesięczne, kwartalne, roczne), a Finito Pro automatycznie tworzy odpowiednie projekty i zadania. W tym przypomnienia, automatyczne fakturowanie i kompletna dokumentacja wszystkich zleceń serwisowych.',
   },
 ];

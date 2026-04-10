@@ -73,11 +73,11 @@ export function Footer() {
     {
       title: t("branches"),
       links: [
-        { label: "Maler", href: "/branchen/maler" },
-        { label: "Elektriker", href: "/branchen/elektriker" },
-        { label: "Sanitär", href: "/branchen/sanitaer" },
-        { label: "Gipser", href: "/branchen/gipser" },
-        { label: "Schreiner", href: "/branchen/schreiner" },
+        { label: "Malarze", href: "/branchen/maler" },
+        { label: "Elektrycy", href: "/branchen/elektriker" },
+        { label: "Hydraulicy", href: "/branchen/sanitaer" },
+        { label: "Tynkarze", href: "/branchen/gipser" },
+        { label: "Stolarze", href: "/branchen/schreiner" },
       ],
     },
     {

@@ -141,16 +141,15 @@ export const featurePages: Record<string, FeaturePageData> = {
   rechnungen: {
     slug: "rechnungen",
     iconName: "Receipt",
-    title: "Faktury QR",
+    title: "Faktury",
     description:
-      "Twórz profesjonalne szwajcarskie faktury QR w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatnościach i bezproblemowe uzgadnianie z bankiem.",
-    metaTitle: "Tworzenie faktur QR - szwajcarski standard | Finito Pro",
+      "Twórz profesjonalne faktury w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatnościach i bezproblemowe uzgadnianie z bankiem.",
+    metaTitle: "Tworzenie faktur online - oprogramowanie MŚP | Finito Pro",
     metaDescription:
-      "Szwajcarskie faktury QR zgodne z ISO 20022 w kilka sekund. Automatyczny VAT, przypomnienia o płatnościach i uzgadnianie bankowe dla firm rzemieślniczych.",
+      "Profesjonalne faktury w kilka sekund. Automatyczny VAT, przypomnienia o płatnościach i uzgadnianie bankowe dla firm rzemieślniczych.",
     keywords: [
-      "Faktura QR Szwajcaria",
-      "Tworzenie szwajcarskich faktur QR",
-      "ISO 20022",
+      "Faktura online",
+      "Tworzenie faktur",
       "Faktura VAT",
       "Faktura rzemieślnik",
       "Oprogramowanie do fakturowania MŚP",
@@ -158,17 +157,17 @@ export const featurePages: Record<string, FeaturePageData> = {
     problemText:
       "Wystawianie faktur jest dla wielu rzemieślników uciążliwym obowiązkiem. Szablony Excel są podatne na błędy, obliczanie VAT odbywa się ręcznie, a czy klient zapłacił, trzeba sprawdzać w bankowości elektronicznej. Przypomnienia o płatnościach są zapominane lub wysyłane zbyt późno.",
     solutionText:
-      "Dzięki Finito Pro tworzysz faktury QR zgodne ze szwajcarskim standardem w mniej niż minutę. VAT jest obliczany automatycznie, przypomnienia o płatnościach wysyłane są automatycznie, a uzgadnianie bankowe natychmiast pokazuje, które faktury zostały opłacone.",
+      "Dzięki Finito Pro tworzysz profesjonalne faktury w mniej niż minutę. VAT jest obliczany automatycznie, przypomnienia o płatnościach wysyłane są automatycznie, a uzgadnianie bankowe natychmiast pokazuje, które faktury zostały opłacone.",
     subFeatures: [
       {
-        title: "Faktury QR zgodne z ISO 20022",
+        title: "Profesjonalne faktury PDF",
         description:
-          "Twórz zgodne z normą szwajcarskie faktury QR kilkoma kliknięciami. Kod QR jest generowany automatycznie i można go bezpośrednio wysłać jako PDF lub wydrukować. Kompatybilny ze wszystkimi szwajcarskimi bankami.",
+          "Twórz profesjonalne faktury kilkoma kliknięciami. Faktura jest generowana automatycznie i można ją bezpośrednio wysłać jako PDF lub wydrukować.",
       },
       {
         title: "Automatyczne obliczanie VAT",
         description:
-          "Wybierz stawkę VAT (8,1%, 2,6% lub 0%) dla każdej pozycji, a Finito Pro obliczy wszystko automatycznie. Rozliczenie VAT dla ESTV jest przygotowywane i może być bezpośrednio wyeksportowane.",
+          "Wybierz stawkę VAT (23%, 8%, 5% lub 0%) dla każdej pozycji, a Finito Pro obliczy wszystko automatycznie. Rozliczenie VAT jest przygotowywane i może być bezpośrednio wyeksportowane.",
       },
       {
         title: "Przypomnienia o płatnościach i windykacja",
@@ -266,23 +265,23 @@ export const featurePages: Record<string, FeaturePageData> = {
   zeiterfassung: {
     slug: "zeiterfassung",
     iconName: "Clock",
-    title: "Rejestracja czasu pracy",
+    title: "Ewidencja czasu pracy",
     description:
-      "Rejestracja czasu pracy w oparciu o projekty jednym kliknięciem. Raporty miesięczne, śledzenie nadgodzin i bezpośredni eksport do płac - również w drodze.",
-    metaTitle: "Rejestracja czasu pracy dla rzemieślników - mobilna i prosta | Finito Pro",
+      "Ewidencja czasu pracy w oparciu o projekty jednym kliknięciem. Raporty miesięczne, śledzenie nadgodzin i bezpośredni eksport do płac - również w drodze.",
+    metaTitle: "Ewidencja czasu pracy dla rzemieślników - mobilna i prosta | Finito Pro",
     metaDescription:
-      "Mobilna rejestracja czasu pracy według projektów i zadań. Raporty miesięczne, śledzenie nadgodzin, GPS i eksport do płac.",
+      "Mobilna ewidencja czasu pracy według projektów i zadań. Raporty miesięczne, śledzenie nadgodzin, GPS i eksport do płac.",
     keywords: [
-      "Rejestracja czasu pracy MŚP",
-      "Mobilna rejestracja czasu",
-      "Rejestracja czasu rzemieślnicy",
-      "Aplikacja do rejestracji czasu",
-      "Ewidencja czasu pracy Szwajcaria",
+      "Ewidencja czasu pracy MŚP",
+      "Mobilna ewidencja czasu",
+      "Ewidencja czasu rzemieślnicy",
+      "Aplikacja do ewidencji czasu",
+      "Ewidencja czasu pracy",
     ],
     problemText:
-      "Rejestracja czasu pracy na kartkach jest niedokładna, ginie i na koniec miesiąca powoduje dużo pracy. Często brakuje przypisania do projektów, co utrudnia kalkulację końcową. Nadgodziny nie są prawidłowo rejestrowane i prowadzą do nieporozumień.",
+      "Ewidencja czasu pracy na kartkach jest niedokładna, ginie i na koniec miesiąca powoduje dużo pracy. Często brakuje przypisania do projektów, co utrudnia kalkulację końcową. Nadgodziny nie są prawidłowo rejestrowane i prowadzą do nieporozumień.",
     solutionText:
-      "Finito Pro sprawia, że rejestracja czasu pracy jest tak prosta, jak to tylko możliwe. Pracownicy uruchamiają i zatrzymują rejestrację czasu jednym kliknięciem w aplikacji. Każda godzina jest automatycznie przypisywana do właściwego projektu. Na koniec miesiąca Finito Pro automatycznie generuje raporty do działu płac.",
+      "Finito Pro sprawia, że ewidencja czasu pracy jest tak prosta, jak to tylko możliwe. Pracownicy uruchamiają i zatrzymują rejestrację czasu jednym kliknięciem w aplikacji. Każda godzina jest automatycznie przypisywana do właściwego projektu. Na koniec miesiąca Finito Pro automatycznie generuje raporty do działu płac.",
     subFeatures: [
       {
         title: "Rejestracja czasu jednym kliknięciem",
@@ -339,7 +338,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Zarządzanie klientami MŚP",
       "Zarządzanie kontaktami",
       "Historia klientów",
-      "Oprogramowanie CRM Szwajcaria",
+      "Oprogramowanie CRM MŚP",
     ],
     problemText:
       "Dane klientów są rozproszone w różnych folderach, w telefonie i w e-mailach. Kto kiedy co zamówił? Jakie ustalenia zostały poczynione? Bez centralnego zarządzania każde zapytanie klienta kosztuje niepotrzebnie czas, a personalna obsługa cierpi.",
@@ -395,11 +394,11 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Mobilne wnioski urlopowe, przegląd pozostałych dni i obieg zatwierdzania. Dzięki kalendarzowi zespołu unikasz braków kadrowych i planujesz z wyprzedzeniem.",
     metaTitle: "Zarządzanie urlopami dla MŚP - wnioski urlopowe cyfrowo | Finito Pro",
     metaDescription:
-      "Cyfrowe zarządzanie urlopami dla MŚP: mobilne wnioski urlopowe, obieg zatwierdzania, pozostałe dni i kalendarz zespołu. Szwajcarskie dni wolne w zestawie.",
+      "Cyfrowe zarządzanie urlopami dla MŚP: mobilne wnioski urlopowe, obieg zatwierdzania, pozostałe dni i kalendarz zespołu. Polskie dni wolne w zestawie.",
     keywords: [
       "Zarządzanie urlopami MŚP",
       "Wniosek urlopowy cyfrowy",
-      "Planer urlopów Szwajcaria",
+      "Planer urlopów online",
       "Zarządzanie nieobecnościami",
       "Planowanie urlopów rzemieślnicy",
     ],
@@ -426,7 +425,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Automatyczne obliczanie pozostałych dni",
         description:
-          "Przysługujący urlop, wykorzystane dni i pozostałe dni są obliczane automatycznie - również przy niepełnym etacie. Szwajcarskie dni wolne i kantonalne święta są już wstępnie skonfigurowane.",
+          "Przysługujący urlop, wykorzystane dni i pozostałe dni są obliczane automatycznie - również przy niepełnym etacie. Polskie dni ustawowo wolne od pracy są już wstępnie skonfigurowane.",
       },
     ],
     targetUsers: [
@@ -488,7 +487,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Nieograniczona przestrzeń dyskowa",
         description:
-          "Zapisuj tyle zdjęć, ile chcesz. Wszystkie obrazy są bezpiecznie przechowywane na serwerach w Szwajcarii i dostępne w każdym momencie przez aplikację lub przeglądarkę. Archiwizacja przez co najmniej 25 lat.",
+          "Zapisuj tyle zdjęć, ile chcesz. Wszystkie obrazy są bezpiecznie przechowywane w chmurze i dostępne w każdym momencie przez aplikację lub przeglądarkę. Archiwizacja przez co najmniej 25 lat.",
       },
     ],
     targetUsers: [
@@ -525,7 +524,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Śledzenie materiałów",
       "Magazyn rzemieślnika",
       "Zarządzanie zapasami",
-      "Zarządzanie inwentarzem Szwajcaria",
+      "Zarządzanie inwentarzem MŚP",
     ],
     problemText:
       "Stan magazynowy jest prowadzony na kartkach lub wcale. Materiały brakują wtedy, gdy są potrzebne, a zamówienia następują zbyt późno. Brakuje przypisania materiałów do projektów, co uniemożliwia kalkulację końcową.",
@@ -581,12 +580,12 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Przejrzyste zarządzanie przychodami i wydatkami. Zarządzanie kosztami na projekt, rozliczenie VAT i czysty eksport dla Twojego księgowego.",
     metaTitle: "Prosta księgowość dla MŚP | Finito Pro",
     metaDescription:
-      "Księgowość MŚP prosto: przychody/wydatki, rozliczenie VAT, koszty projektowe i eksport dla księgowego. Serwery w Szwajcarii.",
+      "Księgowość MŚP prosto: przychody/wydatki, rozliczenie VAT, koszty projektowe i eksport dla księgowego.",
     keywords: [
       "Księgowość MŚP",
       "Księgowość rzemieślnicy",
       "Rachunek przychodów i wydatków",
-      "Rozliczenie VAT Szwajcaria",
+      "Rozliczenie VAT MŚP",
       "Eksport dla księgowego",
     ],
     problemText:
@@ -607,12 +606,12 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Przygotowane rozliczenie VAT",
         description:
-          "Finito Pro automatycznie oblicza należny VAT i przygotowuje rozliczenie dla ESTV. Dzięki temu oszczędzasz na koniec kwartału godziny pracy i unikasz kosztownych błędów.",
+          "Finito Pro automatycznie oblicza należny VAT i przygotowuje rozliczenie. Dzięki temu oszczędzasz na koniec kwartału godziny pracy i unikasz kosztownych błędów.",
       },
       {
         title: "Eksport dla księgowego",
         description:
-          "Eksportuj wszystkie księgowania, dokumenty i raporty w odpowiednim formacie dla Twojego księgowego. Obsługiwane są formaty CSV, PDF i inne. Wszystkie dane bezpiecznie na serwerach w Szwajcarii.",
+          "Eksportuj wszystkie księgowania, dokumenty i raporty w odpowiednim formacie dla Twojego księgowego. Obsługiwane są formaty CSV, PDF i inne. Wszystkie dane bezpiecznie przechowywane w chmurze.",
       },
     ],
     targetUsers: [
@@ -762,10 +761,10 @@ export const featurePages: Record<string, FeaturePageData> = {
   "service-abos": {
     slug: "service-abos",
     iconName: "Repeat",
-    title: "Abonamenty serwisowe",
+    title: "Umowy serwisowe",
     description:
       "Zarządzanie powtarzającymi się zleceniami z automatycznym tworzeniem projektów. Idealne dla umów konserwacyjnych, abonamentów serwisowych i regularnych interwencji.",
-    metaTitle: "Abonamenty serwisowe i umowy konserwacyjne | Finito Pro",
+    metaTitle: "Umowy serwisowe i konserwacyjne | Finito Pro",
     metaDescription:
       "Automatyczne zarządzanie powtarzającymi się zleceniami: umowy konserwacyjne, abonamenty serwisowe, automatyczne tworzenie projektów i fakturowanie dla MŚP.",
     keywords: [
