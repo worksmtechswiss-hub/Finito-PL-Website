@@ -50,7 +50,7 @@ export function BranchenGrid() {
           {branches.map((branch) => (
             <motion.div key={branch.slug} variants={staggerItem}>
               <Link
-                href={`/branchen/${branch.slug}`}
+                href={`/branze/${branch.slug}`}
                 className="group block rounded-2xl bg-white border border-neutral-100 hover:border-primary-100 hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1 h-full overflow-hidden"
               >
                 <div className="relative w-full aspect-[16/10] bg-primary-50 overflow-hidden">
@@ -83,7 +83,7 @@ export function BranchenGrid() {
           className="text-center mt-12"
         >
           <Link
-            href="/branchen"
+            href="/branze"
             className="inline-flex items-center gap-2 text-primary-600 font-medium hover:gap-3 transition-all"
           >
             {t("cta")}

@@ -27,7 +27,7 @@ export const branches: Branch[] = [
       'Cyfrowe oferty z zapisanymi katalogami usług i przejrzysty postęp projektu dla Twoich klientów.',
     descriptionEn:
       'Cyfrowe oferty z zapisanymi katalogami usług i przejrzysty postęp projektu dla Twoich klientów.',
-    slug: 'maler',
+    slug: 'malarze',
     useCasesDe: [
       {
         title: 'Katalogi usług do szybkich ofert',
@@ -73,7 +73,7 @@ export const branches: Branch[] = [
       'Cyfrowe fotoraporty i zarządzanie magazynem dla prac tynkarskich. Dokumentuj każdy etap pracy bez luk.',
     descriptionEn:
       'Cyfrowe fotoraporty i zarządzanie magazynem dla prac tynkarskich. Dokumentuj każdy etap pracy bez luk.',
-    slug: 'gipser',
+    slug: 'tynkarze',
     useCasesDe: [
       {
         title: 'Cyfrowe fotoraporty',
@@ -119,7 +119,7 @@ export const branches: Branch[] = [
       'Schematy na smartfonie i zarządzanie magazynem z powiązaniem z dostawcami dla wydajnych instalacji elektrycznych.',
     descriptionEn:
       'Schematy na smartfonie i zarządzanie magazynem z powiązaniem z dostawcami dla wydajnych instalacji elektrycznych.',
-    slug: 'elektriker',
+    slug: 'elektrycy',
     useCasesDe: [
       {
         title: 'Schematy na smartfonie',
@@ -165,7 +165,7 @@ export const branches: Branch[] = [
       'Mobilna rejestracja czasu pracy u klienta i cyfrowe raporty dzienne dla instalacji i napraw hydraulicznych.',
     descriptionEn:
       'Mobilna rejestracja czasu pracy u klienta i cyfrowe raporty dzienne dla instalacji i napraw hydraulicznych.',
-    slug: 'sanitär',
+    slug: 'hydraulicy',
     useCasesDe: [
       {
         title: 'Mobilna rejestracja czasu pracy u klienta',
@@ -211,7 +211,7 @@ export const branches: Branch[] = [
       'Indywidualna dokumentacja zleceń i wydajność warsztatu w dashboardzie dla stolarni i producentów mebli.',
     descriptionEn:
       'Indywidualna dokumentacja zleceń i wydajność warsztatu w dashboardzie dla stolarni i producentów mebli.',
-    slug: 'schreiner',
+    slug: 'stolarze',
     useCasesDe: [
       {
         title: 'Indywidualna dokumentacja zleceń',
@@ -257,7 +257,7 @@ export const branches: Branch[] = [
       'Planowanie pracowników z kalendarzem i cyfrowe archiwum projektów na ponad 25 lat. Idealne do renowacji dachów i nowych budów.',
     descriptionEn:
       'Planowanie pracowników z kalendarzem i cyfrowe archiwum projektów na ponad 25 lat. Idealne do renowacji dachów i nowych budów.',
-    slug: 'dachdecker',
+    slug: 'dekarze',
     useCasesDe: [
       {
         title: 'Planowanie pracowników z kalendarzem',
@@ -303,7 +303,7 @@ export const branches: Branch[] = [
       'Obliczanie metraży i śledzenie pozostałych materiałów dla parkietu, płytek i wszelkiego rodzaju podłóg.',
     descriptionEn:
       'Obliczanie metraży i śledzenie pozostałych materiałów dla parkietu, płytek i wszelkiego rodzaju podłóg.',
-    slug: 'bodenleger',
+    slug: 'posadzkarze',
     useCasesDe: [
       {
         title: 'Obliczanie metraży',
@@ -349,7 +349,7 @@ export const branches: Branch[] = [
       'Śledzenie części rusztowań i automatyczne rozliczanie wynajmu. Kontroluj wszystkie części i lokalizacje.',
     descriptionEn:
       'Śledzenie części rusztowań i automatyczne rozliczanie wynajmu. Kontroluj wszystkie części i lokalizacje.',
-    slug: 'gerüstbauer',
+    slug: 'rusztowania',
     useCasesDe: [
       {
         title: 'Śledzenie części rusztowań',
@@ -395,7 +395,7 @@ export const branches: Branch[] = [
       'Automatyczny dziennik budowy i przegląd wielu projektów z filtrami statusu dla prac murarskich i projektów budowlanych.',
     descriptionEn:
       'Automatyczny dziennik budowy i przegląd wielu projektów z filtrami statusu dla prac murarskich i projektów budowlanych.',
-    slug: 'maurer',
+    slug: 'murarze',
     useCasesDe: [
       {
         title: 'Automatyczny dziennik budowy',
@@ -487,7 +487,7 @@ export const branches: Branch[] = [
       'Planowanie tras i dokumentacja jakości ze zdjęciami dla profesjonalnych firm sprzątających.',
     descriptionEn:
       'Planowanie tras i dokumentacja jakości ze zdjęciami dla profesjonalnych firm sprzątających.',
-    slug: 'reinigung',
+    slug: 'sprzatanie',
     useCasesDe: [
       {
         title: 'Planowanie tras dla zespołów',
@@ -533,7 +533,7 @@ export const branches: Branch[] = [
       'Sezonowe planowanie projektów i dokumentacja roślin dla ogrodnictwa i pielęgnacji krajobrazu.',
     descriptionEn:
       'Sezonowe planowanie projektów i dokumentacja roślin dla ogrodnictwa i pielęgnacji krajobrazu.',
-    slug: 'gartenbau',
+    slug: 'ogrodnictwo',
     useCasesDe: [
       {
         title: 'Sezonowe planowanie projektów',
@@ -579,7 +579,7 @@ export const branches: Branch[] = [
       'Codzienne planowanie tras i listy inwentarzowe z dokumentacją fotograficzną dla firm przeprowadzkowych.',
     descriptionEn:
       'Codzienne planowanie tras i listy inwentarzowe z dokumentacją fotograficzną dla firm przeprowadzkowych.',
-    slug: 'umzug',
+    slug: 'przeprowadzki',
     useCasesDe: [
       {
         title: 'Codzienne planowanie tras',
@@ -625,7 +625,7 @@ export const branches: Branch[] = [
       'Dokumentacja zleceń HVAC i planowanie konserwacji dla techniki grzewczej, wentylacyjnej i klimatyzacyjnej.',
     descriptionEn:
       'Dokumentacja zleceń HVAC i planowanie konserwacji dla techniki grzewczej, wentylacyjnej i klimatyzacyjnej.',
-    slug: 'haustechnik',
+    slug: 'technika-budynkowa',
     useCasesDe: [
       {
         title: 'Dokumentacja zleceń HVAC',
@@ -671,7 +671,7 @@ export const branches: Branch[] = [
       'Centralne dokumenty projektowe i tablica zadań dla faz projektu. Kontroluj wszystkie projekty budowlane.',
     descriptionEn:
       'Centralne dokumenty projektowe i tablica zadań dla faz projektu. Kontroluj wszystkie projekty budowlane.',
-    slug: 'architekten',
+    slug: 'architekci',
     useCasesDe: [
       {
         title: 'Centralne dokumenty projektowe',
@@ -717,7 +717,7 @@ export const branches: Branch[] = [
       'Projektowa rejestracja czasu pracy do rozliczeń i indywidualne uprawnienia użytkowników dla Twojego zespołu.',
     descriptionEn:
       'Projektowa rejestracja czasu pracy do rozliczeń i indywidualne uprawnienia użytkowników dla Twojego zespołu.',
-    slug: 'agenturen',
+    slug: 'agencje',
     useCasesDe: [
       {
         title: 'Projektowa rejestracja czasu do rozliczeń',
@@ -763,7 +763,7 @@ export const branches: Branch[] = [
       'Kompletne biuro na smartfonie. Szablony oszczędzają do 80% czasu administracyjnego dla jednoosobowych przedsiębiorców.',
     descriptionEn:
       'Kompletne biuro na smartfonie. Szablony oszczędzają do 80% czasu administracyjnego dla jednoosobowych przedsiębiorców.',
-    slug: 'einmann-betriebe',
+    slug: 'jednoosobowe-firmy',
     useCasesDe: [
       {
         title: 'Kompletne biuro na smartfonie',

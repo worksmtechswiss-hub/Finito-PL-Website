@@ -160,7 +160,7 @@ export function TeamPreview() {
             </div>
 
             <Link
-              href="/team"
+              href="/zespol"
               className="inline-flex items-center gap-2 text-primary-600 font-medium hover:text-primary-700 transition-colors group"
             >
               Więcej o naszym zespole

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
-import { AGBsContent } from "./AGBsContent";
+import { TeamContent } from "./TeamContent";
 
 export async function generateMetadata({
   params,
@@ -10,20 +10,26 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Ogólne Warunki Umowy - Finito Pro",
+    title: "Zespół i historia - Finito Pro",
     description:
-      "Ogólne Warunki Umowy (OWU) Finito Pro. Warunki korzystania z naszego oprogramowania dla MŚP.",
-    path: "/agbs",
+      "Poznaj zespół stojący za Finito Pro. Nasza misja: wspieranie MŚP w Szwajcarii prostym i wydajnym oprogramowaniem.",
+    path: "/zespol",
     locale,
+    keywords: [
+      "zespół Finito Pro",
+      "szwajcarski startup",
+      "oprogramowanie MŚP Szwajcaria",
+      "oprogramowanie dla rzemieślników",
+    ],
   });
 }
 
-export default async function AGBsPage({
+export default async function TeamPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <AGBsContent />;
+  return <TeamContent />;
 }

@@ -23,18 +23,18 @@ import { staggerContainer, staggerItem } from "@/lib/animations";
 
 const features = [
   { icon: LayoutDashboard, slug: "dashboard", key: "dashboard" },
-  { icon: FolderKanban, slug: "projektmanagement", key: "projektmanagement" },
-  { icon: Receipt, slug: "rechnungen", key: "rechnungen" },
-  { icon: FileText, slug: "offerten", key: "offerten" },
-  { icon: Clock, slug: "zeiterfassung", key: "zeiterfassung" },
+  { icon: FolderKanban, slug: "zarzadzanie-projektami", key: "zarzadzanie-projektami" },
+  { icon: Receipt, slug: "faktury", key: "faktury" },
+  { icon: FileText, slug: "oferty", key: "oferty" },
+  { icon: Clock, slug: "ewidencja-czasu-pracy", key: "ewidencja-czasu-pracy" },
   { icon: UserCircle, slug: "crm", key: "crm" },
-  { icon: CalendarDays, slug: "ferienmanagement", key: "ferienmanagement" },
-  { icon: Camera, slug: "foto-dokumentation", key: "fotoDocumentation" },
-  { icon: Package, slug: "lagerverwaltung", key: "lagerverwaltung" },
-  { icon: Calculator, slug: "buchhaltung", key: "buchhaltung" },
-  { icon: Smartphone, slug: "mitarbeiter-app", key: "mitarbeiterApp" },
-  { icon: Users, slug: "kundenportal", key: "kundenportal" },
-  { icon: Repeat, slug: "service-abos", key: "serviceAbos" },
+  { icon: CalendarDays, slug: "urlopy", key: "urlopy" },
+  { icon: Camera, slug: "dokumentacja-zdjec", key: "fotoDocumentation" },
+  { icon: Package, slug: "magazyn", key: "magazyn" },
+  { icon: Calculator, slug: "ksiegowosc", key: "ksiegowosc" },
+  { icon: Smartphone, slug: "aplikacja-pracownika", key: "mitarbeiterApp" },
+  { icon: Users, slug: "portal-klienta", key: "portal-klienta" },
+  { icon: Repeat, slug: "umowy-serwisowe", key: "serviceAbos" },
 ];
 
 export function Features() {
@@ -69,7 +69,7 @@ export function Features() {
           {features.map((feature) => (
             <motion.div key={feature.slug} variants={staggerItem}>
               <Link
-                href={`/features/${feature.slug}`}
+                href={`/funkcje/${feature.slug}`}
                 className="group block p-6 rounded-2xl border border-neutral-100 hover:border-primary-100 hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1 bg-white"
               >
                 <div className="w-12 h-12 bg-primary-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary-100 transition-colors">

@@ -206,7 +206,7 @@ export function MarktplatzContent() {
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <Link
-                href="/apis"
+                href="/api"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-neutral-200 text-neutral-700 font-medium rounded-2xl hover:bg-surface-light-secondary transition-all"
               >
                 Dokumentacja API

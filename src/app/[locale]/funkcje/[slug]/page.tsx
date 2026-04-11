@@ -32,7 +32,7 @@ export async function generateMetadata({
   return generatePageMetadata({
     title: feature.metaTitle,
     description: feature.metaDescription,
-    path: `/features/${slug}`,
+    path: `/funkcje/${slug}`,
     locale,
     keywords: feature.keywords,
   });
@@ -63,8 +63,8 @@ export default async function FeatureDetailPage({
           __html: JSON.stringify(
             breadcrumbSchema([
               { name: "Strona glowna", path: "/" },
-              { name: "Funkcje", path: "/funktionen" },
-              { name: feature.title, path: `/features/${slug}` },
+              { name: "Funkcje", path: "/moduly" },
+              { name: feature.title, path: `/funkcje/${slug}` },
             ])
           ),
         }}

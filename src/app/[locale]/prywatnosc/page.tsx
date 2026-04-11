@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
-import { TeamContent } from "./TeamContent";
+import { DatenschutzContent } from "./DatenschutzContent";
 
 export async function generateMetadata({
   params,
@@ -10,26 +10,20 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Zespół i historia - Finito Pro",
+    title: "Polityka prywatności - Finito Pro",
     description:
-      "Poznaj zespół stojący za Finito Pro. Nasza misja: wspieranie MŚP w Szwajcarii prostym i wydajnym oprogramowaniem.",
-    path: "/team",
+      "Polityka prywatności Finito Pro. Dowiedz się, jak chronimy i przetwarzamy Państwa dane. Serwery w Szwajcarii, zgodność z RODO.",
+    path: "/prywatnosc",
     locale,
-    keywords: [
-      "zespół Finito Pro",
-      "szwajcarski startup",
-      "oprogramowanie MŚP Szwajcaria",
-      "oprogramowanie dla rzemieślników",
-    ],
   });
 }
 
-export default async function TeamPage({
+export default async function DatenschutzPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <TeamContent />;
+  return <DatenschutzContent />;
 }

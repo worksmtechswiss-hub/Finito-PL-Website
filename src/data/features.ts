@@ -12,7 +12,7 @@ export interface Feature {
 
 export const features: Feature[] = [
   {
-    id: 'rechnungen',
+    id: 'faktury',
     icon: 'FileText',
     titleDe: 'Faktury QR',
     titleEn: 'Faktury QR',
@@ -20,7 +20,7 @@ export const features: Feature[] = [
       'Twórz profesjonalne szwajcarskie faktury QR w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatności i bezproblemowy eksport do księgowości.',
     descriptionEn:
       'Twórz profesjonalne szwajcarskie faktury QR w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatności i bezproblemowy eksport do księgowości.',
-    slug: 'rechnungen',
+    slug: 'faktury',
     bulletsDe: [
       'Szwajcarskie faktury QR zgodne ze standardem ISO 20022',
       'Automatyczne obliczanie VAT (7,7% / 2,5% / 0%)',
@@ -66,7 +66,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'projektmanagement',
+    id: 'zarzadzanie-projektami',
     icon: 'FolderKanban',
     titleDe: 'Zarządzanie projektami',
     titleEn: 'Zarządzanie projektami',
@@ -74,7 +74,7 @@ export const features: Feature[] = [
       'Zarządzaj wszystkimi projektami mobilnie. Przydzielaj zadania, twórz dokumentację fotograficzną i koordynuj swój zespół w dowolnym momencie.',
     descriptionEn:
       'Zarządzaj wszystkimi projektami mobilnie. Przydzielaj zadania, twórz dokumentację fotograficzną i koordynuj swój zespół w dowolnym momencie.',
-    slug: 'projektmanagement',
+    slug: 'zarzadzanie-projektami',
     bulletsDe: [
       'Mobilne zarządzanie zadaniami ze śledzeniem statusu',
       'Dokumentacja fotograficzna bezpośrednio w projekcie',
@@ -93,7 +93,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'zeiterfassung',
+    id: 'ewidencja-czasu-pracy',
     icon: 'Clock',
     titleDe: 'Ewidencja czasu pracy',
     titleEn: 'Ewidencja czasu pracy',
@@ -101,7 +101,7 @@ export const features: Feature[] = [
       'Projektowa ewidencja czasu pracy jednym kliknięciem. Raporty miesięczne, śledzenie nadgodzin i bezpośredni eksport do listy płac.',
     descriptionEn:
       'Projektowa ewidencja czasu pracy jednym kliknięciem. Raporty miesięczne, śledzenie nadgodzin i bezpośredni eksport do listy płac.',
-    slug: 'zeiterfassung',
+    slug: 'ewidencja-czasu-pracy',
     bulletsDe: [
       'Ewidencja czasu pracy jednym kliknięciem dla projektu i zadania',
       'Automatyczne raporty miesięczne na pracownika',
@@ -120,7 +120,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'offerten',
+    id: 'oferty',
     icon: 'Send',
     titleDe: 'Oferty',
     titleEn: 'Oferty',
@@ -128,7 +128,7 @@ export const features: Feature[] = [
       'Szybkie cyfrowe oferty z zapisanymi katalogami usług. Jednym kliknięciem zamień ofertę w zlecenie.',
     descriptionEn:
       'Szybkie cyfrowe oferty z zapisanymi katalogami usług. Jednym kliknięciem zamień ofertę w zlecenie.',
-    slug: 'offerten',
+    slug: 'oferty',
     bulletsDe: [
       'Zapisane katalogi usług do szybkiego tworzenia',
       'Profesjonalne oferty we własnym designie firmy',
@@ -174,7 +174,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'ferienmanagement',
+    id: 'urlopy',
     icon: 'Palmtree',
     titleDe: 'Zarządzanie urlopami',
     titleEn: 'Zarządzanie urlopami',
@@ -182,7 +182,7 @@ export const features: Feature[] = [
       'Mobilne wnioski urlopowe, przegląd pozostałych dni i proces zatwierdzania. Dzięki kalendarzowi zespołu nie będzie już wąskich gardeł.',
     descriptionEn:
       'Mobilne wnioski urlopowe, przegląd pozostałych dni i proces zatwierdzania. Dzięki kalendarzowi zespołu nie będzie już wąskich gardeł.',
-    slug: 'ferienmanagement',
+    slug: 'urlopy',
     bulletsDe: [
       'Mobilne wnioski urlopowe ze smartfona',
       'Przegląd pozostałych dni na pracownika',
@@ -201,7 +201,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'foto-dokumentation',
+    id: 'dokumentacja-zdjec',
     icon: 'Camera',
     titleDe: 'Dokumentacja fotograficzna',
     titleEn: 'Dokumentacja fotograficzna',
@@ -209,7 +209,7 @@ export const features: Feature[] = [
       'Zdjęcia przed/po z automatycznym przypisaniem do projektu. Doskonałe dowody jakości dla klientów i ubezpieczycieli.',
     descriptionEn:
       'Zdjęcia przed/po z automatycznym przypisaniem do projektu. Doskonałe dowody jakości dla klientów i ubezpieczycieli.',
-    slug: 'foto-dokumentation',
+    slug: 'dokumentacja-zdjec',
     bulletsDe: [
       'Zdjęcia przed/po bezpośrednio w projekcie',
       'Automatyczne przypisanie do właściwego projektu',
@@ -228,7 +228,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'lagerverwaltung',
+    id: 'magazyn',
     icon: 'Warehouse',
     titleDe: 'Zarządzanie magazynem',
     titleEn: 'Zarządzanie magazynem',
@@ -236,7 +236,7 @@ export const features: Feature[] = [
       'Zarządzanie materiałami i narzędziami z automatycznym odliczaniem na projekt. Kontroluj stan magazynowy w każdej chwili.',
     descriptionEn:
       'Zarządzanie materiałami i narzędziami z automatycznym odliczaniem na projekt. Kontroluj stan magazynowy w każdej chwili.',
-    slug: 'lagerverwaltung',
+    slug: 'magazyn',
     bulletsDe: [
       'Zarządzanie materiałami i narzędziami w jednym miejscu',
       'Automatyczne odliczanie na projekt',
@@ -255,7 +255,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'buchhaltung',
+    id: 'ksiegowosc',
     icon: 'Calculator',
     titleDe: 'Księgowość',
     titleEn: 'Księgowość',
@@ -263,7 +263,7 @@ export const features: Feature[] = [
       'Zarządzaj przychodami i wydatkami, kontroluj koszty i eksportuj dane dla swojego księgowego. Wszystkie dane bezpiecznie na serwerach w Szwajcarii.',
     descriptionEn:
       'Zarządzaj przychodami i wydatkami, kontroluj koszty i eksportuj dane dla swojego księgowego. Wszystkie dane bezpiecznie na serwerach w Szwajcarii.',
-    slug: 'buchhaltung',
+    slug: 'ksiegowosc',
     bulletsDe: [
       'Przejrzyste zarządzanie przychodami i wydatkami',
       'Zarządzanie kosztami na projekt i klienta',
@@ -282,7 +282,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'mitarbeiter-app',
+    id: 'aplikacja-pracownika',
     icon: 'Smartphone',
     titleDe: 'Aplikacja pracownika',
     titleEn: 'Aplikacja pracownika',
@@ -290,7 +290,7 @@ export const features: Feature[] = [
       'Przeglądaj zadania, rejestruj czas pracy, przesyłaj zdjęcia i komunikuj się z zespołem - wszystko ze smartfona.',
     descriptionEn:
       'Przeglądaj zadania, rejestruj czas pracy, przesyłaj zdjęcia i komunikuj się z zespołem - wszystko ze smartfona.',
-    slug: 'mitarbeiter-app',
+    slug: 'aplikacja-pracownika',
     bulletsDe: [
       'Zadania i plan dnia na smartfonie',
       'Rozpoczęcie rejestracji czasu jednym kliknięciem',
@@ -309,7 +309,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'kundenportal',
+    id: 'portal-klienta',
     icon: 'Globe',
     titleDe: 'Portal klienta',
     titleEn: 'Portal klienta',
@@ -317,7 +317,7 @@ export const features: Feature[] = [
       'Udostępniaj postęp projektu swoim klientom. Przejrzysta komunikacja i zdjęcia postępu budują zaufanie.',
     descriptionEn:
       'Udostępniaj postęp projektu swoim klientom. Przejrzysta komunikacja i zdjęcia postępu budują zaufanie.',
-    slug: 'kundenportal',
+    slug: 'portal-klienta',
     bulletsDe: [
       'Udostępnianie postępu projektu klientom',
       'Przejrzysta komunikacja na wszystkich etapach',
@@ -336,7 +336,7 @@ export const features: Feature[] = [
     ],
   },
   {
-    id: 'service-abos',
+    id: 'umowy-serwisowe',
     icon: 'RefreshCw',
     titleDe: 'Umowy serwisowe',
     titleEn: 'Umowy serwisowe',
@@ -344,7 +344,7 @@ export const features: Feature[] = [
       'Zarządzaj powtarzającymi się zleceniami z automatycznym tworzeniem projektów. Idealne do umów serwisowych i abonamentów.',
     descriptionEn:
       'Zarządzaj powtarzającymi się zleceniami z automatycznym tworzeniem projektów. Idealne do umów serwisowych i abonamentów.',
-    slug: 'service-abos',
+    slug: 'umowy-serwisowe',
     bulletsDe: [
       'Automatyczne zarządzanie powtarzającymi się zleceniami',
       'Automatyczne tworzenie projektów według harmonogramu',

@@ -46,9 +46,9 @@ const viewportOnce = { once: true } as const;
 // Features that have real video demos – prefer these over animations
 const featureVideos: Record<string, { video: string; poster: string }> = {
   dashboard: { video: "/videos/1Dashboard-Desktop-transcode.mp4", poster: "/images/Dashboard-Finito-Pro-App.png" },
-  projektmanagement: { video: "/videos/1Projekt-Management-transcode.mp4", poster: "/images/Projekt-Übersicht.png" },
-  rechnungen: { video: "/videos/1Rechnungen-PC-transcode.mp4", poster: "/images/dashboard-1-3.png" },
-  offerten: { video: "/videos/1Offerte-PC-transcode.mp4", poster: "/images/dashboard-1-4.png" },
+  "zarzadzanie-projektami": { video: "/videos/1Projekt-Management-transcode.mp4", poster: "/images/Projekt-Übersicht.png" },
+  faktury: { video: "/videos/1Rechnungen-PC-transcode.mp4", poster: "/images/dashboard-1-3.png" },
+  oferty: { video: "/videos/1Offerte-PC-transcode.mp4", poster: "/images/dashboard-1-4.png" },
 };
 
 export function FeatureShowcase({
@@ -75,7 +75,7 @@ export function FeatureShowcase({
           >
             <motion.div variants={staggerItem}>
               <Link
-                href="/funktionen"
+                href="/moduly"
                 className="inline-flex items-center gap-2 text-sm text-white/50 hover:text-white/80 transition-colors mb-8"
               >
                 <ArrowLeft className="w-3.5 h-3.5" />
@@ -367,7 +367,7 @@ export function FeatureShowcase({
             {relatedFeatures.map((related) => (
               <motion.div key={related.slug} variants={staggerItem}>
                 <Link
-                  href={`/features/${related.slug}`}
+                  href={`/funkcje/${related.slug}`}
                   className="group inline-flex items-center gap-3 px-6 py-4 rounded-2xl bg-surface-light-secondary border border-neutral-100 hover:border-primary-200 hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1"
                 >
                   <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center group-hover:bg-primary-100 transition-colors">

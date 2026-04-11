@@ -33,7 +33,7 @@ const features = [
   },
   {
     icon: FolderKanban,
-    slug: "projektmanagement",
+    slug: "zarzadzanie-projektami",
     title: "Zarządzanie projektami",
     description:
       "Mobilne zarządzanie zadaniami, dokumentacja fotograficzna i koordynacja zespołu dla Twoich projektów.",
@@ -41,7 +41,7 @@ const features = [
   },
   {
     icon: Receipt,
-    slug: "rechnungen",
+    slug: "faktury",
     title: "Faktury QR",
     description:
       "Szwajcarskie faktury QR zgodne z ISO 20022. Obliczanie VAT, przypomnienia o płatnościach i uzgadnianie z bankiem.",
@@ -49,7 +49,7 @@ const features = [
   },
   {
     icon: FileText,
-    slug: "offerten",
+    slug: "oferty",
     title: "Oferty",
     description:
       "Szybkie oferty cyfrowe z zapisanymi katalogami usług. Jednym kliknięciem do zlecenia.",
@@ -57,7 +57,7 @@ const features = [
   },
   {
     icon: Clock,
-    slug: "zeiterfassung",
+    slug: "ewidencja-czasu-pracy",
     title: "Rejestracja czasu pracy",
     description:
       "Rejestracja czasu pracy z podziałem na projekty, raporty miesięczne, śledzenie nadgodzin i eksport wynagrodzeń.",
@@ -73,7 +73,7 @@ const features = [
   },
   {
     icon: CalendarDays,
-    slug: "ferienmanagement",
+    slug: "urlopy",
     title: "Zarządzanie urlopami",
     description:
       "Mobilne wnioski urlopowe, przegląd pozostałych dni i proces zatwierdzania z kalendarzem zespołu.",
@@ -81,7 +81,7 @@ const features = [
   },
   {
     icon: Camera,
-    slug: "foto-dokumentation",
+    slug: "dokumentacja-zdjec",
     title: "Dokumentacja fotograficzna",
     description:
       "Zdjęcia przed/po z automatycznym przypisaniem do projektu, znacznikiem czasu i danymi GPS.",
@@ -89,7 +89,7 @@ const features = [
   },
   {
     icon: Package,
-    slug: "lagerverwaltung",
+    slug: "magazyn",
     title: "Zarządzanie magazynem",
     description:
       "Zarządzanie materiałami i narzędziami z automatycznym odliczaniem na projekt i ostrzeżeniami o minimalnym stanie.",
@@ -97,7 +97,7 @@ const features = [
   },
   {
     icon: Calculator,
-    slug: "buchhaltung",
+    slug: "ksiegowosc",
     title: "Księgowość",
     description:
       "Zarządzanie przychodami i wydatkami, rozliczanie VAT oraz eksport dla Twojego księgowego.",
@@ -105,7 +105,7 @@ const features = [
   },
   {
     icon: Smartphone,
-    slug: "mitarbeiter-app",
+    slug: "aplikacja-pracownika",
     title: "Aplikacja pracownika",
     description:
       "Zadania, rejestracja czasu, zdjęcia i komunikacja - wszystko ze smartfona, także offline.",
@@ -113,7 +113,7 @@ const features = [
   },
   {
     icon: Users,
-    slug: "kundenportal",
+    slug: "portal-klienta",
     title: "Portal klienta",
     description:
       "Udostępnianie postępów projektu, zatwierdzanie ofert i transparentna komunikacja z klientami.",
@@ -121,7 +121,7 @@ const features = [
   },
   {
     icon: Repeat,
-    slug: "service-abos",
+    slug: "umowy-serwisowe",
     title: "Abonamenty serwisowe",
     description:
       "Automatyczne zarządzanie powtarzającymi się zleceniami z tworzeniem projektów według harmonogramu.",
@@ -213,7 +213,7 @@ export function FunktionenOverview() {
               return (
                 <motion.div key={feature.slug} variants={staggerItem}>
                   <Link
-                    href={`/features/${feature.slug}`}
+                    href={`/funkcje/${feature.slug}`}
                     className="group block rounded-2xl border border-neutral-100 hover:border-primary-100 hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1 bg-white h-full overflow-hidden"
                   >
                     {FeatureAnimation && <FeatureAnimation />}

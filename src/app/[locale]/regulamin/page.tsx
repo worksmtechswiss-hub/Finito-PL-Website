@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
-import { DatenschutzContent } from "./DatenschutzContent";
+import { AGBsContent } from "./AGBsContent";
 
 export async function generateMetadata({
   params,
@@ -10,20 +10,20 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Polityka prywatności - Finito Pro",
+    title: "Ogólne Warunki Umowy - Finito Pro",
     description:
-      "Polityka prywatności Finito Pro. Dowiedz się, jak chronimy i przetwarzamy Państwa dane. Serwery w Szwajcarii, zgodność z RODO.",
-    path: "/datenschutz",
+      "Ogólne Warunki Umowy (OWU) Finito Pro. Warunki korzystania z naszego oprogramowania dla MŚP.",
+    path: "/regulamin",
     locale,
   });
 }
 
-export default async function DatenschutzPage({
+export default async function AGBsPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <DatenschutzContent />;
+  return <AGBsContent />;
 }

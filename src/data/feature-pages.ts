@@ -73,11 +73,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Szybki dostęp do otwartych faktur, zaległych płatności i przeglądu dnia.",
       },
     ],
-    relatedSlugs: ["buchhaltung", "projektmanagement", "zeiterfassung"],
+    relatedSlugs: ["ksiegowosc", "zarzadzanie-projektami", "ewidencja-czasu-pracy"],
   },
 
-  projektmanagement: {
-    slug: "projektmanagement",
+  "zarzadzanie-projektami": {
+    slug: "zarzadzanie-projektami",
     iconName: "FolderKanban",
     title: "Zarządzanie projektami",
     description:
@@ -135,11 +135,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Śledzenie kosztów projektu, inicjowanie zamówień materiałów i odpowiadanie na zapytania klientów.",
       },
     ],
-    relatedSlugs: ["zeiterfassung", "foto-dokumentation", "mitarbeiter-app"],
+    relatedSlugs: ["ewidencja-czasu-pracy", "dokumentacja-zdjec", "aplikacja-pracownika"],
   },
 
-  rechnungen: {
-    slug: "rechnungen",
+  faktury: {
+    slug: "faktury",
     iconName: "Receipt",
     title: "Faktury",
     description:
@@ -197,11 +197,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Czyste eksporty do księgowości, prawidłowe rozliczenia VAT i kompletne dokumenty.",
       },
     ],
-    relatedSlugs: ["offerten", "buchhaltung", "kundenportal"],
+    relatedSlugs: ["oferty", "ksiegowosc", "portal-klienta"],
   },
 
-  offerten: {
-    slug: "offerten",
+  oferty: {
+    slug: "oferty",
     iconName: "FileText",
     title: "Oferty",
     description:
@@ -259,11 +259,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Śledzenie ofert, odpowiadanie na zapytania klientów i wysyłanie potwierdzeń zleceń.",
       },
     ],
-    relatedSlugs: ["rechnungen", "projektmanagement", "crm"],
+    relatedSlugs: ["faktury", "zarzadzanie-projektami", "crm"],
   },
 
-  zeiterfassung: {
-    slug: "zeiterfassung",
+  "ewidencja-czasu-pracy": {
+    slug: "ewidencja-czasu-pracy",
     iconName: "Clock",
     title: "Ewidencja czasu pracy",
     description:
@@ -321,7 +321,7 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Automatyczne raporty miesięczne i eksport do rozliczania wynagrodzeń bez ręcznej pracy.",
       },
     ],
-    relatedSlugs: ["projektmanagement", "mitarbeiter-app", "buchhaltung"],
+    relatedSlugs: ["zarzadzanie-projektami", "aplikacja-pracownika", "ksiegowosc"],
   },
 
   crm: {
@@ -383,11 +383,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Przeglądanie historii klienta, aby przy nowych projektach bazować na wcześniejszych doświadczeniach.",
       },
     ],
-    relatedSlugs: ["kundenportal", "service-abos", "offerten"],
+    relatedSlugs: ["portal-klienta", "umowy-serwisowe", "oferty"],
   },
 
-  ferienmanagement: {
-    slug: "ferienmanagement",
+  urlopy: {
+    slug: "urlopy",
     iconName: "CalendarDays",
     title: "Zarządzanie urlopami",
     description:
@@ -445,11 +445,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Automatyczne prowadzenie kont urlopowych i tworzenie czytelnych raportów do działu płac.",
       },
     ],
-    relatedSlugs: ["mitarbeiter-app", "zeiterfassung", "dashboard"],
+    relatedSlugs: ["aplikacja-pracownika", "ewidencja-czasu-pracy", "dashboard"],
   },
 
-  "foto-dokumentation": {
-    slug: "foto-dokumentation",
+  "dokumentacja-zdjec": {
+    slug: "dokumentacja-zdjec",
     iconName: "Camera",
     title: "Dokumentacja fotograficzna",
     description:
@@ -507,11 +507,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Dowody jakości dla klientów i ubezpieczeń dostępne w każdym momencie.",
       },
     ],
-    relatedSlugs: ["projektmanagement", "mitarbeiter-app", "kundenportal"],
+    relatedSlugs: ["zarzadzanie-projektami", "aplikacja-pracownika", "portal-klienta"],
   },
 
-  lagerverwaltung: {
-    slug: "lagerverwaltung",
+  magazyn: {
+    slug: "magazyn",
     iconName: "Package",
     title: "Zarządzanie magazynem",
     description:
@@ -569,11 +569,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Śledzenie kosztów materiałowych na projekt i poprawa kalkulacji końcowej.",
       },
     ],
-    relatedSlugs: ["projektmanagement", "buchhaltung", "mitarbeiter-app"],
+    relatedSlugs: ["zarzadzanie-projektami", "ksiegowosc", "aplikacja-pracownika"],
   },
 
-  buchhaltung: {
-    slug: "buchhaltung",
+  ksiegowosc: {
+    slug: "ksiegowosc",
     iconName: "Calculator",
     title: "Księgowość",
     description:
@@ -631,11 +631,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Czyste, ustrukturyzowane dane i dokumenty dla efektywnej współpracy.",
       },
     ],
-    relatedSlugs: ["rechnungen", "dashboard", "zeiterfassung"],
+    relatedSlugs: ["faktury", "dashboard", "ewidencja-czasu-pracy"],
   },
 
-  "mitarbeiter-app": {
-    slug: "mitarbeiter-app",
+  "aplikacja-pracownika": {
+    slug: "aplikacja-pracownika",
     iconName: "Smartphone",
     title: "Aplikacja pracownika",
     description:
@@ -693,11 +693,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Przegląd w czasie rzeczywistym dotyczący zaangażowania i postępu wszystkich pracowników.",
       },
     ],
-    relatedSlugs: ["zeiterfassung", "foto-dokumentation", "projektmanagement"],
+    relatedSlugs: ["ewidencja-czasu-pracy", "dokumentacja-zdjec", "zarzadzanie-projektami"],
   },
 
-  kundenportal: {
-    slug: "kundenportal",
+  "portal-klienta": {
+    slug: "portal-klienta",
     iconName: "Users",
     title: "Portal klienta",
     description:
@@ -755,11 +755,11 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Mniej telefonów i e-maili, ponieważ klienci mogą sami się informować.",
       },
     ],
-    relatedSlugs: ["crm", "foto-dokumentation", "offerten"],
+    relatedSlugs: ["crm", "dokumentacja-zdjec", "oferty"],
   },
 
-  "service-abos": {
-    slug: "service-abos",
+  "umowy-serwisowe": {
+    slug: "umowy-serwisowe",
     iconName: "Repeat",
     title: "Umowy serwisowe",
     description:
@@ -817,7 +817,7 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Automatyczne wystawianie faktur i czyste przypisywanie przychodów do umów.",
       },
     ],
-    relatedSlugs: ["crm", "projektmanagement", "rechnungen"],
+    relatedSlugs: ["crm", "zarzadzanie-projektami", "faktury"],
   },
 };
 

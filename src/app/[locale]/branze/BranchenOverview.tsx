@@ -11,23 +11,23 @@ import {
 import { staggerContainer, staggerItem, fadeUp } from "@/lib/animations";
 
 const branches = [
-  { icon: Paintbrush, slug: "maler", title: "Malarze", desc: "Katalogi usług do szybkiego tworzenia ofert, udostępnianie projektów klientom" },
-  { icon: Hammer, slug: "gipser", title: "Tynkarze", desc: "Cyfrowe raporty fotograficzne, zarządzanie magazynem ze śledzeniem artykułów" },
-  { icon: Zap, slug: "elektriker", title: "Elektrycy", desc: "Schematy elektryczne na urządzeniach mobilnych, zarządzanie magazynem z linkami do dostawców" },
-  { icon: Droplets, slug: "sanitaer", title: "Hydraulicy", desc: "Mobilna rejestracja czasu pracy na miejscu, cyfrowe raporty robocze" },
-  { icon: Ruler, slug: "schreiner", title: "Stolarze", desc: "Dokumentowanie zamówień na wymiar, obciążenie warsztatu w dashboardzie" },
-  { icon: Home, slug: "dachdecker", title: "Dekarze", desc: "Planowanie pracowników z kalendarzem, cyfrowe archiwum projektów (25+ lat)" },
-  { icon: Grid3x3, slug: "bodenleger", title: "Posadzkarze", desc: "Kalkulacja metrów kwadratowych, śledzenie resztek materiałów" },
-  { icon: Building2, slug: "geruestbauer", title: "Firmy rusztowaniowe", desc: "Śledzenie elementów rusztowań w magazynie, automatyczne rozliczenia wynajmu" },
-  { icon: Blocks, slug: "maurer", title: "Murarze", desc: "Automatyczny dziennik budowy, przegląd wielu projektów z filtrami" },
+  { icon: Paintbrush, slug: "malarze", title: "Malarze", desc: "Katalogi usług do szybkiego tworzenia ofert, udostępnianie projektów klientom" },
+  { icon: Hammer, slug: "tynkarze", title: "Tynkarze", desc: "Cyfrowe raporty fotograficzne, zarządzanie magazynem ze śledzeniem artykułów" },
+  { icon: Zap, slug: "elektrycy", title: "Elektrycy", desc: "Schematy elektryczne na urządzeniach mobilnych, zarządzanie magazynem z linkami do dostawców" },
+  { icon: Droplets, slug: "hydraulicy", title: "Hydraulicy", desc: "Mobilna rejestracja czasu pracy na miejscu, cyfrowe raporty robocze" },
+  { icon: Ruler, slug: "stolarze", title: "Stolarze", desc: "Dokumentowanie zamówień na wymiar, obciążenie warsztatu w dashboardzie" },
+  { icon: Home, slug: "dekarze", title: "Dekarze", desc: "Planowanie pracowników z kalendarzem, cyfrowe archiwum projektów (25+ lat)" },
+  { icon: Grid3x3, slug: "posadzkarze", title: "Posadzkarze", desc: "Kalkulacja metrów kwadratowych, śledzenie resztek materiałów" },
+  { icon: Building2, slug: "rusztowania", title: "Firmy rusztowaniowe", desc: "Śledzenie elementów rusztowań w magazynie, automatyczne rozliczenia wynajmu" },
+  { icon: Blocks, slug: "murarze", title: "Murarze", desc: "Automatyczny dziennik budowy, przegląd wielu projektów z filtrami" },
   { icon: Building, slug: "facility-service", title: "Facility Service", desc: "Automatyczne interwały konserwacyjne, koordynacja z partnerami" },
-  { icon: Sparkles, slug: "reinigung", title: "Firmy sprzątające", desc: "Planowanie tras, dokumentacja jakości ze zdjęciami" },
-  { icon: TreePine, slug: "gartenbau", title: "Ogrodnictwo", desc: "Sezonowe planowanie projektów, dokumentacja roślin" },
-  { icon: Truck, slug: "umzug", title: "Przeprowadzki", desc: "Planowanie dnia z optymalizacją tras, listy inwentaryzacyjne ze zdjęciami" },
-  { icon: Thermometer, slug: "haustechnik", title: "Instalacje budowlane", desc: "Dokumentacja instalacji, planowanie i protokoły konserwacji" },
-  { icon: PenTool, slug: "architekten", title: "Architekci", desc: "Centralne zarządzanie dokumentami projektowymi, tablica zadań dla poszczególnych faz" },
-  { icon: Palette, slug: "agenturen", title: "Agencje", desc: "Rejestracja czasu pracy do rozliczeń, indywidualne uprawnienia użytkowników" },
-  { icon: User, slug: "einmann-betriebe", title: "Jednoosobowe firmy", desc: "Kompletne biuro na smartfonie, szablony oszczędzają 80% czasu" },
+  { icon: Sparkles, slug: "sprzatanie", title: "Firmy sprzątające", desc: "Planowanie tras, dokumentacja jakości ze zdjęciami" },
+  { icon: TreePine, slug: "ogrodnictwo", title: "Ogrodnictwo", desc: "Sezonowe planowanie projektów, dokumentacja roślin" },
+  { icon: Truck, slug: "przeprowadzki", title: "Przeprowadzki", desc: "Planowanie dnia z optymalizacją tras, listy inwentaryzacyjne ze zdjęciami" },
+  { icon: Thermometer, slug: "technika-budynkowa", title: "Instalacje budowlane", desc: "Dokumentacja instalacji, planowanie i protokoły konserwacji" },
+  { icon: PenTool, slug: "architekci", title: "Architekci", desc: "Centralne zarządzanie dokumentami projektowymi, tablica zadań dla poszczególnych faz" },
+  { icon: Palette, slug: "agencje", title: "Agencje", desc: "Rejestracja czasu pracy do rozliczeń, indywidualne uprawnienia użytkowników" },
+  { icon: User, slug: "jednoosobowe-firmy", title: "Jednoosobowe firmy", desc: "Kompletne biuro na smartfonie, szablony oszczędzają 80% czasu" },
 ];
 
 export function BranchenOverview() {
@@ -113,7 +113,7 @@ export function BranchenOverview() {
             {branches.map((branch) => (
               <motion.div key={branch.slug} variants={staggerItem}>
                 <Link
-                  href={`/branchen/${branch.slug}`}
+                  href={`/branze/${branch.slug}`}
                   className="group block p-6 rounded-2xl border border-neutral-100 hover:border-primary-200 hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1 h-full"
                 >
                   <div className="w-12 h-12 bg-primary-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary-100 transition-colors">

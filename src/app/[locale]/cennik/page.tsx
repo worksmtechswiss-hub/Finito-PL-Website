@@ -13,7 +13,7 @@ export async function generateMetadata({
     title: "Cennik - Finito Pro oprogramowanie dla MSP",
     description:
       "Cennik Finito Pro: Starter za darmo, MSP od 100 zł/miesiac. Porownanie wszystkich funkcji. 14 dni bezplatnego testu - bez karty kredytowej.",
-    path: "/preise",
+    path: "/cennik",
     locale,
     keywords: [
       "Finito Pro cennik",

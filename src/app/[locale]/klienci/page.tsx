@@ -13,7 +13,7 @@ export async function generateMetadata({
     title: "Klienci i referencje - Finito Pro",
     description:
       "Szwajcarskie firmy rzemieślnicze i MŚP ufają Finito Pro. Poznaj opinie klientów i historie sukcesu.",
-    path: "/kunden",
+    path: "/klienci",
     locale,
     keywords: [
       "Klienci Finito Pro",

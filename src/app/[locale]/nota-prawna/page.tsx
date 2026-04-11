@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
-import { APIsContent } from "./APIsContent";
+import { ImpressumContent } from "./ImpressumContent";
 
 export async function generateMetadata({
   params,
@@ -10,26 +10,20 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Dokumentacja API - Finito Pro",
+    title: "Informacje prawne - Finito Pro",
     description:
-      "Dokumentacja REST API Finito Pro. Zintegruj Finito Pro ze swoimi istniejącymi systemami dzięki naszemu kompleksowemu API.",
-    path: "/apis",
+      "Informacje prawne Finito Pro. Dane zgodnie z prawem szwajcarskim. Dane kontaktowe i informacje prawne.",
+    path: "/nota-prawna",
     locale,
-    keywords: [
-      "Finito Pro API",
-      "oprogramowanie MŚP API",
-      "integracja REST API",
-      "szwajcarskie oprogramowanie API",
-    ],
   });
 }
 
-export default async function APIsPage({
+export default async function ImpressumPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <APIsContent />;
+  return <ImpressumContent />;
 }

@@ -31,7 +31,7 @@ const featureIconMap: Record<string, React.ComponentType<{ className?: string }>
 /*  "Warum Finito" benefits per branch                                 */
 /* ------------------------------------------------------------------ */
 const whyFinitoMap: Record<string, string[]> = {
-  maler: [
+  malarze: [
     "Oferty w 3 zamiast 30 minut dzięki zapisanym katalogom usług",
     "Zarządzanie kolorami i zamawianie materiałów bezpośrednio z projektu",
     "Zdjęcia przed/po automatycznie przypisane do projektu",
@@ -39,7 +39,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Portal klienta dla przejrzystego postępu projektów",
     "Rejestracja czasu bezpośrednio na placu budowy przez smartfon",
   ],
-  gipser: [
+  tynkarze: [
     "Cyfrowe fotoraporty jako dowód jakości dla ubezpieczeń",
     "Zarządzanie magazynem z automatycznym odejmowaniem materiału na projekt",
     "Pomiary i obliczanie powierzchni bezpośrednio na miejscu",
@@ -47,7 +47,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Tryb offline dla placów budowy bez zasięgu",
     "Automatyczna dokumentacja wszystkich etapów pracy",
   ],
-  elektriker: [
+  elektrycy: [
     "Schematy elektryczne i dokumenty techniczne zawsze dostępne mobilnie",
     "Zarządzanie magazynem z bezpośrednim linkiem do dostawców",
     "Cyfrowe raporty prac z podpisem klienta na miejscu",
@@ -55,7 +55,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Faktury QR generowane bezpośrednio z zarejestrowanych danych",
     "Wszystkie normy i certyfikaty zarchiwizowane dla każdego projektu",
   ],
-  "sanitär": [
+  hydraulicy: [
     "Mobilna rejestracja czasu z rozdzieleniem czasu jazdy i pracy",
     "Cyfrowe raporty prac z natychmiastowym podpisem klienta",
     "Zarządzanie częściami zamiennymi dla pojazdu serwisowego",
@@ -63,7 +63,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Planowanie zleceń z kalendarzem i przypisaniem zespołu",
     "Kompletna dokumentacja dla roszczeń gwarancyjnych",
   ],
-  schreiner: [
+  stolarze: [
     "Dokumentowanie indywidualnych zamówień ze wszystkimi szczegółami",
     "Obciążenie warsztatu i planowanie produkcji w panelu",
     "Szczegółowe oferty na sztuki jednostkowe i serie",
@@ -71,7 +71,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Kalkulacja materiałów i czasu na zlecenie",
     "Faktury QR po montażu i odbiorze",
   ],
-  dachdecker: [
+  dekarze: [
     "Planowanie pracowników z kalendarzem i przypisaniem zespołu",
     "Cyfrowe archiwum projektów na ponad 25 lat",
     "Dokumentacja pogody i bezpieczeństwa na każdy dzień pracy",
@@ -79,7 +79,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Zdjęcia ze znacznikiem czasu jako dowód jakości",
     "Faktury QR i automatyczne przypomnienia o płatności",
   ],
-  bodenleger: [
+  posadzkarze: [
     "Automatyczne obliczanie metrów kwadratowych z naddatkiem na odpady",
     "Śledzenie resztek materiału dla mniejszych zleceń naprawczych",
     "Dokumentowanie wzoru układania zdjęciami i notatkami",
@@ -87,7 +87,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Dokumentacja przed/po dla klienta",
     "Faktury QR wysyłane natychmiast po odbiorze",
   ],
-  "gerüstbauer": [
+  rusztowania: [
     "Śledzenie każdego elementu rusztowania od dostawy do zwrotu",
     "Automatyczne rozliczenie najmu na podstawie czasu postoju",
     "Dokumentowanie inspekcji bezpieczeństwa za pomocą list kontrolnych",
@@ -95,7 +95,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Podgląd stanu magazynowego w czasie rzeczywistym",
     "Automatyczne faktury QR za najem i serwis",
   ],
-  maurer: [
+  murarze: [
     "Automatyczny dziennik budowy z pogodą i obecnością",
     "Zarządzanie wieloma placami budowy równolegle z filtrowaniem",
     "Zamawianie materiału i betonu na podstawie postępu",
@@ -111,7 +111,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Kompletna historia konserwacji dla każdej instalacji",
     "Automatyczne faktury QR i potwierdzenia wykonania",
   ],
-  reinigung: [
+  sprzatanie: [
     "Planowanie tras dla optymalnego rozdzielenia zespołów",
     "Dokumentacja jakości ze zdjęciami przed/po",
     "Indywidualne listy kontrolne dla każdego obiektu i części budynku",
@@ -119,7 +119,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Automatyczne potwierdzenia wykonania dla zleceniodawców",
     "Abonamenty serwisowe na powtarzające się zlecenia sprzątania",
   ],
-  gartenbau: [
+  ogrodnictwo: [
     "Sezonowe planowanie projektów z automatycznymi przypomnieniami",
     "Dokumentacja roślin z gatunkami i wskazówkami pielęgnacji",
     "Udostępnianie planów pielęgnacji klientom przez portal",
@@ -127,7 +127,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Dokumentacja fotograficzna postępu ogrodowego",
     "Abonamenty serwisowe na regularne zlecenia pielęgnacyjne",
   ],
-  umzug: [
+  przeprowadzki: [
     "Szczegółowe listy inwentaryzacyjne z dokumentacją fotograficzną",
     "Codzienne planowanie tras dla maksymalnej wydajności",
     "Protokół szkód ze znacznikiem czasu i danymi GPS",
@@ -135,7 +135,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Rejestracja czasu na przeprowadzkę i pracownika",
     "Faktury QR bezpośrednio po zakończeniu zlecenia",
   ],
-  haustechnik: [
+  "technika-budynkowa": [
     "Dokumentacja HVAC z danymi technicznymi i pomiarami",
     "Planowanie konserwacji z automatycznymi przypomnieniami",
     "Kompletna historia instalacji dla każdej części budynku",
@@ -143,7 +143,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Zarządzanie częściami zamiennymi i ponowne zamawianie",
     "Abonamenty serwisowe na regularne umowy konserwacyjne",
   ],
-  architekten: [
+  architekci: [
     "Wszystkie dokumenty projektowe centralnie i zawsze aktualne",
     "Tablica zadań dla faz projektu od planowania do odbioru",
     "Przejrzysta komunikacja z inwestorami przez portal",
@@ -151,7 +151,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Automatyczne wersjonowanie wszystkich dokumentów",
     "Panel z przeglądem projektów i filtrami statusu",
   ],
-  agenturen: [
+  agencje: [
     "Rejestracja czasu oparta na projektach dla przejrzystego rozliczenia",
     "Indywidualne uprawnienia użytkowników dla roli i projektu",
     "Budżety klientów z automatyczną funkcją ostrzegania",
@@ -159,7 +159,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "CRM do zarządzania klientami i kontaktami",
     "Faktury QR oparte na zarejestrowanym czasie",
   ],
-  "einmann-betriebe": [
+  "jednoosobowe-firmy": [
     "Kompletne biuro na smartfonie — bez potrzeby komputera",
     "Szablony oszczędzają do 80% czasu administracyjnego",
     "Automatyczne przygotowanie księgowości dla biura rachunkowego",
@@ -180,47 +180,47 @@ interface BranchSaving {
 }
 
 const savingsMap: Record<string, BranchSaving[]> = {
-  maler: [
+  malarze: [
     { task: "Tworzenie oferty", vorher: "30 min", nachher: "3 min", ersparnis: "27 min na ofertę" },
     { task: "Wysyłanie faktury", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
     { task: "Raport miesięczny", vorher: "2 godz.", nachher: "0 min", ersparnis: "24 godz./rok" },
   ],
-  gipser: [
+  tynkarze: [
     { task: "Tworzenie fotoraportu", vorher: "45 min", nachher: "5 min", ersparnis: "40 min na raport" },
     { task: "Domawianie materiału", vorher: "30 min", nachher: "2 min", ersparnis: "28 min na zamówienie" },
     { task: "Obliczanie powierzchni", vorher: "20 min", nachher: "2 min", ersparnis: "18 min na pomiar" },
   ],
-  elektriker: [
+  elektrycy: [
     { task: "Tworzenie raportu prac", vorher: "30 min", nachher: "5 min", ersparnis: "25 min na raport" },
     { task: "Sprawdzanie stanu magazynu", vorher: "15 min", nachher: "1 min", ersparnis: "14 min na sprawdzenie" },
     { task: "Faktura z kodem QR", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
   ],
-  "sanitär": [
+  hydraulicy: [
     { task: "Raport prac z podpisem", vorher: "25 min", nachher: "3 min", ersparnis: "22 min na wizytę" },
     { task: "Raport czasu na koniec miesiąca", vorher: "2 godz.", nachher: "0 min", ersparnis: "24 godz./rok" },
     { task: "Wystawienie faktury", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
   ],
-  schreiner: [
+  stolarze: [
     { task: "Szczegółowa oferta", vorher: "45 min", nachher: "10 min", ersparnis: "35 min na ofertę" },
     { task: "Dokumentowanie postępu zlecenia", vorher: "15 min", nachher: "2 min", ersparnis: "13 min na wpis" },
     { task: "Faktura końcowa", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
   ],
-  dachdecker: [
+  dekarze: [
     { task: "Planowanie zespołu na tydzień", vorher: "1 godz.", nachher: "15 min", ersparnis: "45 min na tydzień" },
     { task: "Dokumentacja bezpieczeństwa", vorher: "20 min/dzień", nachher: "3 min/dzień", ersparnis: "17 min na dzień" },
     { task: "Wystawienie faktury QR", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
   ],
-  bodenleger: [
+  posadzkarze: [
     { task: "Obliczanie materiału", vorher: "30 min", nachher: "2 min", ersparnis: "28 min na projekt" },
     { task: "Dokumentacja układania", vorher: "15 min", nachher: "0 min", ersparnis: "15 min na projekt" },
     { task: "Protokół odbioru + faktura", vorher: "25 min", nachher: "3 min", ersparnis: "22 min na odbiór" },
   ],
-  "gerüstbauer": [
+  rusztowania: [
     { task: "Rozliczenie najmu", vorher: "30 min", nachher: "1 min", ersparnis: "29 min na rozliczenie" },
     { task: "Kontrola inwentaryzacyjna", vorher: "2 godz.", nachher: "15 min", ersparnis: "105 min na kontrolę" },
     { task: "Inspekcja bezpieczeństwa", vorher: "20 min", nachher: "5 min", ersparnis: "15 min na inspekcję" },
   ],
-  maurer: [
+  murarze: [
     { task: "Prowadzenie dziennika budowy", vorher: "20 min/dzień", nachher: "3 min/dzień", ersparnis: "17 min na dzień" },
     { task: "Zamawianie materiału", vorher: "30 min", nachher: "5 min", ersparnis: "25 min na zamówienie" },
     { task: "Dokumentacja zamknięcia projektu", vorher: "1 godz.", nachher: "10 min", ersparnis: "50 min na projekt" },
@@ -230,37 +230,37 @@ const savingsMap: Record<string, BranchSaving[]> = {
     { task: "Komunikacja z partnerami", vorher: "20 min", nachher: "2 min", ersparnis: "18 min na zlecenie" },
     { task: "Aktualizacja dokumentacji obiektu", vorher: "10 min", nachher: "0 min", ersparnis: "automatycznie" },
   ],
-  reinigung: [
+  sprzatanie: [
     { task: "Planowanie tras", vorher: "30 min", nachher: "5 min", ersparnis: "25 min na tydzień" },
     { task: "Dokumentacja jakości", vorher: "15 min", nachher: "2 min", ersparnis: "13 min na obiekt" },
     { task: "Potwierdzenie wykonania + faktura", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
   ],
-  gartenbau: [
+  ogrodnictwo: [
     { task: "Planowanie sezonowe", vorher: "2 godz.", nachher: "20 min", ersparnis: "100 min na sezon" },
     { task: "Dokumentacja roślin", vorher: "15 min", nachher: "2 min", ersparnis: "13 min na ogród" },
     { task: "Raport dla klienta", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na raport" },
   ],
-  umzug: [
+  przeprowadzki: [
     { task: "Tworzenie listy inwentaryzacyjnej", vorher: "45 min", nachher: "10 min", ersparnis: "35 min na przeprowadzkę" },
     { task: "Protokół szkód", vorher: "20 min", nachher: "5 min", ersparnis: "15 min na przeprowadzkę" },
     { task: "Faktura końcowa", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
   ],
-  haustechnik: [
+  "technika-budynkowa": [
     { task: "Protokół wizyty serwisowej", vorher: "25 min", nachher: "5 min", ersparnis: "20 min na wizytę" },
     { task: "Planowanie konserwacji", vorher: "30 min", nachher: "0 min", ersparnis: "100% automatycznie" },
     { task: "Prowadzenie historii instalacji", vorher: "10 min", nachher: "0 min", ersparnis: "automatycznie" },
   ],
-  architekten: [
+  architekci: [
     { task: "Kompletowanie dokumentów", vorher: "30 min", nachher: "2 min", ersparnis: "28 min na projekt" },
     { task: "Aktualizacja dla inwestora", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na aktualizację" },
     { task: "Tworzenie przeglądu projektu", vorher: "15 min", nachher: "0 min", ersparnis: "Panel w czasie rzeczywistym" },
   ],
-  agenturen: [
+  agencje: [
     { task: "Tworzenie raportu godzinowego", vorher: "30 min", nachher: "1 min", ersparnis: "29 min na raport" },
     { task: "Faktura na podstawie czasu", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
     { task: "Kontrola budżetu", vorher: "15 min", nachher: "0 min", ersparnis: "Automatyczne ostrzeżenia" },
   ],
-  "einmann-betriebe": [
+  "jednoosobowe-firmy": [
     { task: "Oferta z szablonu", vorher: "30 min", nachher: "3 min", ersparnis: "27 min na ofertę" },
     { task: "Wystawienie faktury QR", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
     { task: "Przygotowanie zamknięcia rocznego", vorher: "8 godz.", nachher: "30 min", ersparnis: "7,5 godz. rocznie" },
@@ -271,23 +271,23 @@ const savingsMap: Record<string, BranchSaving[]> = {
 /*  Testimonial quotes per branch                                      */
 /* ------------------------------------------------------------------ */
 const testimonialMap: Record<string, { quote: string; author: string; role: string }> = {
-  maler: { quote: "Od kiedy korzystamy z Finito, tworzymy oferty w 3 zamiast 30 minut.", author: "M. Keller", role: "Mistrz malarski, 8 pracowników" },
-  gipser: { quote: "Automatyczna dokumentacja fotograficzna oszczędza nam co tydzień godziny pracy biurowej.", author: "R. Baumann", role: "Mistrz tynkarski, 5 pracowników" },
-  elektriker: { quote: "Wreszcie mam wszystkie schematy na smartfonie i nie muszę nosić segregatorów.", author: "S. Mueller", role: "Elektroinstalator, 12 pracowników" },
-  "sanitär": { quote: "Cyfrowe raporty prac z podpisem klienta oszczędzają nam ogromnie dużo czasu.", author: "P. Brunner", role: "Instalator sanitarny, 6 pracowników" },
-  schreiner: { quote: "Panel pokazuje mi natychmiast, które zlecenia są w warsztacie i kiedy będzie dostawa.", author: "T. Meier", role: "Mistrz stolarski, 4 pracowników" },
-  dachdecker: { quote: "Kompletna archiwizacja na ponad 25 lat daje nam bezpieczeństwo w przypadkach gwarancyjnych.", author: "H. Weber", role: "Mistrz dekarski, 10 pracowników" },
-  bodenleger: { quote: "Automatyczne obliczanie materiału z naddatkiem na odpady jest genialnie proste.", author: "L. Fischer", role: "Mistrz posadzkarski, 3 pracowników" },
-  "gerüstbauer": { quote: "Teraz zawsze wiemy, które elementy gdzie stoją — rozliczenie najmu działa automatycznie.", author: "D. Schmid", role: "Firma rusztowaniowa, 15 pracowników" },
-  maurer: { quote: "Automatyczny dziennik budowy oszczędza mi każdego wieczoru 20 minut pisania.", author: "A. Huber", role: "Przedsiębiorca budowlany, 8 pracowników" },
+  malarze: { quote: "Od kiedy korzystamy z Finito, tworzymy oferty w 3 zamiast 30 minut.", author: "M. Keller", role: "Mistrz malarski, 8 pracowników" },
+  tynkarze: { quote: "Automatyczna dokumentacja fotograficzna oszczędza nam co tydzień godziny pracy biurowej.", author: "R. Baumann", role: "Mistrz tynkarski, 5 pracowników" },
+  elektrycy: { quote: "Wreszcie mam wszystkie schematy na smartfonie i nie muszę nosić segregatorów.", author: "S. Mueller", role: "Elektroinstalator, 12 pracowników" },
+  hydraulicy: { quote: "Cyfrowe raporty prac z podpisem klienta oszczędzają nam ogromnie dużo czasu.", author: "P. Brunner", role: "Instalator sanitarny, 6 pracowników" },
+  stolarze: { quote: "Panel pokazuje mi natychmiast, które zlecenia są w warsztacie i kiedy będzie dostawa.", author: "T. Meier", role: "Mistrz stolarski, 4 pracowników" },
+  dekarze: { quote: "Kompletna archiwizacja na ponad 25 lat daje nam bezpieczeństwo w przypadkach gwarancyjnych.", author: "H. Weber", role: "Mistrz dekarski, 10 pracowników" },
+  posadzkarze: { quote: "Automatyczne obliczanie materiału z naddatkiem na odpady jest genialnie proste.", author: "L. Fischer", role: "Mistrz posadzkarski, 3 pracowników" },
+  rusztowania: { quote: "Teraz zawsze wiemy, które elementy gdzie stoją — rozliczenie najmu działa automatycznie.", author: "D. Schmid", role: "Firma rusztowaniowa, 15 pracowników" },
+  murarze: { quote: "Automatyczny dziennik budowy oszczędza mi każdego wieczoru 20 minut pisania.", author: "A. Huber", role: "Przedsiębiorca budowlany, 8 pracowników" },
   "facility-service": { quote: "Żaden termin konserwacji nie jest już zapominany — automatyzacja jest doskonała.", author: "C. Roth", role: "Facility Manager, 20 pracowników" },
-  reinigung: { quote: "Nasze zespoły dokładnie wiedzą, co robić — listy kontrolne i zdjęcia robią różnicę.", author: "N. Steiner", role: "Firma sprzątająca, 25 pracowników" },
-  gartenbau: { quote: "Sezonowe planowanie z automatycznymi przypomnieniami zrewolucjonizowało naszą organizację.", author: "F. Gerber", role: "Przedsiębiorca ogrodniczy, 7 pracowników" },
-  umzug: { quote: "Listy inwentaryzacyjne ze zdjęciami chronią nas przed nieuzasadnionymi roszczeniami.", author: "K. Schneider", role: "Przedsiębiorca przeprowadzkowy, 10 pracowników" },
-  haustechnik: { quote: "Planowanie konserwacji działa automatycznie — nie przegapiamy już żadnego terminu.", author: "J. Wyss", role: "Instalacje budowlane, 6 pracowników" },
-  architekten: { quote: "Wszystkie dokumenty projektowe w jednym miejscu i zawsze aktualne — to oszczędza ogromnie czasu na szukanie.", author: "B. Lang", role: "Biuro architektoniczne, 4 pracowników" },
-  agenturen: { quote: "Rejestracja czasu oparta na projektach sprawia, że nasze rozliczenia są przejrzyste i uczciwe.", author: "E. Zuercher", role: "Właściciel agencji, 8 pracowników" },
-  "einmann-betriebe": { quote: "Finito to moje kompletne biuro — wszystko robię ze smartfona.", author: "I. Marti", role: "Samozatrudniony rzemieślnik" },
+  sprzatanie: { quote: "Nasze zespoły dokładnie wiedzą, co robić — listy kontrolne i zdjęcia robią różnicę.", author: "N. Steiner", role: "Firma sprzątająca, 25 pracowników" },
+  ogrodnictwo: { quote: "Sezonowe planowanie z automatycznymi przypomnieniami zrewolucjonizowało naszą organizację.", author: "F. Gerber", role: "Przedsiębiorca ogrodniczy, 7 pracowników" },
+  przeprowadzki: { quote: "Listy inwentaryzacyjne ze zdjęciami chronią nas przed nieuzasadnionymi roszczeniami.", author: "K. Schneider", role: "Przedsiębiorca przeprowadzkowy, 10 pracowników" },
+  "technika-budynkowa": { quote: "Planowanie konserwacji działa automatycznie — nie przegapiamy już żadnego terminu.", author: "J. Wyss", role: "Instalacje budowlane, 6 pracowników" },
+  architekci: { quote: "Wszystkie dokumenty projektowe w jednym miejscu i zawsze aktualne — to oszczędza ogromnie czasu na szukanie.", author: "B. Lang", role: "Biuro architektoniczne, 4 pracowników" },
+  agencje: { quote: "Rejestracja czasu oparta na projektach sprawia, że nasze rozliczenia są przejrzyste i uczciwe.", author: "E. Zuercher", role: "Właściciel agencji, 8 pracowników" },
+  "jednoosobowe-firmy": { quote: "Finito to moje kompletne biuro — wszystko robię ze smartfona.", author: "I. Marti", role: "Samozatrudniony rzemieślnik" },
 };
 
 /* ------------------------------------------------------------------ */
@@ -463,14 +463,14 @@ export function BranchPageContent({
               </ul>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
-                  href="/automationen"
+                  href="/automatyzacje"
                   className="inline-flex items-center gap-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors"
                 >
                   Zobacz wszystkie automatyzacje
                   <ChevronRight className="w-4 h-4" />
                 </Link>
                 <Link
-                  href="/funktionen"
+                  href="/moduly"
                   className="inline-flex items-center gap-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors"
                 >
                   Odkryj wszystkie funkcje
@@ -686,7 +686,7 @@ export function BranchPageContent({
             </h3>
             <div className="grid sm:grid-cols-3 gap-4">
               <Link
-                href="/automationen"
+                href="/automatyzacje"
                 className="group flex items-center gap-3 p-4 rounded-xl border border-neutral-100 hover:border-primary-200 hover:shadow-card-hover transition-all"
               >
                 <div className="w-10 h-10 bg-primary-50 rounded-lg flex items-center justify-center shrink-0 group-hover:bg-primary-100 transition-colors">
@@ -702,7 +702,7 @@ export function BranchPageContent({
                 </div>
               </Link>
               <Link
-                href="/funktionen"
+                href="/moduly"
                 className="group flex items-center gap-3 p-4 rounded-xl border border-neutral-100 hover:border-primary-200 hover:shadow-card-hover transition-all"
               >
                 <div className="w-10 h-10 bg-primary-50 rounded-lg flex items-center justify-center shrink-0 group-hover:bg-primary-100 transition-colors">
@@ -718,7 +718,7 @@ export function BranchPageContent({
                 </div>
               </Link>
               <Link
-                href="/preise"
+                href="/cennik"
                 className="group flex items-center gap-3 p-4 rounded-xl border border-neutral-100 hover:border-primary-200 hover:shadow-card-hover transition-all"
               >
                 <div className="w-10 h-10 bg-primary-50 rounded-lg flex items-center justify-center shrink-0 group-hover:bg-primary-100 transition-colors">
@@ -766,7 +766,7 @@ export function BranchPageContent({
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
               <Link
-                href="/branchen"
+                href="/branze"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-white/20 text-white font-medium rounded-2xl hover:bg-white/5 transition-all"
               >
                 Zobacz wszystkie branże

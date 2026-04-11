@@ -167,7 +167,7 @@ export function Stats() {
           className="text-center mt-14"
         >
           <Link
-            href="/automationen"
+            href="/automatyzacje"
             className="inline-flex items-center gap-2 text-primary-600 font-medium hover:text-primary-700 transition-colors group"
           >
             Zobacz wszystkie przykłady

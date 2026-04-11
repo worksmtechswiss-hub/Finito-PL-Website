@@ -8,81 +8,247 @@
 [build.environment]
   NODE_VERSION = "20"
 
-# Redirects from old Webflow URLs
+# Redirects: old German URLs → new Polish URLs
 [[redirects]]
   from = "/app-fuer-dienstleister"
-  to = "/de/branchen"
+  to = "/branze"
   status = 301
 
+# Static pages DE → PL
 [[redirects]]
   from = "/funktionen"
-  to = "/de/funktionen"
+  to = "/moduly"
   status = 301
-
+[[redirects]]
+  from = "/de/funktionen"
+  to = "/moduly"
+  status = 301
 [[redirects]]
   from = "/preise"
-  to = "/de/preise"
+  to = "/cennik"
   status = 301
-
+[[redirects]]
+  from = "/de/preise"
+  to = "/cennik"
+  status = 301
 [[redirects]]
   from = "/team"
-  to = "/de/team"
+  to = "/zespol"
   status = 301
-
 [[redirects]]
-  from = "/kontakt"
-  to = "/de/kontakt"
+  from = "/de/team"
+  to = "/zespol"
   status = 301
-
-[[redirects]]
-  from = "/faq"
-  to = "/de/faq"
-  status = 301
-
 [[redirects]]
   from = "/agbs"
-  to = "/de/agbs"
+  to = "/regulamin"
   status = 301
-
+[[redirects]]
+  from = "/de/agbs"
+  to = "/regulamin"
+  status = 301
 [[redirects]]
   from = "/datenschutz"
-  to = "/de/datenschutz"
+  to = "/prywatnosc"
   status = 301
-
+[[redirects]]
+  from = "/de/datenschutz"
+  to = "/prywatnosc"
+  status = 301
 [[redirects]]
   from = "/impressum"
-  to = "/de/impressum"
+  to = "/nota-prawna"
   status = 301
-
+[[redirects]]
+  from = "/de/impressum"
+  to = "/nota-prawna"
+  status = 301
 [[redirects]]
   from = "/marktplatz"
-  to = "/de/marktplatz"
+  to = "/marketplace"
   status = 301
-
+[[redirects]]
+  from = "/de/marktplatz"
+  to = "/marketplace"
+  status = 301
 [[redirects]]
   from = "/apis"
-  to = "/de/apis"
+  to = "/api"
   status = 301
-
+[[redirects]]
+  from = "/de/apis"
+  to = "/api"
+  status = 301
 [[redirects]]
   from = "/kunden"
-  to = "/de/kunden"
+  to = "/klienci"
+  status = 301
+[[redirects]]
+  from = "/de/kunden"
+  to = "/klienci"
+  status = 301
+[[redirects]]
+  from = "/automationen"
+  to = "/automatyzacje"
+  status = 301
+[[redirects]]
+  from = "/de/automationen"
+  to = "/automatyzacje"
   status = 301
 
+# Branch pages DE → PL
+[[redirects]]
+  from = "/branchen"
+  to = "/branze"
+  status = 301
+[[redirects]]
+  from = "/de/branchen"
+  to = "/branze"
+  status = 301
+[[redirects]]
+  from = "/branchen/maler"
+  to = "/branze/malarze"
+  status = 301
+[[redirects]]
+  from = "/branchen/gipser"
+  to = "/branze/tynkarze"
+  status = 301
+[[redirects]]
+  from = "/branchen/elektriker"
+  to = "/branze/elektrycy"
+  status = 301
+[[redirects]]
+  from = "/branchen/sanitaer"
+  to = "/branze/hydraulicy"
+  status = 301
+[[redirects]]
+  from = "/branchen/schreiner"
+  to = "/branze/stolarze"
+  status = 301
+[[redirects]]
+  from = "/branchen/dachdecker"
+  to = "/branze/dekarze"
+  status = 301
+[[redirects]]
+  from = "/branchen/bodenleger"
+  to = "/branze/posadzkarze"
+  status = 301
+[[redirects]]
+  from = "/branchen/geruestbauer"
+  to = "/branze/rusztowania"
+  status = 301
+[[redirects]]
+  from = "/branchen/maurer"
+  to = "/branze/murarze"
+  status = 301
+[[redirects]]
+  from = "/branchen/facility-service"
+  to = "/branze/facility-service"
+  status = 301
+[[redirects]]
+  from = "/branchen/reinigung"
+  to = "/branze/sprzatanie"
+  status = 301
+[[redirects]]
+  from = "/branchen/gartenbau"
+  to = "/branze/ogrodnictwo"
+  status = 301
+[[redirects]]
+  from = "/branchen/umzug"
+  to = "/branze/przeprowadzki"
+  status = 301
+[[redirects]]
+  from = "/branchen/haustechnik"
+  to = "/branze/technika-budynkowa"
+  status = 301
+[[redirects]]
+  from = "/branchen/architekten"
+  to = "/branze/architekci"
+  status = 301
+[[redirects]]
+  from = "/branchen/agenturen"
+  to = "/branze/agencje"
+  status = 301
+[[redirects]]
+  from = "/branchen/einmann-betriebe"
+  to = "/branze/jednoosobowe-firmy"
+  status = 301
+
+# Feature pages DE → PL
+[[redirects]]
+  from = "/features/projektmanagement"
+  to = "/funkcje/zarzadzanie-projektami"
+  status = 301
+[[redirects]]
+  from = "/features/rechnungen"
+  to = "/funkcje/faktury"
+  status = 301
+[[redirects]]
+  from = "/features/offerten"
+  to = "/funkcje/oferty"
+  status = 301
+[[redirects]]
+  from = "/features/zeiterfassung"
+  to = "/funkcje/ewidencja-czasu-pracy"
+  status = 301
+[[redirects]]
+  from = "/features/ferienmanagement"
+  to = "/funkcje/urlopy"
+  status = 301
+[[redirects]]
+  from = "/features/foto-dokumentation"
+  to = "/funkcje/dokumentacja-zdjec"
+  status = 301
+[[redirects]]
+  from = "/features/lagerverwaltung"
+  to = "/funkcje/magazyn"
+  status = 301
+[[redirects]]
+  from = "/features/buchhaltung"
+  to = "/funkcje/ksiegowosc"
+  status = 301
+[[redirects]]
+  from = "/features/mitarbeiter-app"
+  to = "/funkcje/aplikacja-pracownika"
+  status = 301
+[[redirects]]
+  from = "/features/kundenportal"
+  to = "/funkcje/portal-klienta"
+  status = 301
+[[redirects]]
+  from = "/features/service-abos"
+  to = "/funkcje/umowy-serwisowe"
+  status = 301
+[[redirects]]
+  from = "/features/dashboard"
+  to = "/funkcje/dashboard"
+  status = 301
+[[redirects]]
+  from = "/features/crm"
+  to = "/funkcje/crm"
+  status = 301
+
+# Legacy redirects
 [[redirects]]
   from = "/helpfull"
-  to = "/de/faq"
+  to = "/faq"
   status = 301
-
 [[redirects]]
   from = "/help"
-  to = "/de/faq"
+  to = "/faq"
   status = 301
-
 [[redirects]]
   from = "/finito-landingpage"
-  to = "/de"
+  to = "/"
   status = 301
+[[redirects]]
+  from = "/kontakt"
+  to = "/kontakt"
+  status = 200
+[[redirects]]
+  from = "/faq"
+  to = "/faq"
+  status = 200
 
 # Headers for security and performance
 [[headers]]

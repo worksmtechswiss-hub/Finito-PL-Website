@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.finitopro.ch
+Host: https://www.finitopro.pl
 
 # Sitemaps
-Sitemap: https://www.finitopro.ch/sitemap.xml
+Sitemap: https://www.finitopro.pl/sitemap.xml

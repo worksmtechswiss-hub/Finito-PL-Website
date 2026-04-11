@@ -65,25 +65,25 @@ export function Footer() {
     {
       title: t("product"),
       links: [
-        { label: t("features"), href: "/funktionen" },
-        { label: t("pricing"), href: "/preise" },
-        { label: t("api"), href: "/apis" },
+        { label: t("features"), href: "/moduly" },
+        { label: t("pricing"), href: "/cennik" },
+        { label: t("api"), href: "/api" },
       ],
     },
     {
       title: t("branches"),
       links: [
-        { label: "Malarze", href: "/branchen/maler" },
-        { label: "Elektrycy", href: "/branchen/elektriker" },
-        { label: "Hydraulicy", href: "/branchen/sanitaer" },
-        { label: "Tynkarze", href: "/branchen/gipser" },
-        { label: "Stolarze", href: "/branchen/schreiner" },
+        { label: "Malarze", href: "/branze/maler" },
+        { label: "Elektrycy", href: "/branze/elektriker" },
+        { label: "Hydraulicy", href: "/branze/sanitaer" },
+        { label: "Tynkarze", href: "/branze/gipser" },
+        { label: "Stolarze", href: "/branze/schreiner" },
       ],
     },
     {
       title: t("company"),
       links: [
-        { label: t("team"), href: "/team" },
+        { label: t("team"), href: "/zespol" },
         { label: t("contact"), href: "/kontakt" },
         { label: t("faq"), href: "/faq" },
         { label: t("blog"), href: "#" },
@@ -92,9 +92,9 @@ export function Footer() {
     {
       title: t("legal"),
       links: [
-        { label: t("agbs"), href: "/agbs" },
-        { label: t("privacy"), href: "/datenschutz" },
-        { label: t("imprint"), href: "/impressum" },
+        { label: t("agbs"), href: "/regulamin" },
+        { label: t("privacy"), href: "/prywatnosc" },
+        { label: t("imprint"), href: "/nota-prawna" },
       ],
     },
   ];

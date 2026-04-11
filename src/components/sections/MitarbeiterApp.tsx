@@ -257,7 +257,7 @@ export function MitarbeiterApp() {
             </motion.div>
 
             <Link
-              href="/features/mitarbeiter-app"
+              href="/funkcje/mitarbeiter-app"
               className="inline-flex items-center gap-2 text-primary-600 font-medium hover:gap-3 transition-all group"
             >
               Więcej o aplikacji dla pracowników

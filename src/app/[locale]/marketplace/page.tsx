@@ -13,7 +13,7 @@ export async function generateMetadata({
     title: "Marketplace - Rozszerzenia Finito Pro",
     description:
       "Odkryj rozszerzenia i integracje dla Finito Pro. Połącz swoje ulubione narzędzia i rozszerz zakres funkcji.",
-    path: "/marktplatz",
+    path: "/marketplace",
     locale,
     keywords: [
       "Finito Pro marketplace",

@@ -43,36 +43,36 @@ import { cn } from "@/lib/utils";
 
 const featureItems = [
   { icon: LayoutDashboard, slug: "dashboard", labelKey: "dashboard" },
-  { icon: FolderKanban, slug: "projektmanagement", labelKey: "projektmanagement" },
-  { icon: Receipt, slug: "rechnungen", labelKey: "rechnungen" },
-  { icon: FileText, slug: "offerten", labelKey: "offerten" },
-  { icon: Clock, slug: "zeiterfassung", labelKey: "zeiterfassung" },
+  { icon: FolderKanban, slug: "zarzadzanie-projektami", labelKey: "projektmanagement" },
+  { icon: Receipt, slug: "faktury", labelKey: "rechnungen" },
+  { icon: FileText, slug: "oferty", labelKey: "offerten" },
+  { icon: Clock, slug: "ewidencja-czasu-pracy", labelKey: "zeiterfassung" },
   { icon: UserCircle, slug: "crm", labelKey: "crm" },
-  { icon: CalendarDays, slug: "ferienmanagement", labelKey: "ferienmanagement" },
-  { icon: Camera, slug: "foto-dokumentation", labelKey: "fotoDocumentation" },
-  { icon: Package, slug: "lagerverwaltung", labelKey: "lagerverwaltung" },
-  { icon: Calculator, slug: "buchhaltung", labelKey: "buchhaltung" },
-  { icon: Smartphone, slug: "mitarbeiter-app", labelKey: "mitarbeiterApp" },
-  { icon: Users, slug: "kundenportal", labelKey: "kundenportal" },
-  { icon: Repeat, slug: "service-abos", labelKey: "serviceAbos" },
+  { icon: CalendarDays, slug: "urlopy", labelKey: "ferienmanagement" },
+  { icon: Camera, slug: "dokumentacja-zdjec", labelKey: "fotoDocumentation" },
+  { icon: Package, slug: "magazyn", labelKey: "lagerverwaltung" },
+  { icon: Calculator, slug: "ksiegowosc", labelKey: "buchhaltung" },
+  { icon: Smartphone, slug: "aplikacja-pracownika", labelKey: "mitarbeiterApp" },
+  { icon: Users, slug: "portal-klienta", labelKey: "kundenportal" },
+  { icon: Repeat, slug: "umowy-serwisowe", labelKey: "serviceAbos" },
 ];
 
 const branchItems = [
-  { icon: Paintbrush, slug: "maler", label: "Malarze" },
-  { icon: BrickWall, slug: "gipser", label: "Tynkarze" },
-  { icon: Zap, slug: "elektriker", label: "Elektrycy" },
-  { icon: Wrench, slug: "sanitaer", label: "Hydraulicy" },
-  { icon: Scissors, slug: "schreiner", label: "Stolarze" },
-  { icon: HardHat, slug: "dachdecker", label: "Dekarze" },
-  { icon: Sparkles, slug: "bodenleger", label: "Posadzkarze" },
-  { icon: Fence, slug: "geruestbauer", label: "Rusztowania" },
-  { icon: Hammer, slug: "maurer", label: "Murarze" },
+  { icon: Paintbrush, slug: "malarze", label: "Malarze" },
+  { icon: BrickWall, slug: "tynkarze", label: "Tynkarze" },
+  { icon: Zap, slug: "elektrycy", label: "Elektrycy" },
+  { icon: Wrench, slug: "hydraulicy", label: "Hydraulicy" },
+  { icon: Scissors, slug: "stolarze", label: "Stolarze" },
+  { icon: HardHat, slug: "dekarze", label: "Dekarze" },
+  { icon: Sparkles, slug: "posadzkarze", label: "Posadzkarze" },
+  { icon: Fence, slug: "rusztowania", label: "Rusztowania" },
+  { icon: Hammer, slug: "murarze", label: "Murarze" },
   { icon: Building2, slug: "facility-service", label: "Facility Service" },
-  { icon: TreePine, slug: "gartenbau", label: "Ogrodnictwo" },
-  { icon: Truck, slug: "umzug", label: "Przeprowadzki" },
-  { icon: Ruler, slug: "architekten", label: "Architekci" },
-  { icon: Megaphone, slug: "agenturen", label: "Agencje" },
-  { icon: User, slug: "einmann-betriebe", label: "Jednoosobowe firmy" },
+  { icon: TreePine, slug: "ogrodnictwo", label: "Ogrodnictwo" },
+  { icon: Truck, slug: "przeprowadzki", label: "Przeprowadzki" },
+  { icon: Ruler, slug: "architekci", label: "Architekci" },
+  { icon: Megaphone, slug: "agencje", label: "Agencje" },
+  { icon: User, slug: "jednoosobowe-firmy", label: "Jednoosobowe firmy" },
 ];
 
 export function Navbar() {
@@ -165,7 +165,7 @@ export function Navbar() {
                           {featureItems.map((item, i) => (
                             <Link
                               key={item.slug}
-                              href={`/features/${item.slug}`}
+                              href={`/funkcje/${item.slug}`}
                               className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gradient-to-r hover:from-primary-50 hover:to-accent-50/50 transition-all group"
                             >
                               <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center group-hover:bg-primary-100 group-hover:scale-110 transition-all">
@@ -177,7 +177,7 @@ export function Navbar() {
                             </Link>
                           ))}
                           <Link
-                            href="/funktionen"
+                            href="/moduly"
                             className="flex items-center gap-3 px-4 py-3 rounded-xl bg-gradient-to-r from-primary-50/50 to-accent-50/30 hover:from-primary-100/50 hover:to-accent-100/30 transition-all group"
                           >
                             <div className="w-10 h-10 bg-primary-100 rounded-xl flex items-center justify-center group-hover:scale-110 transition-all">
@@ -229,7 +229,7 @@ export function Navbar() {
                           {branchItems.map((item) => (
                             <Link
                               key={item.slug}
-                              href={`/branchen/${item.slug}`}
+                              href={`/branze/${item.slug}`}
                               className="flex items-center gap-2.5 px-3 py-3 rounded-xl hover:bg-gradient-to-r hover:from-primary-50 hover:to-accent-50/50 transition-all group"
                             >
                               <div className="w-9 h-9 bg-primary-50 rounded-lg flex items-center justify-center group-hover:bg-primary-100 group-hover:scale-110 transition-all">
@@ -249,7 +249,7 @@ export function Navbar() {
 
               {/* Simple Links */}
               <Link
-                href="/preise"
+                href="/cennik"
                 className={cn(
                   "px-3 py-2 rounded-lg text-sm font-medium transition-colors",
                   scrolled
@@ -262,7 +262,7 @@ export function Navbar() {
                 {t("pricing")}
               </Link>
               <Link
-                href="/automationen"
+                href="/automatyzacje"
                 className={cn(
                   "px-3 py-2 rounded-lg text-sm font-medium transition-colors",
                   scrolled
@@ -354,7 +354,7 @@ export function Navbar() {
                 {featureItems.map((item) => (
                   <Link
                     key={item.slug}
-                    href={`/features/${item.slug}`}
+                    href={`/funkcje/${item.slug}`}
                     className="flex items-center gap-3 px-4 py-3 text-sm text-neutral-600 hover:text-neutral-900 hover:bg-neutral-50 rounded-lg"
                     onClick={() => setMobileOpen(false)}
                   >
@@ -369,7 +369,7 @@ export function Navbar() {
                 {branchItems.map((item) => (
                   <Link
                     key={item.slug}
-                    href={`/branchen/${item.slug}`}
+                    href={`/branze/${item.slug}`}
                     className="flex items-center gap-3 px-4 py-3 text-sm text-neutral-600 hover:text-neutral-900 hover:bg-neutral-50 rounded-lg"
                     onClick={() => setMobileOpen(false)}
                   >
@@ -380,14 +380,14 @@ export function Navbar() {
               </MobileAccordion>
 
               <Link
-                href="/preise"
+                href="/cennik"
                 className="block px-4 py-3 text-base font-medium text-neutral-900 hover:bg-neutral-50 rounded-lg"
                 onClick={() => setMobileOpen(false)}
               >
                 {t("pricing")}
               </Link>
               <Link
-                href="/automationen"
+                href="/automatyzacje"
                 className="block px-4 py-3 text-base font-medium text-neutral-900 hover:bg-neutral-50 rounded-lg"
                 onClick={() => setMobileOpen(false)}
               >
@@ -401,7 +401,7 @@ export function Navbar() {
                 {t("contact")}
               </Link>
               <Link
-                href="/team"
+                href="/zespol"
                 className="block px-4 py-3 text-base font-medium text-neutral-900 hover:bg-neutral-50 rounded-lg"
                 onClick={() => setMobileOpen(false)}
               >

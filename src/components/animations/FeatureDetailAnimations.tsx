@@ -722,18 +722,18 @@ function ServiceAbosHero() {
 /* ================================================================== */
 export const featureHeroAnimationMap: Record<string, React.ComponentType> = {
   dashboard: DashboardHero,
-  projektmanagement: ProjektHero,
-  rechnungen: RechnungenHero,
-  offerten: OffertenHero,
-  zeiterfassung: ZeitHero,
+  "zarzadzanie-projektami": ProjektHero,
+  faktury: RechnungenHero,
+  oferty: OffertenHero,
+  "ewidencja-czasu-pracy": ZeitHero,
   crm: CRMHero,
-  ferienmanagement: FerienHero,
-  "foto-dokumentation": FotoHero,
-  lagerverwaltung: LagerHero,
-  buchhaltung: BuchhaltungHero,
-  "mitarbeiter-app": AppHero,
-  kundenportal: KundenportalHero,
-  "service-abos": ServiceAbosHero,
+  urlopy: FerienHero,
+  "dokumentacja-zdjec": FotoHero,
+  magazyn: LagerHero,
+  ksiegowosc: BuchhaltungHero,
+  "aplikacja-pracownika": AppHero,
+  "portal-klienta": KundenportalHero,
+  "umowy-serwisowe": ServiceAbosHero,
 };
 
 /* Step animation: generic but unique per index */

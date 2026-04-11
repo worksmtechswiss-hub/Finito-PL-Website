@@ -13,7 +13,7 @@ export async function generateMetadata({
     title: "Automatyzacje i oszczędność czasu | Finito Pro",
     description:
       "Odkryj, jak Finito Pro automatyzuje Twoje procesy. Przykłady z praktyki pokazują: do 30% oszczędności czasu i mniej błędów.",
-    path: "/automationen",
+    path: "/automatyzacje",
     locale,
     keywords: [
       "automatyzacja MŚP",
@@ -42,7 +42,7 @@ export default async function AutomationenPage({
           __html: JSON.stringify(
             breadcrumbSchema([
               { name: "Home", path: "/" },
-              { name: "Automatyzacje", path: "/automationen" },
+              { name: "Automatyzacje", path: "/automatyzacje" },
             ])
           ),
         }}
