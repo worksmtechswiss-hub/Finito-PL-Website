@@ -14,7 +14,7 @@ const branches = [
   { image: "/images/branches/sanitaer-hero.png", slug: "sanitaer", labelDe: "Hydraulicy", labelEn: "Plumbers", descDe: "Mobilna rejestracja czasu bezpośrednio na miejscu, cyfrowe raporty robocze" },
   { image: "/images/branches/dachdecker-hero.png", slug: "dachdecker", labelDe: "Dekarze", labelEn: "Roofers", descDe: "Planowanie pracowników z kalendarzem, cyfrowe archiwum projektów (25+ lat)" },
   { image: "/images/branches/gartenbau-hero.png", slug: "gartenbau", labelDe: "Ogrodnictwo", labelEn: "Landscaping", descDe: "Sezonowe planowanie projektów, dokumentacja roślin na kolejne lata" },
-  { image: "/images/branches/facility-service-hero.png", slug: "facility-service", labelDe: "Facility Service", labelEn: "Facility Service", descDe: "Zautomatyzowane interwały konserwacji, koordynacja partnerów w dużych projektach" },
+  { image: "/images/branches/obsluga-budynkow-hero.png", slug: "obsluga-budynkow", labelDe: "Obsługa budynków", labelEn: "Obsługa budynków", descDe: "Zautomatyzowane interwały konserwacji, koordynacja partnerów w dużych projektach" },
   { image: "/images/branches/umzug-hero.png", slug: "umzug", labelDe: "Przeprowadzki", labelEn: "Moving", descDe: "Planowanie dnia z optymalizacją tras, listy inwentaryzacyjne z dokumentacją fotograficzną" },
 ];
 

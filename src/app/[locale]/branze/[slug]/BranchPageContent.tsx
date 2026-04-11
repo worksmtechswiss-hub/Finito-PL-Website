@@ -103,7 +103,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Rejestracja czasu na plac budowy i pracownika",
     "Prawnie bezpieczna dokumentacja dla wszystkich projektów",
   ],
-  "facility-service": [
+  "obsluga-budynkow": [
     "Zautomatyzowane interwały konserwacji dla wszystkich instalacji",
     "Koordynacja partnerów i podwykonawców przez platformę",
     "Cyfrowa dokumentacja obiektu dla każdej części budynku",
@@ -225,7 +225,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
     { task: "Zamawianie materiału", vorher: "30 min", nachher: "5 min", ersparnis: "25 min na zamówienie" },
     { task: "Dokumentacja zamknięcia projektu", vorher: "1 godz.", nachher: "10 min", ersparnis: "50 min na projekt" },
   ],
-  "facility-service": [
+  "obsluga-budynkow": [
     { task: "Tworzenie zlecenia konserwacji", vorher: "15 min", nachher: "0 min", ersparnis: "100% automatycznie" },
     { task: "Komunikacja z partnerami", vorher: "20 min", nachher: "2 min", ersparnis: "18 min na zlecenie" },
     { task: "Aktualizacja dokumentacji obiektu", vorher: "10 min", nachher: "0 min", ersparnis: "automatycznie" },
@@ -280,7 +280,7 @@ const testimonialMap: Record<string, { quote: string; author: string; role: stri
   posadzkarze: { quote: "Automatyczne obliczanie materiału z naddatkiem na odpady jest genialnie proste.", author: "L. Fischer", role: "Mistrz posadzkarski, 3 pracowników" },
   rusztowania: { quote: "Teraz zawsze wiemy, które elementy gdzie stoją — rozliczenie najmu działa automatycznie.", author: "D. Schmid", role: "Firma rusztowaniowa, 15 pracowników" },
   murarze: { quote: "Automatyczny dziennik budowy oszczędza mi każdego wieczoru 20 minut pisania.", author: "A. Huber", role: "Przedsiębiorca budowlany, 8 pracowników" },
-  "facility-service": { quote: "Żaden termin konserwacji nie jest już zapominany — automatyzacja jest doskonała.", author: "C. Roth", role: "Facility Manager, 20 pracowników" },
+  "obsluga-budynkow": { quote: "Żaden termin konserwacji nie jest już zapominany — automatyzacja jest doskonała.", author: "C. Roth", role: "Facility Manager, 20 pracowników" },
   sprzatanie: { quote: "Nasze zespoły dokładnie wiedzą, co robić — listy kontrolne i zdjęcia robią różnicę.", author: "N. Steiner", role: "Firma sprzątająca, 25 pracowników" },
   ogrodnictwo: { quote: "Sezonowe planowanie z automatycznymi przypomnieniami zrewolucjonizowało naszą organizację.", author: "F. Gerber", role: "Przedsiębiorca ogrodniczy, 7 pracowników" },
   przeprowadzki: { quote: "Listy inwentaryzacyjne ze zdjęciami chronią nas przed nieuzasadnionymi roszczeniami.", author: "K. Schneider", role: "Przedsiębiorca przeprowadzkowy, 10 pracowników" },

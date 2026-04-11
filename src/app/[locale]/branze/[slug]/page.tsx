@@ -19,7 +19,7 @@ const relevantFeaturesMap: Record<string, string[]> = {
   posadzkarze: ["oferty", "magazyn", "zarzadzanie-projektami", "faktury"],
   rusztowania: ["magazyn", "faktury", "zarzadzanie-projektami", "ewidencja-czasu-pracy"],
   murarze: ["zarzadzanie-projektami", "dokumentacja-zdjec", "dashboard", "ewidencja-czasu-pracy"],
-  "facility-service": ["umowy-serwisowe", "zarzadzanie-projektami", "ewidencja-czasu-pracy", "aplikacja-pracownika"],
+  "obsluga-budynkow": ["umowy-serwisowe", "zarzadzanie-projektami", "ewidencja-czasu-pracy", "aplikacja-pracownika"],
   sprzatanie: ["ewidencja-czasu-pracy", "zarzadzanie-projektami", "dokumentacja-zdjec", "umowy-serwisowe"],
   ogrodnictwo: ["zarzadzanie-projektami", "ewidencja-czasu-pracy", "dokumentacja-zdjec", "umowy-serwisowe"],
   przeprowadzki: ["zarzadzanie-projektami", "dokumentacja-zdjec", "ewidencja-czasu-pracy", "magazyn"],
@@ -91,7 +91,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Obliczanie materialu", desc: "Obliczanie ilosci na podstawie postepu budowy." },
     { step: "Zamkniecie projektu", desc: "Zamykanie projektow z pelna dokumentacja." },
   ],
-  "facility-service": [
+  "obsluga-budynkow": [
     { step: "Definiowanie interwalow konserwacji", desc: "Ustalanie interwalow dla ogrzewania, wentylacji, wind." },
     { step: "Automatyczne zlecenia", desc: "Zlecenia sa tworzone automatycznie w wyznaczonym terminie." },
     { step: "Koordynacja partnerow", desc: "Partnerzy zewnetrzni widza zadania w czasie rzeczywistym." },
@@ -190,10 +190,10 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
     description: "Oprogramowanie dla murarzy: automatyczny dziennik budowy, przeglad wielu projektow i obliczanie materialu na podstawie postepu budowy.",
     keywords: ["oprogramowanie dla murarzy", "oprogramowanie murarskie Szwajcaria", "oprogramowanie dla firm budowlanych", "cyfrowy dziennik budowy", "zarzadzanie projektami budowlanymi"],
   },
-  "facility-service": {
+  "obsluga-budynkow": {
     title: "Oprogramowanie Facility Management Szwajcaria - konserwacja i koordynacja | Finito Pro",
-    description: "Oprogramowanie dla firm facility service: zautomatyzowane interwaly konserwacji, koordynacja partnerow i cyfrowe dokumentacje obiektow dla kazdej czesci budynku.",
-    keywords: ["oprogramowanie facility management", "oprogramowanie facility service Szwajcaria", "planowanie konserwacji oprogramowanie", "zarzadzanie budynkami oprogramowanie"],
+    description: "Program do obsługi technicznej budynków: zautomatyzowane interwaly konserwacji, koordynacja partnerow i cyfrowe dokumentacje obiektow dla kazdej czesci budynku.",
+    keywords: ["oprogramowanie obsługa techniczna budynków", "oprogramowanie zarządzanie budynkami", "planowanie konserwacji oprogramowanie", "zarzadzanie budynkami oprogramowanie"],
   },
   sprzatanie: {
     title: "Oprogramowanie dla firm sprzatajacych Szwajcaria - planowanie tras i dokumentacja jakosci | Finito Pro",

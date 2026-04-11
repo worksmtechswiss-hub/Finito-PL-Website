@@ -20,7 +20,7 @@ const branches = [
   { icon: Grid3x3, slug: "posadzkarze", title: "Posadzkarze", desc: "Kalkulacja metrów kwadratowych, śledzenie resztek materiałów" },
   { icon: Building2, slug: "rusztowania", title: "Firmy rusztowaniowe", desc: "Śledzenie elementów rusztowań w magazynie, automatyczne rozliczenia wynajmu" },
   { icon: Blocks, slug: "murarze", title: "Murarze", desc: "Automatyczny dziennik budowy, przegląd wielu projektów z filtrami" },
-  { icon: Building, slug: "facility-service", title: "Facility Service", desc: "Automatyczne interwały konserwacyjne, koordynacja z partnerami" },
+  { icon: Building, slug: "obsluga-budynkow", title: "Obsługa techniczna budynków", desc: "Automatyczne interwały konserwacyjne, koordynacja z partnerami" },
   { icon: Sparkles, slug: "sprzatanie", title: "Firmy sprzątające", desc: "Planowanie tras, dokumentacja jakości ze zdjęciami" },
   { icon: TreePine, slug: "ogrodnictwo", title: "Ogrodnictwo", desc: "Sezonowe planowanie projektów, dokumentacja roślin" },
   { icon: Truck, slug: "przeprowadzki", title: "Przeprowadzki", desc: "Planowanie dnia z optymalizacją tras, listy inwentaryzacyjne ze zdjęciami" },

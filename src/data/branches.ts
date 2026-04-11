@@ -434,14 +434,14 @@ export const branches: Branch[] = [
   {
     id: 'facility-service',
     icon: 'Building',
-    titleDe: 'Facility Service',
-    titleEn: 'Facility Service',
-    genitiveDe: 'facility service',
+    titleDe: 'Obsługa techniczna budynków',
+    titleEn: 'Obsługa techniczna budynków',
+    genitiveDe: 'obsługi technicznej budynków',
     descriptionDe:
       'Zautomatyzowane interwały konserwacji i koordynacja partnerów dla profesjonalnego zarządzania budynkami.',
     descriptionEn:
       'Zautomatyzowane interwały konserwacji i koordynacja partnerów dla profesjonalnego zarządzania budynkami.',
-    slug: 'facility-service',
+    slug: 'obsluga-budynkow',
     useCasesDe: [
       {
         title: 'Zautomatyzowane interwały konserwacji',

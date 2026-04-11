@@ -54,7 +54,7 @@ const beispiele = [
     highlight: "0 zapomnianych faktur",
   },
   {
-    branche: "Facility Service",
+    branche: "Obsługa techniczna budynków",
     icon: Building2,
     firma: "12 pracowników, Wrocław",
     vorher: [

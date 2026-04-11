@@ -67,7 +67,7 @@ const branchItems = [
   { icon: Sparkles, slug: "posadzkarze", label: "Posadzkarze" },
   { icon: Fence, slug: "rusztowania", label: "Rusztowania" },
   { icon: Hammer, slug: "murarze", label: "Murarze" },
-  { icon: Building2, slug: "facility-service", label: "Facility Service" },
+  { icon: Building2, slug: "obsluga-budynkow", label: "Obsługa budynków" },
   { icon: TreePine, slug: "ogrodnictwo", label: "Ogrodnictwo" },
   { icon: Truck, slug: "przeprowadzki", label: "Przeprowadzki" },
   { icon: Ruler, slug: "architekci", label: "Architekci" },
