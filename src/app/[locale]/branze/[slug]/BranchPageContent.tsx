@@ -311,8 +311,15 @@ export function BranchPageContent({
 
   return (
     <>
-      {/* Hero Section - Dark */}
+      {/* Hero Section - Dark with branch image */}
       <section className="relative py-24 lg:py-32 hero-gradient overflow-hidden">
+        <Image
+          src={`/images/branches/${branch.slug}-hero.png`}
+          alt={branch.titleDe}
+          fill
+          priority
+          className="object-cover opacity-20"
+        />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -549,15 +556,14 @@ export function BranchPageContent({
               transition={{ duration: 0.7, delay: 0.2 }}
               className="flex-shrink-0"
             >
-              <div className="relative w-[260px] mx-auto">
-                <div className="absolute -inset-6 bg-gradient-to-br from-primary-600/15 to-accent-400/15 rounded-full blur-3xl" />
-                <div className="relative rounded-[2.5rem] border-[6px] border-neutral-800 bg-neutral-900 shadow-2xl overflow-hidden">
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-5 bg-neutral-800 rounded-b-2xl z-10" />
+              <div className="relative w-[360px] mx-auto">
+                <div className="absolute -inset-6 bg-gradient-to-br from-primary-600/15 to-accent-400/15 rounded-3xl blur-3xl" />
+                <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                   <Image
-                    src="/images/Finito-Mob.png"
-                    alt="Finito Pro Mobile App"
-                    width={520}
-                    height={1040}
+                    src={`/images/branches/${branch.slug}-mobile.png`}
+                    alt={`${branch.titleDe} — Finito Pro mobilnie`}
+                    width={720}
+                    height={480}
                     className="w-full h-auto"
                   />
                 </div>
