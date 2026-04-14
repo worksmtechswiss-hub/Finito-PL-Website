@@ -26,6 +26,10 @@ const PraxisBeispiele = dynamic(
   () => import("@/components/sections/PraxisBeispiele").then((m) => ({ default: m.PraxisBeispiele })),
   { ssr: true }
 );
+const PartnerBanner = dynamic(
+  () => import("@/components/sections/PartnerProgram").then((m) => ({ default: m.PartnerBanner })),
+  { ssr: true }
+);
 const MitarbeiterApp = dynamic(
   () => import("@/components/sections/MitarbeiterApp").then((m) => ({ default: m.MitarbeiterApp })),
   { ssr: true }
@@ -76,6 +80,7 @@ export default async function HomePage({
       <SavingsBanner />
       <VorherNachher />
       <PraxisBeispiele />
+      <PartnerBanner />
       <MitarbeiterApp />
       <BranchenGrid />
       <Pricing />
