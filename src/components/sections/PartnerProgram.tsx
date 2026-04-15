@@ -52,15 +52,15 @@ export function PartnerHero() {
             {t("heroSub")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <motion.div whileHover={{ scale: 1.03, y: -2 }} whileTap={{ scale: 0.98 }}>
-              <Link
-                href="/kontakt"
-                className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-400 text-white font-semibold rounded-2xl text-lg shadow-glow hover:shadow-glow-lg transition-all"
-              >
-                {t("heroCta")}
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </motion.div>
+            <motion.a
+              href="https://app.finitopro.pl/register"
+              className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-400 text-white font-semibold rounded-2xl text-lg shadow-glow hover:shadow-glow-lg transition-all"
+              whileHover={{ scale: 1.03, y: -2 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              {t("heroCta")}
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </motion.a>
             <motion.a
               href="#model"
               className="inline-flex items-center gap-2 px-8 py-4 border border-white/15 text-white font-medium rounded-2xl hover:bg-white/5 transition-all"
@@ -125,13 +125,15 @@ export function PartnerHowItWorks() {
         </div>
 
         <motion.div {...fadeUp} className="text-center mt-14">
-          <Link
-            href="/kontakt"
+          <motion.a
+            href="https://app.finitopro.pl/register"
             className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-400 text-white font-semibold rounded-2xl shadow-glow hover:shadow-glow-lg transition-all"
+            whileHover={{ scale: 1.03, y: -2 }}
+            whileTap={{ scale: 0.98 }}
           >
             {t("howCta")}
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </Link>
+          </motion.a>
         </motion.div>
       </div>
     </section>
