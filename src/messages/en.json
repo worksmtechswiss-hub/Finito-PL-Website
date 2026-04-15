@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Finito Pro | Szwajcarskie oprogramowanie dla MŚP - Zarządzanie projektami, fakturowanie i CRM",
-    "description": "Finito Pro to kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury QR, utrzymuj relacje z klientami i koordynuj swój zespół. 100% szwajcarskie dane. Wypróbuj 14 dni za darmo.",
-    "keywords": "oprogramowanie MŚP Szwajcaria, zarządzanie projektami, faktury QR, CRM, oprogramowanie dla firm rzemieślniczych, rejestracja czasu pracy, oferty, szwajcarskie oprogramowanie"
+    "description": "Finito Pro to kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury, utrzymuj relacje z klientami i koordynuj swój zespół. 100% szwajcarskie dane. Wypróbuj 14 dni za darmo.",
+    "keywords": "oprogramowanie MŚP Szwajcaria, zarządzanie projektami, faktury, CRM, oprogramowanie dla firm rzemieślniczych, rejestracja czasu pracy, oferty, szwajcarskie oprogramowanie"
   },
   "nav": {
     "features": "Moduły",
@@ -21,7 +21,7 @@
   "hero": {
     "badge": "Nowość: Rejestracja czasu pracy i zarządzanie urlopami",
     "title": "Szwajcarskie oprogramowanie MŚP dla firm rzemieślniczych",
-    "subtitle": "Zarządzaj projektami, twórz faktury QR, koordynuj swój zespół – wszystko w jednej aplikacji. 100% szwajcarskie dane.",
+    "subtitle": "Zarządzaj projektami, twórz faktury, koordynuj swój zespół – wszystko w jednej aplikacji. 100% szwajcarskie dane.",
     "cta": "Rozpocznij za darmo",
     "ctaSecondary": "Zobacz demo",
     "trust": "Bez karty kredytowej · 14 dni za darmo · Szwajcarskie serwery"
@@ -39,16 +39,16 @@
     "step2Title": "Realizuj projekt",
     "step2Desc": "Twój zespół pracuje z aplikacją na smartfonie. Dokumentuj zdjęciami, rejestruj czas, zarządzaj materiałami – wszystko cyfrowo.",
     "step3Title": "Wyślij fakturę",
-    "step3Desc": "Jedno kliknięcie zamienia projekt w fakturę QR. Automatyczne obliczanie VAT i przypomnienia o płatności w zestawie."
+    "step3Desc": "Jedno kliknięcie zamienia projekt w fakturę. Automatyczne obliczanie VAT i przypomnienia o płatności w zestawie."
   },
   "features": {
     "title": "Kompleksowe oprogramowanie dla MŚP",
     "subtitle": "Wszystkie narzędzia, których potrzebuje Twoja firma – na jednej platformie",
     "rechnungen": {
-      "title": "Faktury QR",
-      "description": "Twórz profesjonalne szwajcarskie faktury QR w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatności i bezproblemowy eksport do programu księgowego.",
+      "title": "Faktury",
+      "description": "Twórz profesjonalne szwajcarskie faktury w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatności i bezproblemowy eksport do programu księgowego.",
       "bullets": {
-        "1": "Szwajcarskie faktury QR zgodne ze standardem ISO 20022",
+        "1": "Szwajcarskie faktury zgodne ze standardem ISO 20022",
         "2": "Automatyczne obliczanie VAT (7,7% / 2,5% / 0%)",
         "3": "Przypomnienia o płatności e-mailem lub pocztą",
         "4": "Eksport jako PDF lub bezpośrednio do programu księgowego",
@@ -282,7 +282,7 @@
     "title": "Co mówią nasi klienci",
     "subtitle": "Ponad 200 szwajcarskich firm zaufało Finito",
     "testimonial1": {
-      "quote": "Odkąd korzystamy z Finito, oszczędzamy kilka godzin tygodniowo na fakturowaniu. Faktury QR to prawdziwy przełom.",
+      "quote": "Odkąd korzystamy z Finito, oszczędzamy kilka godzin tygodniowo na fakturowaniu. Faktury to prawdziwy przełom.",
       "author": "Jan Kowalski",
       "role": "Właściciel",
       "company": "Złoty Pędzel Sp. z o.o., Zurych"
@@ -381,8 +381,8 @@
     "a3": "Tak, możesz wypróbować Finito za darmo przez 14 dni bez zobowiązań. Karta kredytowa nie jest wymagana. Po okresie próbnym po prostu wybierz odpowiedni plan.",
     "q4": "Czy Finito działa offline?",
     "a4": "Tak, aplikacja pracownika posiada tryb offline. Twoi pracownicy mogą rejestrować czas, robić zdjęcia i edytować zadania nawet na placach budowy bez dostępu do internetu. Dane synchronizują się automatycznie po przywróceniu połączenia.",
-    "q5": "Czy Finito tworzy szwajcarskie faktury QR?",
-    "a5": "Tak, Finito tworzy faktury QR zgodne ze szwajcarskim standardem ISO 20022. VAT jest obliczany automatycznie, a faktury można wysyłać jako PDF lub eksportować bezpośrednio do programu księgowego.",
+    "q5": "Czy Finito tworzy szwajcarskie faktury?",
+    "a5": "Tak, Finito tworzy faktury zgodne ze szwajcarskim standardem ISO 20022. VAT jest obliczany automatycznie, a faktury można wysyłać jako PDF lub eksportować bezpośrednio do programu księgowego.",
     "q6": "Ile czasu zajmuje konfiguracja?",
     "a6": "Większość firm jest gotowa do pracy w ciągu 15 minut. Dane klientów można importować przez CSV. W razie potrzeby oferujemy również indywidualne sesje onboardingowe.",
     "q7": "Czy jest aplikacja dla pracowników?",
@@ -390,7 +390,7 @@
     "q8": "Czy mogę przejść z innego oprogramowania?",
     "a8": "Tak, wspieramy import danych klientów, projektów i pozycji z popularnych formatów. Nasz zespół wsparcia chętnie pomoże w migracji.",
     "q9": "Jakie metody płatności są akceptowane?",
-    "a9": "Akceptujemy karty kredytowe (Visa, Mastercard), TWINT, przelew bankowy i LSV/polecenie zapłaty. Faktury można również opłacić za pomocą faktury QR.",
+    "a9": "Akceptujemy karty kredytowe (Visa, Mastercard), TWINT, przelew bankowy i LSV/polecenie zapłaty. Faktury można również opłacić za pomocą faktury.",
     "q10": "Czy Finito oferuje API?",
     "a10": "Tak, pełny dostęp do API jest zawarty w planie Enterprise. Pozwala to na integrację Finito z istniejącymi systemami i automatyzację przepływów pracy."
   },
@@ -514,7 +514,7 @@
       "serviceAbos": "Zlecenia cykliczne są śledzone ręcznie. Terminy przeglądów są przekraczane, a klienci niezadowoleni."
     },
     "solutions": {
-      "rechnungen": "Z Finito tworzysz profesjonalne faktury QR w kilka sekund. VAT jest obliczany automatycznie, przypomnienia o płatności są wysyłane, a eksport do księgowości przebiega bezproblemowo.",
+      "rechnungen": "Z Finito tworzysz profesjonalne faktury w kilka sekund. VAT jest obliczany automatycznie, przypomnienia o płatności są wysyłane, a eksport do księgowości przebiega bezproblemowo.",
       "crm": "Finito gromadzi wszystkie dane klientów w jednym miejscu. Historia kontaktów, projekty, faktury i notatki są natychmiast dostępne. Zlecenia cykliczne planowane są automatycznie.",
       "projektmanagement": "Dzięki mobilnemu zarządzaniu projektami masz pełną kontrolę. Przydzielaj zadania, śledź postępy i koordynuj zespół w czasie rzeczywistym – nawet w drodze.",
       "zeiterfassung": "Wystarczy jedno kliknięcie: rejestracja czasu dla projektu i zadania. Automatyczne raporty miesięczne, śledzenie nadgodzin i bezpośredni eksport do listy płac.",
@@ -619,9 +619,9 @@
   },
   "seo": {
     "homeTitle": "Finito Pro | Szwajcarskie oprogramowanie dla MŚP - Zarządzanie projektami, fakturowanie i CRM",
-    "homeDescription": "Kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury QR, koordynuj swój zespół. 100% szwajcarskie dane. Wypróbuj 14 dni za darmo.",
+    "homeDescription": "Kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury, koordynuj swój zespół. 100% szwajcarskie dane. Wypróbuj 14 dni za darmo.",
     "featuresTitle": "Funkcje | Finito Pro - Wszystkie funkcje w jednym miejscu",
-    "featuresDescription": "Odkryj wszystkie funkcje Finito Pro: faktury QR, zarządzanie projektami, CRM, rejestracja czasu pracy, oferty i więcej. Wszystko dla Twojego MŚP.",
+    "featuresDescription": "Odkryj wszystkie funkcje Finito Pro: faktury, zarządzanie projektami, CRM, rejestracja czasu pracy, oferty i więcej. Wszystko dla Twojego MŚP.",
     "pricingTitle": "Cennik | Finito Pro - Od 100 zł/miesiąc",
     "pricingDescription": "Przejrzysty cennik dla każdej wielkości firmy. Starter od 100 zł/miesiąc. Wypróbuj 14 dni za darmo. Bez ukrytych kosztów.",
     "contactTitle": "Kontakt | Finito Pro - Jesteśmy tu dla Ciebie",

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Check, ArrowRight } from "lucide-react";
 
 const kmuFeatures = [
-  "Faktury QR (Swiss QR-Code)",
+  "Faktury",
   "Tworzenie ofert",
   "Zarządzanie projektami",
   "Zarządzanie klientami (CRM)",

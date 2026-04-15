@@ -13,7 +13,7 @@ import {
 const featureCards = [
   { icon: LayoutDashboard, label: "Dashboard" },
   { icon: FolderKanban, label: "Projekty" },
-  { icon: Receipt, label: "Faktury QR" },
+  { icon: Receipt, label: "Faktury" },
   { icon: FileText, label: "Oferty" },
   { icon: Clock, label: "Rejestracja czasu" },
   { icon: Users, label: "Portal klienta" },

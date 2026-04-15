@@ -21,7 +21,7 @@ export async function generateMetadata({
       "automatyzacja dla rzemieślników",
       "optymalizacja procesów Szwajcaria",
       "automatyzacja ofert",
-      "faktury QR automatyczne",
+      "faktury automatyczne",
       "automatyczny czas pracy",
     ],
   });

@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     quote:
-      "Rejestracja czasu i faktury QR oszczędzają nam co miesiąc godziny pracy administracyjnej.",
+      "Rejestracja czasu i faktury oszczędzają nam co miesiąc godziny pracy administracyjnej.",
     company: "BeriBau AG",
     location: "Kraków",
     logo: "/images/656636e32c996022a7438d10_Logo-BeriBau-AG-2.webp",

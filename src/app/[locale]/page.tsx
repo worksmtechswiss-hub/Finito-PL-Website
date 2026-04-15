@@ -54,9 +54,9 @@ const CTA = dynamic(
 export const metadata: Metadata = {
   title: "Finito Pro | Oprogramowanie dla MSP ze Szwajcarii - zarzadzanie projektami, faktury i CRM",
   description:
-    "Finito Pro - Kompleksowe oprogramowanie dla MSP dla szwajcarskich firm rzemieslniczych. Zarzadzanie projektami, tworzenie faktur QR, rejestracja czasu i CRM. 14 dni bezplatnego testu!",
+    "Finito Pro - Kompleksowe oprogramowanie dla MSP dla szwajcarskich firm rzemieslniczych. Zarzadzanie projektami, tworzenie faktur, rejestracja czasu i CRM. 14 dni bezplatnego testu!",
   keywords:
-    "oprogramowanie MSP Szwajcaria, oprogramowanie do zarzadzania projektami, oprogramowanie rzemieslnicze, oprogramowanie faktury QR, oprogramowanie szwajcarskie",
+    "oprogramowanie MSP Szwajcaria, oprogramowanie do zarzadzania projektami, oprogramowanie rzemieslnicze, oprogramowanie faktury, oprogramowanie szwajcarskie",
 };
 
 export default async function HomePage({

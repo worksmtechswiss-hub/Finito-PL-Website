@@ -12,7 +12,7 @@ export async function generateMetadata({
   return generatePageMetadata({
     title: "Wszystkie funkcje - Finito Pro oprogramowanie MŚP",
     description:
-      "Odkryj wszystkie 13 funkcji Finito Pro: Dashboard, zarządzanie projektami, faktury QR, oferty, rejestracja czasu pracy, CRM, zarządzanie urlopami i wiele więcej.",
+      "Odkryj wszystkie 13 funkcji Finito Pro: Dashboard, zarządzanie projektami, faktury, oferty, rejestracja czasu pracy, CRM, zarządzanie urlopami i wiele więcej.",
     path: "/moduly",
     locale,
     keywords: [
@@ -21,7 +21,7 @@ export async function generateMetadata({
       "Funkcje oprogramowania dla rzemieślników",
       "Szwajcarskie oprogramowanie biznesowe",
       "Zarządzanie projektami",
-      "Faktury QR",
+      "Faktury",
       "Rejestracja czasu pracy",
     ],
   });

@@ -42,9 +42,9 @@ const features = [
   {
     icon: Receipt,
     slug: "faktury",
-    title: "Faktury QR",
+    title: "Faktury",
     description:
-      "Szwajcarskie faktury QR zgodne z ISO 20022. Obliczanie VAT, przypomnienia o płatnościach i uzgadnianie z bankiem.",
+      "Szwajcarskie faktury zgodne z ISO 20022. Obliczanie VAT, przypomnienia o płatnościach i uzgadnianie z bankiem.",
     category: "Finanse",
   },
   {

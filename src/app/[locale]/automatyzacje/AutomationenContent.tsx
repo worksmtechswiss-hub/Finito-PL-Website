@@ -79,9 +79,9 @@ const automationExamples: AutomationExample[] = [
   {
     icon: Receipt,
     title: "Wystawianie i wysyłanie faktury",
-    vorher: "Word, ręczne tworzenie kodu QR, eksport PDF, e-mail",
+    vorher: "Word, ręczne tworzenie faktury, eksport PDF, e-mail",
     vorherZeit: "20 min",
-    nachher: "Automatyczne generowanie z projektu, kod QR, natychmiastowa wysyłka",
+    nachher: "Automatyczne generowanie z projektu, fakturę, natychmiastowa wysyłka",
     nachherZeit: "1 min",
     ersparnis: "95% oszczędności czasu = zamiast 20 min tylko 1 minuta",
     prozent: 95,

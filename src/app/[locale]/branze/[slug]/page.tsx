@@ -33,7 +33,7 @@ const defaultWorkflow = [
   { step: "Tworzenie oferty", desc: "Profesjonalna oferta w kilka minut dzieki zapisanym katalogom uslug." },
   { step: "Realizacja projektu", desc: "Koordynacja zespolu, dokumentacja fotograficzna, rejestracja czasu - wszystko mobilnie." },
   { step: "Dokumentacja jakosci", desc: "Rejestrowanie postepu za pomoca zdjec i notatek oraz udostepnianie klientom." },
-  { step: "Wyslanie faktury QR", desc: "Generowanie faktury jednym kliknieciem i bezposrednia wysylka." },
+  { step: "Wyslanie faktury", desc: "Generowanie faktury jednym kliknieciem i bezposrednia wysylka." },
 ];
 
 const workflowMap: Record<string, { step: string; desc: string }[]> = {
@@ -41,7 +41,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Oferta z katalogu uslug", desc: "Wybor gotowych pozycji i dostosowanie do zlecenia." },
     { step: "Rozpoczecie zlecenia i planowanie zespolu", desc: "Przeksztalcenie oferty i przypisanie zespolu." },
     { step: "Dokumentacja na miejscu", desc: "Dokumentowanie postepow zdjeciami i przesylanie." },
-    { step: "Wystawienie faktury QR", desc: "Automatyczne generowanie faktury i wysylka z kodem Swiss QR." },
+    { step: "Wystawienie faktury", desc: "Automatyczne generowanie faktury i wysylka z kodem standard." },
   ],
   tynkarze: [
     { step: "Pomiar powierzchni", desc: "Rejestracja pomieszczen i powierzchni bezposrednio na miejscu na smartfonie." },
@@ -77,7 +77,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Pomiar pomieszczen", desc: "Pomiar powierzchni i automatyczne obliczanie zapotrzebowania na material." },
     { step: "Dokumentowanie wzoru", desc: "Rejestrowanie wzoru ukladania zdjeciami i notatkami." },
     { step: "Zamawianie materialu", desc: "Zamawianie materialu z naddatkiem na odpady, sledzenie resztek." },
-    { step: "Odbior i faktura", desc: "Dokumentowanie odbioru i wystawienie faktury QR." },
+    { step: "Odbior i faktura", desc: "Dokumentowanie odbioru i wystawienie faktury." },
   ],
   rusztowania: [
     { step: "Przypisywanie elementow", desc: "Sledzenie kazdego elementu od dostawy do zwrotu." },
@@ -137,7 +137,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Oferta z szablonu", desc: "Korzystanie z szablonow - minuty zamiast godzin." },
     { step: "Zarzadzanie w drodze", desc: "Wszystko ze smartfona, bez potrzeby komputera." },
     { step: "Rejestracja czasu i zdjec", desc: "Dokumentowanie pracy w czasie rzeczywistym." },
-    { step: "Wyslanie faktury QR", desc: "Wystawienie faktury i bezposrednia wysylka." },
+    { step: "Wyslanie faktury", desc: "Wystawienie faktury i bezposrednia wysylka." },
   ],
 };
 
@@ -146,13 +146,13 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
 /* ------------------------------------------------------------------ */
 const seoMetaMap: Record<string, { title: string; description: string; keywords: string[] }> = {
   malarze: {
-    title: "Oprogramowanie dla malarzy Szwajcaria - oferty, rejestracja czasu i faktury QR | Finito Pro",
-    description: "Najlepsze oprogramowanie dla malarzy w Szwajcarii. Oferty w 3 minuty, cyfrowe fotoraporty, faktury QR i rejestracja czasu. 14 dni bezplatnego testu.",
-    keywords: ["oprogramowanie dla malarzy", "oprogramowanie malarskie Szwajcaria", "cyfryzacja firmy malarskiej", "oferty malarze", "rejestracja czasu malarze", "faktura QR malarze"],
+    title: "Oprogramowanie dla malarzy Szwajcaria - oferty, rejestracja czasu i faktury | Finito Pro",
+    description: "Najlepsze oprogramowanie dla malarzy w Szwajcarii. Oferty w 3 minuty, cyfrowe fotoraporty, faktury i rejestracja czasu. 14 dni bezplatnego testu.",
+    keywords: ["oprogramowanie dla malarzy", "oprogramowanie malarskie Szwajcaria", "cyfryzacja firmy malarskiej", "oferty malarze", "rejestracja czasu malarze", "faktura malarze"],
   },
   tynkarze: {
     title: "Oprogramowanie dla tynkarzy Szwajcaria - fotoraporty i zarzadzanie magazynem | Finito Pro",
-    description: "Oprogramowanie dla tynkarzy: cyfrowe fotoraporty, automatyczne zarzadzanie magazynem i faktury QR. Obliczanie powierzchni i pomiary bezposrednio na miejscu.",
+    description: "Oprogramowanie dla tynkarzy: cyfrowe fotoraporty, automatyczne zarzadzanie magazynem i faktury. Obliczanie powierzchni i pomiary bezposrednio na miejscu.",
     keywords: ["oprogramowanie dla tynkarzy", "oprogramowanie tynkarskie Szwajcaria", "oprogramowanie dla firm tynkarskich", "fotoraport tynkarze", "zarzadzanie magazynem tynkarze"],
   },
   elektrycy: {
@@ -162,7 +162,7 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
   },
   hydraulicy: {
     title: "Oprogramowanie dla hydraulikow Szwajcaria - rejestracja czasu i raporty prac | Finito Pro",
-    description: "Oprogramowanie dla instalatorow sanitarnych: mobilna rejestracja czasu, cyfrowe raporty prac z podpisem klienta i automatyczne faktury QR.",
+    description: "Oprogramowanie dla instalatorow sanitarnych: mobilna rejestracja czasu, cyfrowe raporty prac z podpisem klienta i automatyczne faktury.",
     keywords: ["oprogramowanie dla hydraulikow", "oprogramowanie sanitarne Szwajcaria", "oprogramowanie dla instalatorow", "rejestracja czasu hydraulicy", "raport prac hydraulicy"],
   },
   stolarze: {
@@ -227,7 +227,7 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
   },
   "jednoosobowe-firmy": {
     title: "Oprogramowanie dla jednoosobowych firm Szwajcaria - biuro na smartfonie | Finito Pro",
-    description: "Oprogramowanie dla samozatrudnionych i jednoosobowych firm: oferty, faktury QR, rejestracja czasu - wszystko w jednej aplikacji na smartfonie.",
+    description: "Oprogramowanie dla samozatrudnionych i jednoosobowych firm: oferty, faktury, rejestracja czasu - wszystko w jednej aplikacji na smartfonie.",
     keywords: ["oprogramowanie dla jednoosobowych firm", "oprogramowanie dla samozatrudnionych Szwajcaria", "oprogramowanie dla przedsiebiorcow", "aplikacja dla rzemieslnikow", "biuro na smartfonie"],
   },
 };
@@ -254,7 +254,7 @@ export async function generateMetadata({
     "oprogramowanie dla MSP",
     "oprogramowanie rzemieslnicze Szwajcaria",
     `rejestracja czasu ${branch.titleDe}`,
-    `faktury QR ${branch.titleDe}`,
+    `faktury ${branch.titleDe}`,
   ];
 
   return generatePageMetadata({

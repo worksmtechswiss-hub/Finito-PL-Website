@@ -17,7 +17,7 @@ const comparisons = [
   {
     category: "Wysyłanie faktur",
     vorher: "Tygodnie opóźnienia, ręcznie w Wordzie",
-    nachher: "Od razu po zakończeniu projektu, faktura QR automatycznie",
+    nachher: "Od razu po zakończeniu projektu, faktura automatycznie",
   },
   {
     category: "Przegląd projektów",

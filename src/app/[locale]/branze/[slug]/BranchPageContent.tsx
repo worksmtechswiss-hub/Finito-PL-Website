@@ -35,7 +35,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Oferty w 3 zamiast 30 minut dzięki zapisanym katalogom usług",
     "Zarządzanie kolorami i zamawianie materiałów bezpośrednio z projektu",
     "Zdjęcia przed/po automatycznie przypisane do projektu",
-    "Faktury QR tworzone i wysyłane jednym kliknięciem",
+    "Faktury tworzone i wysyłane jednym kliknięciem",
     "Portal klienta dla przejrzystego postępu projektów",
     "Rejestracja czasu bezpośrednio na placu budowy przez smartfon",
   ],
@@ -43,7 +43,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Cyfrowe fotoraporty jako dowód jakości dla ubezpieczeń",
     "Zarządzanie magazynem z automatycznym odejmowaniem materiału na projekt",
     "Pomiary i obliczanie powierzchni bezpośrednio na miejscu",
-    "Faktury QR generowane automatycznie z danych projektowych",
+    "Faktury generowane automatycznie z danych projektowych",
     "Tryb offline dla placów budowy bez zasięgu",
     "Automatyczna dokumentacja wszystkich etapów pracy",
   ],
@@ -52,14 +52,14 @@ const whyFinitoMap: Record<string, string[]> = {
     "Zarządzanie magazynem z bezpośrednim linkiem do dostawców",
     "Cyfrowe raporty prac z podpisem klienta na miejscu",
     "Rejestracja czasu i materiałów w jednej aplikacji",
-    "Faktury QR generowane bezpośrednio z zarejestrowanych danych",
+    "Faktury generowane bezpośrednio z zarejestrowanych danych",
     "Wszystkie normy i certyfikaty zarchiwizowane dla każdego projektu",
   ],
   hydraulicy: [
     "Mobilna rejestracja czasu z rozdzieleniem czasu jazdy i pracy",
     "Cyfrowe raporty prac z natychmiastowym podpisem klienta",
     "Zarządzanie częściami zamiennymi dla pojazdu serwisowego",
-    "Automatyczne faktury QR po zakończeniu zlecenia",
+    "Automatyczne faktury po zakończeniu zlecenia",
     "Planowanie zleceń z kalendarzem i przypisaniem zespołu",
     "Kompletna dokumentacja dla roszczeń gwarancyjnych",
   ],
@@ -69,7 +69,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Szczegółowe oferty na sztuki jednostkowe i serie",
     "Udostępnianie zdjęć postępu klientom przez portal",
     "Kalkulacja materiałów i czasu na zlecenie",
-    "Faktury QR po montażu i odbiorze",
+    "Faktury po montażu i odbiorze",
   ],
   dekarze: [
     "Planowanie pracowników z kalendarzem i przypisaniem zespołu",
@@ -77,7 +77,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Dokumentacja pogody i bezpieczeństwa na każdy dzień pracy",
     "Rejestracja czasu z lokalizacją GPS na placu budowy",
     "Zdjęcia ze znacznikiem czasu jako dowód jakości",
-    "Faktury QR i automatyczne przypomnienia o płatności",
+    "Faktury i automatyczne przypomnienia o płatności",
   ],
   posadzkarze: [
     "Automatyczne obliczanie metrów kwadratowych z naddatkiem na odpady",
@@ -85,7 +85,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Dokumentowanie wzoru układania zdjęciami i notatkami",
     "Zamawianie materiału bezpośrednio z projektu",
     "Dokumentacja przed/po dla klienta",
-    "Faktury QR wysyłane natychmiast po odbiorze",
+    "Faktury wysyłane natychmiast po odbiorze",
   ],
   rusztowania: [
     "Śledzenie każdego elementu rusztowania od dostawy do zwrotu",
@@ -93,7 +93,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Dokumentowanie inspekcji bezpieczeństwa za pomocą list kontrolnych",
     "Przegląd wielu placów budowy z filtrami statusu",
     "Podgląd stanu magazynowego w czasie rzeczywistym",
-    "Automatyczne faktury QR za najem i serwis",
+    "Automatyczne faktury za najem i serwis",
   ],
   murarze: [
     "Automatyczny dziennik budowy z pogodą i obecnością",
@@ -109,7 +109,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Cyfrowa dokumentacja obiektu dla każdej części budynku",
     "Abonamenty serwisowe z automatycznym fakturowaniem",
     "Kompletna historia konserwacji dla każdej instalacji",
-    "Automatyczne faktury QR i potwierdzenia wykonania",
+    "Automatyczne faktury i potwierdzenia wykonania",
   ],
   sprzatanie: [
     "Planowanie tras dla optymalnego rozdzielenia zespołów",
@@ -133,7 +133,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Protokół szkód ze znacznikiem czasu i danymi GPS",
     "Dokumentowany stan przed/po wszystkich przedmiotów",
     "Rejestracja czasu na przeprowadzkę i pracownika",
-    "Faktury QR bezpośrednio po zakończeniu zlecenia",
+    "Faktury bezpośrednio po zakończeniu zlecenia",
   ],
   "technika-budynkowa": [
     "Dokumentacja HVAC z danymi technicznymi i pomiarami",
@@ -157,14 +157,14 @@ const whyFinitoMap: Record<string, string[]> = {
     "Budżety klientów z automatyczną funkcją ostrzegania",
     "Raporty godzinowe jako podstawa fakturowania",
     "CRM do zarządzania klientami i kontaktami",
-    "Faktury QR oparte na zarejestrowanym czasie",
+    "Faktury oparte na zarejestrowanym czasie",
   ],
   "jednoosobowe-firmy": [
     "Kompletne biuro na smartfonie — bez potrzeby komputera",
     "Szablony oszczędzają do 80% czasu administracyjnego",
     "Automatyczne przygotowanie księgowości dla biura rachunkowego",
     "Oferty, faktury i raporty w jednej aplikacji",
-    "Faktury QR tworzone i wysyłane jednym kliknięciem",
+    "Faktury tworzone i wysyłane jednym kliknięciem",
     "Rejestracja czasu i dokumentacja projektów w drodze",
   ],
 };
@@ -193,7 +193,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
   elektrycy: [
     { task: "Tworzenie raportu prac", vorher: "30 min", nachher: "5 min", ersparnis: "25 min na raport" },
     { task: "Sprawdzanie stanu magazynu", vorher: "15 min", nachher: "1 min", ersparnis: "14 min na sprawdzenie" },
-    { task: "Faktura z kodem QR", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
+    { task: "Wystawienie faktury", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
   ],
   hydraulicy: [
     { task: "Raport prac z podpisem", vorher: "25 min", nachher: "3 min", ersparnis: "22 min na wizytę" },
@@ -208,7 +208,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
   dekarze: [
     { task: "Planowanie zespołu na tydzień", vorher: "1 godz.", nachher: "15 min", ersparnis: "45 min na tydzień" },
     { task: "Dokumentacja bezpieczeństwa", vorher: "20 min/dzień", nachher: "3 min/dzień", ersparnis: "17 min na dzień" },
-    { task: "Wystawienie faktury QR", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
+    { task: "Wystawienie faktury", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
   ],
   posadzkarze: [
     { task: "Obliczanie materiału", vorher: "30 min", nachher: "2 min", ersparnis: "28 min na projekt" },
@@ -262,7 +262,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
   ],
   "jednoosobowe-firmy": [
     { task: "Oferta z szablonu", vorher: "30 min", nachher: "3 min", ersparnis: "27 min na ofertę" },
-    { task: "Wystawienie faktury QR", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
+    { task: "Wystawienie faktury", vorher: "20 min", nachher: "1 min", ersparnis: "19 min na fakturę" },
     { task: "Przygotowanie zamknięcia rocznego", vorher: "8 godz.", nachher: "30 min", ersparnis: "7,5 godz. rocznie" },
   ],
 };
@@ -584,7 +584,7 @@ export function BranchPageContent({
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Rejestracja czasu, faktury QR i więcej dla {branch.genitiveDe}
+              Rejestracja czasu, faktury i więcej dla {branch.genitiveDe}
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
               Te funkcje Finito Pro są szczególnie wartościowe dla Pańskiej firmy.

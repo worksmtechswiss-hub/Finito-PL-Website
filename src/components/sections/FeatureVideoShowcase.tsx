@@ -37,7 +37,7 @@ const tabs = [
     video: "/videos/1Rechnungen-PC-transcode.mp4",
     videoWebm: "/videos/1Rechnungen-PC-transcode.webm",
     poster: "/videos/1Rechnungen-PC-poster-00001.jpg",
-    description: "Faktury QR w kilka sekund",
+    description: "Faktury w kilka sekund",
   },
   {
     id: "offerten",

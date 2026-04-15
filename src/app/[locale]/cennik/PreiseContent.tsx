@@ -65,7 +65,7 @@ const featureCategories = [
   {
     category: "Procesy biznesowe",
     features: [
-      { name: "Faktury QR (Swiss QR-Code)", starter: false, kmu: true, enterprise: true },
+      { name: "Faktury (standard)", starter: false, kmu: true, enterprise: true },
       { name: "Tworzenie ofert", starter: false, kmu: true, enterprise: true },
       { name: "Zarządzanie projektami", starter: false, kmu: true, enterprise: true },
       { name: "Zarządzanie klientami (CRM)", starter: false, kmu: true, enterprise: true },

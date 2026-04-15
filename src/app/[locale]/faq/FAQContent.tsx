@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "Czy mogę tworzyć faktury w Finito Pro?",
     answer:
-      "Tak, Finito Pro tworzy profesjonalne faktury ze szwajcarskim kodem QR zgodne ze standardami szwajcarskimi. Faktury mogą być automatycznie generowane z projektów lub tworzone ręcznie. Każda faktura zawiera polecenie zapłaty QR, które można wysłać bezpośrednio e-mailem lub pocztą.",
+      "Tak, Finito Pro tworzy profesjonalne faktury ze szwajcarskim . Faktury mogą być automatycznie generowane z projektów lub tworzone ręcznie. Każda faktura można wysłać bezpośrednio e-mailem lub pocztą.",
     category: "Funkcje",
   },
   {
