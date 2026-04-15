@@ -162,7 +162,7 @@ export function PartnerCommission() {
             <p className="text-xs font-bold tracking-widest text-primary-400 uppercase mb-2">
               {t("year1Label")}
             </p>
-            <p className="text-7xl font-extrabold gradient-text leading-none">50%</p>
+            <p className="text-7xl font-extrabold gradient-text leading-none">20–40%</p>
             <p className="text-white/50 mt-3">{t("year1Desc")}</p>
             <p className="text-xs text-white/30 mt-3">{t("year1Detail")}</p>
           </motion.div>
@@ -195,7 +195,7 @@ export function PartnerComparison() {
     { label: t("cmpPortal"), fp: t("cmpBuiltIn"), c: "—", e: "—", s: "—", fpGreen: true },
     { label: t("cmpHosting"), fp: "Szwajcaria 🇨🇭", c: "Polska", e: "Polska", s: "Polska" },
     { label: "UX", fp: "9/10", c: "5/10", e: "6/10", s: "4/10" },
-    { label: t("cmpPartner"), fp: "50% + 5%", c: "~20%", e: t("cmpIndiv"), s: t("cmpIndiv") },
+    { label: t("cmpPartner"), fp: "20–40% + 5%", c: "~20%", e: t("cmpIndiv"), s: t("cmpIndiv") },
   ];
 
   return (
@@ -350,7 +350,7 @@ export function PartnerCalculator() {
   const [clients, setClients] = useState(10);
   const [users, setUsers] = useState(5);
   const profitPerUser = 50;
-  const year1 = Math.round(clients * users * profitPerUser * 0.5 * 12);
+  const year1 = Math.round(clients * users * profitPerUser * 0.3 * 12);
   const year2 = Math.round(clients * users * profitPerUser * 0.05 * 12);
 
   return (
