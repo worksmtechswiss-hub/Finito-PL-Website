@@ -671,6 +671,8 @@
     "cmpPrice": "Cena / user / mies.",
     "cmpDeploy": "Czas wdrożenia",
     "cmpCloud": "Cloud-native SaaS",
+    "cmpMobile": "Aplikacja mobilna",
+    "cmpLimited": "Ograniczone",
     "cmpModules": "Liczba modułów",
     "cmpPortal": "Portal klienta",
     "cmpPhoto": "Dokumentacja foto + GPS",

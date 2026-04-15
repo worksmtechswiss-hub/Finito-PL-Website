@@ -191,6 +191,7 @@ export function PartnerComparison() {
     { label: t("cmpPrice"), fp: "100 PLN", c: "265+ PLN", e: "200–500 PLN", s: "150–400 PLN" },
     { label: t("cmpDeploy"), fp: t("cmpFewDays"), c: "2–8 tyg.", e: "1–4 tyg.", s: "1–3 tyg." },
     { label: t("cmpCloud"), fp: "TAK", c: "Hybrid", e: "Hybrid", s: "Desktop" },
+    { label: t("cmpMobile"), fp: "TAK", c: t("cmpLimited"), e: t("cmpLimited"), s: "NIE" },
     { label: t("cmpModules"), fp: "13", c: "108 (osobne)", e: "50+", s: "5–8" },
     { label: t("cmpPortal"), fp: t("cmpBuiltIn"), c: "—", e: "—", s: "—" },
     { label: t("cmpPhoto"), fp: "TAK", c: "—", e: "—", s: "—" },
