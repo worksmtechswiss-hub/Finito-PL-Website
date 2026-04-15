@@ -350,7 +350,7 @@ export function PartnerCalculator() {
   const [clients, setClients] = useState(10);
   const [users, setUsers] = useState(5);
   const profitPerUser = 50;
-  const year1 = Math.round(clients * users * profitPerUser * 0.3 * 12);
+  const year1 = Math.round(clients * users * profitPerUser * 0.4 * 12);
   const year2 = Math.round(clients * users * profitPerUser * 0.05 * 12);
 
   return (
