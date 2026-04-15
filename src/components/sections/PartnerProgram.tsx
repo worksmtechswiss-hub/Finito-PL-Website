@@ -189,11 +189,12 @@ export function PartnerComparison() {
   const t = useTranslations("partner");
   const rows = [
     { label: t("cmpPrice"), fp: "100 PLN", c: "265+ PLN", e: "200–500 PLN", s: "150–400 PLN" },
-    { label: t("cmpDeploy"), fp: t("cmpFewDays"), c: "2–8 tyg.", e: "1–4 tyg.", s: "1–3 tyg.", fpGreen: true },
-    { label: t("cmpCloud"), fp: "TAK", c: "Hybrid", e: "Hybrid", s: "Desktop", fpGreen: true, sRed: true },
-    { label: t("cmpMobile"), fp: "TAK", c: t("cmpLimited"), e: t("cmpLimited"), s: "NIE", fpGreen: true, sRed: true },
-    { label: t("cmpPortal"), fp: t("cmpBuiltIn"), c: "—", e: "—", s: "—", fpGreen: true },
-    { label: t("cmpHosting"), fp: "Szwajcaria 🇨🇭", c: "Polska", e: "Polska", s: "Polska" },
+    { label: t("cmpDeploy"), fp: t("cmpFewDays"), c: "2–8 tyg.", e: "1–4 tyg.", s: "1–3 tyg." },
+    { label: t("cmpCloud"), fp: "TAK", c: "Hybrid", e: "Hybrid", s: "Desktop" },
+    { label: t("cmpModules"), fp: "13", c: "108 (osobne)", e: "50+", s: "5–8" },
+    { label: t("cmpPortal"), fp: t("cmpBuiltIn"), c: "—", e: "—", s: "—" },
+    { label: t("cmpPhoto"), fp: "TAK", c: "—", e: "—", s: "—" },
+    { label: t("cmpPricing"), fp: t("cmpPublic"), c: t("cmpPartial"), e: "NIE", s: "NIE" },
     { label: "UX", fp: "9/10", c: "5/10", e: "6/10", s: "4/10" },
     { label: t("cmpPartner"), fp: "20–40% + 5%", c: "~20%", e: t("cmpIndiv"), s: t("cmpIndiv") },
   ];
