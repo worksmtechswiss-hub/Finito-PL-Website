@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finito Pro — Prezentacja dla Partnerów Sprzedażowych</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--p:#7c3aed;--pl:#a78bfa;--dark:#0f0a1a;--darker:#080510}
+    html{scroll-behavior:smooth}
+    body{font-family:'Inter',sans-serif;color:#1e1b4b;-webkit-font-smoothing:antialiased;background:#000}
+    .S{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;scroll-snap-align:start}
+    .SC{height:100vh;overflow-y:auto;scroll-snap-type:y mandatory;scroll-behavior:smooth}
+    .SI{max-width:1100px;width:100%;padding:48px 60px;position:relative;z-index:2}
+    .dark{background:linear-gradient(135deg,#080510,#1a0a2e,#0f0a1a);color:#fff}
+    .dark::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(124,58,237,.12) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(167,139,250,.08) 0%,transparent 50%)}
+    .light{background:#fff;color:#1e1b4b}
+    .accent{background:linear-gradient(135deg,#5b21b6,#7c3aed,#9333ea);color:#fff}
+    .soft{background:#f8f7ff;color:#1e1b4b}
+    .label{text-transform:uppercase;font-size:12px;font-weight:700;letter-spacing:3px;margin-bottom:12px;color:var(--pl)}
+    .light .label,.soft .label{color:var(--p)}
+    .accent .label{color:rgba(255,255,255,.6)}
+    .title{font-size:clamp(28px,4vw,48px);font-weight:800;line-height:1.15;margin-bottom:14px}
+    .title em{font-style:normal;background:linear-gradient(135deg,var(--pl),#c4b5fd,var(--p));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .light .title em,.soft .title em{background:linear-gradient(135deg,var(--p),var(--pl));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .sub{font-size:16px;line-height:1.6;opacity:.65;max-width:680px;margin-bottom:32px}
+    .light .sub,.soft .sub{color:#4b5563;opacity:1}
+    .g2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .g4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .g21{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center}
+    .cd{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px}
+    .cl{background:#f9fafb;border:1px solid #e5e7eb;border-radius:16px;padding:22px}
+    .cd h3{font-size:15px;font-weight:700;margin-bottom:5px}
+    .cd p{font-size:12px;color:rgba(255,255,255,.55);line-height:1.5}
+    .cl h3{font-size:15px;font-weight:700;color:#1e1b4b;margin-bottom:5px}
+    .cl p{font-size:12px;color:#4b5563;line-height:1.5}
+    .bn{font-size:56px;font-weight:800;background:linear-gradient(135deg,var(--pl),#c4b5fd,var(--p));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1}
+    .tag{display:inline-block;padding:4px 10px;border-radius:100px;font-size:11px;font-weight:600;margin:2px}
+    .tp{background:rgba(124,58,237,.15);color:var(--pl)}
+    .tl{background:rgba(124,58,237,.08);color:var(--p)}
+    .tg{background:#dcfce7;color:#166534}
+    .tr{background:#fef2f2;color:#991b1b}
+    .ty{background:#fefce8;color:#854d0e}
+    .ck{list-style:none;padding:0}
+    .ck li{font-size:13px;padding:5px 0 5px 24px;position:relative;line-height:1.5}
+    .ck li::before{content:'';position:absolute;left:0;top:8px;width:14px;height:14px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237c3aed' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") no-repeat center;background-size:14px}
+    .dark .ck li::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a78bfa' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E")}
+    .task-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:20px}
+    .task-card h4{font-size:14px;font-weight:700;color:var(--pl);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+    .task-card h4 .num{width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--p),var(--pl));color:#fff;font-size:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .task-card p{font-size:12px;color:rgba(255,255,255,.5);line-height:1.5}
+    .light .task-card{background:#f9fafb;border-color:#e5e7eb}
+    .light .task-card p{color:#6b7280}
+    .cmp-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:12px}
+    .cmp-row:last-child{border:none}
+    .cmp-row .n{color:rgba(255,255,255,.45)}
+    .cmp-row .v{color:rgba(255,255,255,.3);text-align:right;max-width:55%}
+    .nav{position:fixed;right:16px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:5px}
+    .nd{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.2);cursor:pointer;border:none;transition:all .3s}
+    .nd.a{background:var(--pl);box-shadow:0 0 8px rgba(167,139,250,.5);transform:scale(1.4)}
+    .ctr{position:fixed;bottom:16px;right:16px;z-index:100;font-size:11px;color:rgba(255,255,255,.25);font-weight:600}
+    @media(max-width:768px){.SI{padding:24px 24px}.g2,.g3,.g4,.g21{grid-template-columns:1fr}.title{font-size:24px}.nav{display:none}.bn{font-size:36px}}
+    @media print{.S{page-break-after:always;height:auto;min-height:100vh}.SC{overflow:visible;scroll-snap-type:none;height:auto}.nav,.ctr{display:none}}
+  </style>
+</head>
+<body>
+<nav class="nav" id="nav"></nav>
+<div class="ctr" id="ctr">1 / 14</div>
+<div class="SC" id="sc">
+
+<!-- 1. TYTUŁ -->
+<section class="S dark">
+  <div class="SI" style="text-align:center">
+    <p style="font-size:13px;color:rgba(255,255,255,.3);margin-bottom:24px;letter-spacing:2px">DOKUMENT POUFNY · PROGRAM PARTNERSKI 2025</p>
+    <h1 class="title" style="max-width:800px;margin:0 auto 20px;font-size:clamp(32px,5vw,56px)">Zostań partnerem <em>Finito Pro</em> w Polsce</h1>
+    <p class="sub" style="margin:0 auto 32px;text-align:center">Szczegółowy przewodnik dla partnerów sprzedażowych. Model prowizji, zadania, narzędzia, rynek i strategia.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <span class="tag tp">20–40% zysków rok 1</span>
+      <span class="tag tp">5% lifetime</span>
+      <span class="tag tp">100 PLN/użytkownik/mies.</span>
+      <span class="tag tp">Firmy do 500 osób</span>
+    </div>
+    <p style="margin-top:32px;font-size:12px;color:rgba(255,255,255,.2)">finitopro.pl · OCTOLABS Sp. z o.o. · Warszawa</p>
+  </div>
+</section>
+
+<!-- 2. O FINITO PRO -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">O produkcie</p>
+    <h2 class="title">Czym jest <em>Finito Pro</em>?</h2>
+    <div class="g21">
+      <div>
+        <p class="sub">Szwajcarski system ERP/CRM zaprojektowany dla firm usługowych i rzemieślniczych. Cloud-native, aplikacja mobilna, 13 modułów w jednej cenie.</p>
+        <ul class="ck">
+          <li><strong>Producent:</strong> OCTOLABS Sp. z o.o., Warszawa (firma szwajcarska)</li>
+          <li><strong>Cena:</strong> 100 PLN/użytkownik/miesiąc (publiczny cennik)</li>
+          <li><strong>Plan Starter:</strong> za darmo (do 3 projektów)</li>
+          <li><strong>Wdrożenie:</strong> kilka dni (zależy od ilości danych do migracji)</li>
+          <li><strong>Firmy:</strong> od 1 do 500 osób (focus na 2–50)</li>
+          <li><strong>Branże:</strong> 18 (malarze, elektrycy, hydraulicy, HVAC, facility...)</li>
+          <li><strong>Trial:</strong> 30 dni za darmo, bez karty kredytowej</li>
+        </ul>
+      </div>
+      <div>
+        <div class="cd" style="margin-bottom:12px;text-align:center">
+          <p style="font-size:11px;color:var(--pl);font-weight:700;letter-spacing:1px;margin-bottom:4px">13 MODUŁÓW</p>
+          <div style="display:flex;flex-wrap:wrap;gap:4px;justify-content:center">
+            <span class="tag tp">Dashboard</span><span class="tag tp">Projekty</span><span class="tag tp">Faktury</span><span class="tag tp">Oferty</span><span class="tag tp">Czas pracy</span><span class="tag tp">CRM</span><span class="tag tp">Urlopy</span><span class="tag tp">Zdjęcia GPS</span><span class="tag tp">Magazyn</span><span class="tag tp">Księgowość</span><span class="tag tp">Apka mobilna</span><span class="tag tp">Portal klienta</span><span class="tag tp">Serwis</span>
+          </div>
+        </div>
+        <div class="cd" style="text-align:center">
+          <p style="font-size:11px;color:var(--pl);font-weight:700;letter-spacing:1px;margin-bottom:4px">WYRÓŻNIKI</p>
+          <p style="font-size:12px;color:rgba(255,255,255,.5)">Cloud-native SaaS · Aplikacja mobilna · Portal klienta · Dokumentacja foto+GPS · Publiczny cennik · 25+ lat archiwum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. RYNEK POLSKI -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Szansa rynkowa</p>
+    <h2 class="title">Polski rynek ERP: <em>ogromna luka</em></h2>
+    <div class="g21">
+      <div>
+        <p class="sub">3,2 mln firm MŚP w Polsce. Większość nie ma żadnego systemu ERP. To Twoja szansa.</p>
+        <ul class="ck">
+          <li><strong>72% firm MŚP</strong> nie używa żadnego oprogramowania ERP/CRM</li>
+          <li><strong>87% nowych wdrożeń</strong> to rozwiązania chmurowe (SaaS)</li>
+          <li><strong>KSeF 2026</strong> — obowiązkowe e-fakturowanie wymusza digitalizację</li>
+          <li><strong>Dotacje PARP</strong> — 1,3 mld PLN na digitalizację MŚP w 2026</li>
+          <li><strong>Pokolenie Z</strong> wchodzi na rynek pracy i odrzuca papierowe systemy</li>
+          <li>Automatyzacja oszczędza firmom <strong>10–20 godzin tygodniowo</strong></li>
+        </ul>
+      </div>
+      <div style="text-align:center">
+        <div class="bn" style="font-size:64px">3,2M</div>
+        <p style="font-size:14px;color:#4b5563;margin:6px 0 24px">firm MŚP w Polsce</p>
+        <div style="background:#f3f0ff;border-radius:14px;padding:20px;margin-bottom:12px">
+          <div class="bn" style="font-size:44px">72%</div>
+          <p style="font-size:12px;color:#4b5563;margin-top:4px">bez żadnego systemu ERP</p>
+        </div>
+        <div style="background:#f3f0ff;border-radius:14px;padding:20px">
+          <div class="bn" style="font-size:44px">87%</div>
+          <p style="font-size:12px;color:#4b5563;margin-top:4px">nowych wdrożeń = chmura</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. PORÓWNANIE Z KONKURENCJĄ -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Pozycja rynkowa</p>
+    <h2 class="title">Finito Pro vs <em>konkurencja</em> w Polsce</h2>
+    <p class="sub">Dane z publicznych cenników producentów (2025).</p>
+    <div style="overflow-x:auto;border-radius:14px;border:1px solid #e5e7eb">
+      <table style="width:100%;border-collapse:collapse;font-size:12px;min-width:650px">
+        <thead style="background:#0f0a1a;color:#fff">
+          <tr><th style="padding:10px;text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:.5px"></th><th style="padding:10px;text-align:center;color:#a78bfa;font-size:10px;text-transform:uppercase">Finito Pro</th><th style="padding:10px;text-align:center;font-size:10px;text-transform:uppercase">Comarch Optima</th><th style="padding:10px;text-align:center;font-size:10px;text-transform:uppercase">Enova365</th><th style="padding:10px;text-align:center;font-size:10px;text-transform:uppercase">Symfonia</th></tr>
+        </thead>
+        <tbody>
+          <tr style="background:rgba(124,58,237,.04)"><td style="padding:8px 10px;font-weight:600">Cena/użytkownik/mies.</td><td style="padding:8px;text-align:center;font-weight:700;color:#7c3aed">100 PLN</td><td style="padding:8px;text-align:center;color:#6b7280">265+ PLN</td><td style="padding:8px;text-align:center;color:#6b7280">200–500 PLN</td><td style="padding:8px;text-align:center;color:#6b7280">150–400 PLN</td></tr>
+          <tr><td style="padding:8px 10px;font-weight:600">Czas wdrożenia</td><td style="padding:8px;text-align:center"><span class="tg">Kilka dni</span></td><td style="padding:8px;text-align:center"><span class="tr">2–8 tyg.</span></td><td style="padding:8px;text-align:center"><span class="tr">1–4 tyg.</span></td><td style="padding:8px;text-align:center"><span class="tr">1–3 tyg.</span></td></tr>
+          <tr><td style="padding:8px 10px;font-weight:600">Cloud-native</td><td style="padding:8px;text-align:center"><span class="tg">TAK</span></td><td style="padding:8px;text-align:center"><span class="ty">Hybrid</span></td><td style="padding:8px;text-align:center"><span class="ty">Hybrid</span></td><td style="padding:8px;text-align:center"><span class="tr">Desktop</span></td></tr>
+          <tr><td style="padding:8px 10px;font-weight:600">Aplikacja mobilna</td><td style="padding:8px;text-align:center"><span class="tg">TAK</span></td><td style="padding:8px;text-align:center"><span class="ty">Ograniczone</span></td><td style="padding:8px;text-align:center"><span class="ty">Ograniczone</span></td><td style="padding:8px;text-align:center"><span class="tr">NIE</span></td></tr>
+          <tr><td style="padding:8px 10px;font-weight:600">Liczba modułów</td><td style="padding:8px;text-align:center;font-weight:700;color:#7c3aed">13</td><td style="padding:8px;text-align:center;color:#6b7280">108 (osobne)</td><td style="padding:8px;text-align:center;color:#6b7280">50+</td><td style="padding:8px;text-align:center;color:#6b7280">5–8</td></tr>
+          <tr><td style="padding:8px 10px;font-weight:600">Portal klienta</td><td style="padding:8px;text-align:center"><span class="tg">Wbudowany</span></td><td style="padding:8px;text-align:center;color:#6b7280">—</td><td style="padding:8px;text-align:center;color:#6b7280">—</td><td style="padding:8px;text-align:center;color:#6b7280">—</td></tr>
+          <tr><td style="padding:8px 10px;font-weight:600">Foto + GPS</td><td style="padding:8px;text-align:center"><span class="tg">TAK</span></td><td style="padding:8px;text-align:center;color:#6b7280">—</td><td style="padding:8px;text-align:center;color:#6b7280">—</td><td style="padding:8px;text-align:center;color:#6b7280">—</td></tr>
+          <tr><td style="padding:8px 10px;font-weight:600">Cennik publiczny</td><td style="padding:8px;text-align:center"><span class="tg">TAK</span></td><td style="padding:8px;text-align:center"><span class="ty">Częściowo</span></td><td style="padding:8px;text-align:center"><span class="tr">NIE</span></td><td style="padding:8px;text-align:center"><span class="tr">NIE</span></td></tr>
+          <tr><td style="padding:8px 10px;font-weight:600">UX</td><td style="padding:8px;text-align:center;font-weight:700;color:#7c3aed">9/10</td><td style="padding:8px;text-align:center;color:#6b7280">5/10</td><td style="padding:8px;text-align:center;color:#6b7280">6/10</td><td style="padding:8px;text-align:center;color:#6b7280">4/10</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:10px;color:#9ca3af;margin-top:8px;text-align:center">Źródło: publiczne cenniki comarch.pl, enova.pl, zorius.pl (2025)</p>
+  </div>
+</section>
+
+<!-- 5. MODEL PROWIZJI -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Twoje zarobki</p>
+    <h2 class="title">Model prowizji: <em>20–40% + 5%</em></h2>
+    <p class="sub">Jeden prosty model dla każdego partnera — reseller, referral, integrator.</p>
+    <div class="g2" style="margin-bottom:28px">
+      <div class="cd" style="text-align:center;border-color:rgba(124,58,237,.3);padding:32px">
+        <p style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--pl);margin-bottom:6px">ROK 1 (MIESIĄCE 1–12)</p>
+        <div class="bn" style="font-size:64px">20–40%</div>
+        <p style="font-size:13px;color:rgba(255,255,255,.5);margin-top:8px">zysków netto z każdego klienta</p>
+        <p style="font-size:11px;color:rgba(255,255,255,.3);margin-top:6px">Zysk = przychód minus koszty infrastruktury. Rozliczenie miesięczne. Minus podatki.</p>
+      </div>
+      <div class="cd" style="text-align:center;padding:32px">
+        <p style="font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,.4);margin-bottom:6px">ROK 2+ (LIFETIME)</p>
+        <div style="font-size:64px;font-weight:800;color:rgba(255,255,255,.65);line-height:1">5%</div>
+        <p style="font-size:13px;color:rgba(255,255,255,.5);margin-top:8px">dopóki klient zostaje na Finito Pro</p>
+        <p style="font-size:11px;color:rgba(255,255,255,.3);margin-top:6px">Pasywny przychód. Kumuluje się z nowymi klientami. Bez limitu czasowego.</p>
+      </div>
+    </div>
+    <div class="cd" style="text-align:center">
+      <p style="font-size:13px;font-weight:600;color:var(--pl)">Przykład: 10 firm × 10 użytkowników × 40 PLN zysku × 40% = <strong>19 200 PLN/rok 1</strong> · Rok 2+: <strong>2 400 PLN/rok</strong> pasywnie</p>
+    </div>
+  </div>
+</section>
+
+<!-- 6. WYMAGANIA -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Wymagania</p>
+    <h2 class="title">Jak zostać <em>partnerem</em>?</h2>
+    <p class="sub">Jedno wymaganie: posiadanie własnego konta Finito Pro. Dzięki temu znasz produkt od środka.</p>
+    <div class="g3">
+      <div class="cl">
+        <h3>1. Załóż konto</h3>
+        <p>Zarejestruj się na app.finitopro.pl. Plan Starter jest za darmo. Poznaj każdy moduł od środka.</p>
+      </div>
+      <div class="cl">
+        <h3>2. Skontaktuj się z nami</h3>
+        <p>Napisz przez stronę kontaktową finitopro.pl/kontakt. Omówimy warunki współpracy i Twój poziom prowizji.</p>
+      </div>
+      <div class="cl">
+        <h3>3. Otrzymaj materiały</h3>
+        <p>Szkolenie produktowe, materiały sprzedażowe, demo konto, dostęp do panelu partnerskiego.</p>
+      </div>
+    </div>
+    <div class="g2" style="margin-top:24px">
+      <div class="cl">
+        <h3>Warunki współpracy</h3>
+        <ul class="ck">
+          <li>Brak opłaty wstępnej</li>
+          <li>Brak minimalnych celów sprzedażowych</li>
+          <li>Prowizja naliczana od 1. klienta</li>
+          <li>Miesięczne rozliczenia i wypłaty</li>
+          <li>Rezygnacja w dowolnym momencie</li>
+        </ul>
+      </div>
+      <div class="cl">
+        <h3>Co otrzymujesz</h3>
+        <ul class="ck">
+          <li>Panel partnerski z raportami</li>
+          <li>Materiały sprzedażowe (PDF, prezentacje)</li>
+          <li>Demo konto z polskimi danymi</li>
+          <li>Szkolenie produktowe (online/onsite)</li>
+          <li>Priorytetowy support techniczny</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. ZADANIA PARTNERA — CODZIENNE -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Rola partnera</p>
+    <h2 class="title">Co dokładnie <em>robi partner</em>?</h2>
+    <p class="sub">Szczegółowy opis zadań sprzedawcy Finito Pro — od pozyskania leada do wsparcia klienta.</p>
+    <div class="g2">
+      <div class="task-card">
+        <h4><span class="num">1</span> Identyfikacja potencjalnych klientów</h4>
+        <p>Szukaj firm usługowych i rzemieślniczych 2–50 osób, które nie mają ERP lub używają Excela. Branże: malarze, elektrycy, hydraulicy, HVAC, facility management, sprzątanie, ogrody, przeprowadzki, stolarze, dekarze.</p>
+      </div>
+      <div class="task-card">
+        <h4><span class="num">2</span> Pierwszy kontakt i prezentacja</h4>
+        <p>Skontaktuj się z właścicielem firmy (LinkedIn, telefon, email, spotkanie). Pokaż demo Finito Pro na własnym koncie. Podkreśl: 100 PLN/użytkownik, wdrożenie w kilka dni, 30 dni za darmo.</p>
+      </div>
+      <div class="task-card">
+        <h4><span class="num">3</span> Przekazanie leada do Finito Pro</h4>
+        <p>Gdy klient jest zainteresowany — przekaż kontakt do nas. My zajmujemy się: wdrożeniem, migracją danych, szkoleniem klienta, supportem technicznym. Ty nie musisz wdrażać.</p>
+      </div>
+      <div class="task-card">
+        <h4><span class="num">4</span> Utrzymanie relacji z klientem</h4>
+        <p>Sprawdzaj jak klient korzysta z systemu. Polecaj nowe funkcje. Im dłużej klient zostaje, tym dłużej Ty zarabiasz 5% lifetime. Zadowolony klient = Twój pasywny przychód.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. ZADANIA PARTNERA — CZEGO NIE MUSISZ ROBIĆ -->
+<section class="S dark" style="padding-top:0">
+  <div class="SI">
+    <p class="label">Podział obowiązków</p>
+    <h2 class="title">Co robi partner, a co <em>robi Finito Pro</em>?</h2>
+    <div class="g2" style="margin-top:24px">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl);margin-bottom:12px">Partner (Ty)</h3>
+        <ul class="ck">
+          <li>Znajdowanie potencjalnych klientów</li>
+          <li>Pierwszy kontakt i prezentacja produktu</li>
+          <li>Pokazywanie demo na własnym koncie</li>
+          <li>Przekazywanie zainteresowanych leadów</li>
+          <li>Utrzymywanie relacji z klientami</li>
+          <li>Zbieranie feedbacku od klientów</li>
+          <li>Lokalne networking i eventy</li>
+        </ul>
+      </div>
+      <div class="cd">
+        <h3 style="margin-bottom:12px">Finito Pro (my)</h3>
+        <ul class="ck">
+          <li>Wdrożenie i konfiguracja systemu</li>
+          <li>Migracja danych z poprzedniego systemu</li>
+          <li>Szkolenie klienta z obsługi</li>
+          <li>Support techniczny 24/7</li>
+          <li>Aktualizacje i rozwój produktu</li>
+          <li>Fakturowanie i rozliczenia z klientem</li>
+          <li>Rozliczenie i wypłata prowizji partnera</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. GDZIE SZUKAĆ KLIENTÓW -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Strategia sprzedaży</p>
+    <h2 class="title">Gdzie szukać <em>klientów</em>?</h2>
+    <div class="g2" style="margin-top:16px">
+      <div class="cl">
+        <h3>📋 Firmy rosnące (3–15 osób)</h3>
+        <p>Rzemieślnicy, którzy zaczynają zatrudniać i potrzebują systemu zamiast Excela. Szukaj na LinkedIn, BNI Polska, lokalnych izbach gospodarczych, grupach Facebook dla przedsiębiorców.</p>
+      </div>
+      <div class="cl">
+        <h3>🏗️ Branże budowlane i instalacyjne</h3>
+        <p>Malarze, elektrycy, hydraulicy, HVAC — firmy z pracownikami terenowymi. Targi budowlane, portale branżowe, Google Ads na frazy „program dla firmy instalacyjnej".</p>
+      </div>
+      <div class="cl">
+        <h3>🧾 Biura rachunkowe — kanał rekomendacji</h3>
+        <p>Biura obsługujące MŚP mogą polecać Finito Pro klientom. Moduł FK generuje eksporty ułatwiające pracę biura. Platformy: iKsięgowość24.pl, konferencje księgowe.</p>
+      </div>
+      <div class="cl">
+        <h3>🤝 Eventy i organizacje MŚP</h3>
+        <p>Europejski Kongres MŚP (Katowice), IT Future Expo (Warszawa), BNI Polska, Polsko-Szwajcarska Izba Gospodarcza. Izby regionalne: KIG, ZPP, BCC.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. ARGUMENTY SPRZEDAŻOWE -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Rozmowa z klientem</p>
+    <h2 class="title">Top argumenty <em>sprzedażowe</em></h2>
+    <p class="sub">Co mówić klientowi? Gotowe argumenty na najczęstsze sytuacje.</p>
+    <div class="g2">
+      <div class="cd">
+        <h3 style="color:var(--pl)">Klient nie ma żadnego ERP</h3>
+        <ul class="ck" style="font-size:12px">
+          <li>„100 PLN/użytkownik miesięcznie — taniej niż kawa dla zespołu"</li>
+          <li>„30 dni za darmo, bez karty kredytowej — przetestuj bez ryzyka"</li>
+          <li>„Wdrożenie w kilka dni — nie miesiące"</li>
+          <li>„13 modułów: projekty, faktury, czas pracy, CRM — wszystko w jednym"</li>
+          <li>„Aplikacja mobilna — pracownicy w terenie mają wszystko na telefonie"</li>
+        </ul>
+      </div>
+      <div class="cd">
+        <h3 style="color:var(--pl)">Klient używa Comarch/Enova/Symfonia</h3>
+        <ul class="ck" style="font-size:12px">
+          <li>„Ile płacisz za wdrożenie? U nas to kilka dni, nie tygodnie"</li>
+          <li>„Publiczny cennik 100 PLN/użytkownik — bez niespodzianek"</li>
+          <li>„Cloud-native: zero serwerów, zero IT, działa w przeglądarce"</li>
+          <li>„Portal klienta wbudowany — Twoi klienci widzą postęp online"</li>
+          <li>„Dokumentacja foto z GPS — dowód pracy w terenie"</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cd" style="margin-top:16px">
+      <h3 style="color:var(--pl)">Obiekcje klientów i kontrargumenty</h3>
+      <div class="g2" style="margin-top:8px">
+        <div>
+          <p style="font-size:12px;color:rgba(255,255,255,.4)"><strong style="color:rgba(255,255,255,.6)">„Nie mam czasu na wdrożenie"</strong> → Finito Pro zajmuje się wszystkim. Twoja jedyna rola to podanie danych — resztę robimy my.</p>
+          <p style="font-size:12px;color:rgba(255,255,255,.4);margin-top:8px"><strong style="color:rgba(255,255,255,.6)">„Za drogo"</strong> → 100 PLN/użytkownik to ~3 PLN dziennie. Ile kosztuje godzina szukania papierowych faktur?</p>
+        </div>
+        <div>
+          <p style="font-size:12px;color:rgba(255,255,255,.4)"><strong style="color:rgba(255,255,255,.6)">„Mam już Excela"</strong> → Excel nie wyśle przypomnienia o płatności, nie pokaże klientowi postępu projektu i nie zrobi ewidencji czasu jednym kliknięciem.</p>
+          <p style="font-size:12px;color:rgba(255,255,255,.4);margin-top:8px"><strong style="color:rgba(255,255,255,.6)">„A co z danymi?"</strong> → Migrujemy dane z Twojego obecnego systemu. Dane przechowywane z gwarancją 25+ lat archiwum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11. PRZYKŁADOWE ZAROBKI -->
+<section class="S accent">
+  <div class="SI" style="text-align:center">
+    <p class="label">Potencjał zarobkowy</p>
+    <h2 class="title">Ile możesz <em>zarobić</em>?</h2>
+    <p class="sub" style="text-align:center;margin:0 auto 32px;color:rgba(255,255,255,.7)">Przykłady dla 3 profili partnerów. Obliczenia: użytkownicy × 40 PLN zysku × 40%.</p>
+    <div class="g3">
+      <div style="background:rgba(255,255,255,.12);border-radius:16px;padding:28px">
+        <p style="font-size:13px;opacity:.7">Freelancer IT</p>
+        <p style="font-size:11px;opacity:.5">5 firm × 6 użytkowników = 30</p>
+        <div style="font-size:28px;font-weight:800;margin:14px 0 4px">5 760 PLN</div>
+        <div style="font-size:11px;opacity:.5">Rok 1 (40% zysków)</div>
+        <div style="font-size:18px;font-weight:700;margin-top:12px;opacity:.7">720 PLN/rok <span style="font-size:11px;opacity:.6">lifetime</span></div>
+      </div>
+      <div style="background:rgba(255,255,255,.2);border-radius:16px;padding:28px;transform:scale(1.03)">
+        <p style="font-size:13px;opacity:.7">Agencja IT</p>
+        <p style="font-size:11px;opacity:.5">20 firm × 8 użytkowników = 160</p>
+        <div style="font-size:28px;font-weight:800;margin:14px 0 4px">30 720 PLN</div>
+        <div style="font-size:11px;opacity:.5">Rok 1 (40% zysków)</div>
+        <div style="font-size:18px;font-weight:700;margin-top:12px;opacity:.7">3 840 PLN/rok <span style="font-size:11px;opacity:.6">lifetime</span></div>
+      </div>
+      <div style="background:rgba(255,255,255,.12);border-radius:16px;padding:28px">
+        <p style="font-size:13px;opacity:.7">Biuro rachunkowe</p>
+        <p style="font-size:11px;opacity:.5">15 firm × 5 użytkowników = 75</p>
+        <div style="font-size:28px;font-weight:800;margin:14px 0 4px">14 400 PLN</div>
+        <div style="font-size:11px;opacity:.5">Rok 1 (40% zysków)</div>
+        <div style="font-size:18px;font-weight:700;margin-top:12px;opacity:.7">1 800 PLN/rok <span style="font-size:11px;opacity:.6">lifetime</span></div>
+      </div>
+    </div>
+    <p style="margin-top:24px;font-size:11px;opacity:.4">Szacunek: zysk ~40 PLN/użytkownik/mies. Kwoty przed podatkiem partnera. Prowizja kumuluje się z nowymi klientami.</p>
+  </div>
+</section>
+
+<!-- 12. NARZĘDZIA PARTNERA -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Narzędzia</p>
+    <h2 class="title">Czym <em>dysponujesz</em> jako partner?</h2>
+    <div class="g3" style="margin-top:20px">
+      <div class="cd"><h3>📊 Panel partnerski</h3><p>Śledzenie klientów, prowizji, konwersji i wypłat. Wszystko w jednym dashboardzie online.</p></div>
+      <div class="cd"><h3>📄 Materiały sprzedażowe</h3><p>Ta prezentacja, one-pager PDF, case studies, porównania z konkurencją — gotowe do wysłania klientowi.</p></div>
+      <div class="cd"><h3>💻 Demo konto</h3><p>Pełne konto z polskimi danymi przykładowymi. Pokazuj klientom prawdziwy produkt — nie screenshoty.</p></div>
+      <div class="cd"><h3>🎓 Szkolenie produktowe</h3><p>Online lub onsite. Poznaj każdy moduł, argumenty sprzedażowe i typowe obiekcje klientów.</p></div>
+      <div class="cd"><h3>💬 Dedykowany support</h3><p>Opiekun partnerski — Twój kontakt do szybkiego rozwiązywania problemów i pytań klientów.</p></div>
+      <div class="cd"><h3>🔗 Link polecający</h3><p>Unikalny link do rejestracji. Automatyczne śledzenie konwersji — wiesz kto się zarejestrował przez Ciebie.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 13. TYPOWY TYDZIEŃ PARTNERA -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Typowy tydzień</p>
+    <h2 class="title">Jak wygląda praca <em>partnera</em>?</h2>
+    <p class="sub">Przykładowy harmonogram tygodniowy dla partnera poświęcającego 5–10h tygodniowo.</p>
+    <div class="g2">
+      <div class="cl">
+        <h3>Poniedziałek–Wtorek: Prospecting</h3>
+        <ul class="ck">
+          <li>Przejrzyj LinkedIn — szukaj właścicieli firm rzemieślniczych</li>
+          <li>Wyślij 5–10 spersonalizowanych wiadomości</li>
+          <li>Sprawdź grupy FB dla przedsiębiorców MŚP</li>
+          <li>Odpowiedz na zapytania z poprzedniego tygodnia</li>
+        </ul>
+      </div>
+      <div class="cl">
+        <h3>Środa–Czwartek: Prezentacje</h3>
+        <ul class="ck">
+          <li>Umów 2–3 rozmowy z zainteresowanymi firmami</li>
+          <li>Pokaż demo na swoim koncie Finito Pro</li>
+          <li>Przekaż zainteresowanych leadów do nas</li>
+          <li>Zapisz notatki w panelu partnerskim</li>
+        </ul>
+      </div>
+      <div class="cl">
+        <h3>Piątek: Follow-up i networking</h3>
+        <ul class="ck">
+          <li>Follow-up z klientami z poprzednich tygodni</li>
+          <li>Sprawdź jak korzystają z Finito Pro</li>
+          <li>Podziel się feedbackiem z nami</li>
+          <li>Zaplanuj networking na przyszły tydzień</li>
+        </ul>
+      </div>
+      <div class="cl">
+        <h3>Podsumowanie tygodnia</h3>
+        <ul class="ck">
+          <li>5–10 nowych kontaktów (prospecting)</li>
+          <li>2–3 prezentacje demo</li>
+          <li>1–2 przekazane leady do Finito Pro</li>
+          <li>Śledź prowizje w panelu partnerskim</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 14. CTA -->
+<section class="S dark">
+  <div class="SI" style="text-align:center">
+    <h2 class="title" style="max-width:700px;margin:0 auto 16px;font-size:clamp(28px,4vw,44px)">Gotowy, żeby <em>zacząć zarabiać</em>?</h2>
+    <p class="sub" style="text-align:center;margin:0 auto 32px">1. Załóż konto na app.finitopro.pl<br>2. Skontaktuj się z nami przez finitopro.pl/kontakt<br>3. Otrzymaj materiały i zacznij sprzedawać</p>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:32px">
+      <a href="https://app.finitopro.pl/register" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#7c3aed,#a78bfa);color:#fff;font-size:15px;font-weight:600;padding:14px 28px;border-radius:12px;text-decoration:none;box-shadow:0 4px 15px rgba(124,58,237,.4)">Załóż konto Finito Pro →</a>
+      <a href="https://finitopro.pl/kontakt" style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);color:#fff;font-size:15px;font-weight:600;padding:14px 28px;border-radius:12px;text-decoration:none;border:1px solid rgba(255,255,255,.2)">Skontaktuj się z nami</a>
+    </div>
+    <div class="g4" style="max-width:550px;margin:0 auto">
+      <div style="text-align:center"><div style="font-size:20px;font-weight:800;color:var(--pl)">20–40%</div><div style="font-size:10px;opacity:.35;margin-top:2px">Zyski rok 1</div></div>
+      <div style="text-align:center"><div style="font-size:20px;font-weight:800;color:var(--pl)">5%</div><div style="font-size:10px;opacity:.35;margin-top:2px">Lifetime</div></div>
+      <div style="text-align:center"><div style="font-size:20px;font-weight:800;color:var(--pl)">13</div><div style="font-size:10px;opacity:.35;margin-top:2px">Modułów</div></div>
+      <div style="text-align:center"><div style="font-size:20px;font-weight:800;color:var(--pl)">100 PLN</div><div style="font-size:10px;opacity:.35;margin-top:2px">/użytkownik</div></div>
+    </div>
+    <p style="margin-top:28px;font-size:11px;opacity:.2">finitopro.pl · OCTOLABS Sp. z o.o. · Dokument poufny · 2025</p>
+  </div>
+</section>
+
+</div>
+<script>
+const c=document.getElementById('sc'),ss=document.querySelectorAll('.S'),nav=document.getElementById('nav'),ctr=document.getElementById('ctr'),t=ss.length;
+ss.forEach((_,i)=>{const d=document.createElement('button');d.className='nd'+(i===0?' a':'');d.onclick=()=>ss[i].scrollIntoView({behavior:'smooth'});nav.appendChild(d)});
+const ds=document.querySelectorAll('.nd');
+ss.forEach(s=>new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){const i=Array.from(ss).indexOf(en.target);ds.forEach((d,j)=>d.classList.toggle('a',j===i));ctr.textContent=(i+1)+' / '+t}})},{threshold:.5}).observe(s));
+document.addEventListener('keydown',e=>{const ci=Array.from(ds).findIndex(d=>d.classList.contains('a'));if(('ArrowDown ArrowRight  '.includes(e.key))&&ci<t-1){e.preventDefault();ss[ci+1].scrollIntoView({behavior:'smooth'})}if(('ArrowUp ArrowLeft'.includes(e.key))&&ci>0){e.preventDefault();ss[ci-1].scrollIntoView({behavior:'smooth'})}});
+</script>
+</body>
+</html>
