@@ -120,7 +120,7 @@ export function MitarbeiterApp() {
             </motion.div>
 
             <Link
-              href="/funkcje/mitarbeiter-app"
+              href="/funkcje/aplikacja-pracownika"
               className="inline-flex items-center gap-2 text-primary-600 font-medium hover:gap-3 transition-all group"
             >
               Więcej o aplikacji dla pracowników
