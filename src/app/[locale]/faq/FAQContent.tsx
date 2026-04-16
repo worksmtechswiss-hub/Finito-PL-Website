@@ -1,83 +1,158 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, ArrowRight, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const faqs = [
+  // OGÓLNE
   {
     question: "Czy jest darmowa wersja próbna?",
     answer:
-      "Tak! Możesz testować Finito Pro przez 14 dni za darmo i bez zobowiązań. Bez karty kredytowej, bez ukrytych kosztów. Otrzymujesz pełny dostęp do wszystkich funkcji MŚP. Po zakończeniu okresu próbnego możesz wybrać abonament lub korzystać z darmowego planu Starter.",
+      "Tak! Możesz testować Finito Pro przez 14 dni za darmo i bez zobowiązań. Bez karty kredytowej, bez ukrytych kosztów. Otrzymujesz pełny dostęp do wszystkich funkcji. Po zakończeniu okresu próbnego możesz wybrać abonament MŚP za 100 PLN/użytkownik/miesiąc.",
+    category: "Ogólne",
+  },
+  {
+    question: "Ile kosztuje Finito Pro?",
+    answer:
+      "Plan MŚP kosztuje 100 PLN netto za użytkownika miesięcznie. W tej cenie otrzymujesz wszystkie 13 modułów: faktury z KSeF, projekty, CRM, oferty, czas pracy, urlopy, magazyn, portal klienta, aplikację mobilną i więcej. Dla firm 50+ osób przygotowujemy indywidualną wycenę.",
     category: "Ogólne",
   },
   {
     question: "Kiedy mogę anulować abonament?",
     answer:
-      "Możesz anulować abonament w dowolnym momencie - bez okresu wypowiedzenia i ukrytych opłat. Różnica za pozostały okres zostanie proporcjonalnie zwrócona. Twoje dane pozostaną dostępne jeszcze przez 90 dni, abyś mógł spokojnie je wyeksportować.",
+      "Możesz anulować abonament w dowolnym momencie — bez okresu wypowiedzenia i ukrytych opłat. Twoje dane pozostaną dostępne jeszcze przez 30 dni, abyś mógł spokojnie je wyeksportować.",
     category: "Ogólne",
-  },
-  {
-    question: "Czy mogę poprosić o dodatkowe funkcje?",
-    answer:
-      "Tak, oczywiście! Stale rozwijamy Finito Pro na podstawie opinii naszych użytkowników. Podziel się z nami swoimi potrzebami, a sprawdzimy możliwość ich realizacji. Klienci korporacyjni mogą nawet zlecić indywidualne funkcje dostosowane specjalnie do ich potrzeb.",
-    category: "Funkcje",
-  },
-  {
-    question: "Jak mogę mieć przegląd wszystkich projektów?",
-    answer:
-      "Finito Pro oferuje przejrzysty dashboard ze wszystkimi bieżącymi projektami w jednym miejscu. Dodatkowo istnieje osobna sekcja projektów, w której możesz filtrować według statusu, klienta, daty i zespołu. Każdy projekt pokazuje postęp, otwarte zadania i przypisanych pracowników.",
-    category: "Funkcje",
-  },
-  {
-    question: "Jak długo przechowywane są moje dane?",
-    answer:
-      "Twoje dane są bezpiecznie i w formie zaszyfrowanej przechowywane na serwerach w Szwajcarii przez 25 lat. Masz stały pełny dostęp do wszystkich swoich historycznych projektów, faktur i dokumentów. Ściśle przestrzegamy szwajcarskich przepisów o ochronie danych oraz RODO.",
-    category: "Bezpieczeństwo",
-  },
-  {
-    question: "Czy istnieje wersja mobilna?",
-    answer:
-      "Tak! Aplikacja Finito dla pracowników działa na każdym smartfonie i tablecie - niezależnie od tego, czy to iPhone, Android czy iPad. Twoi pracownicy mogą rejestrować czas pracy, przesyłać zdjęcia, przeglądać zadania i komunikować się z zespołem - wszystko w terenie. Aplikacja automatycznie synchronizuje się z wersją desktopową.",
-    category: "Funkcje",
-  },
-  {
-    question: "Czy mogę tworzyć faktury w Finito Pro?",
-    answer:
-      "Tak, Finito Pro tworzy profesjonalne faktury ze szwajcarskim . Faktury mogą być automatycznie generowane z projektów lub tworzone ręcznie. Każda faktura można wysłać bezpośrednio e-mailem lub pocztą.",
-    category: "Funkcje",
   },
   {
     question: "Jakie metody płatności są akceptowane?",
     answer:
-      "Możesz opłacać abonament miesięcznie lub rocznie (z 2 miesiącami gratis). Akceptujemy karty kredytowe (Visa, Mastercard, American Express) oraz płatność na fakturę. Dla dużych firm oferujemy indywidualne warunki płatności.",
+      "Akceptujemy karty kredytowe (Visa, Mastercard) przez Stripe oraz płatność na fakturę. Płatność może być miesięczna lub roczna. Przy płatności rocznej oferujemy rabat — skontaktuj się z nami po szczegóły.",
     category: "Ogólne",
   },
   {
-    question: "Czy mogę zapraszać członków zespołu i zarządzać prawami dostępu?",
+    question: "Ile trwa wdrożenie Finito Pro?",
     answer:
-      "Tak, możesz zaprosić dowolną liczbę członków zespołu. Dla każdego użytkownika można ustawić indywidualne prawa dostępu - od administratora po pracownika z ograniczonym dostępem. Dzięki temu masz kontrolę nad tym, kto co może widzieć i edytować.",
+      "Wdrożenie trwa od kilku godzin do kilku dni — zależy od ilości danych do migracji. Pomagamy przenieść klientów, usługi i cennik z Excela lub innego systemu. Nie potrzebujesz partnera IT ani konsultantów.",
+    category: "Ogólne",
+  },
+  {
+    question: "Kto jest producentem Finito Pro?",
+    answer:
+      "Finito Pro jest produkowany przez SM Tech GmbH z siedzibą w Szwajcarii. Na rynku polskim przedstawicielem jest OCTOLABS Sp. z o.o. z Warszawy. Ponad 200 firm w Szwajcarii korzysta z systemu, a teraz startujemy w Polsce.",
+    category: "Ogólne",
+  },
+  // FUNKCJE
+  {
+    question: "Jakie moduły zawiera Finito Pro?",
+    answer:
+      "Finito Pro to 13 modułów w jednej cenie: Panel główny (dashboard), Projekty, Faktury z KSeF, Oferty, Rejestracja czasu pracy, CRM, Zarządzanie urlopami, Dokumentacja fotograficzna GPS, Magazyn, Księgowość, Aplikacja mobilna dla pracowników, Portal klienta, Abonamenty serwisowe.",
+    category: "Funkcje",
+  },
+  {
+    question: "Czy Finito Pro obsługuje KSeF?",
+    answer:
+      "Tak! Finito Pro posiada własną integrację z Krajowym Systemem e-Faktur. Faktury są automatycznie przesyłane do KSeF, a koszty pobierane z systemu — wszystko bez logowania na zewnętrzny portal. Gotowe na obowiązkowe e-fakturowanie w 2026.",
+    category: "Funkcje",
+  },
+  {
+    question: "Czy istnieje aplikacja mobilna?",
+    answer:
+      "Tak! Aplikacja Finito działa na każdym smartfonie — iPhone, Android, tablet. Pracownicy mogą rejestrować czas pracy (start/stop jednym kliknięciem), robić zdjęcia z realizacji z GPS, przeglądać zadania, nawigować do klienta i składać wnioski urlopowe. Automatyczna synchronizacja z wersją desktopową.",
+    category: "Funkcje",
+  },
+  {
+    question: "Czy mogę tworzyć oferty i faktury?",
+    answer:
+      "Tak. Oferty tworzone są z katalogu usług z automatycznym VAT. Klient może je zaakceptować online przez portal klienta. Zaakceptowana oferta jednym kliknięciem staje się projektem, a po zakończeniu projektu — jednym kliknięciem fakturą. Cały cykl w jednym systemie.",
+    category: "Funkcje",
+  },
+  {
+    question: "Czym jest Portal klienta?",
+    answer:
+      "Portal klienta pozwala Twoim klientom śledzić postępy projektu online — bez dzwonienia. Są dwie opcje: zakodowany link (bez logowania) lub pełny dostęp jako Partner. Klient może przeglądać status, dodawać komentarze i zdjęcia.",
+    category: "Funkcje",
+  },
+  {
+    question: "Czy mogę zarządzać magazynem?",
+    answer:
+      "Tak. Moduł magazynu pozwala śledzić pozycje, stany, zdjęcia, ceny i dostawców. Każdy wydatek z magazynu może być przypisany do projektu. Dziennik aktywności pokazuje kto co pobrał. W przyszłości dodamy alerty o niskim stanie i skanowanie QR/kodów.",
+    category: "Funkcje",
+  },
+  {
+    question: "Czy mogę zarządzać uprawnieniami pracowników?",
+    answer:
+      "Tak. Finito oferuje granularne uprawnienia — 10 checkboxów per pracownik. Możesz tworzyć grupy (np. Brygadziści, Biuro, Pracownicy, Kierownictwo) i precyzyjnie kontrolować kto widzi faktury, klientów, ceny, magazyn czy aktywność.",
+    category: "Funkcje",
+  },
+  {
+    question: "Czym jest Marketplace?",
+    answer:
+      "Marketplace (Targowisko) to unikalna funkcja — firmy mogą zlecać sobie nawzajem projekty, których nie zdążą wykonać. Działa jak wewnętrzna giełda zleceń. Funkcja aktywna w Szwajcarii, planowane uruchomienie w Polsce.",
+    category: "Funkcje",
+  },
+  {
+    question: "Czy mogę poprosić o dodatkowe funkcje?",
+    answer:
+      "Tak! Rozwijamy Finito Pro na podstawie opinii użytkowników. Podziel się swoimi potrzebami przez czat lub email. Firmy 50+ użytkowników mogą zlecić indywidualne automatyzacje — wizualny builder drag & drop z triggerami i akcjami.",
     category: "Funkcje",
   },
   {
     question: "Czy jest integracja z innymi narzędziami?",
     answer:
-      "Tak, Finito Pro oferuje API REST do integracji z innymi rozwiązaniami programistycznymi. Standardowo wspieramy połączenia z popularnymi narzędziami księgowymi i kalendarzami. Klienci korporacyjni mogą dodatkowo zlecić niestandardowe integracje.",
+      "Tak. Finito Pro oferuje otwarte REST API do podłączenia zewnętrznych programów. Wspieramy integrację z KSeF, formularzami stron www i systemami księgowymi. Pobieranie rachunków z emaila automatycznie dodaje je jako koszty. Integracja z Zapier i Make jest w planach.",
     category: "Funkcje",
   },
+  // BEZPIECZEŃSTWO
   {
-    question: "Jak mogę skontaktować się ze wsparciem technicznym?",
+    question: "Gdzie przechowywane są moje dane?",
     answer:
-      "Z naszym zespołem wsparcia możesz skontaktować się e-mailem pod adresem kontakt@finitopro.pl lub bezpośrednio przez czat w aplikacji. Klienci MŚP otrzymują odpowiedź zazwyczaj w ciągu 24 godzin. Klienci korporacyjni mają dostęp do dedykowanego menedżera wsparcia i priorytetowych czasów odpowiedzi.",
+      "Wszystkie dane przechowywane są na serwerach w Szwajcarii — w 2 lokalizacjach z automatycznymi kopiami zapasowymi. Szyfrowanie na poziomie kont bankowych. Szwajcaria zapewnia odpowiedni poziom ochrony danych zgodnie z decyzją Komisji Europejskiej.",
+    category: "Bezpieczeństwo",
+  },
+  {
+    question: "Czy Finito Pro jest zgodne z RODO?",
+    answer:
+      "Tak. Finito Pro jest w pełni zgodne z RODO. Administratorem danych użytkowników z Polski jest OCTOLABS Sp. z o.o. (Warszawa). Pełna polityka prywatności dostępna jest na stronie finitopro.pl/prywatnosc.",
+    category: "Bezpieczeństwo",
+  },
+  {
+    question: "Jak długo przechowywane są moje dane?",
+    answer:
+      "Dane konta przechowywane są przez czas trwania umowy + 30 dni po usunięciu. Dane rozliczeniowe — 5 lat (obowiązek podatkowy). Na życzenie eksportujemy wszystkie dane w formacie Excel. Brak vendor lock-in.",
+    category: "Bezpieczeństwo",
+  },
+  {
+    question: "Czy mogę wyeksportować swoje dane?",
+    answer:
+      "Tak. Na życzenie eksportujemy wszystkie Twoje dane w formacie Excel — klienci, projekty, faktury, czas pracy. Nie ma vendor lock-in. Twoje dane należą do Ciebie.",
+    category: "Bezpieczeństwo",
+  },
+  // WSPARCIE
+  {
+    question: "Jak mogę skontaktować się ze wsparciem?",
+    answer:
+      "Przez czat w aplikacji lub email kontakt@finitopro.pl. Wiadomości trafiają bezpośrednio do działu programistów — nie do call center. Czas odpowiedzi: max 12–24 godziny. Firmy 50+ użytkowników mają dostęp do dedykowanego opiekuna.",
     category: "Wsparcie",
   },
   {
-    question: "Czy mogę zarządzać powtarzającymi się umowami serwisowymi?",
+    question: "Czy pomagacie z migracją danych?",
     answer:
-      "Tak! Dzięki funkcji abonamentów serwisowych możesz tworzyć i automatyzować powtarzające się umowy serwisowe. System automatycznie przypomina Tobie i Twoim klientom o zaplanowanych przeglądach, tworzy odpowiednie zlecenia i może automatycznie generować faktury.",
-    category: "Funkcje",
+      "Tak! Pomagamy przenieść dane z Excela, papierowych dokumentów lub innego systemu. Migracja klientów, cennika usług i historii jest po naszej stronie. Czas migracji zależy od ilości danych — zazwyczaj kilka dni.",
+    category: "Wsparcie",
+  },
+  {
+    question: "Czy oferujecie szkolenia?",
+    answer:
+      "Tak. Dla planu MŚP oferujemy szkolenie produktowe online. Dla firm 50+ użytkowników — dedykowane szkolenia zespołowe (online lub na miejscu). Dodatkowo każdy partner otrzymuje demo konto z polskimi danymi do prezentacji.",
+    category: "Wsparcie",
+  },
+  {
+    question: "W jakich językach dostępne jest Finito Pro?",
+    answer:
+      "Finito Pro dostępne jest w 8 językach: polski, niemiecki, angielski, hiszpański, włoski, francuski, portugalski i serbski. Każdy użytkownik może wybrać swój język — przydatne gdy zatrudniasz obcokrajowców.",
+    category: "Wsparcie",
   },
 ];
 
@@ -247,27 +322,23 @@ export function FAQContent() {
           )}
           </div>
 
-          {/* Sidebar with app mockup and support icon */}
+          {/* Sidebar */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="hidden lg:flex flex-col items-center gap-8 sticky top-32"
+            className="hidden lg:flex flex-col items-center gap-6 sticky top-32"
           >
-            {/* Customer support icon */}
+            {/* Contact support */}
             <div className="w-full bg-primary-50 rounded-2xl p-6 border border-primary-100 text-center">
-              <Image
-                src="/images/customer-support.svg"
-                alt="Obsługa klienta"
-                width={64}
-                height={64}
-                className="w-16 h-16 mx-auto mb-3"
-              />
+              <div className="w-14 h-14 bg-gradient-to-br from-primary-500 to-accent-400 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <Search className="w-7 h-7 text-white" />
+              </div>
               <h3 className="font-semibold text-neutral-900 text-sm mb-1">
                 Potrzebujesz pomocy?
               </h3>
               <p className="text-xs text-neutral-500 mb-3">
-                Nasz zespół wsparcia chętnie Ci pomoże.
+                Nasz zespół wsparcia chętnie Ci pomoże — odpowiedź w ciągu 24h.
               </p>
               <a
                 href="mailto:kontakt@finitopro.pl"
@@ -277,17 +348,31 @@ export function FAQContent() {
               </a>
             </div>
 
-            {/* Mobile app mockup */}
-            <div className="relative">
-              <Image
-                src="/images/Finito-Mob.png"
-                alt="Finito Pro - aplikacja mobilna zawsze pod ręką"
-                width={240}
-                height={480}
-                className="w-full max-w-[220px] h-auto drop-shadow-xl"
-                sizes="220px"
-              />
+            {/* Quick stats */}
+            <div className="w-full bg-white rounded-2xl p-6 border border-neutral-200 text-center">
+              <div className="space-y-4">
+                <div>
+                  <div className="text-2xl font-bold text-primary-600">24</div>
+                  <div className="text-xs text-neutral-500">pytań i odpowiedzi</div>
+                </div>
+                <div className="border-t border-neutral-100 pt-4">
+                  <div className="text-2xl font-bold text-primary-600">13</div>
+                  <div className="text-xs text-neutral-500">modułów w jednej cenie</div>
+                </div>
+                <div className="border-t border-neutral-100 pt-4">
+                  <div className="text-2xl font-bold text-primary-600">14 dni</div>
+                  <div className="text-xs text-neutral-500">darmowego testu</div>
+                </div>
+              </div>
             </div>
+
+            {/* CTA */}
+            <a
+              href="https://app.finitopro.pl/register"
+              className="w-full block text-center py-3.5 px-6 bg-gradient-to-r from-primary-500 to-accent-400 text-white text-sm font-semibold rounded-xl shadow-glow-sm hover:shadow-glow transition-all"
+            >
+              Wypróbuj za darmo →
+            </a>
           </motion.div>
           </div>
         </div>
