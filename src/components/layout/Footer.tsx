@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
@@ -96,9 +97,17 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1">
-            <span className="font-semibold text-lg block mb-3">Finito Pro</span>
+            <Link href="/" className="inline-block mb-4">
+              <Image
+                src="/images/Finito-Logo.png"
+                alt="Finito Pro"
+                width={120}
+                height={32}
+                className="h-7 w-auto brightness-0 invert"
+              />
+            </Link>
             <p className="text-neutral-400 text-sm leading-relaxed mb-6">
-              {t("tagline")}
+              Oprogramowanie all-in-one dla firm usługowych i rzemieślniczych. Szwajcarska jakość, polska obsługa.
             </p>
             <div className="flex items-center gap-2">
               {socialLinks.map((social) => (
