@@ -17,7 +17,7 @@ export const featurePages: Record<string, FeaturePageData> = {
   dashboard: {
     slug: "dashboard",
     iconName: "LayoutDashboard",
-    title: "Dashboard",
+    title: "Panel główny",
     description:
       "Wszystkie kluczowe wskaźniki efektywności Twojej firmy na pierwszy rzut oka. Finanse, aktywne projekty, obciążenie pracowników i raporty roczne - wszystko w czasie rzeczywistym.",
     metaTitle: "Dashboard - wskaźniki efektywności dla MŚP | Finito Pro",

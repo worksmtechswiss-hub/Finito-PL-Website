@@ -26,7 +26,7 @@ const features = [
   {
     icon: LayoutDashboard,
     slug: "dashboard",
-    title: "Dashboard",
+    title: "Panel główny",
     description:
       "Wszystkie kluczowe wskaźniki efektywności w jednym miejscu. Finanse, aktywne projekty i raporty roczne w czasie rzeczywistym.",
     category: "Przegląd",

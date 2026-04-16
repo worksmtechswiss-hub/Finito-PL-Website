@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import {
@@ -43,12 +44,21 @@ interface FeatureShowcaseProps {
 
 const viewportOnce = { once: true } as const;
 
-// Features that have real video demos – prefer these over animations
-const featureVideos: Record<string, { video: string; poster: string }> = {
-  dashboard: { video: "/videos/1Dashboard-Desktop-transcode.mp4", poster: "/images/Dashboard-Finito-Pro-App.png" },
-  "zarzadzanie-projektami": { video: "/videos/1Projekt-Management-transcode.mp4", poster: "/images/Projekt-Übersicht.png" },
-  faktury: { video: "/videos/1Rechnungen-PC-transcode.mp4", poster: "/images/dashboard-1-3.png" },
-  oferty: { video: "/videos/1Offerte-PC-transcode.mp4", poster: "/images/dashboard-1-4.png" },
+// Features that have screenshot images for the hero section
+const featureImages: Record<string, string> = {
+  dashboard: "/images/moduly/dashboard.png",
+  "zarzadzanie-projektami": "/images/moduly/projekty.png",
+  faktury: "/images/moduly/Faktury.png",
+  oferty: "/images/moduly/Oferty.png",
+  "ewidencja-czasu-pracy": "/images/moduly/Rejestracja czasu pracy.png",
+  crm: "/images/moduly/CRM i zarządzanie klientami.png",
+  urlopy: "/images/moduly/Zarządzanie urlopami.png",
+  "dokumentacja-zdjec": "/images/moduly/Dokumentacja fotograficzna.png",
+  magazyn: "/images/moduly/Zarządzanie magazynem.png",
+  ksiegowosc: "/images/moduly/Księgowość.png",
+  "aplikacja-pracownika": "/images/moduly/Aplikacja pracownika.png",
+  "portal-klienta": "/images/moduly/Portal klienta.png",
+  "umowy-serwisowe": "/images/moduly/Abonamenty serwisowe.png",
 };
 
 export function FeatureShowcase({
@@ -130,20 +140,28 @@ export function FeatureShowcase({
             viewport={viewportOnce}
             transition={{ duration: 0.8 }}
           >
-            {featureVideos[featureId] ? (
+            {featureImages[featureId] ? (
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-r from-primary-600/20 to-accent-400/20 rounded-3xl blur-3xl" />
-                <div className="relative bg-gradient-to-br from-surface-dark-secondary to-surface-dark-tertiary rounded-2xl border border-white/10 p-2 shadow-2xl overflow-hidden">
-                  <video
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    className="w-full rounded-xl"
-                    poster={featureVideos[featureId].poster}
-                  >
-                    <source src={featureVideos[featureId].video} type="video/mp4" />
-                  </video>
+                <div className="relative bg-gradient-to-br from-neutral-800 to-neutral-900 rounded-2xl border border-white/10 p-1.5 shadow-2xl overflow-hidden">
+                  <div className="flex items-center gap-1.5 px-3 py-2">
+                    <div className="w-2.5 h-2.5 rounded-full bg-red-400/80" />
+                    <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/80" />
+                    <div className="w-2.5 h-2.5 rounded-full bg-green-400/80" />
+                    <div className="flex-1 mx-8">
+                      <div className="h-5 bg-neutral-700/50 rounded-md" />
+                    </div>
+                  </div>
+                  <div className="rounded-b-xl overflow-hidden" style={{ backgroundColor: '#f3f0ff' }}>
+                    <Image
+                      src={featureImages[featureId]}
+                      alt={title}
+                      width={1200}
+                      height={750}
+                      className="w-full"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
             ) : (() => {
