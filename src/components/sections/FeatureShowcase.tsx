@@ -368,10 +368,10 @@ export function FeatureShowcase({
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Działa idealnie z
+              Powiązane moduły
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Odkryj kolejne funkcje, które płynnie ze sobą współpracują
+              Razem z <span className="font-medium text-neutral-700">{title}</span> tworzą kompletny system do zarządzania firmą
             </p>
           </motion.div>
 
