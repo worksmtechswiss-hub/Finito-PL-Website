@@ -58,7 +58,7 @@ export function MitarbeiterApp() {
 
               {/* Realistic Phone Mockup Image */}
               <motion.div
-                className="relative w-[320px] sm:w-[400px]"
+                className="relative w-[380px] sm:w-[500px]"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
               >
