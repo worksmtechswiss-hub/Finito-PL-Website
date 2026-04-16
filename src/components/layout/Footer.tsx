@@ -37,24 +37,14 @@ function FacebookIcon({ className }: { className?: string }) {
 
 const socialLinks = [
   {
-    icon: WhatsAppIcon,
-    href: "https://whatsapp.com/channel/0029VarcokbAojYxJKyhKh0f",
-    label: "WhatsApp",
-  },
-  {
     icon: LinkedInIcon,
-    href: "https://linkedin.com/company/finito-pro",
+    href: "https://www.linkedin.com/company/finito-software",
     label: "LinkedIn",
   },
   {
     icon: InstagramIcon,
-    href: "https://www.instagram.com/finitopro.ch/",
+    href: "https://www.instagram.com/finitopro.pl/",
     label: "Instagram",
-  },
-  {
-    icon: FacebookIcon,
-    href: "https://www.facebook.com/profile.php?id=100091901804489",
-    label: "Facebook",
   },
 ];
 
