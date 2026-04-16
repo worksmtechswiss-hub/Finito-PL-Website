@@ -189,57 +189,82 @@ export function PartnerCommission() {
 /* ─── PORÓWNANIE RYNKOWE ────────────────────────────── */
 export function PartnerComparison() {
   const t = useTranslations("partner");
+
+  const competitors = [
+    { name: "Finito Pro", highlight: true },
+    { name: "Comarch", highlight: false },
+    { name: "Enova365", highlight: false },
+    { name: "Symfonia", highlight: false },
+    { name: "SAP B.One", highlight: false },
+    { name: "IC Project", highlight: false },
+    { name: "Mizzox", highlight: false },
+    { name: "Tillio", highlight: false },
+  ];
+
   const rows = [
-    { label: t("cmpPrice"), fp: "100 PLN", c: "265+ PLN", e: "200–500 PLN", s: "150–400 PLN" },
-    { label: t("cmpDeploy"), fp: t("cmpFewDays"), c: "2–8 tyg.", e: "1–4 tyg.", s: "1–3 tyg." },
-    { label: t("cmpCloud"), fp: "TAK", c: "Hybrid", e: "Hybrid", s: "Desktop" },
-    { label: t("cmpMobile"), fp: "TAK", c: t("cmpLimited"), e: t("cmpLimited"), s: "NIE" },
-    { label: t("cmpModules"), fp: "13", c: "108 (osobne)", e: "50+", s: "5–8" },
-    { label: t("cmpPortal"), fp: t("cmpBuiltIn"), c: "—", e: "—", s: "—" },
-    { label: t("cmpPhoto"), fp: "TAK", c: "—", e: "—", s: "—" },
-    { label: t("cmpPricing"), fp: t("cmpPublic"), c: t("cmpPartial"), e: "NIE", s: "NIE" },
-    { label: "UX", fp: "9/10", c: "5/10", e: "6/10", s: "4/10" },
-    { label: t("cmpPartner"), fp: "20–40% + 5%", c: "~20%", e: t("cmpIndiv"), s: t("cmpIndiv") },
+    { label: "Typ", values: ["All-in-one SaaS", "ERP modułowy", "ERP modułowy", "Desktop ERP", "ERP enterprise", "PM / Task", "Asystent firmy", "CRM / CXM"] },
+    { label: "Cena startowa", values: ["100 PLN/user", "265+ PLN", "od 1 990 zł", "od ~200 zł", "~5 000 zł/user", "Darmowy+", "Free / 29 zł", "Na zapytanie"] },
+    { label: "Wdrożenie", values: ["Kilka godzin", "2–8 tyg.", "1–4 tyg.", "1–3 tyg.", "3–6 mies.", "Godziny", "Minuty", "Godziny"] },
+    { label: "Cloud-native", values: ["TAK", "Hybrid", "Hybrid", "Desktop", "Hybrid", "TAK", "TAK", "TAK"] },
+    { label: "Apka mobilna + foto", values: ["TAK", "Ograniczona", "Web/mobile", "NIE", "Tak (lic.)", "Web", "Web", "Web"] },
+    { label: "Faktury + KSeF", values: ["TAK", "TAK", "TAK", "TAK", "TAK", "NIE", "TAK", "NIE"] },
+    { label: "CRM / oferty", values: ["Zintegrowane", "Moduł", "Moduł", "Ograniczone", "Tak", "Ograniczone", "Ograniczone", "Mocne"] },
+    { label: "Zlecenia w terenie", values: ["Rdzeń produktu", "Przez moduły", "Przez moduły", "NIE", "Przez moduły", "Częściowo", "Ograniczone", "Ograniczone"] },
+    { label: "Portal klienta", values: ["Wbudowany", "—", "—", "—", "—", "—", "—", "—"] },
+    { label: "Dokumentacja foto + GPS", values: ["TAK", "—", "—", "—", "—", "—", "—", "—"] },
+    { label: "Test bez karty", values: ["14 dni", "—", "—", "—", "—", "TAK", "TAK", "TAK"] },
+    { label: "Wynik dla firm usługowych", values: ["13/13", "5/13", "8/13", "5/13", "7/13", "6/13", "5/13", "7/13"] },
   ];
 
   return (
     <section className="py-24 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div {...fadeUp} className="text-center mb-12">
           <p className="text-sm font-semibold tracking-widest text-primary-600 uppercase mb-3">
-            {t("cmpLabel")}
+            Analiza 8 konkurentów
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-4">
-            {t("cmpTitle")}
+            Finito Pro vs konkurencja w Polsce
           </h2>
-          <p className="text-neutral-500 max-w-xl mx-auto">{t("cmpSub")}</p>
+          <p className="text-neutral-500 max-w-2xl mx-auto">
+            Obiektywne porównanie na podstawie publicznie dostępnych cenników i funkcji (stan na 2026).
+          </p>
         </motion.div>
 
-        <motion.div {...fadeUp} className="overflow-x-auto rounded-2xl border border-neutral-200">
-          <table className="w-full text-sm min-w-[700px]">
+        <motion.div {...fadeUp} className="overflow-x-auto rounded-2xl border border-neutral-200 shadow-card">
+          <table className="w-full text-xs min-w-[900px]">
             <thead>
               <tr className="bg-surface-dark text-white">
-                <th className="p-3 text-left text-xs uppercase tracking-wider font-semibold" />
-                <th className="p-3 text-center text-xs uppercase tracking-wider font-semibold text-primary-300">Finito Pro</th>
-                <th className="p-3 text-center text-xs uppercase tracking-wider font-semibold">Comarch</th>
-                <th className="p-3 text-center text-xs uppercase tracking-wider font-semibold">Enova365</th>
-                <th className="p-3 text-center text-xs uppercase tracking-wider font-semibold">Symfonia</th>
+                <th className="p-3 text-left text-[10px] uppercase tracking-wider font-semibold w-[160px]" />
+                {competitors.map((c) => (
+                  <th key={c.name} className={`p-3 text-center text-[10px] uppercase tracking-wider font-semibold ${c.highlight ? "text-primary-300 bg-primary-900/30" : ""}`}>
+                    {c.name}
+                  </th>
+                ))}
               </tr>
             </thead>
             <tbody>
               {rows.map((r, i) => (
-                <tr key={i} className={`border-t border-neutral-100 ${i % 2 === 0 ? "" : "bg-neutral-50"}`}>
-                  <td className="p-3 font-semibold text-neutral-800">{r.label}</td>
-                  <td className="p-3 text-center font-bold text-primary-600">{r.fp}</td>
-                  <td className="p-3 text-center text-neutral-500">{r.c}</td>
-                  <td className="p-3 text-center text-neutral-500">{r.e}</td>
-                  <td className="p-3 text-center text-neutral-500">{r.s}</td>
+                <tr key={i} className={`border-t border-neutral-100 ${i % 2 === 1 ? "bg-neutral-50/50" : ""}`}>
+                  <td className="p-3 font-semibold text-neutral-800 text-xs">{r.label}</td>
+                  {r.values.map((v, j) => {
+                    const isFinito = j === 0;
+                    const isPositive = v === "TAK" || v === "Wbudowany" || v === "Zintegrowane" || v === "Rdzeń produktu" || v === "13/13" || v === "14 dni";
+                    const isNegative = v === "NIE" || v === "—" || v === "Desktop";
+                    return (
+                      <td key={j} className={`p-3 text-center ${isFinito ? "font-bold bg-primary-50/50" : ""} ${isFinito && isPositive ? "text-primary-600" : isFinito ? "text-primary-600" : isNegative ? "text-neutral-300" : "text-neutral-500"}`}>
+                        {v}
+                      </td>
+                    );
+                  })}
                 </tr>
               ))}
             </tbody>
           </table>
         </motion.div>
-        <p className="text-xs text-neutral-400 mt-3 text-center">{t("cmpSource")}</p>
+        <p className="text-xs text-neutral-400 mt-3 text-center">
+          Źródło: publiczne cenniki i strony producentów · Kwiecień 2026
+        </p>
 
         <motion.div {...fadeUp} className="text-center mt-10">
           <Link
