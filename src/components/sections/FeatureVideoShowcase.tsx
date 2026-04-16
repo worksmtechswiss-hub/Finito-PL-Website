@@ -52,7 +52,7 @@ const tabs = [
     id: "magazyn",
     label: "Magazyn",
     icon: Package,
-    video: "/videos/zarządzanie magazynem 2.mp4",
+    video: "/videos/magazyn.mp4",
     description: "Zarządzanie magazynem i materiałami",
   },
 ];
@@ -137,7 +137,7 @@ export function FeatureVideoShowcase() {
               </div>
 
               {/* Video Container */}
-              <div className="relative bg-neutral-900 rounded-lg overflow-hidden aspect-[16/10]">
+              <div className="relative rounded-lg overflow-hidden aspect-[16/10]" style={{ backgroundColor: '#f3f0ff' }}>
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={activeTab}
