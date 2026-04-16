@@ -58,7 +58,7 @@ export const pricingTiers: PricingTier[] = [
       'Wszystkie funkcje dla rozwijających się firm rzemieślniczych i MŚP. Najpopularniejszy pakiet.',
     featuresDe: [
       'Wszystko z pakietu Starter',
-      'Faktury QR zgodne ze standardem szwajcarskim',
+      'Faktury z automatyczną integracją KSeF',
       'Oferty z katalogami usług',
       'Zarządzanie projektami z tablicą zadań',
       'CRM i zarządzanie klientami',
@@ -73,7 +73,7 @@ export const pricingTiers: PricingTier[] = [
     ],
     featuresEn: [
       'Wszystko z pakietu Starter',
-      'Faktury QR zgodne ze standardem szwajcarskim',
+      'Faktury z automatyczną integracją KSeF',
       'Oferty z katalogami usług',
       'Zarządzanie projektami z tablicą zadań',
       'CRM i zarządzanie klientami',

@@ -39,7 +39,7 @@
     "step2Title": "Realizuj projekt",
     "step2Desc": "Twój zespół pracuje z aplikacją na smartfonie. Dokumentacja zdjęciowa, rejestracja czasu, zarządzanie materiałami - wszystko cyfrowo.",
     "step3Title": "Wyślij fakturę",
-    "step3Desc": "Jednym kliknięciem projekt staje się fakturą QR. Automatyczne naliczanie VAT i przypomnienia o płatnościach w zestawie."
+    "step3Desc": "Jednym kliknięciem projekt staje się fakturą. Automatyczne naliczanie VAT, wysyłka do KSeF i przypomnienia o płatnościach w zestawie."
   },
   "features": {
     "title": "Kompleksowe oprogramowanie dla MŚP",
@@ -317,7 +317,7 @@
     "starterFeatures": {
       "1": "Do 3 użytkowników",
       "2": "Nieograniczona liczba projektów",
-      "3": "Tworzenie faktur QR",
+      "3": "Tworzenie faktur z KSeF",
       "4": "Zarządzanie klientami (CRM)",
       "5": "Tworzenie wycen",
       "6": "Dokumentacja zdjęciowa",
@@ -499,7 +499,7 @@
     "ctaSubtitle": "14 dni za darmo. Bez karty kredytowej.",
     "relatedFeatures": "Powiązane funkcje",
     "problems": {
-      "rechnungen": "Wiele MŚP nadal tworzy faktury ręcznie w Wordzie lub Excelu. To kosztuje czas, jest podatne na błędy i często nie odpowiada nowemu standardowi QR.",
+      "rechnungen": "Wiele MŚP nadal tworzy faktury ręcznie w Wordzie lub Excelu. To kosztuje czas, jest podatne na błędy i nie spełnia wymogów KSeF.",
       "crm": "Dane klientów są rozproszone w e-mailach, notatkach i arkuszach Excel. Ważne informacje giną, a komunikacja cierpi.",
       "projektmanagement": "Bez cyfrowego zarządzania projektami szybko traci się orientację. Zadania są zapominane, terminy przekraczane, a zespół nie pracuje w sposób skoordynowany.",
       "zeiterfassung": "Ręcznie pisane karty godzin są niedokładne i uciążliwe w analizie. Płace stają się koszmarem.",

@@ -66,9 +66,9 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Jak tworzyć faktury?',
     questionEn: 'Jak tworzyć faktury?',
     answerDe:
-      'Faktury można tworzyć na dwa sposoby: automatycznie z ukończonym projektem lub zaakceptowaną ofertą jednym kliknięciem, lub ręcznie z dowolnymi pozycjami. Wszystkie faktury automatycznie zawierają szwajcarski kod QR do łatwej płatności. VAT jest obliczany automatycznie.',
+      'Faktury można tworzyć na dwa sposoby: automatycznie z ukończonym projektem lub zaakceptowaną ofertą jednym kliknięciem, lub ręcznie z dowolnymi pozycjami. Faktury są automatycznie przesyłane do KSeF, a VAT jest obliczany automatycznie.',
     answerEn:
-      'Faktury można tworzyć na dwa sposoby: automatycznie z ukończonym projektem lub zaakceptowaną ofertą jednym kliknięciem, lub ręcznie z dowolnymi pozycjami. Wszystkie faktury automatycznie zawierają szwajcarski kod QR do łatwej płatności. VAT jest obliczany automatycznie.',
+      'Faktury można tworzyć na dwa sposoby: automatycznie z ukończonym projektem lub zaakceptowaną ofertą jednym kliknięciem, lub ręcznie z dowolnymi pozycjami. Faktury są automatycznie przesyłane do KSeF, a VAT jest obliczany automatycznie.',
   },
   {
     id: 'zahlungsmethoden',

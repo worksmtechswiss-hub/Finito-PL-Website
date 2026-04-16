@@ -317,7 +317,7 @@
     "starterFeatures": {
       "1": "Do 3 użytkowników",
       "2": "Nieograniczona liczba projektów",
-      "3": "Tworzenie faktur QR",
+      "3": "Tworzenie faktur z KSeF",
       "4": "Zarządzanie klientami (CRM)",
       "5": "Tworzenie ofert",
       "6": "Dokumentacja fotograficzna",
@@ -499,7 +499,7 @@
     "ctaSubtitle": "14 dni za darmo. Bez karty kredytowej.",
     "relatedFeatures": "Powiązane funkcje",
     "problems": {
-      "rechnungen": "Wiele MŚP nadal tworzy faktury ręcznie w Wordzie lub Excelu. To czasochłonne, podatne na błędy i często niezgodne z nowym standardem QR.",
+      "rechnungen": "Wiele MŚP nadal tworzy faktury ręcznie w Wordzie lub Excelu. To czasochłonne, podatne na błędy i nie spełnia wymogów KSeF.",
       "crm": "Dane klientów są rozproszone po e-mailach, notatkach i plikach Excel. Ważne informacje giną, a komunikacja kuleje.",
       "projektmanagement": "Bez cyfrowego zarządzania projektami szybko tracisz orientację. Zadania są zapominane, terminy przekraczane, a zespół nie pracuje skoordynowanie.",
       "zeiterfassung": "Ręczne karty czasu pracy są niedokładne i żmudne do przetworzenia. Lista płac staje się koszmarem.",

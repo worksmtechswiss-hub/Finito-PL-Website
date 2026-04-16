@@ -14,15 +14,15 @@ export const features: Feature[] = [
   {
     id: 'faktury',
     icon: 'FileText',
-    titleDe: 'Faktury QR',
-    titleEn: 'Faktury QR',
+    titleDe: 'Faktury i KSeF',
+    titleEn: 'Faktury i KSeF',
     descriptionDe:
-      'Twórz profesjonalne szwajcarskie faktury QR w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatności i bezproblemowy eksport do księgowości.',
+      'Twórz profesjonalne faktury w kilka sekund. Automatyczne naliczanie VAT, integracja z KSeF, przypomnienia o płatności i eksport do księgowości.',
     descriptionEn:
-      'Twórz profesjonalne szwajcarskie faktury QR w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatności i bezproblemowy eksport do księgowości.',
+      'Twórz profesjonalne faktury w kilka sekund. Automatyczne naliczanie VAT, integracja z KSeF, przypomnienia o płatności i eksport do księgowości.',
     slug: 'faktury',
     bulletsDe: [
-      'Szwajcarskie faktury QR zgodne ze standardem ISO 20022',
+      'Faktury zgodne z KSeF i polskimi przepisami VAT',
       'Automatyczne obliczanie VAT (7,7% / 2,5% / 0%)',
       'Przypomnienia o płatności e-mailem lub pocztą',
       'Eksport jako PDF lub bezpośrednio do oprogramowania księgowego',
@@ -30,7 +30,7 @@ export const features: Feature[] = [
       'Automatyczne uzgadnianie płatności z kontami bankowymi',
     ],
     bulletsEn: [
-      'Szwajcarskie faktury QR zgodne ze standardem ISO 20022',
+      'Faktury zgodne z KSeF i polskimi przepisami VAT',
       'Automatyczne obliczanie VAT (7,7% / 2,5% / 0%)',
       'Przypomnienia o płatności e-mailem lub pocztą',
       'Eksport jako PDF lub bezpośrednio do oprogramowania księgowego',
