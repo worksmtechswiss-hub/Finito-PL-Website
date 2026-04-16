@@ -53,7 +53,7 @@ export function Hero() {
 
           {/* Subtitle */}
           <p
-            className="hero-stagger text-lg sm:text-xl text-white/60 max-w-2xl mx-auto mb-10 leading-relaxed"
+            className="hero-stagger text-lg sm:text-xl text-white/60 max-w-2xl mx-auto mb-10 leading-relaxed whitespace-pre-line"
             style={{ "--stagger": 2 } as React.CSSProperties}
           >
             {t("subtitle")}
@@ -76,10 +76,10 @@ export function Hero() {
               </span>
             </a>
 
-            <button className="group inline-flex items-center gap-2 px-8 py-4 border border-white/20 text-white font-medium rounded-2xl text-base hover:bg-white/5 transition-all">
+            <a href="/kontakt" className="group inline-flex items-center gap-2 px-8 py-4 border border-white/20 text-white font-medium rounded-2xl text-base hover:bg-white/5 transition-all">
               <Play className="w-4 h-4" />
               {t("ctaSecondary")}
-            </button>
+            </a>
           </div>
 
           {/* Trust */}

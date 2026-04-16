@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finito Pro — Plan Sprzedażowy Trójmiasto 60 dni</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--p:#7c3aed;--pl:#a78bfa;--red:#ef4444;--green:#22c55e;--blue:#3b82f6;--orange:#f59e0b}
+    html{scroll-behavior:smooth}
+    body{font-family:'Inter',sans-serif;color:#1e1b4b;-webkit-font-smoothing:antialiased;background:#000}
+    .S{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;scroll-snap-align:start}
+    .SC{height:100vh;overflow-y:auto;scroll-snap-type:y mandatory;scroll-behavior:smooth}
+    .SI{max-width:1100px;width:100%;padding:40px 52px;position:relative;z-index:2}
+    .dark{background:linear-gradient(135deg,#080510,#1a0a2e,#0f0a1a);color:#fff}
+    .dark::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(124,58,237,.12) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(167,139,250,.08) 0%,transparent 50%)}
+    .light{background:#fff;color:#1e1b4b}
+    .accent{background:linear-gradient(135deg,#5b21b6,#7c3aed,#9333ea);color:#fff}
+    .soft{background:#f8f7ff;color:#1e1b4b}
+    .label{text-transform:uppercase;font-size:11px;font-weight:700;letter-spacing:3px;margin-bottom:10px;color:var(--pl)}
+    .light .label,.soft .label{color:var(--p)}
+    .accent .label{color:rgba(255,255,255,.6)}
+    .title{font-size:clamp(22px,3vw,38px);font-weight:800;line-height:1.15;margin-bottom:12px}
+    .title em{font-style:normal;background:linear-gradient(135deg,var(--pl),#c4b5fd,var(--p));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .light .title em,.soft .title em{background:linear-gradient(135deg,var(--p),var(--pl));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .sub{font-size:13px;line-height:1.6;opacity:.6;max-width:660px;margin-bottom:20px}
+    .light .sub,.soft .sub{color:#4b5563;opacity:1}
+    .g2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .g4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+    .cd{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px}
+    .cl{background:#f9fafb;border:1px solid #e5e7eb;border-radius:14px;padding:16px}
+    .cd h3{font-size:13px;font-weight:700;margin-bottom:4px}
+    .cd p,.cd li{font-size:11px;color:rgba(255,255,255,.5);line-height:1.5}
+    .cl h3{font-size:13px;font-weight:700;color:#1e1b4b;margin-bottom:4px}
+    .cl p,.cl li{font-size:11px;color:#4b5563;line-height:1.5}
+    .tag{display:inline-block;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:600;margin:2px}
+    .tp{background:rgba(124,58,237,.15);color:var(--pl)}
+    .tg{background:#dcfce7;color:#166534}
+    .tr{background:#fef2f2;color:#991b1b}
+    .tb{background:#dbeafe;color:#1e40af}
+    .to{background:#fef3c7;color:#92400e}
+    .ti{background:rgba(236,72,153,.12);color:#be185d}
+    .ck{list-style:none;padding:0}
+    .ck li{font-size:11px;padding:4px 0 4px 22px;position:relative;line-height:1.5}
+    .ck li::before{content:'';position:absolute;left:0;top:7px;width:13px;height:13px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237c3aed' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") no-repeat center;background-size:13px}
+    .dark .ck li::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a78bfa' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E")}
+    .timeline{position:relative;padding-left:24px}
+    .timeline::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:2px;background:rgba(124,58,237,.2)}
+    .dark .timeline::before{background:rgba(167,139,250,.15)}
+    .tl-item{position:relative;margin-bottom:14px}
+    .tl-item::before{content:'';position:absolute;left:-20px;top:4px;width:12px;height:12px;border-radius:50%;border:2px solid var(--p);background:#fff}
+    .dark .tl-item::before{border-color:var(--pl);background:#1a0a2e}
+    .tl-item.done::before{background:var(--green);border-color:var(--green)}
+    .tl-item h4{font-size:12px;font-weight:700;margin-bottom:2px}
+    .dark .tl-item h4{color:var(--pl)}
+    .light .tl-item h4{color:var(--p)}
+    .tl-item p{font-size:10px;color:rgba(255,255,255,.4);line-height:1.5}
+    .light .tl-item p{color:#6b7280}
+    .person{display:inline-block;padding:2px 8px;border-radius:100px;font-size:9px;font-weight:700;margin:1px}
+    .p-iza{background:rgba(236,72,153,.15);color:#ec4899}
+    .p-kamil{background:rgba(59,130,246,.15);color:#3b82f6}
+    .p-both{background:rgba(124,58,237,.15);color:var(--pl)}
+    .kpi{text-align:center;padding:16px;border-radius:14px}
+    .kpi .num{font-size:32px;font-weight:800;line-height:1}
+    .kpi .lbl{font-size:10px;margin-top:4px;opacity:.5}
+    .nav{position:fixed;right:14px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:4px}
+    .nd{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.2);cursor:pointer;border:none;transition:all .3s}
+    .nd.a{background:var(--pl);box-shadow:0 0 6px rgba(167,139,250,.5);transform:scale(1.4)}
+    .ctr{position:fixed;bottom:14px;right:14px;z-index:100;font-size:10px;color:rgba(255,255,255,.2);font-weight:600}
+    @media(max-width:768px){.SI{padding:20px 20px}.g2,.g3,.g4{grid-template-columns:1fr}.title{font-size:20px}.nav{display:none}}
+    @media print{
+      *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+      .S{page-break-after:always;height:auto;min-height:100vh;page-break-inside:avoid}
+      .SC{overflow:visible;scroll-snap-type:none;height:auto}
+      .nav,.ctr{display:none}
+    }
+  </style>
+</head>
+<body>
+<nav class="nav" id="nav"></nav>
+<div class="ctr" id="ctr">1 / 16</div>
+<div class="SC" id="sc">
+
+<!-- 1. TYTUŁ -->
+<section class="S dark">
+  <div class="SI" style="text-align:center">
+    <p style="font-size:11px;color:rgba(255,255,255,.25);margin-bottom:16px;letter-spacing:2px">PLAN OPERACYJNY · POUFNY · KWIECIEŃ–CZERWIEC 2026</p>
+    <h1 class="title" style="max-width:800px;margin:0 auto 14px;font-size:clamp(26px,4vw,46px)">Plan Sprzedażowy<br><em>Finito Pro — Trójmiasto</em></h1>
+    <p class="sub" style="margin:0 auto 20px;text-align:center">60-dniowy plan pozyskania pierwszych klientów w Gdańsku, Gdyni, Sopocie i okolicach.<br>Zespół: Iza (teren, full-time) + Kamil (online, part-time).</p>
+    <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <span class="tag ti">Iza — wizyty terenowe</span>
+      <span class="tag tb">Kamil — spotkania online</span>
+      <span class="tag tp">60 dni</span>
+      <span class="tag tp">4 branże</span>
+      <span class="tag tp">Cel: 5-10 wdrożeń</span>
+    </div>
+    <div class="g4" style="max-width:600px;margin:24px auto 0">
+      <div class="kpi" style="background:rgba(255,255,255,.06)"><div class="num" style="color:var(--pl)">60</div><div class="lbl">dni planu</div></div>
+      <div class="kpi" style="background:rgba(255,255,255,.06)"><div class="num" style="color:var(--pl)">100+</div><div class="lbl">firm do kontaktu</div></div>
+      <div class="kpi" style="background:rgba(255,255,255,.06)"><div class="num" style="color:var(--pl)">20-30</div><div class="lbl">prezentacji demo</div></div>
+      <div class="kpi" style="background:rgba(255,255,255,.06)"><div class="num" style="color:var(--pl)">5-10</div><div class="lbl">wdrożeń (cel)</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. ZESPÓŁ I ROLE -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Zespół</p>
+    <h2 class="title">Kto robi co — <em>podział ról</em></h2>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(236,72,153,.3)">
+        <h3 style="color:#ec4899;margin-bottom:8px">Iza — Sprzedaż terenowa (full-time)</h3>
+        <ul class="ck">
+          <li><strong>Wizyty u klientów</strong> — door-to-door po firmach usługowych</li>
+          <li><strong>Demo na żywo</strong> — laptop/tablet, pokazanie Finito w biurze klienta</li>
+          <li><strong>Networking</strong> — BNI, izby gospodarcze, targi, eventy</li>
+          <li><strong>Follow-up telefoniczny</strong> — po spotkaniach i wysłanych ofertach</li>
+          <li><strong>Zbieranie feedbacku</strong> — co klienci mówią, czego brakuje</li>
+          <li><strong>Raportowanie</strong> — CRM z kontaktami, statusami, notatkami</li>
+        </ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.25)">~40h/tydzień · Trójmiasto i okolice · Samochód + laptop + konto demo</p>
+      </div>
+      <div class="cd" style="border-color:rgba(59,130,246,.3)">
+        <h3 style="color:#3b82f6;margin-bottom:8px">Kamil — Sprzedaż online (part-time)</h3>
+        <ul class="ck">
+          <li><strong>Cold emailing</strong> — spersonalizowane maile do firm z bazy</li>
+          <li><strong>Spotkania Google Meet/Zoom</strong> — demo online dla zainteresowanych</li>
+          <li><strong>LinkedIn outreach</strong> — wiadomości do właścicieli firm</li>
+          <li><strong>Przygotowanie materiałów</strong> — szablony emaili, prezentacje, one-pagery</li>
+          <li><strong>Budowanie bazy firm</strong> — research + kwalifikacja leadów</li>
+          <li><strong>Umawianie spotkań dla Izy</strong> — leady online → wizyty Izy</li>
+        </ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.25)">~10-15h/tydzień · Zdalnie · Komputer + Google Meet + CRM</p>
+      </div>
+    </div>
+    <div class="cd" style="margin-top:12px;text-align:center;border-color:rgba(124,58,237,.25)">
+      <p style="font-size:12px;font-weight:600;color:var(--pl)">Synergia: Kamil generuje leady online → Iza zamyka na żywo. Iza zbiera kontakty w terenie → Kamil robi follow-up emailem.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3. BRANŻE DOCELOWE -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Branże docelowe</p>
+    <h2 class="title">4 branże — <em>Trójmiasto</em></h2>
+    <p class="sub">Każda branża ma inne „bóle" — dopasuj pitch do konkretnego problemu klienta.</p>
+    <div class="g2">
+      <div class="cl">
+        <h3>1. Sprzątanie / Facility Management</h3>
+        <p><strong>Ból:</strong> Ewidencja czasu pracy ekip, rozliczanie klientów, dokumentacja foto „przed/po"</p>
+        <p><strong>Pitch:</strong> „Pracownik robi zdjęcie po sprzątaniu → klient widzi w portalu. Czas pracy rejestruje się automatycznie."</p>
+        <p><strong>Gdzie szukać:</strong> Google Maps „firma sprzątająca Gdańsk", Panorama Firm, OLX usługi</p>
+        <p style="margin-top:6px"><span class="tag tg">Duży potencjał</span> <span class="tag to">Wiele ekip w terenie</span></p>
+      </div>
+      <div class="cl">
+        <h3>2. Budowlanka / Remonty</h3>
+        <p><strong>Ból:</strong> Oferty na papierze/WhatsApp, brak kontroli kosztów, zagubione faktury</p>
+        <p><strong>Pitch:</strong> „Oferta z automatu VAT → klient akceptuje → projekt → faktura. Jedno kliknięcie."</p>
+        <p><strong>Gdzie szukać:</strong> Google „remonty Gdańsk", Fixly, portale budowlane, grupy FB</p>
+        <p style="margin-top:6px"><span class="tag tg">Duży potencjał</span> <span class="tag tr">Trudniejsi do przekonania</span></p>
+      </div>
+      <div class="cl">
+        <h3>3. HVAC / Instalacje</h3>
+        <p><strong>Ból:</strong> Zlecenia serwisowe bez systemu, brak historii napraw, fakturowanie ręczne</p>
+        <p><strong>Pitch:</strong> „Historia każdego urządzenia u klienta. Serwis → raport → faktura — automatycznie."</p>
+        <p><strong>Gdzie szukać:</strong> Google „klimatyzacja montaż Gdańsk", portale branżowe, hurtownie HVAC</p>
+        <p style="margin-top:6px"><span class="tag to">Średni potencjał</span> <span class="tag tg">Wyższe marże</span></p>
+      </div>
+      <div class="cl">
+        <h3>4. Ogrody / Przeprowadzki</h3>
+        <p><strong>Ból:</strong> Sezonowość, wiele krótkich zleceń, brak systemu do ofert i faktur</p>
+        <p><strong>Pitch:</strong> „Zlecenie z GPS → zdjęcia z realizacji → faktura. Wszystko z telefonu."</p>
+        <p><strong>Gdzie szukać:</strong> Google „usługi ogrodnicze Gdańsk", OLX, Oferteo, grupy lokalne</p>
+        <p style="margin-top:6px"><span class="tag to">Sezonowy</span> <span class="tag tg">Łatwy do przekonania</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. FAZA 0: PRZYGOTOWANIE (DNI 1-7) -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Faza 0 · Dni 1-7</p>
+    <h2 class="title">Przygotowanie — <em>tydzień 1</em></h2>
+    <p class="sub">Zanim zadzwonisz do pierwszego klienta, przygotuj narzędzia i materiały.</p>
+    <div class="g2">
+      <div>
+        <h3 style="color:var(--pl);font-size:13px;margin-bottom:10px">Zadania Kamila <span class="person p-kamil">KAMIL</span></h3>
+        <div class="timeline">
+          <div class="tl-item"><h4>Dzień 1-2: Baza firm (100+ kontaktów)</h4><p>Google Maps + Panorama Firm + CEIDG. Zbierz: nazwa firmy, telefon, email, adres, branża, liczba pracowników (jeśli widoczna). Arkusz Google Sheets.</p></div>
+          <div class="tl-item"><h4>Dzień 2-3: Szablony emaili (3 warianty)</h4><p>Email #1: Cold intro (krótki, personalny). Email #2: Follow-up po 3 dniach. Email #3: „Ostatnia szansa na darmowy test". Każdy z CTA do umówienia demo.</p></div>
+          <div class="tl-item"><h4>Dzień 3-4: One-pager PDF</h4><p>Jednostronicowa ulotka: co to Finito, 5 korzyści, cena, QR do rejestracji. Do druku (Iza) i do emaila (Kamil).</p></div>
+          <div class="tl-item"><h4>Dzień 4-5: Skrypt rozmowy telefonicznej</h4><p>30-sekundowe intro + 3 pytania kwalifikujące + propozycja demo. Wersja dla Izy (osobista) i Kamila (telefoniczna).</p></div>
+        </div>
+      </div>
+      <div>
+        <h3 style="color:#ec4899;font-size:13px;margin-bottom:10px">Zadania Izy <span class="person p-iza">IZA</span></h3>
+        <div class="timeline">
+          <div class="tl-item"><h4>Dzień 1-2: Przygotowanie demo na laptopie</h4><p>Sprawdź konto demo z polskimi danymi. Przygotuj scenariusz demo (5 min): klient → oferta → projekt → czas pracy → faktura.</p></div>
+          <div class="tl-item"><h4>Dzień 3-4: Mapowanie tras</h4><p>Google Maps: zaplanuj dzielnice Gdańska/Gdyni z koncentracją firm usługowych. Ulica po ulicy. Strefy przemysłowe, biurowce.</p></div>
+          <div class="tl-item"><h4>Dzień 4-5: Wydruk materiałów</h4><p>50 szt. one-pager (PDF od Kamila → druk), wizytówki OCTOLABS / Finito Pro. Budżet: ~200-300 zł.</p></div>
+          <div class="tl-item"><h4>Dzień 5-7: Test demo u 2-3 znanych firm</h4><p>Pokaż Finito znajomym/kontaktom — zbierz feedback na scenariusz demo. Popraw przed startem.</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="cd" style="margin-top:12px;border-color:rgba(124,58,237,.25)">
+      <h3 style="color:var(--pl);margin-bottom:4px">Wspólne <span class="person p-both">OBOJE</span></h3>
+      <p>Dzień 6-7: Spotkanie online Iza + Kamil — przegląd bazy firm, podział na „Iza odwiedzi" i „Kamil wyśle email". Ustalenie tygodniowego rytmu raportowania (piątek 16:00).</p>
+    </div>
+  </div>
+</section>
+
+<!-- 5. FAZA 1: PIERWSZY KONTAKT (DNI 8-21) -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Faza 1 · Dni 8-21</p>
+    <h2 class="title">Pierwszy kontakt — <em>tygodnie 2-3</em></h2>
+    <p class="sub">Cel: skontaktować się ze 100+ firmami, umówić 10-15 prezentacji demo.</p>
+    <div class="g2">
+      <div>
+        <h3 style="color:#ec4899;font-size:13px;margin-bottom:10px"><span class="person p-iza">IZA</span> Wizyty terenowe</h3>
+        <div class="cd" style="margin-bottom:10px">
+          <h3>Tygodniowy plan Izy</h3>
+          <ul class="ck">
+            <li><strong>Pon-Wt:</strong> Wizyty door-to-door (8-10 firm/dzień)</li>
+            <li><strong>Śr:</strong> Follow-up telefoniczny po wizytach Pon-Wt</li>
+            <li><strong>Czw-Pt rano:</strong> Kolejne wizyty (6-8 firm)</li>
+            <li><strong>Pt 16:00:</strong> Raport tygodniowy + sync z Kamilem</li>
+          </ul>
+        </div>
+        <div class="cd">
+          <h3>Scenariusz wizyty (5 min)</h3>
+          <ul class="ck">
+            <li>„Dzień dobry, jestem Iza z Finito Pro — systemu dla firm usługowych"</li>
+            <li>„Jak teraz zarządzacie zleceniami? Excel? Papier?"</li>
+            <li>„Mogę pokazać w 5 minut na laptopie jak to wygląda"</li>
+            <li>Mini-demo (jeśli zainteresowani) → zostawienie one-pagera</li>
+            <li>„14 dni za darmo, bez karty. Mogę pomóc z konfiguracją"</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h3 style="color:#3b82f6;font-size:13px;margin-bottom:10px"><span class="person p-kamil">KAMIL</span> Outreach online</h3>
+        <div class="cd" style="margin-bottom:10px">
+          <h3>Tygodniowy plan Kamila</h3>
+          <ul class="ck">
+            <li><strong>Pon:</strong> Wysyłka 20-30 cold emaili (batch z bazy)</li>
+            <li><strong>Wt-Śr:</strong> Follow-up na odpowiedzi + LinkedIn</li>
+            <li><strong>Czw:</strong> Spotkania demo online (umówione z tygodnia)</li>
+            <li><strong>Pt:</strong> Raport + analiza co działa, co nie</li>
+          </ul>
+        </div>
+        <div class="cd">
+          <h3>Szablon cold email</h3>
+          <p style="font-size:10px;color:rgba(255,255,255,.6);line-height:1.6;margin-top:6px">
+            Temat: „[Nazwa firmy] — 14 dni za darmo: oferty, faktury i zespół w jednym"<br><br>
+            Dzień dobry [Imię],<br><br>
+            Prowadzicie [branża] w Trójmieście — widzę, że macie [X] pracowników. Pewnie znacie problem: oferty w Excelu, czas pracy na papierze, faktury w osobnym programie.<br><br>
+            Finito Pro łączy to wszystko w jednym — 100 PLN/użytkownik, gotowe w godziny. 200+ firm w Szwajcarii korzysta, teraz startujemy w Polsce.<br><br>
+            Mogę pokazać w 15 minut online. Kiedy pasuje?<br><br>
+            Kamil, OCTOLABS / Finito Pro
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. FAZA 1: KPI i CELE -->
+<section class="S accent">
+  <div class="SI" style="text-align:center">
+    <p class="label">Faza 1 · KPI</p>
+    <h2 class="title">Cele na <em>tygodnie 2-3</em></h2>
+    <div class="g4" style="margin:20px auto;max-width:700px">
+      <div class="kpi" style="background:rgba(255,255,255,.15)"><div class="num" style="color:#fff">60-80</div><div class="lbl" style="color:rgba(255,255,255,.5)">Wizyty Izy</div></div>
+      <div class="kpi" style="background:rgba(255,255,255,.15)"><div class="num" style="color:#fff">40-60</div><div class="lbl" style="color:rgba(255,255,255,.5)">Emaili Kamila</div></div>
+      <div class="kpi" style="background:rgba(255,255,255,.15)"><div class="num" style="color:#fff">10-15</div><div class="lbl" style="color:rgba(255,255,255,.5)">Umówione demo</div></div>
+      <div class="kpi" style="background:rgba(255,255,255,.15)"><div class="num" style="color:#fff">3-5</div><div class="lbl" style="color:rgba(255,255,255,.5)">Konta trial</div></div>
+    </div>
+    <div class="g3" style="margin-top:16px;text-align:left">
+      <div style="background:rgba(255,255,255,.1);border-radius:14px;padding:16px">
+        <h3 style="font-size:12px;margin-bottom:6px">Metryka sukcesu</h3>
+        <ul class="ck"><li>Response rate emaili: >5%</li><li>Konwersja wizyta → demo: >15%</li><li>Konwersja demo → trial: >30%</li></ul>
+      </div>
+      <div style="background:rgba(255,255,255,.1);border-radius:14px;padding:16px">
+        <h3 style="font-size:12px;margin-bottom:6px">Czerwone flagi</h3>
+        <ul class="ck"><li><5 demo po 2 tygodniach = zmień pitch</li><li>0 odpowiedzi na email = zmień temat</li><li>Klienci mówią „za drogo" = podkreśl ROI</li></ul>
+      </div>
+      <div style="background:rgba(255,255,255,.1);border-radius:14px;padding:16px">
+        <h3 style="font-size:12px;margin-bottom:6px">Quick wins do szukania</h3>
+        <ul class="ck"><li>Firmy 5-20 osób (sweet spot)</li><li>Używają Excela (łatwy upgrade)</li><li>Właściciel = decydent (szybka decyzja)</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. FAZA 2: DEMO I ZAMYKANIE (DNI 22-42) -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Faza 2 · Dni 22-42</p>
+    <h2 class="title">Demo i zamykanie — <em>tygodnie 4-6</em></h2>
+    <p class="sub">Cel: przeprowadzić 15-20 prezentacji demo, zamknąć 5-8 kont trial, wdrożyć 2-4 firmy.</p>
+    <div class="g2">
+      <div>
+        <h3 style="color:#ec4899;font-size:13px;margin-bottom:10px"><span class="person p-iza">IZA</span> Demo na żywo</h3>
+        <div class="cd">
+          <h3>Scenariusz demo (20-30 min)</h3>
+          <ul class="ck">
+            <li><strong>0-3 min:</strong> Pytania o firmę — ilu ludzi, jak robią oferty, faktury, jak liczą czas</li>
+            <li><strong>3-8 min:</strong> „Pokażę jak to wygląda" — dodaj klienta → oferta z VAT → akceptacja</li>
+            <li><strong>8-15 min:</strong> Oferta → Projekt → Przypisanie pracownika → Raport czasu z foto</li>
+            <li><strong>15-20 min:</strong> Projekt → Faktura jednym kliknięciem → KSeF → Dashboard</li>
+            <li><strong>20-25 min:</strong> Apka mobilna — pokazanie na telefonie</li>
+            <li><strong>25-30 min:</strong> „14 dni za darmo. Pomagam z konfiguracją. Kiedy zaczynamy?"</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h3 style="color:#3b82f6;font-size:13px;margin-bottom:10px"><span class="person p-kamil">KAMIL</span> Demo online</h3>
+        <div class="cd">
+          <h3>Scenariusz demo online (15-20 min)</h3>
+          <ul class="ck">
+            <li><strong>Przed:</strong> Wyślij link Google Meet + krótki email „co pokażę"</li>
+            <li><strong>0-2 min:</strong> Pytania o firmę (krótko — online = mniej czasu)</li>
+            <li><strong>2-10 min:</strong> Screen share — najważniejsze: oferta → projekt → faktura</li>
+            <li><strong>10-15 min:</strong> Portal klienta + apka mobilna (screencasty)</li>
+            <li><strong>15-20 min:</strong> „Zakładam konto teraz razem z Tobą — 2 minuty"</li>
+            <li><strong>Po:</strong> Email follow-up z linkiem do rejestracji + one-pager PDF</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="cd" style="margin-top:12px;border-color:rgba(34,197,94,.3)">
+      <h3 style="color:var(--green);margin-bottom:6px">Po zamknięciu triala</h3>
+      <div class="g3">
+        <div><p>Dzień 1: Pomóż z konfiguracją (logo, dane firmy, pierwszy klient)</p></div>
+        <div><p>Dzień 3: Zadzwoń — „Jak idzie? Potrzebujesz pomocy?"</p></div>
+        <div><p>Dzień 10: „Zostały 4 dni — chcesz kontynuować? 100 PLN/user/mies."</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. FAZA 3: WDROŻENIA I REFERRALE (DNI 43-60) -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Faza 3 · Dni 43-60</p>
+    <h2 class="title">Wdrożenia i referrale — <em>tygodnie 7-9</em></h2>
+    <p class="sub">Cel: 5-10 płacących klientów + pierwsze referrale. Początek efektu kuli śnieżnej.</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(34,197,94,.3)">
+        <h3 style="color:var(--green);margin-bottom:8px">Wdrożenie klienta (Iza + Kamil wspólnie)</h3>
+        <ul class="ck">
+          <li><strong>Migracja danych:</strong> Pomóż przenieść klientów, usługi, cennik z Excela</li>
+          <li><strong>Konfiguracja:</strong> Logo, dane firmy, szablon faktury, KSeF</li>
+          <li><strong>Szkolenie:</strong> 30-min sesja z właścicielem + 15-min z pracownikami (mobile)</li>
+          <li><strong>Check-in po 7 dniach:</strong> „Jak używacie? Co nie działa?"</li>
+          <li><strong>Case study:</strong> Za zgodą klienta — zdjęcie, cytat, branża → materiał sprzedażowy</li>
+        </ul>
+      </div>
+      <div class="cd" style="border-color:rgba(245,158,11,.3)">
+        <h3 style="color:var(--orange);margin-bottom:8px">Program referrali</h3>
+        <ul class="ck">
+          <li>„Znasz kogoś kto prowadzi firmę usługową? Poleć Finito — <strong>1 miesiąc za darmo</strong> dla Was i dla nich"</li>
+          <li>Przygotuj kartkę/email z kodem polecającym</li>
+          <li>Pytaj KAŻDEGO zadowolonego klienta: „Kto jeszcze mógłby skorzystać?"</li>
+          <li>Najlepsi klienci = ambasadorzy (pozycja na stronie, case study)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="g3" style="margin-top:12px">
+      <div class="cd" style="text-align:center"><div style="font-size:24px;font-weight:800;color:var(--pl)">5-10</div><p>Płacących klientów</p></div>
+      <div class="cd" style="text-align:center"><div style="font-size:24px;font-weight:800;color:var(--pl)">25-50</div><p>Użytkowników</p></div>
+      <div class="cd" style="text-align:center"><div style="font-size:24px;font-weight:800;color:var(--pl)">2 500-5 000</div><p>PLN MRR</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. BAZA FIRM - GDZIE SZUKAĆ -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Baza firm</p>
+    <h2 class="title">Gdzie szukać <em>klientów w Trójmieście</em></h2>
+    <div class="g2">
+      <div class="cl">
+        <h3>Źródła online <span class="person p-kamil">KAMIL</span></h3>
+        <ul class="ck">
+          <li><strong>Google Maps:</strong> „firma sprzątająca Gdańsk", „remonty Gdynia", „klimatyzacja Sopot"</li>
+          <li><strong>Panorama Firm:</strong> kategorie usługowe, filtr po mieście</li>
+          <li><strong>CEIDG/KRS:</strong> szukaj po PKD (81.21 — sprzątanie, 43.xx — budowlanka)</li>
+          <li><strong>OLX Usługi:</strong> firmy które się reklamują = aktywne, szukają klientów</li>
+          <li><strong>Oferteo / Fixly:</strong> firmy usługowe szukające zleceń</li>
+          <li><strong>LinkedIn:</strong> „właściciel firmy usługowej Trójmiasto"</li>
+          <li><strong>Grupy FB:</strong> „Przedsiębiorcy Trójmiasto", „Usługi Gdańsk"</li>
+        </ul>
+      </div>
+      <div class="cl">
+        <h3>Źródła offline <span class="person p-iza">IZA</span></h3>
+        <ul class="ck">
+          <li><strong>Strefy przemysłowe:</strong> Kowale, Osowa, Matarnia, Rumia, Reda</li>
+          <li><strong>Biurowce:</strong> Olivia Business Centre, Alchemia, Garnizon</li>
+          <li><strong>BNI Trójmiasto:</strong> grupy networkingowe — spotkania śniadaniowe</li>
+          <li><strong>Targi:</strong> AmberExpo — targi budowlane, energetyczne</li>
+          <li><strong>Hurtownie:</strong> budowlane, elektryczne, HVAC — klienci kupują materiały</li>
+          <li><strong>Galerie handlowe:</strong> firmy sprzątające mają umowy z galeriami</li>
+          <li><strong>Osiedla nowe:</strong> firmy remontowe pracują przy nowych budynkach</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cl" style="margin-top:12px">
+      <h3>Struktura bazy firm (Google Sheets)</h3>
+      <p style="font-size:11px;font-family:monospace;background:#f3f4f6;padding:10px;border-radius:8px;margin-top:6px;overflow-x:auto">
+        Firma | Branża | Miasto | Telefon | Email | Właściciel | Pracownicy | Źródło | Status | Przypisany | Notatki | Data kontaktu
+      </p>
+      <p style="font-size:10px;color:#9ca3af;margin-top:4px">Statusy: Nowy → Kontakt → Demo umówione → Demo odbyło się → Trial → Płacący → Utracony</p>
+    </div>
+  </div>
+</section>
+
+<!-- 10. HARMONOGRAM 60 DNI -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Harmonogram</p>
+    <h2 class="title">60 dni — <em>tydzień po tygodniu</em></h2>
+    <div style="overflow-x:auto;border-radius:12px;border:1px solid #e5e7eb;font-size:10px">
+      <table style="width:100%;border-collapse:collapse;min-width:700px">
+        <thead style="background:#0f0a1a;color:#fff"><tr>
+          <th style="padding:8px;text-align:left;font-size:9px">TYDZIEŃ</th>
+          <th style="padding:8px;text-align:left;font-size:9px">DATY</th>
+          <th style="padding:8px;text-align:left;font-size:9px;color:#ec4899">IZA (TEREN)</th>
+          <th style="padding:8px;text-align:left;font-size:9px;color:#3b82f6">KAMIL (ONLINE)</th>
+          <th style="padding:8px;text-align:left;font-size:9px;color:#a78bfa">CEL TYGODNIA</th>
+        </tr></thead>
+        <tbody>
+          <tr style="background:rgba(124,58,237,.04)"><td style="padding:6px 8px;font-weight:700">T1</td><td>21-27 kwi</td><td>Przygotowanie demo, mapowanie tras, wydruk materiałów, 2-3 testowe wizyty</td><td>Baza 100+ firm, szablony emaili, one-pager PDF, skrypt rozmowy</td><td><span class="tag tp">PRZYGOTOWANIE</span></td></tr>
+          <tr><td style="padding:6px 8px;font-weight:700">T2</td><td>28 kwi–4 maj</td><td>30-40 wizyt door-to-door (Gdańsk centrum + Wrzeszcz)</td><td>Wysyłka 30 emaili, LinkedIn outreach 20 firm</td><td>5 umówionych demo</td></tr>
+          <tr style="background:rgba(124,58,237,.04)"><td style="padding:6px 8px;font-weight:700">T3</td><td>5-11 maj</td><td>30-40 wizyt (Gdynia + Sopot + Rumia)</td><td>Follow-up emaili, 2-3 demo online</td><td>10 demo łącznie</td></tr>
+          <tr><td style="padding:6px 8px;font-weight:700">T4</td><td>12-18 maj</td><td>10-15 demo na żywo u zainteresowanych</td><td>5-8 demo online, follow-up triali</td><td>5 kont trial</td></tr>
+          <tr style="background:rgba(124,58,237,.04)"><td style="padding:6px 8px;font-weight:700">T5</td><td>19-25 maj</td><td>Demo + wsparcie wdrożeń + nowe wizyty (Kowale, Osowa)</td><td>Wsparcie konfiguracji trial, nowe emaile</td><td>3 wdrożenia started</td></tr>
+          <tr><td style="padding:6px 8px;font-weight:700">T6</td><td>26 maj–1 cze</td><td>Szkolenia u klientów (trial → płacący), wizyty u nowych</td><td>Follow-up triali „zostały 4 dni", nowe demo</td><td>2-3 płacących klientów</td></tr>
+          <tr style="background:rgba(124,58,237,.04)"><td style="padding:6px 8px;font-weight:700">T7</td><td>2-8 cze</td><td>Wdrożenia + referrale od zadowolonych + nowe wizyty</td><td>Case study od klientów, email do referrali</td><td>5 płacących łącznie</td></tr>
+          <tr><td style="padding:6px 8px;font-weight:700">T8</td><td>9-15 cze</td><td>Networking BNI/eventy + wizyty + wdrożenia</td><td>LinkedIn posty z case studies, nowe emaile</td><td>7-8 płacących</td></tr>
+          <tr style="background:rgba(34,197,94,.08)"><td style="padding:6px 8px;font-weight:700;color:#166534">T9</td><td>16-20 cze</td><td>Podsumowanie, plan na kolejne 60 dni, eventy</td><td>Raport wyników, optymalizacja procesu</td><td><span class="tag tg">5-10 PŁACĄCYCH</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 11. BUDŻET -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Budżet</p>
+    <h2 class="title">Wydatki na <em>60 dni</em></h2>
+    <div class="g2">
+      <div class="cd">
+        <h3 style="color:var(--pl);margin-bottom:8px">Wydatki stałe</h3>
+        <ul class="ck">
+          <li><strong>Paliwo / transport Izy:</strong> ~600-800 zł (8 tyg. × 80-100 zł)</li>
+          <li><strong>Druk materiałów:</strong> ~200-300 zł (100 one-pagerów + wizytówki)</li>
+          <li><strong>Telefon / internet:</strong> ~100 zł (karta SIM do cold callingu)</li>
+          <li><strong>Kawa / drobne na spotkania:</strong> ~100-200 zł</li>
+        </ul>
+        <div style="margin-top:10px;padding:10px;background:rgba(124,58,237,.1);border-radius:8px;text-align:center">
+          <div style="font-size:20px;font-weight:800;color:var(--pl)">1 000 - 1 500 zł</div>
+          <div style="font-size:10px;opacity:.4">Łączny budżet operacyjny</div>
+        </div>
+      </div>
+      <div class="cd">
+        <h3 style="color:var(--pl);margin-bottom:8px">ROI przy 5 klientach × 5 userów</h3>
+        <ul class="ck">
+          <li><strong>MRR:</strong> 25 userów × 100 PLN = 2 500 PLN/mies.</li>
+          <li><strong>Prowizja rok 1 (40%):</strong> ~1 000 PLN zysku × 40% = 400 PLN/mies.</li>
+          <li><strong>Roczna prowizja:</strong> 400 PLN × 12 = 4 800 PLN</li>
+          <li><strong>Rok 2+ lifetime (5%):</strong> 50 PLN/mies. pasywnie</li>
+        </ul>
+        <div style="margin-top:10px;padding:10px;background:rgba(34,197,94,.1);border-radius:8px;text-align:center">
+          <div style="font-size:20px;font-weight:800;color:var(--green)">ROI: 3-4× w 60 dni</div>
+          <div style="font-size:10px;opacity:.4">Przy 5 klientach budżet się zwraca 3-4x</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12. MATERIAŁY DO PRZYGOTOWANIA - CHECKLIST -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Checklist</p>
+    <h2 class="title">Co przygotować <em>przed startem</em></h2>
+    <div class="g3">
+      <div class="cl">
+        <h3><span class="person p-kamil" style="font-size:10px">KAMIL</span> Materiały cyfrowe</h3>
+        <ul class="ck">
+          <li>Baza 100+ firm (Google Sheets)</li>
+          <li>Cold email #1 — intro</li>
+          <li>Cold email #2 — follow-up 3 dni</li>
+          <li>Cold email #3 — ostatnia szansa</li>
+          <li>One-pager PDF (do druku i emaila)</li>
+          <li>Skrypt rozmowy telefonicznej</li>
+          <li>Szablon wiadomości LinkedIn</li>
+          <li>Link do kalendarza spotkań (Calendly)</li>
+          <li>Podpis email z linkiem do finitopro.pl</li>
+        </ul>
+      </div>
+      <div class="cl">
+        <h3><span class="person p-iza" style="font-size:10px">IZA</span> Materiały terenowe</h3>
+        <ul class="ck">
+          <li>Konto demo gotowe z PL danymi</li>
+          <li>Scenariusz demo 5 min (quick)</li>
+          <li>Scenariusz demo 20 min (pełny)</li>
+          <li>Laptop naładowany + internet mobilny</li>
+          <li>50 szt. wydrukowanych one-pagerów</li>
+          <li>Wizytówki OCTOLABS / Finito Pro</li>
+          <li>Mapa tras — dzielnice Trójmiasta</li>
+          <li>Ubiór: smart casual (nie garnitur!)</li>
+          <li>Powerbank + kabel USB-C</li>
+        </ul>
+      </div>
+      <div class="cl">
+        <h3><span class="person p-both" style="font-size:10px">OBOJE</span> Organizacja</h3>
+        <ul class="ck">
+          <li>CRM / Google Sheets ze statusami</li>
+          <li>Wspólny kalendarz (kto kiedy gdzie)</li>
+          <li>Piątkowy sync 16:00 (stały termin)</li>
+          <li>Kanał Slack/WhatsApp „Finito PL Sales"</li>
+          <li>Dostęp do prezentacji sprzedażowej</li>
+          <li>Dostęp do analizy konkurencji</li>
+          <li>Szablon raportu tygodniowego</li>
+          <li>Lista obiekcji + odpowiedzi (karty)</li>
+          <li>Cel: 5-10 płacących klientów w 60 dni</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 13. COLD CALLING SCRIPT -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Skrypty</p>
+    <h2 class="title">Rozmowa telefoniczna — <em>30 sekund na zainteresowanie</em></h2>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl);margin-bottom:8px">Skrypt cold call (Kamil / Iza)</h3>
+        <p style="font-size:11px;color:rgba(255,255,255,.7);line-height:1.8">
+          <strong style="color:var(--pl)">INTRO (15 sek):</strong><br>
+          „Dzień dobry, [Imię]? Mam na imię [Iza/Kamil], dzwonię z Finito Pro — to system do zarządzania firmą usługową. Widziałem, że prowadzicie [branża] w [miasto]."<br><br>
+          <strong style="color:var(--pl)">PYTANIE KWALIFIKUJĄCE (15 sek):</strong><br>
+          „Szybkie pytanie — jak teraz zarządzacie zleceniami i fakturami? Excel, papier, jakiś program?"<br><br>
+          <strong style="color:var(--pl)">JEŚLI EXCEL / PAPIER / NIC:</strong><br>
+          „To dokładnie dla Was — Finito łączy oferty, projekty, czas pracy i faktury w jednym. 100 zł na osobę, 14 dni za darmo. Mogę pokazać w 15 minut — kiedy by pasowało?"<br><br>
+          <strong style="color:var(--pl)">JEŚLI MAJĄ PROGRAM:</strong><br>
+          „Jaki? [słuchaj] — rozumiem. My mamy coś co łączy to wszystko w jednym + apka mobilna ze zdjęciami z realizacji. Warto porównać — 15 minut?"<br><br>
+          <strong style="color:var(--pl)">JEŚLI NIE TERAZ:</strong><br>
+          „Rozumiem, mogę wysłać krótki email z informacją? Jaki adres?"
+        </p>
+      </div>
+      <div class="cd">
+        <h3 style="margin-bottom:8px">Odpowiedzi na obiekcje (karta)</h3>
+        <div style="font-size:11px;color:rgba(255,255,255,.5);line-height:1.8">
+          <p><strong style="color:rgba(255,255,255,.7)">„Nie mam czasu"</strong><br>→ „15 minut — pokażę i sam zdecydujesz. Kiedy masz okienko?"</p>
+          <p style="margin-top:8px"><strong style="color:rgba(255,255,255,.7)">„Mam program"</strong><br>→ „Jaki? [słuchaj] — Finito łączy to wszystko w jednym. Warto porównać."</p>
+          <p style="margin-top:8px"><strong style="color:rgba(255,255,255,.7)">„Za drogo"</strong><br>→ „100 zł/osobę — taniej niż kawa dziennie. Ile czasu tracisz na papierowe faktury?"</p>
+          <p style="margin-top:8px"><strong style="color:rgba(255,255,255,.7)">„Prześlij email"</strong><br>→ „Jasne — jaki adres? Wyślę krótki materiał + link do darmowego testu."</p>
+          <p style="margin-top:8px"><strong style="color:rgba(255,255,255,.7)">„Nie interesuje mnie"</strong><br>→ „Rozumiem. Gdyby coś się zmieniło — jestem na finitopro.pl. Miłego dnia!"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 14. TYGODNIOWY RAPORT -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Raportowanie</p>
+    <h2 class="title">Piątkowy raport — <em>szablon</em></h2>
+    <p class="sub">Każdy piątek o 16:00 — Iza i Kamil wypełniają i omawiają na 15-min callu.</p>
+    <div class="cl" style="font-size:11px;line-height:1.8">
+      <p><strong>RAPORT TYGODNIOWY — Finito Pro Trójmiasto</strong></p>
+      <p>Tydzień: ___ | Data: ___</p>
+      <br>
+      <p><strong>IZA (teren):</strong></p>
+      <p>Wizyty: ___/cel ___ | Demo na żywo: ___ | Trial założone: ___ | Notatki: ___</p>
+      <br>
+      <p><strong>KAMIL (online):</strong></p>
+      <p>Emaile wysłane: ___ | Odpowiedzi: ___ (___%) | Demo online: ___ | Trial: ___ | Notatki: ___</p>
+      <br>
+      <p><strong>PIPELINE:</strong></p>
+      <p>Nowe kontakty: ___ | Demo umówione: ___ | Trial aktywne: ___ | Płacący: ___ | Utraceni: ___</p>
+      <br>
+      <p><strong>TOP 3 LEADY tego tygodnia:</strong></p>
+      <p>1. [Firma] — [branża] — [status] — [następny krok]</p>
+      <p>2. ...</p>
+      <p>3. ...</p>
+      <br>
+      <p><strong>CO DZIAŁA:</strong> ___</p>
+      <p><strong>CO NIE DZIAŁA:</strong> ___</p>
+      <p><strong>PLAN NA PRZYSZŁY TYDZIEŃ:</strong> ___</p>
+    </div>
+  </div>
+</section>
+
+<!-- 15. ESKALACJA I WSPARCIE -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Wsparcie</p>
+    <h2 class="title">Kiedy eskalować — <em>co jeśli?</em></h2>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(239,68,68,.3)">
+        <h3 style="color:var(--red);margin-bottom:8px">Problemy i rozwiązania</h3>
+        <ul class="ck">
+          <li><strong>0 demo po 2 tygodniach:</strong> Zmień pitch. Zamiast „mamy system" → pytaj „jak robisz faktury?"</li>
+          <li><strong>Klienci mówią „za drogo":</strong> Policz ROI: „ile godzin tracisz na Excel? × stawka = X zł. Finito kosztuje 100 zł."</li>
+          <li><strong>Klienci nie odbierają:</strong> Dzwoń 8:00-9:00 lub 17:00-18:00. Właściciele w ciągu dnia są na budowie.</li>
+          <li><strong>Email zero odpowiedzi:</strong> Zmień temat emaila. Testuj: pytanie vs stwierdzenie vs liczba.</li>
+          <li><strong>Trial nie konwertuje:</strong> Zadzwoń w dzień 3 i dzień 10. Pomóż z konfiguracją osobiście.</li>
+          <li><strong>Bug w demo:</strong> Zgłoś do SM Tech. Na razie omiń ten ekran w demo.</li>
+        </ul>
+      </div>
+      <div class="cd" style="border-color:rgba(59,130,246,.3)">
+        <h3 style="color:var(--blue);margin-bottom:8px">Kanały eskalacji</h3>
+        <ul class="ck">
+          <li><strong>Problem z produktem:</strong> Chat w apce → dział programistów (12-24h)</li>
+          <li><strong>Pytanie o cennik/warunki:</strong> finitopro.pl/kontakt</li>
+          <li><strong>Potrzeba materiałów:</strong> Kamil przygotowuje w 24h</li>
+          <li><strong>Duży klient (50+ osób):</strong> Eskaluj do SM Tech — indywidualna wycena</li>
+          <li><strong>Klient chce integrację:</strong> Spisz wymagania → wyślij do SM Tech</li>
+        </ul>
+        <div style="margin-top:12px;padding:10px;background:rgba(59,130,246,.1);border-radius:8px">
+          <p style="font-size:10px;color:rgba(255,255,255,.5)"><strong style="color:var(--blue)">Zasada:</strong> Iza i Kamil NIE obiecują funkcji których nie ma. Jeśli klient pyta o coś czego nie wiecie — „sprawdzę i wrócę jutro".</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 16. PODSUMOWANIE -->
+<section class="S dark">
+  <div class="SI" style="text-align:center">
+    <h2 class="title" style="max-width:700px;margin:0 auto 14px;font-size:clamp(24px,3.8vw,40px)">60 dni do <em>pierwszych klientów</em></h2>
+    <p class="sub" style="text-align:center;margin:0 auto 20px">Plan jest prosty: przygotuj się (T1), kontaktuj (T2-3), pokazuj (T4-6), wdrażaj (T7-9).</p>
+    <div class="g3" style="margin-bottom:20px">
+      <div class="cd" style="text-align:left">
+        <h3 style="color:var(--pl);margin-bottom:6px">T1: Przygotowanie</h3>
+        <ul class="ck"><li>Baza 100+ firm</li><li>Materiały (email, PDF, skrypt)</li><li>Demo gotowe</li></ul>
+      </div>
+      <div class="cd" style="text-align:left">
+        <h3 style="color:var(--pl);margin-bottom:6px">T2-6: Kontakt + Demo</h3>
+        <ul class="ck"><li>100+ kontaktów</li><li>20-30 prezentacji</li><li>5-8 triali</li></ul>
+      </div>
+      <div class="cd" style="text-align:left">
+        <h3 style="color:var(--pl);margin-bottom:6px">T7-9: Wdrożenia</h3>
+        <ul class="ck"><li>5-10 płacących</li><li>Case studies</li><li>Referrale</li></ul>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:16px">
+      <a href="https://app.finitopro.pl/register" style="display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#7c3aed,#a78bfa);color:#fff;font-size:14px;font-weight:600;padding:12px 24px;border-radius:12px;text-decoration:none;box-shadow:0 4px 15px rgba(124,58,237,.4)">Załóż konto demo →</a>
+      <a href="https://finitopro.pl/kontakt" style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);color:#fff;font-size:14px;font-weight:600;padding:12px 24px;border-radius:12px;text-decoration:none;border:1px solid rgba(255,255,255,.2)">Kontakt z SM Tech</a>
+    </div>
+    <p style="font-size:10px;opacity:.15">OCTOLABS Sp. z o.o. · SM Tech GmbH · Plan poufny · Kwiecień 2026</p>
+  </div>
+</section>
+
+</div>
+<script>
+const c=document.getElementById('sc'),ss=document.querySelectorAll('.S'),nav=document.getElementById('nav'),ctr=document.getElementById('ctr'),t=ss.length;
+ss.forEach((_,i)=>{const d=document.createElement('button');d.className='nd'+(i===0?' a':'');d.onclick=()=>ss[i].scrollIntoView({behavior:'smooth'});nav.appendChild(d)});
+const ds=document.querySelectorAll('.nd');
+ss.forEach(s=>new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){const i=Array.from(ss).indexOf(en.target);ds.forEach((d,j)=>d.classList.toggle('a',j===i));ctr.textContent=(i+1)+' / '+t}})},{threshold:.5}).observe(s));
+document.addEventListener('keydown',e=>{const ci=Array.from(ds).findIndex(d=>d.classList.contains('a'));if(('ArrowDown ArrowRight '.includes(e.key))&&ci<t-1){e.preventDefault();ss[ci+1].scrollIntoView({behavior:'smooth'})}if(('ArrowUp ArrowLeft'.includes(e.key))&&ci>0){e.preventDefault();ss[ci-1].scrollIntoView({behavior:'smooth'})}});
+</script>
+</body>
+</html>

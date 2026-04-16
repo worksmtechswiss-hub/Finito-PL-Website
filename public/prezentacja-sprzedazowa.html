@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finito Pro — Kompletny Przewodnik Sprzedażowy PL 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--p:#7c3aed;--pl:#a78bfa;--dark:#0f0a1a;--darker:#080510}
+    html{scroll-behavior:smooth}
+    body{font-family:'Inter',sans-serif;color:#1e1b4b;-webkit-font-smoothing:antialiased;background:#000}
+    .S{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;scroll-snap-align:start}
+    .SC{height:100vh;overflow-y:auto;scroll-snap-type:y mandatory;scroll-behavior:smooth}
+    .SI{max-width:1100px;width:100%;padding:44px 56px;position:relative;z-index:2}
+    .dark{background:linear-gradient(135deg,#080510,#1a0a2e,#0f0a1a);color:#fff}
+    .dark::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(124,58,237,.12) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(167,139,250,.08) 0%,transparent 50%)}
+    .light{background:#fff;color:#1e1b4b}
+    .accent{background:linear-gradient(135deg,#5b21b6,#7c3aed,#9333ea);color:#fff}
+    .soft{background:#f8f7ff;color:#1e1b4b}
+    .label{text-transform:uppercase;font-size:11px;font-weight:700;letter-spacing:3px;margin-bottom:10px;color:var(--pl)}
+    .light .label,.soft .label{color:var(--p)}
+    .accent .label{color:rgba(255,255,255,.6)}
+    .title{font-size:clamp(24px,3.2vw,40px);font-weight:800;line-height:1.15;margin-bottom:12px}
+    .title em{font-style:normal;background:linear-gradient(135deg,var(--pl),#c4b5fd,var(--p));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .light .title em,.soft .title em{background:linear-gradient(135deg,var(--p),var(--pl));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .sub{font-size:14px;line-height:1.6;opacity:.6;max-width:660px;margin-bottom:24px}
+    .light .sub,.soft .sub{color:#4b5563;opacity:1}
+    .g2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .g21{display:grid;grid-template-columns:1.3fr .7fr;gap:32px;align-items:center}
+    .cd{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:18px}
+    .cl{background:#f9fafb;border:1px solid #e5e7eb;border-radius:14px;padding:18px}
+    .cd h3{font-size:13px;font-weight:700;margin-bottom:4px}
+    .cd p{font-size:11px;color:rgba(255,255,255,.5);line-height:1.5}
+    .cl h3{font-size:13px;font-weight:700;color:#1e1b4b;margin-bottom:4px}
+    .cl p{font-size:11px;color:#4b5563;line-height:1.5}
+    .bn{font-size:48px;font-weight:800;background:linear-gradient(135deg,var(--pl),#c4b5fd,var(--p));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1}
+    .tag{display:inline-block;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:600;margin:2px}
+    .tp{background:rgba(124,58,237,.15);color:var(--pl)}
+    .tl{background:rgba(124,58,237,.08);color:var(--p)}
+    .tg{background:#dcfce7;color:#166534}
+    .tr{background:#fef2f2;color:#991b1b}
+    .ty{background:#fefce8;color:#854d0e}
+    .ck{list-style:none;padding:0}
+    .ck li{font-size:11px;padding:4px 0 4px 22px;position:relative;line-height:1.5}
+    .ck li::before{content:'';position:absolute;left:0;top:7px;width:13px;height:13px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237c3aed' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") no-repeat center;background-size:13px}
+    .dark .ck li::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a78bfa' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E")}
+    .tc{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:14px}
+    .tc h4{font-size:12px;font-weight:700;color:var(--pl);margin-bottom:4px}
+    .tc p{font-size:10px;color:rgba(255,255,255,.45);line-height:1.5}
+    .nav{position:fixed;right:14px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:4px}
+    .nd{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.2);cursor:pointer;border:none;transition:all .3s}
+    .nd.a{background:var(--pl);box-shadow:0 0 6px rgba(167,139,250,.5);transform:scale(1.4)}
+    .ctr{position:fixed;bottom:14px;right:14px;z-index:100;font-size:10px;color:rgba(255,255,255,.2);font-weight:600}
+    table.cmp{width:100%;border-collapse:collapse;font-size:10px;min-width:700px}
+    table.cmp th{padding:6px 5px;text-align:center;font-size:8px;text-transform:uppercase;letter-spacing:.5px}
+    table.cmp td{padding:5px 5px;text-align:center;border-top:1px solid rgba(255,255,255,.06)}
+    table.cmp td:first-child{text-align:left;font-weight:600;font-size:10px}
+    .dark table.cmp thead{background:rgba(124,58,237,.15)}
+    .dark table.cmp thead th{color:var(--pl)}
+    .dark table.cmp td{border-color:rgba(255,255,255,.06)}
+    .light table.cmp thead{background:#0f0a1a;color:#fff}
+    .light table.cmp thead th{color:#a78bfa}
+    .light table.cmp td{border-color:#e5e7eb}
+    .light table.cmp tr:nth-child(even){background:rgba(124,58,237,.03)}
+    .hi{background:rgba(124,58,237,.08)!important}
+    .wniosek{text-align:center;margin-top:14px;padding:12px 16px;border-radius:12px;font-size:12px;font-weight:600}
+    .dark .wniosek{background:rgba(124,58,237,.12);border:1px solid rgba(124,58,237,.25);color:var(--pl)}
+    .light .wniosek{background:#f3f0ff;border:1px solid #ddd6fe;color:var(--p)}
+    @media(max-width:768px){.SI{padding:20px 20px}.g2,.g3,.g4,.g21{grid-template-columns:1fr}.title{font-size:20px}.nav{display:none}.bn{font-size:32px}table.cmp{font-size:8px}table.cmp th,table.cmp td{padding:3px 2px}}
+    @media print{
+      *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;color-adjust:exact!important}
+      .S{page-break-after:always;height:auto;min-height:100vh;page-break-inside:avoid}
+      .SC{overflow:visible;scroll-snap-type:none;height:auto}
+      .nav,.ctr{display:none}
+    }
+  </style>
+</head>
+<body>
+<nav class="nav" id="nav"></nav>
+<div class="ctr" id="ctr">1 / 20</div>
+<div class="SC" id="sc">
+
+<!-- 1. TYTUŁ -->
+<section class="S dark">
+  <div class="SI" style="text-align:center">
+    <p style="font-size:11px;color:rgba(255,255,255,.25);margin-bottom:20px;letter-spacing:2px">MATERIAŁ WEWNĘTRZNY · PRZEWODNIK SPRZEDAŻOWY 2026</p>
+    <h1 class="title" style="max-width:800px;margin:0 auto 16px;font-size:clamp(28px,4.2vw,48px)">Kompletny Przewodnik<br>Sprzedażowy <em>Finito Pro</em></h1>
+    <p class="sub" style="margin:0 auto 24px;text-align:center">Produkt, rynek, 8 konkurentów, argumenty sprzedażowe, obiekcje i model prowizji — wszystko w jednym miejscu.</p>
+    <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <span class="tag tp">8 konkurentów</span>
+      <span class="tag tp">100 PLN/user/mies.</span>
+      <span class="tag tp">13 modułów</span>
+      <span class="tag tp">20-40% prowizji</span>
+      <span class="tag tp">14 dni za darmo</span>
+    </div>
+    <p style="margin-top:24px;font-size:11px;color:rgba(255,255,255,.15)">SM Tech GmbH (Szwajcaria) · OCTOLABS Sp. z o.o. (Polska) · finitopro.pl · Kwiecień 2026</p>
+  </div>
+</section>
+
+<!-- 2. O FINITO PRO -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">O produkcie</p>
+    <h2 class="title">Czym jest <em>Finito Pro</em>?</h2>
+    <div class="g21">
+      <div>
+        <p class="sub">Szwajcarski ERP/CRM all-in-one — jedno miejsce do zarządzania całą firmą usługową. Wszystkie dane w jednym systemie, bez silosów.</p>
+        <ul class="ck">
+          <li><strong>Producent:</strong> SM Tech GmbH, Szwajcaria</li>
+          <li><strong>Przedstawiciel PL:</strong> OCTOLABS Sp. z o.o., Warszawa</li>
+          <li><strong>Cena:</strong> 100 PLN/użytkownik/miesiąc</li>
+          <li><strong>Wdrożenie:</strong> kilka dni (migracja danych po naszej stronie)</li>
+          <li><strong>Firmy:</strong> 1–500 osób (focus 2–50)</li>
+          <li><strong>Branże:</strong> 18 (sprzątanie, elektrycy, hydraulicy, HVAC, malarze, stolarze, dekarze...)</li>
+          <li><strong>Trial:</strong> 14 dni za darmo, bez karty (model jak Netflix)</li>
+          <li><strong>Języki:</strong> 8 (PL, DE, EN, ES, IT, FR, PT, SR, AL)</li>
+          <li><strong>Użytkownicy:</strong> 200+ w Szwajcarii, start w Polsce</li>
+        </ul>
+      </div>
+      <div>
+        <div class="cd" style="margin-bottom:10px;text-align:center">
+          <p style="font-size:10px;color:var(--pl);font-weight:700;letter-spacing:1px;margin-bottom:4px">13 MODUŁÓW W JEDNEJ CENIE</p>
+          <div style="display:flex;flex-wrap:wrap;gap:3px;justify-content:center">
+            <span class="tag tp">Dashboard KPI</span><span class="tag tp">Projekty</span><span class="tag tp">Faktury</span><span class="tag tp">Oferty</span><span class="tag tp">Czas pracy</span><span class="tag tp">CRM</span><span class="tag tp">Urlopy</span><span class="tag tp">Zdjęcia GPS</span><span class="tag tp">Magazyn</span><span class="tag tp">Księgowość</span><span class="tag tp">Apka mobilna</span><span class="tag tp">Portal klienta</span><span class="tag tp">Serwis</span>
+          </div>
+        </div>
+        <div class="cd" style="text-align:center">
+          <p style="font-size:10px;color:var(--pl);font-weight:700;letter-spacing:1px;margin-bottom:4px">UNIKALNE FUNKCJE</p>
+          <div style="display:flex;flex-wrap:wrap;gap:3px;justify-content:center">
+            <span class="tag tp">Marketplace</span><span class="tag tp">Builder automatyzacji</span><span class="tag tp">Rating Page</span><span class="tag tp">Multi-firma</span><span class="tag tp">KSeF API</span><span class="tag tp">Głosowe zadania</span><span class="tag tp">Skan rachunków</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. JEDNO ŹRÓDŁO DANYCH -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Architektura</p>
+    <h2 class="title">Jedno źródło danych — <em>zero silosów</em></h2>
+    <p class="sub">W typowej firmie dane są rozsiane: Excel, WhatsApp, papier, osobny program do faktur. W Finito Pro wszystko jest połączone.</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl);margin-bottom:8px">Jak to działa w Finito Pro</h3>
+        <ul class="ck">
+          <li>Dodajesz <strong>klienta</strong> → widoczny w CRM, ofertach, projektach, fakturach</li>
+          <li>Tworzysz <strong>ofertę</strong> → klient akceptuje → automatycznie staje się <strong>projektem</strong></li>
+          <li>Pracownik raportuje <strong>czas</strong> per zadanie → widoczny w projekcie i dashboardzie</li>
+          <li>Kończysz projekt → jednym klikiem <strong>faktura</strong> z danych projektu</li>
+          <li><strong>Dashboard</strong> pokazuje: przychody, koszty, oferty, zaległe faktury</li>
+        </ul>
+      </div>
+      <div class="cd">
+        <h3 style="margin-bottom:8px">Jak to wygląda u konkurencji</h3>
+        <ul class="ck">
+          <li>Osobny program do <strong>faktur</strong> (np. Fakturownia)</li>
+          <li>Osobny <strong>Excel</strong> do projektów i ofert</li>
+          <li>Czas pracy na <strong>papierze</strong> lub w kolejnym programie</li>
+          <li>Komunikacja przez <strong>WhatsApp/email</strong></li>
+          <li>Dane się <strong>nie łączą</strong> — ręczne przepisywanie</li>
+          <li>Comarch: <strong>108 osobnych produktów</strong> z zależnościami</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wniosek">Przykład: klient „Karolina Pawlak" → Oferta 475 PLN → Projekt „Sprzątanie" → Raport czasu → Faktura FV-2026-0005 — wszystko automatycznie</div>
+  </div>
+</section>
+
+<!-- 4. 13 MODUŁÓW -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Funkcjonalność</p>
+    <h2 class="title">13 modułów — <em>jedna cena</em></h2>
+    <div class="g3" style="margin-top:12px">
+      <div class="cl"><h3>Dashboard KPI</h3><p>Przychody, koszty, otwarte oferty, zaległe faktury — wszystko na jednym ekranie</p></div>
+      <div class="cl"><h3>Projekty + Zadania</h3><p>Etapy, przypisania, deadliny, dokumenty, komentarze, aktywność</p></div>
+      <div class="cl"><h3>Faktury + KSeF</h3><p>Automatyczny VAT, szablony PDF, numeracja, waluta, termin płatności, KSeF API</p></div>
+      <div class="cl"><h3>Oferty + Wyceny</h3><p>Katalog usług, szablony, automatyczne przeliczanie, akceptacja online</p></div>
+      <div class="cl"><h3>Czas pracy</h3><p>Start/stop z mobile, raporty dzienne, przerwy, notatki, zdjęcia z realizacji</p></div>
+      <div class="cl"><h3>CRM</h3><p>Kontakty, historia klienta, notatki, automatyczne powiązanie z ofertami i projektami</p></div>
+      <div class="cl"><h3>Urlopy</h3><p>Wnioski, zatwierdzenia, kalendarz, limity per pracownik, typy (urlop/L4/dzień wolny)</p></div>
+      <div class="cl"><h3>Zdjęcia GPS</h3><p>Dokumentacja fotograficzna prac z geolokalizacją, przypisanie do projektu</p></div>
+      <div class="cl"><h3>Magazyn</h3><p>Lista pozycji, stany, zdjęcia, producent, cena, dziennik aktywności</p></div>
+      <div class="cl"><h3>Księgowość</h3><p>Koszty, wydatki, skan rachunków, eksport do Excela</p></div>
+      <div class="cl"><h3>Apka mobilna</h3><p>Responsywna web app — projekty, czas pracy, urlopy, nawigacja GPS</p></div>
+      <div class="cl"><h3>Portal klienta</h3><p>Link bez logowania lub pełny dostęp — klient widzi postępy i dodaje komentarze</p></div>
+      <div class="cl"><h3>Serwis</h3><p>Zlecenia serwisowe, historia, przypisanie do klienta i pracownika</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. UNIKALNE FUNKCJE -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Wyróżniki</p>
+    <h2 class="title">Funkcje, których <em>nie ma konkurencja</em></h2>
+    <div class="g3" style="margin-top:12px">
+      <div class="cl"><h3>Marketplace</h3><p>Firmy oddają projekty, których nie zdążą — jak Oferteo wewnątrz systemu. Działa w CH.</p></div>
+      <div class="cl"><h3>Builder automatyzacji</h3><p>Wizualny drag & drop: trigger → akcja. Webhooks, HTTP Request. Tylko admin.</p></div>
+      <div class="cl"><h3>Głosowe zadania</h3><p>Pracownik mówi do mikrofonu → nowe zadanie bez pisania. Idealne w terenie.</p></div>
+      <div class="cl"><h3>Skan rachunków</h3><p>Zdjęcie rachunku → automatyczny koszt. Opcja AI do kategoryzacji.</p></div>
+      <div class="cl"><h3>Rating Page</h3><p>Link do oceny usługi po zakończeniu projektu. Zbierasz feedback i budujesz reputację.</p></div>
+      <div class="cl"><h3>Multi-firma</h3><p>Jedno konto → kilka firm/oddziałów. Przełączanie. Rentowność per oddział.</p></div>
+      <div class="cl"><h3>Portal klienta</h3><p>2 opcje: link bez logowania lub pełny dostęp jako Partner z komentarzami i zdjęciami.</p></div>
+      <div class="cl"><h3>Granularne uprawnienia</h3><p>10 checkboxów per pracownik. Grupy: Brygadziści, Biuro, Pracownicy, Kierownictwo.</p></div>
+      <div class="cl"><h3>KSeF API</h3><p>Własne rozwiązanie — auto przesyłanie faktur i pobieranie kosztów. Bez zewnętrznego portalu.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. RYNEK PL -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Szansa rynkowa</p>
+    <h2 class="title">Polski rynek ERP: <em>ogromna luka</em></h2>
+    <div class="g21">
+      <div>
+        <p class="sub">3,2 mln firm MŚP w Polsce. Większość nie ma żadnego systemu. To Twoja szansa.</p>
+        <ul class="ck">
+          <li><strong>72% firm MŚP</strong> nie używa żadnego oprogramowania ERP/CRM</li>
+          <li><strong>87% nowych wdrożeń</strong> to rozwiązania chmurowe (SaaS)</li>
+          <li><strong>KSeF 2026</strong> — obowiązkowe e-fakturowanie wymusza digitalizację</li>
+          <li><strong>Dotacje PARP</strong> — 1,3 mld PLN na digitalizację MŚP w 2026</li>
+          <li>Automatyzacja oszczędza firmom <strong>10–20 godzin tygodniowo</strong></li>
+        </ul>
+      </div>
+      <div style="text-align:center">
+        <div class="bn" style="font-size:56px">3,2M</div>
+        <p style="font-size:13px;color:#4b5563;margin:4px 0 16px">firm MŚP w Polsce</p>
+        <div style="background:#f3f0ff;border-radius:12px;padding:14px;margin-bottom:8px">
+          <div class="bn" style="font-size:36px">72%</div>
+          <p style="font-size:11px;color:#4b5563;margin-top:2px">bez żadnego systemu ERP</p>
+        </div>
+        <div style="background:#f3f0ff;border-radius:12px;padding:14px">
+          <div class="bn" style="font-size:36px">87%</div>
+          <p style="font-size:11px;color:#4b5563;margin-top:2px">nowych wdrożeń = chmura</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. vs COMARCH -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Konkurencja 1/8</p>
+    <h2 class="title">Finito vs <em>Comarch ERP Optima</em></h2>
+    <p class="sub">Lider PL 23,6% rynku · 70 000+ klientów · 265+ PLN/user</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl)">Finito wygrywa</h3>
+        <ul class="ck"><li>100 PLN vs 265+ PLN/user</li><li>Wdrożenie w godziny vs 2–8 tygodni z partnerem</li><li>14 dni za darmo, bez karty</li><li>Dokumentacja fotograficzna prac</li><li>Apka mobilna z pełną funkcjonalnością</li><li>Publiczny cennik bez niespodzianek</li></ul>
+      </div>
+      <div class="cd">
+        <h3>Comarch mocniejszy w</h3>
+        <ul class="ck"><li>Pełna księgowość (KH/KPiR, JPK)</li><li>Dojrzała obsługa KSeF</li><li>Duża sieć partnerów wdrożeniowych</li><li>Moduły produkcji i kadr z płacami</li></ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.3)">Ale: złożony interfejs, zależność od partnera, 108 osobnych produktów</p>
+      </div>
+    </div>
+    <div class="wniosek">Finito 13/13 funkcji dla firm usługowych vs Comarch 5/13. Finito wygrywa prostotą i ceną. Comarch wygrywa głębią księgowości.</div>
+  </div>
+</section>
+
+<!-- 8. vs ENOVA -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Konkurencja 2/8</p>
+    <h2 class="title">Finito vs <em>Enova365</em></h2>
+    <p class="sub">17 000 klientów · 50+ modułów · 3 warianty · od 1 990 zł pakiet startowy</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl)">Finito wygrywa</h3>
+        <ul class="ck"><li>Wdrożenie w godziny vs tygodnie z partnerem</li><li>Brak ukrytych kosztów modułów</li><li>Dokumentacja fotograficzna prac</li><li>Test bez karty kredytowej</li><li>Samodzielne wdrożenie bez partnera IT</li></ul>
+      </div>
+      <div class="cd">
+        <h3>Enova mocniejsza w</h3>
+        <ul class="ck"><li>Ogromna skalowalność (MŚP → korporacja)</li><li>CRM, kadry, BI, produkcja w jednym</li><li>50+ modułów do wyboru</li></ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.3)">Ale: wymaga partnera, wyższy próg wejścia, koszt modułów i aktualizacji</p>
+      </div>
+    </div>
+    <div class="wniosek">Finito 13/13 vs Enova 8/13. Finito szybszy i tańszy na starcie. Enova skaluje głębiej, ale wymaga partnera.</div>
+  </div>
+</section>
+
+<!-- 9. vs SYMFONIA -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Konkurencja 3/8</p>
+    <h2 class="title">Finito vs <em>Symfonia</em></h2>
+    <p class="sub">40 000 klientów · UX 4/10 · Desktop · 150–400 PLN/user</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl)">Finito wygrywa</h3>
+        <ul class="ck"><li>Cloud-native vs desktop</li><li>Aplikacja mobilna vs brak mobile</li><li>Nowoczesny UX vs UX 4/10</li><li>AI (głosowe zadania, skan) vs brak AI</li><li>Portal klienta vs brak</li><li>100 PLN vs 150-400 PLN</li></ul>
+      </div>
+      <div class="cd">
+        <h3>Symfonia mocniejsza w</h3>
+        <ul class="ck"><li>Rozpoznawalność marki w PL (40k klientów)</li><li>Pełna księgowość i kadry</li><li>Duża baza biur rachunkowych</li></ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.3)">Ale: przestarzała technologia, brak mobile, brak AI, desktop-only</p>
+      </div>
+    </div>
+    <div class="wniosek">Symfonia to „stara szkoła". Finito to nowoczesna alternatywa dla firm, które chcą mobilności i prostoty.</div>
+  </div>
+</section>
+
+<!-- 10. vs SAP -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Konkurencja 4/8</p>
+    <h2 class="title">Finito vs <em>SAP Business One</em></h2>
+    <p class="sub">Globalny standard ERP · od ~5 000 zł/user · wdrożenie 3–6 miesięcy</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl)">Finito wygrywa</h3>
+        <ul class="ck"><li>Ułamek ceny (100 PLN vs 5 000 zł/user)</li><li>Wdrożenie w godziny vs 3–6 miesięcy</li><li>Dedykowane dla MŚP usługowych</li><li>Polski interfejs i wsparcie</li><li>Dokumentacja fotograficzna</li></ul>
+      </div>
+      <div class="cd">
+        <h3>SAP mocniejszy w</h3>
+        <ul class="ck"><li>Globalny standard, marka</li><li>Zaawansowane raportowanie i logistyka</li><li>Wsparcie międzynarodowe</li></ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.3)">Ale: overkill dla MŚP usługowych, wymaga konsultantów, 3-6 mies. wdrożenie</p>
+      </div>
+    </div>
+    <div class="wniosek">Finito 13/13 vs SAP 7/13. Finito to „włącz i pracuj" za ułamek ceny. SAP ma sens tylko przy dużej skali i eksporcie.</div>
+  </div>
+</section>
+
+<!-- 11. vs IC PROJECT -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Konkurencja 5/8</p>
+    <h2 class="title">Finito vs <em>IC Project</em></h2>
+    <p class="sub">Polski PM/task manager · plan darmowy + 3 płatne · silne zarządzanie projektami</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl)">Finito wygrywa</h3>
+        <ul class="ck"><li>Oferty + wyceny z automatycznym VAT</li><li>Faktury + KSeF (IC nie ma)</li><li>Pełna apka mobilna z dokumentacją foto</li><li>CRM zintegrowany z fakturami</li><li>Zlecenia w terenie — rdzeń produktu</li></ul>
+      </div>
+      <div class="cd">
+        <h3>IC Project mocniejszy w</h3>
+        <ul class="ck"><li>Zarządzanie projektami biurowymi</li><li>Budżetowanie projektów</li><li>Plan darmowy na start</li></ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.3)">Ale: brak faktur, KSeF, zleceń w terenie z mobilną dokumentacją</p>
+      </div>
+    </div>
+    <div class="wniosek">Finito 13/13 vs IC 6/13. IC świetny do biura (agencje, IT). Finito wygrywa gdy liczy się teren, oferta i faktura.</div>
+  </div>
+</section>
+
+<!-- 12. vs MIZZOX -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Konkurencja 6/8</p>
+    <h2 class="title">Finito vs <em>Mizzox</em></h2>
+    <p class="sub">Cyfrowy asystent dla mikrofirm · plan darmowy · KSeF + workflow + Finiaty</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl)">Finito wygrywa</h3>
+        <ul class="ck"><li>Zarządzanie zespołem (Mizzox = solo)</li><li>Projekty, etapy, zadania</li><li>Kalendarz i planowanie zleceń</li><li>Pełna apka mobilna pracownika</li><li>Dokumentacja fotograficzna prac</li><li>Czas pracy zespołu</li></ul>
+      </div>
+      <div class="cd">
+        <h3>Mizzox mocniejszy w</h3>
+        <ul class="ck"><li>Bardzo niski próg wejścia</li><li>Workflow automatyzacje</li><li>Linia kredytowa Finiaty</li><li>Weryfikacja kontrahentów GUS/MF</li></ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.3)">Ale: nastawiony na jednoosobową działalność, nie skaluje się z zespołem</p>
+      </div>
+    </div>
+    <div class="wniosek">Finito 13/13 vs Mizzox 5/13. Mizzox świetny dla JDG. Finito skaluje się z zespołem i zleceniami w terenie.</div>
+  </div>
+</section>
+
+<!-- 13. vs TILLIO -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Konkurencja 7/8</p>
+    <h2 class="title">Finito vs <em>Tillio</em></h2>
+    <p class="sub">Polski CRM/CXM · od 19 zł/mies · 14 dni testów · mocny CRM + automatyzacje</p>
+    <div class="g2">
+      <div class="cd" style="border-color:rgba(124,58,237,.3)">
+        <h3 style="color:var(--pl)">Finito wygrywa</h3>
+        <ul class="ck"><li>Oferty + wyceny z automatycznym VAT</li><li>Faktury + KSeF (Tillio nie ma)</li><li>Apka mobilna pracownika</li><li>Dokumentacja fotograficzna</li><li>Czas pracy zespołu</li><li>Zlecenia w terenie</li></ul>
+      </div>
+      <div class="cd">
+        <h3>Tillio mocniejszy w</h3>
+        <ul class="ck"><li>Silny CRM z automatyzacjami</li><li>Poczta wbudowana</li><li>Niższa cena od 19 zł</li><li>Kalendarz urlopów</li></ul>
+        <p style="margin-top:8px;font-size:10px;color:rgba(255,255,255,.3)">Ale: brak operacyjnej realizacji zleceń w terenie, brak dokumentacji foto</p>
+      </div>
+    </div>
+    <div class="wniosek">Finito 13/13 vs Tillio 8/13. Tillio wygrywa w czystym CRM. Finito wygrywa gdy trzeba wycenić, zrealizować i rozliczyć zlecenie.</div>
+  </div>
+</section>
+
+<!-- 14. PEŁNE PORÓWNANIE - TABELA -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Zestawienie zbiorcze</p>
+    <h2 class="title">8 systemów — <em>jedno porównanie</em></h2>
+    <div style="overflow-x:auto;border-radius:12px;border:1px solid #e5e7eb">
+      <table class="cmp" style="min-width:800px">
+        <thead><tr><th style="text-align:left">Kryterium</th><th style="color:#fff;background:var(--p)">Finito</th><th>Comarch</th><th>Enova</th><th>Symfonia</th><th>SAP</th><th>IC Proj.</th><th>Mizzox</th><th>Tillio</th></tr></thead>
+        <tbody>
+          <tr><td>Typ</td><td class="hi"><strong>All-in-one SaaS</strong></td><td>ERP moduł.</td><td>ERP moduł.</td><td>Desktop ERP</td><td>ERP enterpr.</td><td>PM/Task</td><td>Asystent</td><td>CRM/CXM</td></tr>
+          <tr><td>Grupa docelowa</td><td class="hi"><strong>Mikro+MŚP usług.</strong></td><td>MŚP+biura</td><td>MŚP+duże</td><td>MŚP+biura</td><td>Średnie/duże</td><td>Agencje</td><td>Mikrofirmy</td><td>Handlowcy</td></tr>
+          <tr><td>Cena startowa</td><td class="hi"><strong>100 PLN/user</strong></td><td>265+ PLN</td><td>od 1990 zł</td><td>150-400 PLN</td><td>~5000 zł/user</td><td>Darmowy+</td><td>Darmowy+</td><td>od 19 zł</td></tr>
+          <tr><td>Wdrożenie</td><td class="hi"><strong>Godziny</strong></td><td>2-8 tyg.</td><td>1-4 tyg.</td><td>1-3 tyg.</td><td>3-6 mies.</td><td>Godziny</td><td>Minuty</td><td>Godziny</td></tr>
+          <tr><td>Apka mobilna + zdjęcia</td><td class="hi"><strong>Tak</strong></td><td>Ograniczona</td><td>Web/mobile</td><td>Brak</td><td>Tak (lic.)</td><td>Web</td><td>Web</td><td>Web</td></tr>
+          <tr><td>KSeF / faktury</td><td class="hi"><strong>Tak</strong></td><td>Tak (pełny)</td><td>Tak</td><td>Tak</td><td>Tak</td><td>Brak</td><td>Tak</td><td>Brak</td></tr>
+          <tr><td>CRM / oferty</td><td class="hi"><strong>Zintegrowane</strong></td><td>Moduł</td><td>Moduł</td><td>Ograniczone</td><td>Tak</td><td>Ograniczone</td><td>Ograniczone</td><td>Mocne</td></tr>
+          <tr><td>Zlecenia w terenie</td><td class="hi"><strong>Rdzeń</strong></td><td>Przez moduły</td><td>Przez moduły</td><td>Brak</td><td>Przez moduły</td><td>Częściowo</td><td>Ograniczone</td><td>Ograniczone</td></tr>
+          <tr><td>Idealny dla</td><td class="hi"><strong>Firm usług./rzem.</strong></td><td>Księgowości</td><td>Rosnących MŚP</td><td>Biur rach.</td><td>Dużej prod.</td><td>Projektów biur.</td><td>JDG</td><td>Dz. sprzedaży</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 15. TABELA MODUŁÓW -->
+<section class="S light">
+  <div class="SI">
+    <p class="label">Moduły i funkcje</p>
+    <h2 class="title">13 funkcji × <em>8 konkurentów</em></h2>
+    <div style="overflow-x:auto;border-radius:12px;border:1px solid #e5e7eb">
+      <table class="cmp" style="min-width:800px">
+        <thead><tr><th style="text-align:left">Moduł / Funkcja</th><th style="color:#fff;background:var(--p)">Finito</th><th>Comarch</th><th>Enova</th><th>Symfonia</th><th>SAP</th><th>IC</th><th>Mizzox</th><th>Tillio</th></tr></thead>
+        <tbody>
+          <tr><td>Oferty + auto VAT</td><td class="hi"><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="ty">Częśc.</span></td><td><span class="ty">Częśc.</span></td><td><span class="ty">Częśc.</span></td><td>—</td><td>—</td><td><span class="ty">Częśc.</span></td></tr>
+          <tr><td>Faktury + KSeF</td><td class="hi"><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td>—</td><td><span class="tg">TAK</span></td><td>—</td></tr>
+          <tr><td>Projekty / zadania</td><td class="hi"><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td><td>—</td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td></tr>
+          <tr><td>Kalendarz / zlecenia</td><td class="hi"><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td><td>—</td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td></tr>
+          <tr><td>Apka mobilna</td><td class="hi"><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td><td>—</td><td><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="ty">Częśc.</span></td><td><span class="ty">Częśc.</span></td></tr>
+          <tr><td>Dokumentacja foto</td><td class="hi"><span class="tg">TAK</span></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td>CRM</td><td class="hi"><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td>—</td><td><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td></tr>
+          <tr><td>Czas pracy</td><td class="hi"><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td>—</td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td>—</td><td><span class="ty">Częśc.</span></td></tr>
+          <tr><td>Dashboard / raporty</td><td class="hi"><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td></tr>
+          <tr><td>Chmura PL</td><td class="hi"><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="ty">Częśc.</span></td><td>—</td><td><span class="ty">Częśc.</span></td><td>—</td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td></tr>
+          <tr><td>PL interfejs + wsparcie</td><td class="hi"><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="ty">Częśc.</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td></tr>
+          <tr><td>Wdrożenie bez partnera</td><td class="hi"><span class="tg">TAK</span></td><td>—</td><td>—</td><td>—</td><td>—</td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td></tr>
+          <tr><td>Test bez karty</td><td class="hi"><span class="tg">TAK</span></td><td>—</td><td>—</td><td>—</td><td>—</td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td><td><span class="tg">TAK</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:9px;color:#9ca3af;margin-top:6px;text-align:center">Źródło: publiczne informacje, analizy wewnętrzne · Kwiecień 2026</p>
+  </div>
+</section>
+
+<!-- 16. KTÓRY SYSTEM DLA KOGO -->
+<section class="S accent">
+  <div class="SI" style="text-align:center">
+    <p class="label">Rekomendacja</p>
+    <h2 class="title">Który system <em>dla kogo</em>?</h2>
+    <div class="g3" style="margin-top:16px">
+      <div style="background:rgba(255,255,255,.2);border-radius:14px;padding:20px;border:2px solid rgba(255,255,255,.3)">
+        <div style="font-size:28px;font-weight:800;margin-bottom:6px">Finito Pro</div>
+        <div style="font-size:10px;opacity:.7;margin-bottom:10px">NAJLEPSZY DLA FIRM USŁUGOWYCH</div>
+        <ul class="ck" style="text-align:left"><li>Firma usługowa lub rzemieślnicza</li><li>Od razu: oferta → zlecenie → faktura</li><li>Praca w terenie + dokumentacja foto</li><li>Szybkie wdrożenie bez IT</li></ul>
+      </div>
+      <div style="background:rgba(255,255,255,.1);border-radius:14px;padding:20px">
+        <div style="font-size:18px;font-weight:700;margin-bottom:6px">Comarch / Enova / Symfonia</div>
+        <div style="font-size:10px;opacity:.7;margin-bottom:10px">KSIĘGOWOŚĆ I ROZBUDOWANE ERP</div>
+        <ul class="ck" style="text-align:left"><li>Rozbudowana księgowość / biuro rach.</li><li>Moduł produkcji lub kadr 50+</li><li>Budżet na partnera wdrożeniowego</li><li>Akceptujesz dłuższy proces</li></ul>
+      </div>
+      <div style="background:rgba(255,255,255,.1);border-radius:14px;padding:20px">
+        <div style="font-size:18px;font-weight:700;margin-bottom:6px">SAP / Tillio / IC / Mizzox</div>
+        <div style="font-size:10px;opacity:.7;margin-bottom:10px">NISZOWE ZASTOSOWANIA</div>
+        <ul class="ck" style="text-align:left"><li>SAP: ekspansja międzynarodowa</li><li>Tillio: rdzeń = sprzedaż i CRM</li><li>IC Project: projekty biurowe / agencja</li><li>Mizzox: jednoosobowa działalność</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 17. ARGUMENTY SPRZEDAŻOWE -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Rozmowa z klientem</p>
+    <h2 class="title">Argumenty <em>sprzedażowe</em></h2>
+    <div class="g2">
+      <div class="cd">
+        <h3 style="color:var(--pl)">Klient nie ma ERP</h3>
+        <ul class="ck" style="font-size:11px">
+          <li>„100 PLN/użytkownik — taniej niż kawa dla zespołu"</li>
+          <li>„14 dni za darmo, bez karty — przetestuj"</li>
+          <li>„Jedno miejsce zamiast Excela + WhatsAppa + papierów"</li>
+          <li>„Twój klient widzi postępy online — bez dzwonienia"</li>
+          <li>„Pracownik dodaje zadania głosem — bez pisania"</li>
+          <li>„KSeF 2026 wymaga e-fakturowania — z Finito masz to gotowe"</li>
+        </ul>
+      </div>
+      <div class="cd">
+        <h3 style="color:var(--pl)">Klient ma Comarch/Enova/Symfonię</h3>
+        <ul class="ck" style="font-size:11px">
+          <li>„Ile płacisz za wdrożenie? U nas kilka godzin"</li>
+          <li>„Publiczny cennik — bez niespodzianek"</li>
+          <li>„Marketplace — oddaj nadmiar pracy innym firmom"</li>
+          <li>„Builder automatyzacji — sam tworzysz reguły"</li>
+          <li>„8 języków — zatrudniasz obcokrajowców? Mamy ich język"</li>
+          <li>„Apka mobilna ze zdjęciami z realizacji — tego nie masz"</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cd" style="margin-top:12px">
+      <h3 style="color:var(--pl);margin-bottom:6px">Klient rozważa Mizzox / Tillio / IC Project</h3>
+      <div class="g3" style="font-size:11px">
+        <div><p style="color:rgba(255,255,255,.4)"><strong style="color:rgba(255,255,255,.6)">vs Mizzox:</strong> „Mizzox to dla jednego. Jak zatrudnisz 3 osoby — potrzebujesz Finito."</p></div>
+        <div><p style="color:rgba(255,255,255,.4)"><strong style="color:rgba(255,255,255,.6)">vs Tillio:</strong> „Tillio to CRM. Nie wystawisz faktury KSeF ani nie rozliczysz zlecenia w terenie."</p></div>
+        <div><p style="color:rgba(255,255,255,.4)"><strong style="color:rgba(255,255,255,.6)">vs IC Project:</strong> „IC to tablica zadań. Finito to: oferta → projekt → faktura — pełen cykl."</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 18. OBIEKCJE -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Obiekcje</p>
+    <h2 class="title">Odpowiedzi na <em>obiekcje klientów</em></h2>
+    <div class="g2">
+      <div class="tc"><h4>„Za drogo"</h4><p>100 PLN/user = 3 PLN dziennie. Ile kosztuje godzina szukania papierowych faktur? Ile tracisz na zapomnianej ofercie? Finito się zwraca w pierwszym miesiącu.</p></div>
+      <div class="tc"><h4>„Nie mam czasu na wdrożenie"</h4><p>Finito wdraża za Ciebie. Podaj dane — resztę robimy my. Migracja w kilka dni. 14 dni testu — jeśli nie pasuje, nic nie płacisz.</p></div>
+      <div class="tc"><h4>„Mam Excela i działa"</h4><p>Excel nie wyśle klientowi linku z postępem projektu. Nie policzy marży per zlecenie. Nie przypomni o zaległej fakturze. Finito to zrobi automatycznie.</p></div>
+      <div class="tc"><h4>„A co z danymi?"</h4><p>Serwery w Szwajcarii, 2 lokalizacje, automatyczne backupy, szyfrowanie jak w banku. Zgodność z RODO. Eksport na życzenie w Excelu.</p></div>
+      <div class="tc"><h4>„Nie znam tego systemu"</h4><p>200+ firm w Szwajcarii. SM Tech GmbH (producent) + OCTOLABS (przedstawiciel PL). Szkolenie, demo konto, support 12–24h. Przetestuj 14 dni za darmo.</p></div>
+      <div class="tc"><h4>„Mam Comarch / Enovę"</h4><p>Ile płacisz za moduły? Ile czekałeś na wdrożenie? Finito ma 13 modułów w jednej cenie, bez partnera IT, gotowe w godziny. Porównaj sam — 14 dni za darmo.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 19. MODEL PROWIZJI -->
+<section class="S dark">
+  <div class="SI">
+    <p class="label">Twoje zarobki</p>
+    <h2 class="title">Model prowizji: <em>20–40% + 5%</em></h2>
+    <div class="g2" style="margin-bottom:16px">
+      <div class="cd" style="text-align:center;border-color:rgba(124,58,237,.3);padding:24px">
+        <p style="font-size:10px;font-weight:700;letter-spacing:2px;color:var(--pl);margin-bottom:4px">ROK 1 (MIESIĄCE 1–12)</p>
+        <div class="bn" style="font-size:52px">20–40%</div>
+        <p style="font-size:12px;color:rgba(255,255,255,.45);margin-top:6px">zysków netto z każdego klienta</p>
+      </div>
+      <div class="cd" style="text-align:center;padding:24px">
+        <p style="font-size:10px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,.35);margin-bottom:4px">ROK 2+ (LIFETIME)</p>
+        <div style="font-size:52px;font-weight:800;color:rgba(255,255,255,.6);line-height:1">5%</div>
+        <p style="font-size:12px;color:rgba(255,255,255,.45);margin-top:6px">dopóki klient zostaje na Finito Pro</p>
+      </div>
+    </div>
+    <div class="g3">
+      <div style="background:rgba(255,255,255,.06);border-radius:14px;padding:18px;text-align:center">
+        <p style="font-size:10px;opacity:.5">Freelancer IT</p>
+        <p style="font-size:9px;opacity:.3">5 firm × 6 userów = 30</p>
+        <div style="font-size:22px;font-weight:800;color:var(--pl);margin:6px 0">5 760 PLN</div>
+        <div style="font-size:9px;opacity:.4">Rok 1 · potem 720 PLN/rok lifetime</div>
+      </div>
+      <div style="background:rgba(255,255,255,.1);border-radius:14px;padding:18px;text-align:center;transform:scale(1.02)">
+        <p style="font-size:10px;opacity:.5">Agencja IT</p>
+        <p style="font-size:9px;opacity:.3">20 firm × 8 userów = 160</p>
+        <div style="font-size:22px;font-weight:800;color:var(--pl);margin:6px 0">30 720 PLN</div>
+        <div style="font-size:9px;opacity:.4">Rok 1 · potem 3 840 PLN/rok lifetime</div>
+      </div>
+      <div style="background:rgba(255,255,255,.06);border-radius:14px;padding:18px;text-align:center">
+        <p style="font-size:10px;opacity:.5">Biuro rachunkowe</p>
+        <p style="font-size:9px;opacity:.3">15 firm × 5 userów = 75</p>
+        <div style="font-size:22px;font-weight:800;color:var(--pl);margin:6px 0">14 400 PLN</div>
+        <div style="font-size:9px;opacity:.4">Rok 1 · potem 1 800 PLN/rok lifetime</div>
+      </div>
+    </div>
+    <p style="margin-top:12px;font-size:9px;opacity:.2;text-align:center">Szacunek: zysk ~40 PLN/user/mies. × 40% prowizji. Kwoty przed podatkiem partnera.</p>
+  </div>
+</section>
+
+<!-- 20. CTA -->
+<section class="S dark">
+  <div class="SI" style="text-align:center">
+    <h2 class="title" style="max-width:700px;margin:0 auto 14px;font-size:clamp(24px,3.8vw,40px)">Gotowy, żeby <em>sprzedawać Finito Pro</em>?</h2>
+    <p class="sub" style="text-align:center;margin:0 auto 24px">1. Załóż konto → app.finitopro.pl<br>2. Skontaktuj się → finitopro.pl/kontakt<br>3. Otrzymaj materiały i zacznij zarabiać</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:24px">
+      <a href="https://app.finitopro.pl/register" style="display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#7c3aed,#a78bfa);color:#fff;font-size:14px;font-weight:600;padding:12px 24px;border-radius:12px;text-decoration:none;box-shadow:0 4px 15px rgba(124,58,237,.4)">Załóż konto Finito Pro →</a>
+      <a href="https://finitopro.pl/kontakt" style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);color:#fff;font-size:14px;font-weight:600;padding:12px 24px;border-radius:12px;text-decoration:none;border:1px solid rgba(255,255,255,.2)">Skontaktuj się z nami</a>
+    </div>
+    <div class="g4" style="max-width:600px;margin:0 auto">
+      <div style="text-align:center"><div style="font-size:18px;font-weight:800;color:var(--pl)">8</div><div style="font-size:9px;opacity:.3;margin-top:2px">Konkurentów przeanalizowanych</div></div>
+      <div style="text-align:center"><div style="font-size:18px;font-weight:800;color:var(--pl)">13/13</div><div style="font-size:9px;opacity:.3;margin-top:2px">Funkcji dla firm usługowych</div></div>
+      <div style="text-align:center"><div style="font-size:18px;font-weight:800;color:var(--pl)">20-40%</div><div style="font-size:9px;opacity:.3;margin-top:2px">Prowizji rok 1</div></div>
+      <div style="text-align:center"><div style="font-size:18px;font-weight:800;color:var(--pl)">200+</div><div style="font-size:9px;opacity:.3;margin-top:2px">Użytkowników w CH</div></div>
+    </div>
+    <p style="margin-top:20px;font-size:10px;opacity:.15">SM Tech GmbH (Szwajcaria) · OCTOLABS Sp. z o.o. (Polska) · Materiał wewnętrzny · Kwiecień 2026</p>
+  </div>
+</section>
+
+</div>
+<script>
+const c=document.getElementById('sc'),ss=document.querySelectorAll('.S'),nav=document.getElementById('nav'),ctr=document.getElementById('ctr'),t=ss.length;
+ss.forEach((_,i)=>{const d=document.createElement('button');d.className='nd'+(i===0?' a':'');d.onclick=()=>ss[i].scrollIntoView({behavior:'smooth'});nav.appendChild(d)});
+const ds=document.querySelectorAll('.nd');
+ss.forEach(s=>new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){const i=Array.from(ss).indexOf(en.target);ds.forEach((d,j)=>d.classList.toggle('a',j===i));ctr.textContent=(i+1)+' / '+t}})},{threshold:.5}).observe(s));
+document.addEventListener('keydown',e=>{const ci=Array.from(ds).findIndex(d=>d.classList.contains('a'));if(('ArrowDown ArrowRight '.includes(e.key))&&ci<t-1){e.preventDefault();ss[ci+1].scrollIntoView({behavior:'smooth'})}if(('ArrowUp ArrowLeft'.includes(e.key))&&ci>0){e.preventDefault();ss[ci-1].scrollIntoView({behavior:'smooth'})}});
+</script>
+</body>
+</html>

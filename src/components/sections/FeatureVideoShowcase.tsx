@@ -3,59 +3,57 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  LayoutDashboard,
   FolderKanban,
-  Receipt,
   FileText,
   CalendarDays,
+  Users,
+  Clock,
+  Package,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const tabs = [
   {
-    id: "dashboard",
-    label: "Dashboard",
-    icon: LayoutDashboard,
-    video: "/videos/1Dashboard-Desktop-transcode.mp4",
-    videoWebm: "/videos/1Dashboard-Desktop-transcode.webm",
-    poster: "/videos/1Dashboard-Desktop-poster-00001.jpg",
-    description: "Wszystkie KPI w jednym miejscu",
-  },
-  {
-    id: "projekte",
+    id: "projekty",
     label: "Projekty",
     icon: FolderKanban,
-    video: "/videos/1Projekt-Management-transcode.mp4",
-    videoWebm: "/videos/1Projekt-Management-transcode.webm",
-    poster: "/videos/1Projekt-Management-poster-00001.jpg",
+    video: "/videos/projekty.mp4",
     description: "Efektywne zarządzanie projektami",
   },
   {
-    id: "rechnungen",
-    label: "Faktury",
-    icon: Receipt,
-    video: "/videos/1Rechnungen-PC-transcode.mp4",
-    videoWebm: "/videos/1Rechnungen-PC-transcode.webm",
-    poster: "/videos/1Rechnungen-PC-poster-00001.jpg",
-    description: "Faktury w kilka sekund",
-  },
-  {
-    id: "offerten",
+    id: "oferty",
     label: "Oferty",
     icon: FileText,
-    video: "/videos/1Offerte-PC-transcode.mp4",
-    videoWebm: "/videos/1Offerte-PC-transcode.webm",
-    poster: "/videos/1Offerte-PC-poster-00001.jpg",
+    video: "/videos/oferty.mp4",
     description: "Tworzenie profesjonalnych ofert",
   },
   {
-    id: "kalender",
+    id: "klienci",
+    label: "Klienci",
+    icon: Users,
+    video: "/videos/klienci.mp4",
+    description: "CRM — kontakty i historia klienta",
+  },
+  {
+    id: "rejestracja-czasu",
+    label: "Rejestracja czasu",
+    icon: Clock,
+    video: "/videos/rejestrowanie czasu.mp4",
+    description: "Śledzenie czasu pracy zespołu",
+  },
+  {
+    id: "kalendarz",
     label: "Kalendarz",
     icon: CalendarDays,
-    video: "/videos/1Dashboard-Desktop-transcode.mp4",
-    videoWebm: "/videos/1Dashboard-Desktop-transcode.webm",
-    poster: "/videos/1Dashboard-Desktop-poster-00001.jpg",
-    description: "Terminy i planowanie",
+    video: "/videos/kalendarz.mp4",
+    description: "Terminy i planowanie zleceń",
+  },
+  {
+    id: "magazyn",
+    label: "Magazyn",
+    icon: Package,
+    video: "/videos/zarządzanie magazynem 2.mp4",
+    description: "Zarządzanie magazynem i materiałami",
   },
 ];
 
@@ -156,10 +154,8 @@ export function FeatureVideoShowcase() {
                       muted
                       playsInline
                       preload="none"
-                      poster={tabs[activeTab].poster}
                       className="w-full h-full object-cover"
                     >
-                      <source src={tabs[activeTab].videoWebm} type="video/webm" />
                       <source src={tabs[activeTab].video} type="video/mp4" />
                     </video>
                   </motion.div>

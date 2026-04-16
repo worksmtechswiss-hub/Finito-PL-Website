@@ -75,12 +75,55 @@ Dane firmy (logo, IBAN, VAT, "Dodaj partnera"/"Zarządzaj partnerami"), Wyświet
 - **Zysk netto szacowany:** ~40 PLN/użytkownik/mies. (do obliczeń kalkulatora)
 - **Prezentacja partnerska:** public/prezentacja-partnerska.html (16 slajdów)
 
-## Konkurencja w Polsce
-- **Comarch ERP Optima** — lider 23,6%, 265+ PLN/user, UX 5/10, wdrożenie 2–8 tyg.
-- **Enova365** — 17 000 klientów, 200–500 PLN/user, słaby CRM
-- **Symfonia** — 40 000 klientów, UX 4/10, desktop, brak AI, brak mobile
+## Konkurencja w Polsce (8 konkurentów — połączona analiza kwiecień 2026)
+
+### Bezpośredni konkurenci ERP/CRM
+- **Comarch ERP Optima** — lider PL 23,6%, 70 000+ klientów, 265+ PLN/user, UX 5/10, wdrożenie 2–8 tyg. z partnerem. Mocne: pełna księgowość, KSeF, duża sieć partnerów. Słabe: złożony interfejs, koszty modułów, zależność od partnera. Finito 13/13 vs Comarch 5/13 funkcji dla firm usługowych.
+- **Enova365** — 17 000 klientów, 50+ modułów, 3 warianty (srebro/złoto/platyna), 200–500 PLN/user, pakiet Nowa Firma od 1 990 zł. Mocne: ogromna skalowalność, CRM, kadry, BI, produkcja. Słabe: wymaga partnera, wyższy próg wejścia. Finito 13/13 vs Enova 8/13.
+- **Symfonia** — 40 000 klientów, desktop (on-premise), od ~200 zł/mies. + moduły, KSeF od 59 zł/pakiet. 30+ lat na rynku, silne FK i kadry. UX 4/10, brak mobile, brak AI, brak dokumentacji foto. Finito 13/13 vs Symfonia 5/13.
+
+### Nowi/mniejsi konkurenci (analiza Izy, kwiecień 2026)
+- **SAP Business One** — globalny ERP, od ~5 000 zł/user, wdrożenie 3–6 mies. Overkill dla MŚP usługowych. Finito 13/13 vs SAP 7/13.
+- **IC Project** — polski PM/task manager, plan darmowy (Startup) + pełny ~50 zł/os./mies. Dobry do projektów biurowych (agencje, IT). Słaby: brak faktur KSeF, brak zleceń w terenie z mobilną dokumentacją. Finito 13/13 vs IC 6/13.
+- **Mizzox** — cyfrowy asystent dla mikrofirm. Cennik: Free / Business 29 zł/mies. / Enterprise 119 zł/mies. AI-powered automatyzacja, rezerwacje online 24/7, KSeF. Słaby: brak zarządzania ekipami, brak czasu pracy, brak dokumentacji foto. Finito 13/13 vs Mizzox 5/13.
+- **Tillio** — polski CRM/CXM, cennik na zapytanie. Mocny CRM z automatyzacjami, generowanie ofert i umów, dobry moduł projektowy. Słaby: brak operacyjnego ERP, brak dokumentacji foto, brak rozliczania czasu pracy. Finito 13/13 vs Tillio 7/13.
+
+### Niszowi / inne segmenty
 - **SCCOT** — 99 PLN/firma, tylko CPQ/ofertowanie (NIE ERP)
 - IFS, Axians, ELO, e-MSI, Exant, Budoku — inne segmenty, nie konkurenci
+
+### 13 kluczowych modułów — porównanie zbiorcze
+| Moduł | Finito | Comarch | Enova | Symfonia | SAP | IC | Mizzox | Tillio |
+|-------|--------|---------|-------|----------|-----|----|--------|--------|
+| Oferty + auto VAT | ✓ | ◐ | ◐ | ◐ | ◐ | — | — | ◐ |
+| Faktury + KSeF | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | — |
+| Projekty/zadania | ✓ | ◐ | ✓ | — | ✓ | ✓ | ◐ | ✓ |
+| Kalendarz/planowanie | ✓ | ◐ | ✓ | — | ✓ | ✓ | ◐ | ✓ |
+| Apka mobilna | ✓ | ◐ | ✓ | — | ✓ | ◐ | ◐ | ◐ |
+| Dokumentacja foto | ✓ | — | — | — | — | — | — | — |
+| CRM | ✓ | ✓ | ✓ | — | ✓ | ◐ | ◐ | ✓ |
+| Czas pracy | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | ◐ |
+| Dashboard/raporty | ✓ | ✓ | ✓ | ◐ | ✓ | ◐ | ◐ | ✓ |
+| Chmura PL | ✓ | ◐ | ◐ | — | ◐ | — | ✓ | ✓ |
+| PL interfejs + wsparcie | ✓ | ✓ | ✓ | ✓ | ◐ | ✓ | ✓ | ✓ |
+| Wdrożenie bez partnera | ✓ | — | — | — | — | ✓ | ✓ | ✓ |
+| Test bez karty | ✓ | — | — | — | — | ✓ | ✓ | ✓ |
+
+### Luki produktowe Finito (gdzie konkurencja wygrywa)
+1. Pełna księgowość (KH/KPiR) — NIE budujemy (za drogie, za skomplikowane)
+2. Magazyn — MAMY bazę, brakuje: próg min + alert, auto-odjęcie, QR scan
+3. Kadry — MAMY (urlopy, czas pracy), brakuje: generator umów, terminy BHP, eksport do Symfonia/Comarch HR
+4. BI / zaawansowane raporty — brakuje: pulpit główny z KPI, konfigurowalne alerty, ranking rentowności
+5. Weryfikacja NIP (GUS/MF biała lista) — QUICK WIN, 1–2 dni pracy
+6. Bramki płatności / link to pay — Przelewy24 + Stripe, "Zapłać teraz" w fakturze
+7. Multi-walutowość — faktury EUR/USD/CHF z kursem NBP
+8. Transparentny cennik na stronie — lista funkcji per plan, toggle roczny, kalkulator
+9. AI-asystent w interfejsie — nikt z konkurencji nie ma dla MŚP usługowych
+10. Strona integracji z logotypami partnerów — KSeF, GUS, Przelewy24, iFirma, Google
+
+### Prezentacje sprzedażowe
+- **Prezentacja partnerska:** public/prezentacja-partnerska.html (16 slajdów — focus na prowizje)
+- **Prezentacja sprzedażowa:** public/prezentacja-sprzedazowa.html (20 slajdów — pełna analiza 8 konkurentów + argumenty)
 
 ## Rynek polski
 - 3,2 mln firm MŚP, 72% bez ERP, 87% nowych wdrożeń = SaaS
