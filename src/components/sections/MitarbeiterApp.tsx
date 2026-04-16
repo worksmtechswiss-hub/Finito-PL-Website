@@ -56,14 +56,15 @@ export function MitarbeiterApp() {
               {/* Glow */}
               <div className="absolute -inset-8 bg-gradient-to-br from-primary-500/15 to-accent-400/10 rounded-full blur-3xl" />
 
-              {/* Realistic Phone Mockup Image */}
+              {/* Realistic Phone Mockup Image with purple bg */}
               <motion.div
-                className="relative w-[380px] sm:w-[500px]"
+                className="relative w-[380px] sm:w-[500px] rounded-3xl overflow-hidden"
+                style={{ backgroundColor: '#f3f0ff' }}
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
               >
                 <Image
-                  src="/images/phone.png"
+                  src="/images/Free_Iphone_15_Mockup_4 1.png"
                   alt="Aplikacja Finito Pro na iPhone"
                   width={800}
                   height={800}
