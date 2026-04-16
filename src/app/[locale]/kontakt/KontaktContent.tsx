@@ -175,9 +175,9 @@ export function KontaktContent() {
                   Porozmawiaj z nami
                 </h2>
                 <p className="text-neutral-500 leading-relaxed">
-                  Nasz zespół ze Szwajcarii jest do Twojej dyspozycji.
-                  Niezależnie od tego, czy chcesz demo, masz pytania, czy
-                  chcesz przekazać opinię.
+                  Nasz zespół jest do Twojej dyspozycji.
+                  Niezależnie od tego, czy chcesz zobaczyć demo, masz pytania,
+                  czy chcesz umówić prezentację.
                 </p>
               </div>
 
@@ -218,7 +218,7 @@ export function KontaktContent() {
                 </a>
 
                 <a
-                  href="tel:+41782675982"
+                  href="tel:+48660285033"
                   className="group flex items-start gap-4 p-5 rounded-2xl border border-neutral-100 hover:border-primary-200 hover:shadow-card transition-all"
                 >
                   <div className="w-11 h-11 bg-primary-50 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-primary-100 transition-colors">
@@ -226,7 +226,7 @@ export function KontaktContent() {
                   </div>
                   <div>
                     <h3 className="font-medium text-neutral-900 mb-1">Telefon</h3>
-                    <p className="text-sm text-primary-600">+41 78 267 59 82</p>
+                    <p className="text-sm text-primary-600">+48 660 285 033</p>
                     <p className="text-xs text-neutral-400 mt-1">
                       Pn - Pt, 08:00 - 18:00
                     </p>
@@ -243,9 +243,6 @@ export function KontaktContent() {
                     <p className="text-sm text-neutral-500">Hoża 29, 00-521 Warszawa</p>
                     <p className="text-xs text-neutral-400 mt-1">
                       KRS: 0001185907 · NIP: 7011270907 · REGON: 542315362
-                    </p>
-                    <p className="text-xs text-neutral-400">
-                      Osoba kontaktowa: Kamil Gonera
                     </p>
                   </div>
                 </div>
@@ -347,7 +344,7 @@ export function KontaktContent() {
                             setFormData({ ...formData, telefon: e.target.value })
                           }
                           className="w-full px-4 py-3 bg-white border border-neutral-200 rounded-xl text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
-                          placeholder="+41 79 000 00 00"
+                          placeholder="+48 600 000 000"
                         />
                       </div>
                       <div>
@@ -366,7 +363,7 @@ export function KontaktContent() {
                             setFormData({ ...formData, email: e.target.value })
                           }
                           className="w-full px-4 py-3 bg-white border border-neutral-200 rounded-xl text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
-                          placeholder="twoj@email.ch"
+                          placeholder="twoj@email.pl"
                         />
                       </div>
                     </div>
