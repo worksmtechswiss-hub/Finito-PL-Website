@@ -106,9 +106,9 @@
     },
     "dashboard": {
       "title": "Panel główny",
-      "description": "Wszystkie kluczowe wskaźniki na pierwszy rzut oka. Finansowe KPI, aktywne projekty, obciążenie pracowników i raporty roczne.",
+      "description": "Wszystkie kluczowe wskaźniki efektywności na pierwszy rzut oka. Finanse, aktywne projekty, obciążenie pracowników i raporty roczne.",
       "bullets": {
-        "1": "Finansowe KPI: przychody, otwarte faktury, przepływ gotówki",
+        "1": "Wskaźniki finansowe: przychody, otwarte faktury, przepływ gotówki",
         "2": "Aktywne projekty ze wskaźnikiem postępu",
         "3": "Obciążenie pracowników w czasie rzeczywistym",
         "4": "Raporty roczne i miesięczne w PDF",

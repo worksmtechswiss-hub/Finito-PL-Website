@@ -19,14 +19,14 @@ export const featurePages: Record<string, FeaturePageData> = {
     iconName: "LayoutDashboard",
     title: "Dashboard",
     description:
-      "Wszystkie kluczowe wskaźniki Twojej firmy na pierwszy rzut oka. Finansowe KPI, aktywne projekty, obciążenie pracowników i raporty roczne - wszystko w czasie rzeczywistym.",
-    metaTitle: "Dashboard - przegląd KPI dla MŚP | Finito Pro",
+      "Wszystkie kluczowe wskaźniki efektywności Twojej firmy na pierwszy rzut oka. Finanse, aktywne projekty, obciążenie pracowników i raporty roczne - wszystko w czasie rzeczywistym.",
+    metaTitle: "Dashboard - wskaźniki efektywności dla MŚP | Finito Pro",
     metaDescription:
       "Zachowaj kontrolę nad firmą rzemieślniczą: obroty, otwarte faktury, przepływy pieniężne i postęp projektów w jednym dashboardzie.",
     keywords: [
       "Dashboard MŚP",
       "Dashboard rzemieślnik",
-      "Przegląd KPI",
+      "Wskaźniki efektywności",
       "Business Intelligence MŚP",
       "Przegląd finansów",
     ],
@@ -36,7 +36,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Dzięki Dashboard Finito Pro widzisz na pierwszy rzut oka, jak radzi sobie Twoja firma. Obroty, otwarte faktury, przepływy pieniężne i aktywne projekty są wyświetlane w czasie rzeczywistym. Indywidualne widżety można dowolnie konfigurować, a automatyczne raporty miesięczne i roczne ułatwiają rozmowy z Twoim księgowym.",
     subFeatures: [
       {
-        title: "Finansowe KPI w czasie rzeczywistym",
+        title: "Wskaźniki finansowe w czasie rzeczywistym",
         description:
           "Obroty, otwarte faktury, przepływy pieniężne i marża zysku są na bieżąco obliczane i przejrzyście prezentowane. Porównaj swoje wyniki z rokiem poprzednim i wcześnie rozpoznawaj trendy.",
       },

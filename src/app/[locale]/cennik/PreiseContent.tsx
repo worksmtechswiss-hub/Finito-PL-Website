@@ -80,7 +80,7 @@ const featureCategories = [
       { name: "Zarządzanie urlopami", starter: false, kmu: true, enterprise: true },
       { name: "Aplikacja dla pracowników", starter: false, kmu: true, enterprise: true },
       { name: "Abonamenty serwisowe i umowy konserwacyjne", starter: false, kmu: true, enterprise: true },
-      { name: "Dashboard CEO (KPI)", starter: false, kmu: true, enterprise: true },
+      { name: "Dashboard CEO (wskaźniki efektywności)", starter: false, kmu: true, enterprise: true },
       { name: "Multi-waluta", starter: false, kmu: true, enterprise: true },
     ],
   },

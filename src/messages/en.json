@@ -106,9 +106,9 @@
     },
     "dashboard": {
       "title": "Pulpit",
-      "description": "Wszystkie kluczowe wskaźniki na pierwszy rzut oka. KPI finansowe, aktywne projekty, wykorzystanie pracowników i raporty roczne.",
+      "description": "Wszystkie kluczowe wskaźniki efektywności na pierwszy rzut oka. Finanse, aktywne projekty, wykorzystanie pracowników i raporty roczne.",
       "bullets": {
-        "1": "KPI finansowe: przychody, otwarte faktury, przepływy pieniężne",
+        "1": "Wskaźniki finansowe: przychody, otwarte faktury, przepływy pieniężne",
         "2": "Aktywne projekty ze wskaźnikami postępu",
         "3": "Wykorzystanie pracowników w czasie rzeczywistym",
         "4": "Raporty roczne i miesięczne w formacie PDF",

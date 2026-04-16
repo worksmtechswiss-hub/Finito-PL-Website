@@ -152,12 +152,12 @@ export const features: Feature[] = [
     titleDe: 'Dashboard',
     titleEn: 'Dashboard',
     descriptionDe:
-      'Wszystkie ważne wskaźniki na pierwszy rzut oka. Finansowe KPI, aktywne projekty, wykorzystanie pracowników i raporty roczne.',
+      'Wszystkie ważne wskaźniki na pierwszy rzut oka. Wskaźniki finansowe, aktywne projekty, wykorzystanie pracowników i raporty roczne.',
     descriptionEn:
-      'Wszystkie ważne wskaźniki na pierwszy rzut oka. Finansowe KPI, aktywne projekty, wykorzystanie pracowników i raporty roczne.',
+      'Wszystkie ważne wskaźniki na pierwszy rzut oka. Wskaźniki finansowe, aktywne projekty, wykorzystanie pracowników i raporty roczne.',
     slug: 'dashboard',
     bulletsDe: [
-      'Finansowe KPI: przychód, otwarte faktury, przepływy pieniężne',
+      'Wskaźniki finansowe: przychód, otwarte faktury, przepływy pieniężne',
       'Aktywne projekty ze wskaźnikiem postępu',
       'Wykorzystanie pracowników w czasie rzeczywistym',
       'Raporty roczne i miesięczne w formacie PDF',
@@ -165,7 +165,7 @@ export const features: Feature[] = [
       'Porównanie z analogicznym okresem roku poprzedniego',
     ],
     bulletsEn: [
-      'Finansowe KPI: przychód, otwarte faktury, przepływy pieniężne',
+      'Wskaźniki finansowe: przychód, otwarte faktury, przepływy pieniężne',
       'Aktywne projekty ze wskaźnikiem postępu',
       'Wykorzystanie pracowników w czasie rzeczywistym',
       'Raporty roczne i miesięczne w formacie PDF',

@@ -28,7 +28,7 @@ const features = [
     slug: "dashboard",
     title: "Dashboard",
     description:
-      "Wszystkie kluczowe wskaźniki w jednym miejscu. Finansowe KPI, aktywne projekty i raporty roczne w czasie rzeczywistym.",
+      "Wszystkie kluczowe wskaźniki efektywności w jednym miejscu. Finanse, aktywne projekty i raporty roczne w czasie rzeczywistym.",
     category: "Przegląd",
   },
   {

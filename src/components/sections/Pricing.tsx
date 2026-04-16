@@ -17,7 +17,7 @@ const kmuFeatures = [
   "Aplikacja dla pracowników",
   "Dokumentacja fotograficzna",
   "Abonamenty serwisowe",
-  "Dashboard CEO (KPI)",
+  "Dashboard CEO (wskaźniki efektywności)",
   "Dostęp API",
   "Multi-waluta",
   "Dane na serwerach w Szwajcarii",
