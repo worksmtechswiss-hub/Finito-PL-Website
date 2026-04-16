@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Lightbulb, Heart, Users, Rocket, Target, ArrowRight } from "lucide-react";
+import { Lightbulb, Heart, Users, Rocket, Target, ArrowRight, Globe, Shield, Zap } from "lucide-react";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 import { cn } from "@/lib/utils";
 
@@ -11,21 +11,21 @@ const values = [
     icon: Lightbulb,
     title: "Innowacja",
     description:
-      "Tworzymy nowoczesne rozwiązania, które naprawdę upraszczają codzienną pracę MŚP. Żadnych przeładowanych systemów - tylko inteligentne narzędzia.",
+      "Tworzymy nowoczesne rozwiązania, które naprawdę upraszczają codzienną pracę firm usługowych. Żadnych przeładowanych systemów — tylko inteligentne narzędzia.",
     color: "primary" as const,
   },
   {
     icon: Heart,
     title: "Prostota",
     description:
-      "Oprogramowanie musi być proste. Nasi użytkownicy powinni móc natychmiast rozpocząć pracę bez szkolenia. Każda funkcja jest tworzona z myślą o łatwości obsługi.",
+      "Oprogramowanie musi być proste. Nasi użytkownicy mogą natychmiast rozpocząć pracę bez szkolenia. Każda funkcja jest tworzona z myślą o łatwości obsługi.",
     color: "accent" as const,
   },
   {
     icon: Users,
     title: "Bliskość klienta",
     description:
-      "Słuchamy naszych klientów. Ich opinie trafiają bezpośrednio do procesu rozwoju. Osobiste wsparcie jest dla nas oczywistością.",
+      "Słuchamy naszych klientów. Ich opinie trafiają bezpośrednio do procesu rozwoju. Osobiste wsparcie i szybka reakcja to nasza codzienność.",
     color: "primary" as const,
   },
 ];
@@ -40,6 +40,13 @@ const team = [
   { name: "Ivan", image: "/images/ivan 1.svg" },
 ];
 
+const stats = [
+  { value: "200+", label: "firm korzysta z Finito" },
+  { value: "13", label: "modułów w jednej cenie" },
+  { value: "8", label: "języków interfejsu" },
+  { value: "2", label: "lokalizacje serwerów" },
+];
+
 export function TeamContent() {
   return (
     <>
@@ -52,16 +59,14 @@ export function TeamContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              <span className="gradient-text-animated">Historia Finito</span>
+              <span className="gradient-text-animated">O Finito Pro</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Nasze oprogramowanie dla usługodawców - stworzone w Szwajcarii, dla
-              szwajcarskich MŚP.
+              Szwajcarska jakość oprogramowania dla polskich firm usługowych
+              i rzemieślniczych.
             </p>
           </motion.div>
         </div>
-
-
       </section>
 
       {/* Story Section */}
@@ -79,17 +84,17 @@ export function TeamContent() {
             </h2>
             <div className="space-y-6 text-lg text-neutral-600 leading-relaxed max-w-3xl mx-auto">
               <p>
-                Wierzymy, że małe i średnie przedsiębiorstwa stanowią
-                fundament naszego społeczeństwa. Rzemieślnicy, usługodawcy
-                i lokalne firmy zasługują na taką samą jakość oprogramowania
-                jak duże korporacje - tylko dostosowaną do ich
-                potrzeb.
+                Wierzymy, że małe i średnie firmy stanowią fundament
+                gospodarki. Rzemieślnicy, usługodawcy i lokalne firmy
+                zasługują na taką samą jakość oprogramowania jak duże
+                korporacje — tylko dostosowaną do ich potrzeb i budżetu.
               </p>
               <p>
-                Finito Pro powstało z bezpośredniej współpracy z
-                firmami rzemieślniczymi w Szwajcarii. Słuchaliśmy, rozumieliśmy
-                i zbudowaliśmy rozwiązanie, które naprawdę działa: intuicyjne,
-                przystępne cenowo i Swiss Made.
+                Finito Pro powstało z bezpośredniej współpracy z firmami
+                usługowymi. Słuchaliśmy, rozumieliśmy i zbudowaliśmy
+                rozwiązanie, które naprawdę działa: intuicyjne, przystępne
+                cenowo i niezawodne. Ponad 200 firm w Szwajcarii korzysta
+                z Finito — teraz startujemy w Polsce.
               </p>
             </div>
           </motion.div>
@@ -156,35 +161,63 @@ export function TeamContent() {
         </div>
       </section>
 
-      {/* Vision & Mission */}
+      {/* Vision & Mission — animated icons instead of static image */}
       <section className="relative py-20 bg-white overflow-hidden">
-        {/* Atmospheric background image */}
-        <div className="absolute inset-0 opacity-[0.03]">
-          <Image
-            src="/images/4459292-Kopie.jpg"
-            alt=""
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-        </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Vision image */}
+          {/* Animated floating icons */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="flex justify-center mb-12"
+            className="flex justify-center mb-16"
           >
-            <div className="relative w-full max-w-md aspect-[4/3] rounded-2xl overflow-hidden shadow-card">
-              <Image
-                src="/images/Vision.png"
-                alt="Wizja Finito Pro - oprogramowanie dla szwajcarskich MŚP"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 448px"
-              />
+            <div className="relative w-full max-w-md h-40 flex items-center justify-center">
+              <motion.div
+                className="absolute"
+                animate={{ y: [0, -12, 0], rotate: [0, 5, -5, 0] }}
+                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-accent-400 rounded-3xl flex items-center justify-center shadow-glow">
+                  <Rocket className="w-10 h-10 text-white" />
+                </div>
+              </motion.div>
+              <motion.div
+                className="absolute -left-8 top-2"
+                animate={{ y: [0, -8, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+              >
+                <div className="w-12 h-12 bg-primary-100 rounded-2xl flex items-center justify-center">
+                  <Globe className="w-6 h-6 text-primary-600" />
+                </div>
+              </motion.div>
+              <motion.div
+                className="absolute -right-8 top-4"
+                animate={{ y: [0, -10, 0] }}
+                transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+              >
+                <div className="w-12 h-12 bg-accent-100 rounded-2xl flex items-center justify-center">
+                  <Shield className="w-6 h-6 text-accent-600" />
+                </div>
+              </motion.div>
+              <motion.div
+                className="absolute left-12 bottom-0"
+                animate={{ y: [0, -6, 0] }}
+                transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
+              >
+                <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center">
+                  <Zap className="w-5 h-5 text-primary-500" />
+                </div>
+              </motion.div>
+              <motion.div
+                className="absolute right-12 bottom-2"
+                animate={{ y: [0, -8, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+              >
+                <div className="w-10 h-10 bg-accent-50 rounded-xl flex items-center justify-center">
+                  <Heart className="w-5 h-5 text-accent-500" />
+                </div>
+              </motion.div>
             </div>
           </motion.div>
 
@@ -203,9 +236,10 @@ export function TeamContent() {
                 Nasza wizja
               </h3>
               <p className="text-neutral-600 leading-relaxed">
-                Każda firma rzemieślnicza w Szwajcarii ma oprogramowanie, które
-                rośnie razem z nią. Chcemy być pierwszym wyborem dla MŚP, które
-                chcą zdigitalizować swoje procesy - prosto, bezpiecznie i uczciwie.
+                Każda firma usługowa w Polsce ma oprogramowanie, które rośnie
+                razem z nią. Chcemy być pierwszym wyborem dla MŚP, które chcą
+                zdigitalizować swoje procesy — prosto, bezpiecznie i w
+                przystępnej cenie.
               </p>
             </motion.div>
 
@@ -223,9 +257,10 @@ export function TeamContent() {
                 Nasza misja
               </h3>
               <p className="text-neutral-600 leading-relaxed">
-                Tworzymy najbardziej intuicyjne oprogramowanie all-in-one dla szwajcarskich
-                MŚP. Od oferty po fakturę, od rejestracji czasu pracy po
-                portal klienta - wszystko w jednym rozwiązaniu, które każdy rozumie.
+                Tworzymy najbardziej intuicyjne oprogramowanie all-in-one
+                dla firm usługowych i rzemieślniczych. Od oferty po fakturę,
+                od rejestracji czasu pracy po portal klienta — wszystko w
+                jednym rozwiązaniu, które każdy rozumie.
               </p>
             </motion.div>
           </div>
@@ -246,8 +281,8 @@ export function TeamContent() {
               Zespół
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Nasz zespół z jedną wspólną pasją: oprogramowanie, które naprawdę
-              pomaga MŚP.
+              Międzynarodowy zespół z jedną wspólną pasją: oprogramowanie,
+              które naprawdę pomaga firmom usługowym.
             </p>
           </motion.div>
 
@@ -285,7 +320,7 @@ export function TeamContent() {
         </div>
       </section>
 
-      {/* Team Group Photo */}
+      {/* Stats instead of group photo */}
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -293,20 +328,28 @@ export function TeamContent() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative rounded-2xl overflow-hidden shadow-card-hover"
+            className="bg-gradient-to-br from-neutral-800 to-neutral-900 rounded-2xl p-10 sm:p-14 shadow-2xl"
           >
-            <Image
-              src="/images/team-2.png"
-              alt="Zespół Finito Pro - razem dla szwajcarskich MŚP"
-              width={1200}
-              height={600}
-              className="w-full h-auto object-cover"
-              sizes="(max-width: 1024px) 100vw, 1024px"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/40 to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6">
-              <p className="text-white font-semibold text-lg">Nasz zespół</p>
-              <p className="text-white/70 text-sm">Razem dla szwajcarskich MŚP</p>
+            <div className="text-center mb-10">
+              <h3 className="text-2xl font-semibold text-white mb-2">Finito Pro w liczbach</h3>
+              <p className="text-white/40 text-sm">Szwajcarska jakość, polska obsługa</p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {stats.map((stat, i) => (
+                <motion.div
+                  key={stat.label}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                  className="text-center"
+                >
+                  <div className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-[#a78bfa] to-[#c4b5fd] bg-clip-text text-transparent mb-2">
+                    {stat.value}
+                  </div>
+                  <div className="text-sm text-white/50">{stat.label}</div>
+                </motion.div>
+              ))}
             </div>
           </motion.div>
         </div>
@@ -314,7 +357,6 @@ export function TeamContent() {
 
       {/* CTA */}
       <section className="relative py-24 hero-gradient overflow-hidden">
-
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
