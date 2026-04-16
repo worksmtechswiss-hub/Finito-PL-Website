@@ -16,17 +16,6 @@ import { cn } from "@/lib/utils";
 
 const tiers = [
   {
-    id: "starter",
-    name: "Starter",
-    desc: "Idealny na start dla jednoosobowych firm i małych zespołów.",
-    price: "0",
-    priceLabel: "Za darmo",
-    period: "",
-    highlighted: false,
-    cta: "Zacznij za darmo",
-    ctaHref: "https://app.finitopro.pl/register",
-  },
-  {
     id: "kmu",
     name: "MŚP",
     desc: "Pełna moc dla rozwijających się firm rzemieślniczych i usługowych.",
@@ -174,7 +163,7 @@ export function PreiseContent() {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="grid lg:grid-cols-3 gap-6 max-w-5xl mx-auto"
+            className="grid lg:grid-cols-2 gap-6 max-w-3xl mx-auto"
           >
             {tiers.map((tier) => (
               <motion.div
@@ -286,17 +275,13 @@ export function PreiseContent() {
             transition={{ duration: 0.8 }}
             className="relative rounded-2xl overflow-hidden shadow-card-hover border border-neutral-200"
           >
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
+            <Image
+              src="/images/moduly/dashboard.png"
+              alt="Panel główny Finito Pro"
+              width={1200}
+              height={750}
               className="w-full h-auto"
-              poster="/images/Dashboard-Finito-Pro-App.png"
-            >
-              <source src="/videos/1Dashboard-Desktop-transcode.mp4" type="video/mp4" />
-              <source src="/videos/1Dashboard-Desktop-transcode.webm" type="video/webm" />
-            </video>
+            />
           </motion.div>
         </div>
       </section>
@@ -327,12 +312,9 @@ export function PreiseContent() {
             className="bg-white rounded-2xl border border-neutral-100 overflow-hidden shadow-card"
           >
             {/* Table Header */}
-            <div className="grid grid-cols-4 gap-4 p-6 border-b border-neutral-100 bg-surface-light-secondary">
+            <div className="grid grid-cols-3 gap-4 p-6 border-b border-neutral-100 bg-surface-light-secondary">
               <div className="text-sm font-semibold text-neutral-900">
                 Funkcja
-              </div>
-              <div className="text-sm font-semibold text-neutral-900 text-center">
-                Starter
               </div>
               <div className="text-sm font-semibold text-center">
                 <span className="gradient-text">MŚP</span>
@@ -354,19 +336,12 @@ export function PreiseContent() {
                   <div
                     key={feature.name}
                     className={cn(
-                      "grid grid-cols-4 gap-4 px-6 py-3.5 items-center",
+                      "grid grid-cols-3 gap-4 px-6 py-3.5 items-center",
                       i < category.features.length - 1 &&
                         "border-b border-neutral-50"
                     )}
                   >
                     <div className="text-sm text-neutral-700">{feature.name}</div>
-                    <div className="flex justify-center">
-                      {feature.starter ? (
-                        <Check className="w-4 h-4 text-success" />
-                      ) : (
-                        <X className="w-4 h-4 text-neutral-300" />
-                      )}
-                    </div>
                     <div className="flex justify-center">
                       {feature.kmu ? (
                         <Check className="w-4 h-4 text-primary-500" />
