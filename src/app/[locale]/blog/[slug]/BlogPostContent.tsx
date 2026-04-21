@@ -7,12 +7,12 @@ import type { BlogPost } from "@/data/blog-posts";
 import { blogPosts } from "@/data/blog-posts";
 
 function formatDate(dateStr: string) {
-  const date = new Date(dateStr);
-  return date.toLocaleDateString("pl-PL", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
+  const [year, month] = dateStr.split("-");
+  const months = [
+    "", "Stycze\u0144", "Luty", "Marzec", "Kwiecie\u0144", "Maj", "Czerwiec",
+    "Lipiec", "Sierpie\u0144", "Wrzesie\u0144", "Pa\u017adziernik", "Listopad", "Grudzie\u0144",
+  ];
+  return `${months[parseInt(month)]} ${year}`;
 }
 
 function renderContent(blocks: string[]) {

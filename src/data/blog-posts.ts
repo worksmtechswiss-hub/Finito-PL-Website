@@ -6,6 +6,7 @@ export interface BlogPost {
   category: string;
   readTime: string;
   date: string;
+  image: string;
   metaTitle: string;
   metaDescription: string;
   keywords: string[];
@@ -20,7 +21,8 @@ export const blogPosts: BlogPost[] = [
       "Wyb\u00f3r odpowiedniego oprogramowania to jedna z najwa\u017cniejszych decyzji dla firmy us\u0142ugowej. Sprawd\u017a, na co zwr\u00f3ci\u0107 uwag\u0119 i jakich b\u0142\u0119d\u00f3w unika\u0107.",
     category: "Poradnik",
     readTime: "8 min",
-    date: "2025-04-15",
+    date: "2026-01",
+    image: "/images/blog/oprogramowanie-firmy-uslugowe.png",
     metaTitle:
       "Jak wybra\u0107 oprogramowanie dla firmy us\u0142ugowej? Przewodnik 2025",
     metaDescription:
@@ -60,7 +62,8 @@ export const blogPosts: BlogPost[] = [
       "Prowadzisz firm\u0119 budowlan\u0105 i tracisz czas na r\u0119czne rozliczanie godzin? Poznaj sprawdzone metody elektronicznej ewidencji czasu pracy.",
     category: "Bran\u017ca",
     readTime: "6 min",
-    date: "2025-04-08",
+    date: "2026-02",
+    image: "/images/blog/rejestracja-czasu-pracy.png",
     metaTitle:
       "Rejestracja czasu pracy w firmie budowlanej \u2014 praktyczny poradnik",
     metaDescription:
@@ -101,7 +104,8 @@ export const blogPosts: BlogPost[] = [
       "Od 2026 roku KSeF b\u0119dzie obowi\u0105zkowy dla wszystkich przedsi\u0119biorc\u00f3w. Sprawd\u017a, co musisz wiedzie\u0107 i jak przygotowa\u0107 swoj\u0105 firm\u0119 krok po kroku.",
     category: "Prawo",
     readTime: "7 min",
-    date: "2025-03-25",
+    date: "2026-03",
+    image: "/images/blog/ksef-2026.png",
     metaTitle:
       "KSeF 2026 \u2014 przygotuj firm\u0119 do obowi\u0105zkowego e-fakturowania",
     metaDescription:

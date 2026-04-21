@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight, Clock, Calendar, Tag } from "lucide-react";
@@ -7,12 +8,12 @@ import { blogPosts } from "@/data/blog-posts";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 function formatDate(dateStr: string) {
-  const date = new Date(dateStr);
-  return date.toLocaleDateString("pl-PL", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
+  const [year, month] = dateStr.split("-");
+  const months = [
+    "", "Stycze\u0144", "Luty", "Marzec", "Kwiecie\u0144", "Maj", "Czerwiec",
+    "Lipiec", "Sierpie\u0144", "Wrzesie\u0144", "Pa\u017adziernik", "Listopad", "Grudzie\u0144",
+  ];
+  return `${months[parseInt(month)]} ${year}`;
 }
 
 export function BlogListContent() {
@@ -58,11 +59,15 @@ export function BlogListContent() {
               >
                 <Link href={`/blog/${post.slug}`}>
                   <div className="h-full rounded-2xl border border-neutral-200 bg-white hover:border-[#8b5cf6]/30 hover:shadow-lg hover:shadow-[#8b5cf6]/5 transition-all duration-300 overflow-hidden flex flex-col">
-                    {/* Image placeholder */}
-                    <div className="h-48 bg-gradient-to-br from-[#8b5cf6]/10 via-[#8b5cf6]/5 to-[#5eead4]/10 flex items-center justify-center">
-                      <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#8b5cf6] to-[#5eead4] flex items-center justify-center">
-                        <Tag className="w-8 h-8 text-white" />
-                      </div>
+                    {/* Blog image */}
+                    <div className="h-48 relative overflow-hidden bg-neutral-100">
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      />
                     </div>
 
                     {/* Content */}
