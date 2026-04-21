@@ -82,7 +82,7 @@ export function APIsContent() {
             </div>
             <div className="bg-white">
               <iframe
-                src="https://api.finitopro.ch/api/v1/schema/swagger-ui/"
+                src="https://api.finitopro.pl/api/v1/schema/swagger-ui/"
                 className="w-full border-0"
                 style={{ height: "700px" }}
                 title="Dokumentacja API Finito Pro"

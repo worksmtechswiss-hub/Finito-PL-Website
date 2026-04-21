@@ -163,7 +163,7 @@ export function Pricing() {
             </ul>
 
             <a
-              href="/de/kontakt"
+              href="/kontakt"
               className="block w-full text-center py-4 px-6 rounded-2xl font-semibold text-[#8b5cf6] text-base border-2 border-[#8b5cf6]/20 hover:bg-[#8b5cf6]/5 transition-colors"
             >
               Skontaktuj się

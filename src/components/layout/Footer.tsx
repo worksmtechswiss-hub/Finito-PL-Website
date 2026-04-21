@@ -77,7 +77,7 @@ export function Footer() {
         { label: t("team"), href: "/zespol" },
         { label: t("contact"), href: "/kontakt" },
         { label: t("faq"), href: "/faq" },
-        { label: t("blog"), href: "#" },
+        { label: t("blog"), href: "/blog" },
         { label: "Partner", href: "/partner" },
       ],
     },
