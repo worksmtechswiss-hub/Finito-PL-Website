@@ -52,11 +52,35 @@ const CTA = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Finito Pro | Oprogramowanie dla MSP ze Szwajcarii - zarzadzanie projektami, faktury i CRM",
+  title: "Finito Pro | Oprogramowanie dla MŚP ze Szwajcarii - zarządzanie projektami, faktury i CRM",
   description:
-    "Finito Pro - Kompleksowe oprogramowanie dla MSP dla szwajcarskich firm rzemieslniczych. Zarzadzanie projektami, tworzenie faktur, rejestracja czasu i CRM. 14 dni bezplatnego testu!",
+    "Finito Pro - Kompleksowe oprogramowanie dla MŚP. Zarządzanie projektami, tworzenie faktur, rejestracja czasu pracy i CRM. 14 dni bezpłatnego testu!",
   keywords:
-    "oprogramowanie MSP Szwajcaria, oprogramowanie do zarzadzania projektami, oprogramowanie rzemieslnicze, oprogramowanie faktury, oprogramowanie szwajcarskie",
+    "oprogramowanie MŚP, oprogramowanie do zarządzania projektami, oprogramowanie rzemieślnicze, oprogramowanie faktury, Finito Pro",
+  openGraph: {
+    title: "Finito Pro | Oprogramowanie dla firm usługowych",
+    description:
+      "Zarządzanie projektami, faktury, CRM i rejestracja czasu pracy w jednej aplikacji. Testuj 14 dni za darmo!",
+    url: "https://finitopro.pl",
+    siteName: "Finito Pro",
+    images: [
+      {
+        url: "https://finitopro.pl/images/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "Finito Pro - Oprogramowanie dla firm usługowych",
+      },
+    ],
+    locale: "pl_PL",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Finito Pro | Oprogramowanie dla firm usługowych",
+    description:
+      "Zarządzanie projektami, faktury, CRM i rejestracja czasu pracy w jednej aplikacji. Testuj 14 dni za darmo!",
+    images: ["https://finitopro.pl/images/og-default.png"],
+  },
 };
 
 export default async function HomePage({

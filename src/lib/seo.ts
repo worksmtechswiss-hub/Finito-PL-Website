@@ -14,16 +14,16 @@ export function generatePageMetadata(page: {
     description: page.description,
     keywords: page.keywords?.join(", "),
     alternates: {
-      canonical: `https://www.finitopro.ch/${locale}${page.path}`,
+      canonical: `https://finitopro.pl/${locale}${page.path}`,
       languages: {
-        de: `https://www.finitopro.ch/de${page.path}`,
-        en: `https://www.finitopro.ch/en${page.path}`,
+        de: `https://finitopro.pl/de${page.path}`,
+        en: `https://finitopro.pl/en${page.path}`,
       },
     },
     openGraph: {
       title: page.title,
       description: page.description,
-      url: `https://www.finitopro.ch/${locale}${page.path}`,
+      url: `https://finitopro.pl/${locale}${page.path}`,
       siteName: "Finito Pro",
       images: [
         {
@@ -64,7 +64,7 @@ export const organizationSchema = {
   author: {
     "@type": "Organization",
     name: "Finito Pro",
-    url: "https://www.finitopro.ch",
+    url: "https://finitopro.pl",
     address: {
       "@type": "PostalAddress",
       addressCountry: "CH",
@@ -82,7 +82,7 @@ export function breadcrumbSchema(
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: `https://www.finitopro.ch${item.path}`,
+      item: `https://finitopro.pl${item.path}`,
     })),
   };
 }

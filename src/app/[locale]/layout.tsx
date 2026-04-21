@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   description:
     "Finito Pro - Kompleksowe oprogramowanie dla szwajcarskich firm rzemieślniczych. Zarządzanie projektami, faktury, rejestracja czasu pracy i CRM.",
-  metadataBase: new URL("https://www.finitopro.ch"),
+  metadataBase: new URL("https://finitopro.pl"),
 };
 
 export function generateStaticParams() {
