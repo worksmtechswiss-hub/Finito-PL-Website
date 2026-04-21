@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "title": "Finito Pro | Program do zarządzania firmą usługową — projekty, faktury, ewidencja czasu",
+    "description": "Kompleksowy program do zarządzania firmą. Projekty, faktury, ewidencja czasu pracy, CRM — wszystko w jednym. 14 dni za darmo.",
+    "keywords": "program do zarządzania firmą, oprogramowanie dla MŚP, ewidencja czasu pracy online, program do fakturowania, CRM dla małych firm, oprogramowanie ERP"
+  },
+  "nav": {
+    "features": "Moduły",
+    "branches": "Branże",
+    "pricing": "Cennik",
+    "contact": "Kontakt",
+    "login": "Logowanie",
+    "getStarted": "Rozpocznij za darmo",
+    "team": "Zespół",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "help": "Pomoc",
+    "mobileMenu": "Menu",
+    "close": "Zamknij"
+  },
+  "hero": {
+    "badge": "Nowość: Ewidencja czasu pracy i zarządzanie urlopami",
+    "title": "Program do zarządzania firmą usługową",
+    "subtitle": "Zarządzaj projektami, wystawiaj faktury,\nkontroluj czas pracy zespołu z jednej aplikacji.",
+    "cta": "Rozpocznij za darmo",
+    "ctaSecondary": "Zobacz demo",
+    "trust": "Bez karty kredytowej · 14 dni za darmo · Bezpieczne serwery w Europie"
+  },
+  "trustBanner": {
+    "title": "Zaufało nam ponad 200 firm usługowych",
+    "rating": "4,8 na 5 gwiazdek",
+    "reviews": "na podstawie ponad 150 opinii"
+  },
+  "workflow": {
+    "title": "Jak działa Finito",
+    "subtitle": "Od wyceny do faktury - w 3 prostych krokach",
+    "step1Title": "Przygotuj ofertę",
+    "step1Desc": "Twórz profesjonalne wyceny w kilka minut. Zapisane katalogi usług z cenami sprawiają, że to błyskawiczne.",
+    "step2Title": "Realizuj projekt",
+    "step2Desc": "Twój zespół pracuje z aplikacją na smartfonie. Dokumentacja zdjęciowa, rejestracja czasu, zarządzanie materiałami - wszystko cyfrowo.",
+    "step3Title": "Wyślij fakturę",
+    "step3Desc": "Jednym kliknięciem projekt staje się fakturą. Automatyczne naliczanie VAT, wysyłka do KSeF i przypomnienia o płatnościach w zestawie."
+  },
+  "features": {
+    "title": "Kompleksowe oprogramowanie dla MŚP",
+    "subtitle": "Wszystkie narzędzia, których potrzebuje Twoja firma - na jednej platformie",
+    "rechnungen": {
+      "title": "Faktury",
+      "description": "Twórz profesjonalne szwajcarskie faktury w kilka sekund. Automatyczne naliczanie VAT, przypomnienia o płatnościach i bezproblemowy eksport do księgowości.",
+      "bullets": {
+        "1": "Szwajcarskie faktury zgodne ze standardem ISO 20022",
+        "2": "Automatyczne naliczanie VAT (7,7% / 2,5% / 0%)",
+        "3": "Przypomnienia o płatnościach e-mailem lub pocztą",
+        "4": "Eksport jako PDF lub bezpośrednio do oprogramowania księgowego",
+        "5": "Zarządzanie płatnościami częściowymi i ratalnymi",
+        "6": "Automatyczne uzgadnianie płatności z kontami bankowymi"
+      }
+    },
+    "crm": {
+      "title": "Zarządzanie klientami",
+      "description": "Wszystkie dane klientów w jednym miejscu. Historia kontaktów, powtarzające się zlecenia i indywidualne notatki usprawniają współpracę.",
+      "bullets": {
+        "1": "Centralne zarządzanie kontaktami z wyszukiwarką",
+        "2": "Pełna historia klienta ze wszystkimi projektami i fakturami",
+        "3": "Automatyczne planowanie powtarzających się zleceń",
+        "4": "Indywidualne notatki i dokumenty dla każdego klienta",
+        "5": "Kategorie i tagi klientów do segmentacji",
+        "6": "Import/eksport danych kontaktowych (CSV, vCard)"
+      }
+    },
+    "projektmanagement": {
+      "title": "Zarządzanie projektami",
+      "description": "Zarządzaj wszystkimi projektami mobilnie. Przydzielaj zadania, twórz dokumentację zdjęciową i koordynuj zespół w każdej chwili.",
+      "bullets": {
+        "1": "Mobilne zarządzanie zadaniami ze śledzeniem statusu",
+        "2": "Dokumentacja zdjęciowa bezpośrednio w projekcie",
+        "3": "Koordynacja zespołu z aktualizacjami w czasie rzeczywistym",
+        "4": "Szablony projektów dla powtarzających się zleceń",
+        "5": "Planowanie zadań metodą przeciągnij i upuść w kalendarzu",
+        "6": "Automatyczne powiadomienia o zmianach"
+      }
+    },
+    "zeiterfassung": {
+      "title": "Rejestracja czasu pracy",
+      "description": "Rejestracja czasu pracy w kontekście projektu jednym kliknięciem. Raporty miesięczne, śledzenie nadgodzin i bezpośredni eksport do płac.",
+      "bullets": {
+        "1": "Rejestracja czasu jednym kliknięciem dla projektu i zadania",
+        "2": "Automatyczne raporty miesięczne dla każdego pracownika",
+        "3": "Śledzenie nadgodzin z porównaniem planowane/rzeczywiste",
+        "4": "Eksport do płac (CSV, PDF)",
+        "5": "Rejestracja oparta na GPS na placu budowy",
+        "6": "Osobna rejestracja przerw i czasu dojazdu"
+      }
+    },
+    "offerten": {
+      "title": "Wyceny",
+      "description": "Szybkie cyfrowe wyceny z zapisanymi katalogami usług. Jednym kliknięciem zamień w zlecenie.",
+      "bullets": {
+        "1": "Zapisane katalogi usług do szybkiego tworzenia",
+        "2": "Profesjonalne wyceny w firmowym designie",
+        "3": "Zamiana wyceny na zlecenie jednym kliknięciem",
+        "4": "Pozycje opcjonalne i alternatywne",
+        "5": "Podpis cyfrowy klienta",
+        "6": "Automatyczne śledzenie otwartych wycen"
+      }
+    },
+    "dashboard": {
+      "title": "Panel główny",
+      "description": "Wszystkie kluczowe wskaźniki efektywności na pierwszy rzut oka. Finanse, aktywne projekty, obciążenie pracowników i raporty roczne.",
+      "bullets": {
+        "1": "Wskaźniki finansowe: przychody, otwarte faktury, przepływ gotówki",
+        "2": "Aktywne projekty ze wskaźnikiem postępu",
+        "3": "Obciążenie pracowników w czasie rzeczywistym",
+        "4": "Raporty roczne i miesięczne w PDF",
+        "5": "Indywidualne widżety i filtry",
+        "6": "Porównanie z analogicznym okresem roku poprzedniego"
+      }
+    },
+    "ferienmanagement": {
+      "title": "Zarządzanie urlopami",
+      "description": "Mobilne wnioski urlopowe, przegląd pozostałych dni i proces zatwierdzania. Dzięki kalendarzowi zespołu nie będzie już problemów kadrowych.",
+      "bullets": {
+        "1": "Mobilne wnioski urlopowe ze smartfona",
+        "2": "Przegląd pozostałych dni urlopu dla każdego pracownika",
+        "3": "Proces zatwierdzania dla przełożonych",
+        "4": "Kalendarz zespołu zapobiegający brakom kadrowym",
+        "5": "Automatyczne obliczanie przysługującego urlopu",
+        "6": "Wstępnie skonfigurowane dni wolne i długie weekendy"
+      }
+    },
+    "fotoDocumentation": {
+      "title": "Dokumentacja zdjęciowa",
+      "description": "Zdjęcia przed/po z automatycznym przypisaniem do projektu. Idealne dowody jakości dla klientów i ubezpieczycieli.",
+      "bullets": {
+        "1": "Zdjęcia przed/po bezpośrednio w projekcie",
+        "2": "Automatyczne przypisanie do właściwego projektu",
+        "3": "Dowody jakości dla klientów i ubezpieczycieli",
+        "4": "Znacznik czasu i dane GPS dla każdego zdjęcia",
+        "5": "Nieograniczona przestrzeń na zdjęcia",
+        "6": "Przesyłanie zdjęć bezpośrednio ze smartfona"
+      }
+    },
+    "lagerverwaltung": {
+      "title": "Zarządzanie magazynem",
+      "description": "Zarządzanie materiałami i narzędziami z automatycznym odliczaniem na projekt. Miej pełną kontrolę nad stanem magazynowym.",
+      "bullets": {
+        "1": "Zarządzanie materiałami i narzędziami w jednym miejscu",
+        "2": "Automatyczne odliczanie na projekt",
+        "3": "Podgląd stanu magazynowego w czasie rzeczywistym",
+        "4": "Ostrzeżenia o minimalnym stanie przy niskich zapasach",
+        "5": "Powiązanie z dostawcami do szybkiego ponownego zamówienia",
+        "6": "Skaner kodów kreskowych do szybkiej rejestracji"
+      }
+    },
+    "buchhaltung": {
+      "title": "Księgowość",
+      "description": "Zarządzanie przychodami i wydatkami, kontrola kosztów i eksport dla biura rachunkowego. Wszystkie dane bezpiecznie na serwerach w Szwajcarii.",
+      "bullets": {
+        "1": "Przejrzyste zarządzanie przychodami i wydatkami",
+        "2": "Kontrola kosztów dla każdego projektu i klienta",
+        "3": "Eksport dla biura rachunkowego (CSV, PDF)",
+        "4": "Wszystkie dane bezpiecznie na serwerach w Szwajcarii",
+        "5": "Automatyczna kategoryzacja dokumentów",
+        "6": "Rozliczenie VAT przygotowane dla ESTV"
+      }
+    },
+    "mitarbeiterApp": {
+      "title": "Aplikacja pracownika",
+      "description": "Przeglądaj zadania, rejestruj czas, przesyłaj zdjęcia i komunikuj się z zespołem - wszystko ze smartfona.",
+      "bullets": {
+        "1": "Zadania i plan dnia na smartfonie",
+        "2": "Rejestracja czasu jednym kliknięciem",
+        "3": "Przesyłanie zdjęć i przypisywanie do projektu",
+        "4": "Komunikacja z biurem w czasie rzeczywistym",
+        "5": "Tryb offline na placach budowy bez zasięgu",
+        "6": "Powiadomienia push o nowych zadaniach"
+      }
+    },
+    "kundenportal": {
+      "title": "Portal klienta",
+      "description": "Udostępniaj klientom postęp projektu. Przejrzysta komunikacja i zdjęcia z postępów budują zaufanie.",
+      "bullets": {
+        "1": "Udostępnianie postępu projektu klientom",
+        "2": "Przejrzysta komunikacja na każdym etapie",
+        "3": "Automatyczne udostępnianie zdjęć z postępów",
+        "4": "Klienci mogą cyfrowo zatwierdzać wyceny",
+        "5": "Faktury i dokumenty dostępne w portalu",
+        "6": "Nie wymaga instalacji aplikacji przez klienta"
+      }
+    },
+    "serviceAbos": {
+      "title": "Abonamenty serwisowe",
+      "description": "Zarządzanie powtarzającymi się zleceniami z automatycznym tworzeniem projektów. Idealne do umów serwisowych i abonamentów.",
+      "bullets": {
+        "1": "Automatyczne zarządzanie powtarzającymi się zleceniami",
+        "2": "Automatyczne tworzenie projektów według harmonogramu",
+        "3": "Cyfrowe odwzorowanie umów serwisowych",
+        "4": "Przypomnienia o terminach serwisowych",
+        "5": "Automatyczne generowanie rozliczeń",
+        "6": "Historia klienta ze wszystkimi wizytami serwisowymi"
+      }
+    }
+  },
+  "stats": {
+    "companies": "Firm",
+    "companiesValue": "200+",
+    "timeSaved": "Oszczędność czasu",
+    "timeSavedValue": "10h/tydzień",
+    "swissServer": "Serwery w Szwajcarii",
+    "swissServerValue": "100%",
+    "dataRetention": "Przechowywanie danych",
+    "dataRetentionValue": "Szwajcaria",
+    "satisfaction": "Zadowolenie klientów",
+    "satisfactionValue": "4,8/5"
+  },
+  "newModules": {
+    "title": "Nowe moduły",
+    "subtitle": "Rejestracja czasu pracy i zarządzanie urlopami - już dostępne",
+    "timeTracking": {
+      "title": "Rejestracja czasu pracy",
+      "description": "Rejestruj czas pracy w kontekście projektu jednym kliknięciem. Automatyczne raporty miesięczne i bezpośredni eksport do płac.",
+      "feature1": "Rejestracja czasu jednym kliknięciem",
+      "feature2": "Automatyczne raporty miesięczne",
+      "feature3": "Śledzenie nadgodzin",
+      "feature4": "Rejestracja oparta na GPS"
+    },
+    "vacationManagement": {
+      "title": "Zarządzanie urlopami",
+      "description": "Zarządzaj wnioskami urlopowymi, pozostałymi dniami i nieobecnościami zespołu w jednym miejscu. Z automatycznym procesem zatwierdzania.",
+      "feature1": "Mobilne wnioski urlopowe",
+      "feature2": "Przegląd pozostałych dni",
+      "feature3": "Kalendarz zespołu",
+      "feature4": "Proces zatwierdzania"
+    }
+  },
+  "branches": {
+    "title": "Odpowiednie rozwiązanie dla każdej branży",
+    "subtitle": "Finito dostosowuje się do Twojej branży",
+    "cta": "Odkryj wszystkie branże",
+    "maler": {
+      "title": "Malarze i tynkarze",
+      "description": "Planuj zlecenia malarskie, kalkuluj materiały i zachwycaj klientów. Finito zna potrzeby firm malarskich.",
+      "slug": "maler-gipser"
+    },
+    "elektriker": {
+      "title": "Elektrycy",
+      "description": "Zarządzaj zleceniami instalacyjnymi, twórz raporty i prowadź dokumentację zgodną z NIV.",
+      "slug": "elektriker"
+    },
+    "sanitaer": {
+      "title": "Hydraulicy i ogrzewanie",
+      "description": "Od konserwacji ogrzewania po remont łazienki - realizuj wszystkie zlecenia efektywnie.",
+      "slug": "sanitaer-heizung"
+    },
+    "schreiner": {
+      "title": "Stolarze i cieśle",
+      "description": "Planuj projekty meblarskie, kalkuluj koszty materiałów i koordynuj zlecenia warsztatowe.",
+      "slug": "schreiner-zimmermann"
+    },
+    "gartenbau": {
+      "title": "Ogrodnictwo i architektura krajobrazu",
+      "description": "Zarządzaj zleceniami sezonowymi, organizuj abonamenty pielęgnacyjne i koordynuj zespół na różnych placach budowy.",
+      "slug": "gartenbau"
+    },
+    "reinigung": {
+      "title": "Firmy sprzątające",
+      "description": "Planuj zlecenia sprzątania, automatyzuj powtarzające się wizyty i dokumentuj jakość.",
+      "slug": "reinigung"
+    },
+    "dachdecker": {
+      "title": "Dekarze i blacharze",
+      "description": "Dokumentuj projekty dachowe, planuj materiały i prowadź cyfrowe protokoły bezpieczeństwa.",
+      "slug": "dachdecker-spengler"
+    },
+    "allgemein": {
+      "title": "Ogólne usługi",
+      "description": "Finito jest wystarczająco elastyczne dla każdej firmy usługowej - od wyceny po fakturę.",
+      "slug": "allgemein"
+    }
+  },
+  "testimonials": {
+    "title": "Co mówią nasi klienci",
+    "subtitle": "Ponad 200 szwajcarskich firm ufa Finito",
+    "testimonial1": {
+      "quote": "Odkąd korzystamy z Finito, oszczędzamy co tydzień kilka godzin na fakturowaniu. Automatyczne faktury to prawdziwa rewolucja.",
+      "author": "Marek Kowalski",
+      "role": "Właściciel",
+      "company": "Kowalski Malowanie, Warszawa"
+    },
+    "testimonial2": {
+      "quote": "Wreszcie oprogramowanie, które naprawdę jest stworzone dla rzemieślników. Mój zespół korzysta z aplikacji codziennie na placu budowy.",
+      "author": "Anna Nowak",
+      "role": "Dyrektor zarządzająca",
+      "company": "Nowak Elektro, Kraków"
+    },
+    "testimonial3": {
+      "quote": "Funkcja ofertowania całkowicie zmieniła nasz proces sprzedaży. Od oferty do zlecenia w minuty zamiast dni.",
+      "author": "Tomasz Wiśniewski",
+      "role": "Dyrektor zarządzający",
+      "company": "Wiśniewski Hydraulika, Poznań"
+    }
+  },
+  "pricing": {
+    "title": "Przejrzyste ceny",
+    "subtitle": "Od 3 zł dziennie - bez ukrytych kosztów",
+    "perMonth": "miesięcznie",
+    "perUser": "za użytkownika",
+    "popular": "Najpopularniejszy",
+    "free": "Za darmo",
+    "individual": "Indywidualnie",
+    "yearlyDiscount": "20% zniżki przy subskrypcji rocznej",
+    "monthly": "Miesięcznie",
+    "yearly": "Rocznie",
+    "starterName": "Starter",
+    "starterPrice": "29",
+    "starterDesc": "Idealny dla jednoosobowych firm i małych zespołów, które chcą postawić pierwsze kroki w cyfryzacji.",
+    "starterFeatures": {
+      "1": "Do 3 użytkowników",
+      "2": "Nieograniczona liczba projektów",
+      "3": "Tworzenie faktur z KSeF",
+      "4": "Zarządzanie klientami (CRM)",
+      "5": "Tworzenie wycen",
+      "6": "Dokumentacja zdjęciowa",
+      "7": "Wsparcie e-mail"
+    },
+    "kmuName": "MŚP",
+    "kmuPrice": "79",
+    "kmuDesc": "Nasz najpopularniejszy plan dla średnich firm z rozszerzonymi funkcjami.",
+    "kmuFeatures": {
+      "1": "Do 15 użytkowników",
+      "2": "Wszystko ze Startera",
+      "3": "Rejestracja czasu pracy",
+      "4": "Zarządzanie urlopami",
+      "5": "Zarządzanie magazynem",
+      "6": "Panel główny i raporty",
+      "7": "Aplikacja pracownika",
+      "8": "Portal klienta",
+      "9": "Priorytetowe wsparcie"
+    },
+    "enterpriseName": "Duże firmy",
+    "enterprisePrice": "Indywidualnie",
+    "enterpriseDesc": "Dla firm ze złożonymi wymaganiami i indywidualnymi potrzebami.",
+    "enterpriseFeatures": {
+      "1": "Nieograniczona liczba użytkowników",
+      "2": "Wszystko z MŚP",
+      "3": "Abonamenty serwisowe",
+      "4": "Eksport do księgowości",
+      "5": "Dostęp API",
+      "6": "Indywidualne dostosowania",
+      "7": "Dedykowany opiekun konta",
+      "8": "Onboarding i szkolenia",
+      "9": "Gwarancja SLA"
+    },
+    "compareAll": "Porównaj wszystkie funkcje",
+    "contact": "Skontaktuj się z nami",
+    "choosePlan": "Wybierz plan",
+    "currentPlan": "Aktualny plan",
+    "guarantee": "30-dniowa gwarancja zwrotu pieniędzy",
+    "guaranteeDesc": "Testuj Finito bez ryzyka. Jeśli nie będziesz zadowolony, zwrócimy Ci pieniądze.",
+    "faq": {
+      "title": "Pytania dotyczące naszych cen",
+      "q1": "Czy mogę zrezygnować w dowolnym momencie?",
+      "a1": "Tak, możesz zrezygnować z subskrypcji w dowolnym momencie. Nie ma minimalnego okresu umowy ani ukrytych opłat.",
+      "q2": "Co się stanie po okresie próbnym?",
+      "a2": "Po 14 dniach po prostu wybierasz odpowiedni plan. Twoje dane zostaną zachowane i możesz bezproblemowo kontynuować pracę.",
+      "q3": "Czy mogę później zmienić plan?",
+      "a3": "Oczywiście. Możesz w dowolnym momencie zmienić plan na większy lub mniejszy. Rozliczenie zostanie proporcjonalnie dostosowane.",
+      "q4": "Czy jest zniżka za płatność roczną?",
+      "a4": "Tak, przy płatności rocznej oszczędzasz 20% w porównaniu z rozliczeniem miesięcznym."
+    }
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania",
+    "subtitle": "Wszystko, co musisz wiedzieć o Finito",
+    "viewAll": "Zobacz wszystkie FAQ",
+    "q1": "Dla kogo jest przeznaczone Finito?",
+    "a1": "Finito zostało stworzone specjalnie dla szwajcarskich MŚP z branży rzemieślniczej i usługowej. Malarze, elektrycy, hydraulicy, stolarze, ogrodnicy i wiele innych branż korzysta z Finito na co dzień.",
+    "q2": "Gdzie przechowywane są moje dane?",
+    "a2": "Wszystkie dane są przechowywane wyłącznie na serwerach w Szwajcarii. Współpracujemy z certyfikowanymi szwajcarskimi centrami danych i spełniamy wszystkie wymagania szwajcarskiej ustawy o ochronie danych (DSG).",
+    "q3": "Czy mogę wypróbować Finito za darmo?",
+    "a3": "Tak, możesz testować Finito przez 14 dni za darmo i bez zobowiązań. Karta kredytowa nie jest wymagana. Po okresie próbnym po prostu wybierasz odpowiedni plan.",
+    "q4": "Czy Finito działa również offline?",
+    "a4": "Tak, aplikacja pracownika posiada tryb offline. Twoi pracownicy mogą rejestrować czas pracy, robić zdjęcia i realizować zadania nawet na placach budowy bez zasięgu. Dane zostaną automatycznie zsynchronizowane po ponownym nawiązaniu połączenia.",
+    "q5": "Czy Finito tworzy szwajcarskie faktury?",
+    "a5": "Tak, Finito tworzy faktury zgodnie ze szwajcarskim standardem ISO 20022. VAT jest naliczany automatycznie, a faktury mogą być wysyłane jako PDF lub eksportowane bezpośrednio do oprogramowania księgowego.",
+    "q6": "Ile trwa konfiguracja?",
+    "a6": "Większość firm jest gotowa do pracy w ciągu 15 minut. Dane klientów można zaimportować z pliku CSV. W razie potrzeby oferujemy również osobiste spotkania onboardingowe.",
+    "q7": "Czy jest aplikacja dla pracowników?",
+    "a7": "Tak, Finito oferuje natywną aplikację na iOS i Android. Twoi pracownicy mogą przeglądać zadania, rejestrować czas, przesyłać zdjęcia i komunikować się z biurem - wszystko ze smartfona.",
+    "q8": "Czy mogę przejść z innego oprogramowania?",
+    "a8": "Tak, wspieramy import danych klientów, projektów i artykułów z popularnych formatów. Nasz zespół wsparcia chętnie pomoże przy migracji.",
+    "q9": "Jakie metody płatności są akceptowane?",
+    "a9": "Akceptujemy karty kredytowe (Visa, Mastercard), TWINT, przelew bankowy i polecenie zapłaty LSV. Faktury można również opłacić za pomocą faktury.",
+    "q10": "Czy Finito oferuje API?",
+    "a10": "Tak, plan Duże firmy zawiera pełny dostęp do API. Dzięki niemu możesz zintegrować Finito z istniejącymi systemami i zautomatyzować procesy robocze."
+  },
+  "cta": {
+    "title": "Czas przenieść firmę do chmury",
+    "subtitle": "14 dni za darmo. Bez karty kredytowej.",
+    "button": "Rozpocznij za darmo",
+    "secondaryButton": "Umów demo",
+    "trust": "Ponad 200 szwajcarskich MŚP już zaufało Finito"
+  },
+  "footer": {
+    "tagline": "Więcej czasu na to, co najważniejsze",
+    "description": "Finito Pro to kompleksowe oprogramowanie dla szwajcarskich firm rzemieślniczych i usługowych. Od wyceny po fakturę - wszystko w jednej aplikacji.",
+    "product": "Produkt",
+    "branches": "Branże",
+    "company": "Firma",
+    "legal": "Informacje prawne",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Bądź na bieżąco z nowymi funkcjami i aktualizacjami.",
+    "emailPlaceholder": "Twój adres e-mail",
+    "subscribe": "Subskrybuj",
+    "subscribeSuccess": "Dziękujemy za rejestrację!",
+    "madeIn": "Made with Love in Switzerland",
+    "copyright": "2026 Finito Pro. Wszelkie prawa zastrzeżone.",
+    "team": "Zespół",
+    "help": "Pomoc",
+    "blog": "Blog",
+    "features": "Moduły",
+    "pricing": "Cennik",
+    "api": "API",
+    "agbs": "Regulamin",
+    "privacy": "Ochrona danych",
+    "imprint": "Nota prawna",
+    "contact": "Kontakt",
+    "faq": "FAQ",
+    "demo": "Zarezerwuj demo",
+    "support": "Wsparcie",
+    "status": "Status systemu",
+    "changelog": "Changelog"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Dziękujemy za zainteresowanie naszą platformą. Chętnie odpowiemy na Twoje pytania.",
+    "email": "kontakt@finitopro.pl",
+    "phone": "+41 44 000 00 00",
+    "address": "Octolabs Sp. z o.o., Hoża 29, 00-521 Warszawa",
+    "officeHours": "Pn-Pt, 08:00-17:00",
+    "responseTime": "Zazwyczaj odpowiadamy w ciągu 24 godzin.",
+    "form": {
+      "company": "Firma",
+      "companyPlaceholder": "Złoty Pędzel Sp. z o.o.",
+      "name": "Imię i nazwisko",
+      "namePlaceholder": "Jan Kowalski",
+      "phone": "Telefon",
+      "phonePlaceholder": "+41 079 123 45 67",
+      "email": "E-mail",
+      "emailPlaceholder": "jan@gmail.com",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Chciałbym wypróbować Finito Pro ...",
+      "branche": "Branża",
+      "branchePlaceholder": "Malarze, elektrycy, hydraulicy ...",
+      "teamSize": "Wielkość zespołu",
+      "teamSizePlaceholder": "Liczba pracowników",
+      "submit": "Wyślij",
+      "sending": "Wysyłanie...",
+      "success": "Dziękujemy za wiadomość! Skontaktujemy się z Tobą najszybciej jak to możliwe.",
+      "error": "Niestety wystąpił błąd. Spróbuj ponownie lub skontaktuj się z nami mailowo.",
+      "required": "Pole wymagane",
+      "invalidEmail": "Podaj prawidłowy adres e-mail.",
+      "invalidPhone": "Podaj prawidłowy numer telefonu."
+    },
+    "demoTitle": "Osobiste demo",
+    "demoDesc": "Chcesz zobaczyć Finito w akcji? Umów bezpłatne 30-minutowe demo z naszym zespołem.",
+    "demoCta": "Umów demo"
+  },
+  "team": {
+    "title": "Historia Finito",
+    "subtitle": "Nasze oprogramowanie dla firm usługowych",
+    "story": "Wierzymy, że małe i średnie przedsiębiorstwa stanowią fundament naszego społeczeństwa. Dlatego stworzyliśmy Finito - oprogramowanie, które pomaga firmom rzemieślniczym pracować wydajniej.",
+    "valuesTitle": "Nasze wartości",
+    "innovation": "Innowacja",
+    "innovationDesc": "Nieustannie rozwijamy nowe funkcje w oparciu o opinie naszych klientów.",
+    "simplicity": "Prostota",
+    "simplicityDesc": "Upraszczanie złożonych procesów - to nasze podejście do każdej funkcji.",
+    "customerFocus": "Bliskość klienta",
+    "customerFocusDesc": "Słuchamy, rozumiemy potrzeby i wdrażamy rozwiązania. Szybko i pragmatycznie.",
+    "swissQuality": "Szwajcarska jakość",
+    "swissQualityDesc": "Opracowane w Szwajcarii, hostowane w Szwajcarii, zgodne ze szwajcarskimi standardami ochrony danych.",
+    "visionTitle": "Nasza wizja",
+    "vision": "Nasze oprogramowanie zostało stworzone dla ludzi czynu - aby optymalizować procesy projektowe i robocze. Gdy firmy realizują zlecenia sprawniej, zostaje więcej czasu na to, co naprawdę ważne.",
+    "missionTitle": "Nasza misja",
+    "mission": "Z Finito firmy rzemieślnicze mogą realizować zlecenia znacznie szybciej i profesjonalniej. Zasoby są lepiej wykorzystywane, oszczędza się czas i koszty, a relacje z klientami mogą być wzmacniane.",
+    "founderTitle": "Zespół założycielski",
+    "founderDesc": "Założone przez przedsiębiorców, którzy sami znają wyzwania codziennego prowadzenia MŚP."
+  },
+  "featurePages": {
+    "backToFeatures": "Powrót do wszystkich funkcji",
+    "tryFree": "Wypróbuj za darmo",
+    "problemTitle": "Problem",
+    "solutionTitle": "Rozwiązanie z Finito",
+    "forWhom": "Dla kogo?",
+    "highlights": "Najważniejsze cechy",
+    "integration": "Doskonale zintegrowane",
+    "integrationDesc": "Ta funkcja współpracuje bezproblemowo ze wszystkimi innymi modułami Finito.",
+    "ctaTitle": "Wypróbuj {feature} za darmo",
+    "ctaSubtitle": "14 dni za darmo. Bez karty kredytowej.",
+    "relatedFeatures": "Powiązane funkcje",
+    "problems": {
+      "rechnungen": "Wiele MŚP nadal tworzy faktury ręcznie w Wordzie lub Excelu. To kosztuje czas, jest podatne na błędy i nie spełnia wymogów KSeF.",
+      "crm": "Dane klientów są rozproszone w e-mailach, notatkach i arkuszach Excel. Ważne informacje giną, a komunikacja cierpi.",
+      "projektmanagement": "Bez cyfrowego zarządzania projektami szybko traci się orientację. Zadania są zapominane, terminy przekraczane, a zespół nie pracuje w sposób skoordynowany.",
+      "zeiterfassung": "Ręcznie pisane karty godzin są niedokładne i uciążliwe w analizie. Płace stają się koszmarem.",
+      "offerten": "Ręczne tworzenie wycen zajmuje dużo czasu. Bez zapisanych cenników każda kalkulacja musi być robiona od nowa.",
+      "dashboard": "Bez centralnego podglądu brakuje spojrzenia na całość. Ważne wskaźniki są rozproszone w różnych systemach.",
+      "ferienmanagement": "Wnioski urlopowe przez e-mail lub na papierze to chaos. Bez kalendarza zespołu dochodzi do braków kadrowych i podwójnych rezerwacji.",
+      "fotoDokumentation": "Zdjęcia na różnych smartfonach, bez jasnego przypisania do projektów. Dowody jakości giną.",
+      "lagerverwaltung": "Stany magazynowe prowadzone ręcznie. Braki zauważane za późno opóźniają projekty.",
+      "buchhaltung": "Dokumenty się piętrzą, księgowość jest odkładana, a biuro rachunkowe otrzymuje niekompletne materiały.",
+      "mitarbeiterApp": "Pracownicy na placu budowy nie mają dostępu do aktualnych informacji o projekcie i muszą wszystko ustalać telefonicznie.",
+      "kundenportal": "Klienci ciągle dzwonią, żeby dowiedzieć się o status projektu. To kosztuje czas i rodzi niepewność.",
+      "serviceAbos": "Powtarzające się zlecenia są śledzone ręcznie. Terminy serwisowe są pomijane, a klienci są niezadowoleni."
+    },
+    "solutions": {
+      "rechnungen": "Z Finito tworzysz profesjonalne faktury w kilka sekund. VAT jest naliczany automatycznie, przypomnienia o płatnościach wysyłane, a eksport do księgowości przebiega bezproblemowo.",
+      "crm": "Finito łączy wszystkie dane klientów w jednym miejscu. Historia kontaktów, projekty, faktury i notatki są natychmiast dostępne. Powtarzające się zlecenia planowane są automatycznie.",
+      "projektmanagement": "Z mobilnym zarządzaniem projektami masz pełny obraz sytuacji. Przydzielaj zadania, śledź postępy i koordynuj zespół w czasie rzeczywistym - również w drodze.",
+      "zeiterfassung": "Wystarczy jedno kliknięcie: rejestracja czasu dla projektu i zadania. Automatyczne raporty miesięczne, śledzenie nadgodzin i bezpośredni eksport do płac.",
+      "offerten": "Zapisane katalogi usług sprawiają, że tworzenie wycen jest błyskawiczne. Jednym kliknięciem wycena staje się zleceniem. Z cyfrowym podpisem klienta.",
+      "dashboard": "Wszystkie kluczowe wskaźniki na pierwszy rzut oka: przychody, otwarte faktury, postęp projektów i obciążenie pracowników. Z indywidualnymi widżetami i filtrami.",
+      "ferienmanagement": "Mobilne wnioski urlopowe, automatyczne obliczanie pozostałych dni i kalendarz zespołu. Proces zatwierdzania odbywa się cyfrowo i przejrzyście.",
+      "fotoDokumentation": "Rób zdjęcia bezpośrednio w projekcie i przypisuj je. Ze znacznikiem czasu i danymi GPS. Idealne dowody jakości dla klientów i ubezpieczycieli.",
+      "lagerverwaltung": "Zarządzaj materiałami i narzędziami cyfrowo. Automatyczne odliczanie na projekt, ostrzeżenia o minimalnym stanie i powiązanie z dostawcami do szybkiego ponownego zamówienia.",
+      "buchhaltung": "Przejrzyste zarządzanie przychodami i wydatkami. Automatyczna kategoryzacja dokumentów i szybki eksport do biura rachunkowego.",
+      "mitarbeiterApp": "Natywna aplikacja na iOS i Android daje Twojemu zespołowi wszystkie informacje w zasięgu ręki. Dostępna również offline z automatyczną synchronizacją.",
+      "kundenportal": "Daj swoim klientom dostęp do postępu projektu. Zdjęcia, dokumenty i faktury - wszystko przejrzyście i bez konieczności instalacji aplikacji.",
+      "serviceAbos": "Powtarzające się zlecenia są automatycznie planowane i rozliczane. Cyfrowe odwzorowanie umów serwisowych - nigdy więcej przegapionego terminu."
+    }
+  },
+  "branchPages": {
+    "backToBranches": "Powrót do wszystkich branż",
+    "advantages": "Twoje korzyści z Finito",
+    "relevantFeatures": "Istotne funkcje",
+    "workflow": "Jak {branch} korzysta z Finito na co dzień",
+    "ctaTitle": "Finito dla branży {branch} - 14 dni za darmo",
+    "ctaSubtitle": "Zacznij teraz i przekonaj się, jak Finito upraszcza Twoją codzienną pracę.",
+    "ctaButton": "Wypróbuj za darmo",
+    "testimonialTitle": "Co mówią {branch} o Finito"
+  },
+  "common": {
+    "learnMore": "Dowiedz się więcej",
+    "getStarted": "Rozpocznij za darmo",
+    "tryFree": "Wypróbuj za darmo",
+    "noCreditCard": "Bez karty kredytowej",
+    "thirtyDaysFree": "14 dni za darmo",
+    "swissServers": "Serwery w Szwajcarii",
+    "perMonth": "/miesiąc",
+    "perUser": "za użytkownika",
+    "close": "Zamknij",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "search": "Szukaj",
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd",
+    "success": "Sukces",
+    "yes": "Tak",
+    "no": "Nie",
+    "or": "lub",
+    "and": "i",
+    "all": "Wszystkie",
+    "none": "Brak",
+    "showMore": "Pokaż więcej",
+    "showLess": "Pokaż mniej",
+    "scrollToTop": "Przewiń do góry",
+    "language": "Język",
+    "german": "Deutsch",
+    "english": "English",
+    "chf": "zł",
+    "includingVat": "z VAT",
+    "excludingVat": "bez VAT",
+    "new": "Nowość",
+    "comingSoon": "Wkrótce"
+  },
+  "errors": {
+    "404": {
+      "title": "Strona nie znaleziona",
+      "description": "Szukana strona nie istnieje lub została przeniesiona.",
+      "cta": "Powrót do strony głównej"
+    },
+    "500": {
+      "title": "Błąd serwera",
+      "description": "Wystąpił nieoczekiwany błąd. Spróbuj ponownie później.",
+      "cta": "Spróbuj ponownie"
+    },
+    "generic": {
+      "title": "Coś poszło nie tak",
+      "description": "Spróbuj ponownie lub skontaktuj się z naszym wsparciem.",
+      "cta": "Skontaktuj się ze wsparciem"
+    }
+  },
+  "cookieBanner": {
+    "title": "Ustawienia plików cookie",
+    "description": "Używamy plików cookie, aby zapewnić Ci jak najlepsze wrażenia na naszej stronie.",
+    "acceptAll": "Zaakceptuj wszystkie",
+    "rejectAll": "Odrzuć wszystkie",
+    "customize": "Dostosuj",
+    "necessary": "Niezbędne",
+    "necessaryDesc": "Te pliki cookie są wymagane do podstawowego funkcjonowania strony.",
+    "analytics": "Analityczne",
+    "analyticsDesc": "Te pliki cookie pomagają nam zrozumieć i ulepszać korzystanie z naszej strony.",
+    "marketing": "Marketingowe",
+    "marketingDesc": "Te pliki cookie służą do wyświetlania odpowiednich reklam.",
+    "save": "Zapisz ustawienia"
+  },
+  "accessibility": {
+    "skipToContent": "Przejdź do treści",
+    "mainNavigation": "Nawigacja główna",
+    "footerNavigation": "Stopka",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "externalLink": "Link zewnętrzny, otwiera się w nowej karcie",
+    "currentPage": "Bieżąca strona"
+  },
+  "seo": {
+    "homeTitle": "Finito Pro | Oprogramowanie dla MŚP w Szwajcarii - Zarządzanie projektami, faktury i CRM",
+    "homeDescription": "Kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury, koordynuj zespół. 100% dane w Szwajcarii. 14 dni za darmo.",
+    "featuresTitle": "Funkcje | Finito Pro - Przegląd wszystkich funkcji",
+    "featuresDescription": "Odkryj wszystkie funkcje Finito Pro: faktury, zarządzanie projektami, CRM, rejestracja czasu pracy, wyceny i więcej. Wszystko dla Twojej firmy.",
+    "pricingTitle": "Cennik | Finito Pro - Od 100 zł/miesiąc",
+    "pricingDescription": "Przejrzyste ceny dla każdej wielkości firmy. Starter od 100 zł/miesiąc. 14 dni za darmo. Bez ukrytych kosztów.",
+    "contactTitle": "Kontakt | Finito Pro - Jesteśmy do Twojej dyspozycji",
+    "contactDescription": "Masz pytania dotyczące Finito Pro? Skontaktuj się z nami przez formularz, e-mail lub telefon. Odpowiadamy w ciągu 24 godzin.",
+    "teamTitle": "Zespół | Finito Pro - Historia naszego oprogramowania",
+    "teamDescription": "Poznaj zespół stojący za Finito Pro. Nasza wizja, misja i wartości. Opracowane w Szwajcarii dla szwajcarskich MŚP.",
+    "branchesTitle": "Branże | Finito Pro - Odpowiednie rozwiązanie dla każdej branży",
+    "branchesDescription": "Finito Pro dla malarzy, elektryków, hydraulików, stolarzy, ogrodników i wielu innych. Branżowe rozwiązania dla Twojej firmy.",
+    "faqTitle": "FAQ | Finito Pro - Najczęściej zadawane pytania",
+    "faqDescription": "Odpowiedzi na najczęstsze pytania dotyczące Finito Pro. Przechowywanie danych, funkcje, ceny, okres próbny i więcej."
+  },
+  "partner": {
+    "badge": "Program Partnerski 2025",
+    "heroHighlight1": "20–40% zysków",
+    "heroText1": "w pierwszym roku.",
+    "heroText2": "Potem",
+    "heroHighlight2": "5% lifetime",
+    "heroSub": "Sprzedawaj szwajcarski ERP/CRM firmom do 500 osób. Wdrożenie w kilka dni. Wymaganie: własne konto Finito Pro.",
+    "heroCta": "Załóż konto i dołącz",
+    "heroSecondary": "Jak to działa?",
+    "heroTrust": "20–40% zysków rok 1 · 5% lifetime · Wymagane konto Finito Pro",
+
+    "howLabel": "Jak to działa",
+    "howTitle": "Trzy kroki do zarabiania",
+    "howSub": "Prosty model: sprzedajesz, zarabiasz 20–40% w roku 1, potem 5% lifetime.",
+    "step1Title": "1. Załóż konto Finito Pro",
+    "step1Desc": "Zarejestruj się i poznaj produkt od środka. To warunek przystąpienia do programu partnerskiego.",
+    "step2Title": "2. Zarabiaj 20–40% (rok 1)",
+    "step2Desc": "Przez 12 miesięcy: 20–40% zysków netto z każdego klienta, minus podatki.",
+    "step3Title": "3. Zarabiaj 5% (lifetime)",
+    "step3Desc": "Od roku 2: 5% od każdego klienta dopóki zostaje. Bez limitu czasowego.",
+    "howCta": "Załóż konto Finito Pro",
+
+    "commLabel": "Model prowizji",
+    "commTitle": "Jeden prosty model dla każdego partnera",
+    "commSub": "Sprzedawca, polecający, integrator — niezależnie od roli, model prowizji jest taki sam dla każdego partnera.",
+    "year1Label": "Rok 1 (miesiące 1–12)",
+    "year1Desc": "zysków netto z każdego klienta",
+    "year1Detail": "Zysk = przychód minus koszty infrastruktury. Rozliczenie miesięczne. Minus podatki.",
+    "year2Label": "Rok 2+ (lifetime)",
+    "year2Desc": "dopóki klient zostaje na Finito Pro",
+    "year2Detail": "Pasywny przychód. Kumuluje się z nowymi klientami. Bez limitu czasowego.",
+
+    "cmpLabel": "Porównanie rynkowe",
+    "cmpTitle": "Finito Pro vs konkurencja w Polsce",
+    "cmpSub": "Obiektywne porównanie na podstawie publicznie dostępnych cenników i funkcji (stan na 2025).",
+    "cmpPrice": "Cena / użytkownik / mies.",
+    "cmpDeploy": "Czas wdrożenia",
+    "cmpCloud": "Cloud-native SaaS",
+    "cmpMobile": "Aplikacja mobilna",
+    "cmpLimited": "Ograniczone",
+    "cmpModules": "Liczba modułów",
+    "cmpPortal": "Portal klienta",
+    "cmpPhoto": "Dokumentacja foto + GPS",
+    "cmpPricing": "Cennik publiczny",
+    "cmpPartner": "Prowizja partnerska",
+    "cmpFewDays": "Kilka dni",
+    "cmpPublic": "TAK",
+    "cmpPartial": "Częściowo",
+    "cmpBuiltIn": "Wbudowany",
+    "cmpIndiv": "Indywidualnie",
+    "cmpSource": "Źródło: publiczne cenniki i strony producentów (comarch.pl, enova.pl, zorius.pl, sccot.pl).",
+    "cmpCta": "Sprzedawaj produkt, który wygrywa",
+
+    "mktLabel": "Rynek polski",
+    "mktTitle": "Dlaczego polskie MŚP potrzebują Finito Pro",
+    "mktSub": "Polski rynek ERP rośnie, ale większość firm nadal nie ma żadnego systemu. To ogromna szansa.",
+    "mkt1Title": "3,2 mln firm MŚP w Polsce",
+    "mkt1a": "72% firm nie używa żadnego oprogramowania ERP",
+    "mkt1b": "87% nowych wdrożeń to rozwiązania SaaS",
+    "mkt1c": "KSeF wymusza digitalizację fakturowania",
+    "mkt1d": "Firmy szukają rozwiązań poniżej 200 PLN/użytkownik",
+    "mkt2Title": "Co wyróżnia Finito Pro",
+    "mkt2a": "100 PLN/użytkownik — przejrzysty, publiczny cennik",
+    "mkt2b": "13 modułów w jednej aplikacji",
+    "mkt2c": "Wdrożenie w kilka dni zamiast tygodni",
+    "mkt2d": "Hosting w Szwajcarii, archiwum 25+ lat",
+    "mkt3Title": "18 branż do obsłużenia",
+    "mkt3a": "Budownictwo: malarze, tynkarze, dekarze, murarze",
+    "mkt3b": "Instalacje: elektrycy, hydraulicy, HVAC",
+    "mkt3c": "Usługi: sprzątanie, ogrody, przeprowadzki",
+    "mkt3d": "Biznes: agencje, architekci, facility management",
+    "mkt4Title": "Dlaczego teraz?",
+    "mkt4a": "KSeF 2026 — firmy muszą zdigitalizować fakturowanie",
+    "mkt4b": "Nowi pracownicy odrzucają papierowe systemy",
+    "mkt4c": "Automatyzacja oszczędza 10–20h tygodniowo",
+    "mkt4d": "Dotacje PARP na digitalizację MŚP (1,3 mld PLN w 2026)",
+
+    "benLabel": "Wsparcie",
+    "benTitle": "Co otrzymujesz jako partner",
+    "ben1Title": "Materiały sprzedażowe",
+    "ben1Desc": "Prezentacje, PDF, case studies, porównania — gotowe do użycia.",
+    "ben2Title": "Demo konto",
+    "ben2Desc": "Pełne demo z polskimi danymi. Pokazuj klientom prawdziwy produkt.",
+    "ben3Title": "Szkolenie produktowe",
+    "ben3Desc": "Online lub onsite. Moduły, argumenty sprzedażowe, obiekcje klientów.",
+    "ben4Title": "Dedykowany support",
+    "ben4Desc": "Opiekun partnerski, szybkie rozwiązywanie problemów klientów.",
+    "ben5Title": "Panel partnerski",
+    "ben5Desc": "Śledzenie klientów, prowizji, konwersji i wypłat w jednym miejscu.",
+    "ben6Title": "Opcja equity",
+    "ben6Desc": "Najlepsi partnerzy mogą uzyskać udziały w firmie. Buduj wartość razem z nami.",
+
+    "calcLabel": "Kalkulator",
+    "calcTitle": "Ile możesz zarobić?",
+    "calcClients": "Liczba klientów (firm)",
+    "calcUsers": "Użytkowników na firmę",
+    "calcYear1": "Rok 1 (20–40% zysków)",
+    "calcYear2": "Rok 2+ lifetime (5%)",
+    "calcNote": "Szacunek: zysk ~40 PLN/użytkownik/mies. Kwoty przed podatkiem partnera.",
+
+    "faqTitle": "Częste pytania",
+    "faq1Q": "Jak dokładnie wygląda model 20–40% / 5%?",
+    "faq1A": "Przez 12 miesięcy od pozyskania klienta: 20–40% zysków netto (przychód minus infrastruktura, minus podatki). Od miesiąca 13: 5% zysków netto dopóki klient korzysta z Finito Pro. Rozliczenie miesięczne.",
+    "faq2Q": "Ile trwa wdrożenie klienta?",
+    "faq2A": "Kilka dni — zależy od ilości danych do migracji. Prosta firma: 1–2 dni. Firma z dużą bazą: 5–7 dni. Finito Pro zajmuje się całą migracją danych.",
+    "faq3Q": "Jak duże firmy obsługuje Finito Pro?",
+    "faq3A": "Od 1 do 500 osób. Koncentrujemy się na mniejszych firmach usługowych (2–50 osób), ale system skaluje się do 500+ użytkowników.",
+    "faq4Q": "Jakie są wymagania, żeby zostać partnerem?",
+    "faq4A": "Jedyne wymaganie to posiadanie własnego konta Finito Pro. Dzięki temu znasz produkt od środka i możesz go rzetelnie polecać. Nie musisz mieć doświadczenia IT — wdrożenie i support są po naszej stronie.",
+    "faq5Q": "Co to opcja equity?",
+    "faq5A": "Najlepsi partnerzy strategiczni mogą uzyskać udziały w Finito Pro. Warunki indywidualne — buduj wartość długoterminową razem z nami.",
+
+    "bannerLabel": "Program Partnerski",
+    "bannerTitle": "Zarabiaj sprzedając Finito Pro",
+    "bannerSub": "Dołącz do programu partnerskiego i buduj pasywny przychód. Dla firm IT, konsultantów i biur rachunkowych.",
+    "banner1Title": "20–40% zysków w roku 1",
+    "banner1Desc": "Przez pierwsze 12 miesięcy otrzymujesz 20–40% zysków netto z każdego pozyskanego klienta.",
+    "banner1Tag": "Rok 1",
+    "banner2Title": "5% lifetime od roku 2",
+    "banner2Desc": "Po pierwszym roku — 5% pasywnego przychodu dopóki klient zostaje na Finito Pro.",
+    "banner2Tag": "Rok 2+",
+    "banner3Title": "Opcja equity",
+    "banner3Desc": "Najlepsi partnerzy mogą uzyskać udziały w firmie. Buduj wartość długoterminową.",
+    "banner3Tag": "Dla top partnerów",
+    "bannerCta": "Poznaj program partnerski"
+  }
+}

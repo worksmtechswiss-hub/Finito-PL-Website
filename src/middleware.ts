@@ -111,6 +111,13 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
+  // Redirect old /de/* paths to root (301 for SEO)
+  if (pathname.startsWith("/de/") || pathname === "/de") {
+    const url = request.nextUrl.clone();
+    url.pathname = pathname === "/de" ? "/" : pathname.slice(3);
+    return NextResponse.redirect(url, 301);
+  }
+
   return intlMiddleware(request);
 }
 

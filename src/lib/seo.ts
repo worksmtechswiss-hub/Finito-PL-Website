@@ -8,7 +8,7 @@ export function generatePageMetadata(page: {
   ogImage?: string;
   locale?: string;
 }): Metadata {
-  const locale = page.locale || "de";
+  const locale = page.locale || "pl";
   return {
     title: page.title,
     description: page.description,
@@ -16,7 +16,7 @@ export function generatePageMetadata(page: {
     alternates: {
       canonical: `https://finitopro.pl/${locale}${page.path}`,
       languages: {
-        de: `https://finitopro.pl/de${page.path}`,
+        pl: `https://finitopro.pl/pl${page.path}`,
         en: `https://finitopro.pl/en${page.path}`,
       },
     },
@@ -32,7 +32,7 @@ export function generatePageMetadata(page: {
           height: 630,
         },
       ],
-      locale: locale === "de" ? "de_CH" : "en",
+      locale: locale === "pl" ? "pl_PL" : "en",
       type: "website",
     },
     twitter: {
