@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MessageCircle, Send, ArrowRight, MapPin, Phone } from "lucide-react";
+import { Mail, Send, ArrowRight, MapPin, Phone } from "lucide-react";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 function ContactAnimation() {
@@ -200,25 +200,7 @@ export function KontaktContent() {
                 </a>
 
                 <a
-                  href="https://wa.me/41782675982"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-start gap-4 p-5 rounded-2xl border border-neutral-100 hover:border-accent-200 hover:shadow-card transition-all"
-                >
-                  <div className="w-11 h-11 bg-accent-50 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-accent-100 transition-colors">
-                    <MessageCircle className="w-5 h-5 text-accent-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-neutral-900 mb-1">WhatsApp</h3>
-                    <p className="text-sm text-accent-600">Czatuj teraz</p>
-                    <p className="text-xs text-neutral-400 mt-1">
-                      Szybkie odpowiedzi, osobisty kontakt
-                    </p>
-                  </div>
-                </a>
-
-                <a
-                  href="tel:+48660285033"
+                  href="tel:+48519690544"
                   className="group flex items-start gap-4 p-5 rounded-2xl border border-neutral-100 hover:border-primary-200 hover:shadow-card transition-all"
                 >
                   <div className="w-11 h-11 bg-primary-50 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-primary-100 transition-colors">
@@ -226,7 +208,7 @@ export function KontaktContent() {
                   </div>
                   <div>
                     <h3 className="font-medium text-neutral-900 mb-1">Telefon</h3>
-                    <p className="text-sm text-primary-600">+48 660 285 033</p>
+                    <p className="text-sm text-primary-600">+48 519 690 544</p>
                     <p className="text-xs text-neutral-400 mt-1">
                       Pn - Pt, 08:00 - 18:00
                     </p>
