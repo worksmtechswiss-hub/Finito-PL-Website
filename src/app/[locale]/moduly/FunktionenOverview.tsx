@@ -44,7 +44,7 @@ const features = [
     slug: "faktury",
     title: "Faktury",
     description:
-      "Szwajcarskie faktury zgodne z ISO 20022. Obliczanie VAT, przypomnienia o płatnościach i uzgadnianie z bankiem.",
+      "Faktury zgodne z KSeF. Obliczanie VAT, przypomnienia o płatnościach i eksport do księgowości.",
     category: "Finanse",
   },
   {

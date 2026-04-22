@@ -79,7 +79,7 @@ export function FeatureVideoShowcase() {
             rozwiązanie do zarządzania projektami
           </h2>
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-            Szwajcarskie oprogramowanie dla firm rzemieślniczych
+            Oprogramowanie stworzone dla firm rzemieślniczych
           </p>
         </motion.div>
 

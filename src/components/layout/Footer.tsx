@@ -107,7 +107,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-neutral-400 text-sm leading-relaxed mb-6">
-              Oprogramowanie all-in-one dla firm usługowych i rzemieślniczych. Szwajcarska jakość, polska obsługa.
+              Oprogramowanie all-in-one dla firm usługowych i rzemieślniczych. Europejska jakość, polska obsługa.
             </p>
             <div className="flex items-center gap-2">
               {socialLinks.map((social) => (

@@ -19,7 +19,7 @@ export async function generateMetadata({
       "Finito Pro API",
       "oprogramowanie MŚP API",
       "integracja REST API",
-      "szwajcarskie oprogramowanie API",
+      "oprogramowanie ERP API",
     ],
   });
 }

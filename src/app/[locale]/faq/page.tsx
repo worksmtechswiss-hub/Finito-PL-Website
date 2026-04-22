@@ -20,7 +20,7 @@ export async function generateMetadata({
       "Pytania o oprogramowanie MŚP",
       "Pomoc oprogramowanie dla rzemieślników",
       "Finito Pro wersja próbna",
-      "Szwajcarskie oprogramowanie FAQ",
+      "Oprogramowanie dla rzemieślników FAQ",
     ],
   });
 }

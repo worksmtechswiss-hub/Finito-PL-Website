@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Finito Pro | Szwajcarskie oprogramowanie dla MŚP - Zarządzanie projektami, fakturowanie i CRM",
-    "description": "Finito Pro to kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury, utrzymuj relacje z klientami i koordynuj swój zespół. 100% szwajcarskie dane. Wypróbuj 14 dni za darmo.",
-    "keywords": "oprogramowanie MŚP Szwajcaria, zarządzanie projektami, faktury, CRM, oprogramowanie dla firm rzemieślniczych, rejestracja czasu pracy, oferty, szwajcarskie oprogramowanie"
+    "title": "Finito Pro | Program do zarządzania firmą usługową — projekty, faktury, CRM",
+    "description": "Finito Pro to kompleksowe oprogramowanie dla MŚP. Zarządzaj projektami, twórz faktury, utrzymuj relacje z klientami i koordynuj swój zespół. Zgodność z RODO. Wypróbuj 14 dni za darmo.",
+    "keywords": "oprogramowanie MŚP, zarządzanie projektami, faktury, CRM, oprogramowanie dla firm rzemieślniczych, rejestracja czasu pracy, oferty, KSeF"
   },
   "nav": {
     "features": "Moduły",
@@ -20,14 +20,14 @@
   },
   "hero": {
     "badge": "Nowość: Rejestracja czasu pracy i zarządzanie urlopami",
-    "title": "Szwajcarskie oprogramowanie MŚP dla firm rzemieślniczych",
-    "subtitle": "Zarządzaj projektami, twórz faktury, koordynuj swój zespół – wszystko w jednej aplikacji. 100% szwajcarskie dane.",
+    "title": "Program do zarządzania firmą usługową",
+    "subtitle": "Zarządzaj projektami, twórz faktury, koordynuj swój zespół – wszystko w jednej aplikacji.",
     "cta": "Rozpocznij za darmo",
     "ctaSecondary": "Zobacz demo",
-    "trust": "Bez karty kredytowej · 14 dni za darmo · Szwajcarskie serwery"
+    "trust": "Bez karty kredytowej · 14 dni za darmo · Bezpieczne serwery w Europie"
   },
   "trustBanner": {
-    "title": "Zaufało nam ponad 200 szwajcarskich firm",
+    "title": "Zaufało nam ponad 200 firm usługowych",
     "rating": "4,8 na 5 gwiazdek",
     "reviews": "na podstawie ponad 150 opinii"
   },
@@ -46,10 +46,10 @@
     "subtitle": "Wszystkie narzędzia, których potrzebuje Twoja firma – na jednej platformie",
     "rechnungen": {
       "title": "Faktury",
-      "description": "Twórz profesjonalne szwajcarskie faktury w kilka sekund. Automatyczne obliczanie VAT, przypomnienia o płatności i bezproblemowy eksport do programu księgowego.",
+      "description": "Twórz profesjonalne faktury w kilka sekund. Automatyczne obliczanie VAT, integracja z KSeF, przypomnienia o płatności i eksport do księgowości.",
       "bullets": {
-        "1": "Szwajcarskie faktury zgodne ze standardem ISO 20022",
-        "2": "Automatyczne obliczanie VAT (7,7% / 2,5% / 0%)",
+        "1": "Faktury zgodne z KSeF i standardami polskimi",
+        "2": "Automatyczne obliczanie VAT (23% / 8% / 5% / 0%)",
         "3": "Przypomnienia o płatności e-mailem lub pocztą",
         "4": "Eksport jako PDF lub bezpośrednio do programu księgowego",
         "5": "Zarządzanie płatnościami częściowymi i ratalnymi",
@@ -154,12 +154,12 @@
     },
     "buchhaltung": {
       "title": "Księgowość",
-      "description": "Zarządzanie przychodami i wydatkami, kontrola kosztów i eksport dla księgowego. Wszystkie dane bezpiecznie przechowywane na szwajcarskich serwerach.",
+      "description": "Zarządzanie przychodami i wydatkami, kontrola kosztów i eksport dla księgowego. Wszystkie dane bezpiecznie na serwerach w Europie.",
       "bullets": {
         "1": "Przejrzyste zarządzanie przychodami i wydatkami",
         "2": "Kontrola kosztów dla każdego projektu i klienta",
         "3": "Eksport dla księgowego (CSV, PDF)",
-        "4": "Wszystkie dane bezpiecznie przechowywane na szwajcarskich serwerach",
+        "4": "Wszystkie dane bezpiecznie na serwerach w Europie",
         "5": "Automatyczna kategoryzacja paragonów",
         "6": "Deklaracja VAT przygotowana dla urzędu skarbowego"
       }
@@ -206,10 +206,10 @@
     "companiesValue": "200+",
     "timeSaved": "Zaoszczędzony czas",
     "timeSavedValue": "10 godz./tydzień",
-    "swissServer": "Szwajcarskie serwery",
+    "swissServer": "Bezpieczeństwo danych",
     "swissServerValue": "100%",
     "dataRetention": "Przechowywanie danych",
-    "dataRetentionValue": "Szwajcaria",
+    "dataRetentionValue": "Europa",
     "satisfaction": "Zadowolenie klientów",
     "satisfactionValue": "4,8/5"
   },
@@ -280,7 +280,7 @@
   },
   "testimonials": {
     "title": "Co mówią nasi klienci",
-    "subtitle": "Ponad 200 szwajcarskich firm zaufało Finito",
+    "subtitle": "Ponad 200 firm usługowych zaufało Finito",
     "testimonial1": {
       "quote": "Odkąd korzystamy z Finito, oszczędzamy kilka godzin tygodniowo na fakturowaniu. Faktury to prawdziwy przełom.",
       "author": "Jan Kowalski",
@@ -306,7 +306,7 @@
     "perMonth": "miesięcznie",
     "perUser": "za użytkownika",
     "popular": "Najpopularniejszy",
-    "free": "Za darmo",
+    "free": "",
     "individual": "Indywidualnie",
     "yearlyDiscount": "20% zniżki przy planie rocznym",
     "monthly": "Miesięcznie",
@@ -374,15 +374,15 @@
     "subtitle": "Wszystko, co musisz wiedzieć o Finito",
     "viewAll": "Zobacz wszystkie FAQ",
     "q1": "Dla kogo jest Finito?",
-    "a1": "Finito zostało stworzone specjalnie dla szwajcarskich MŚP z branży rzemieślniczej i usługowej. Malarze, elektrycy, hydraulicy, stolarze, firmy ogrodnicze i wiele innych branż korzysta z Finito na co dzień.",
+    "a1": "Finito zostało stworzone specjalnie dla MŚP z branży rzemieślniczej i usługowej. Malarze, elektrycy, hydraulicy, stolarze, firmy ogrodnicze i wiele innych branż korzysta z Finito na co dzień.",
     "q2": "Gdzie przechowywane są moje dane?",
-    "a2": "Wszystkie dane są przechowywane wyłącznie na szwajcarskich serwerach. Współpracujemy z certyfikowanymi szwajcarskimi centrami danych i spełniamy wszystkie wymagania szwajcarskiej ustawy o ochronie danych (DSG).",
+    "a2": "Wszystkie dane są przechowywane na bezpiecznych serwerach w Europie. Współpracujemy z certyfikowanymi centrami danych i spełniamy wszystkie wymagania RODO.",
     "q3": "Czy mogę wypróbować Finito za darmo?",
     "a3": "Tak, możesz wypróbować Finito za darmo przez 14 dni bez zobowiązań. Karta kredytowa nie jest wymagana. Po okresie próbnym po prostu wybierz odpowiedni plan.",
     "q4": "Czy Finito działa offline?",
     "a4": "Tak, aplikacja pracownika posiada tryb offline. Twoi pracownicy mogą rejestrować czas, robić zdjęcia i edytować zadania nawet na placach budowy bez dostępu do internetu. Dane synchronizują się automatycznie po przywróceniu połączenia.",
-    "q5": "Czy Finito tworzy szwajcarskie faktury?",
-    "a5": "Tak, Finito tworzy faktury zgodne ze szwajcarskim standardem ISO 20022. VAT jest obliczany automatycznie, a faktury można wysyłać jako PDF lub eksportować bezpośrednio do programu księgowego.",
+    "q5": "Czy Finito obsługuje faktury KSeF?",
+    "a5": "Tak, Finito tworzy faktury zgodne z KSeF. VAT jest obliczany automatycznie, a faktury można wysyłać jako PDF lub przesyłać bezpośrednio do KSeF.",
     "q6": "Ile czasu zajmuje konfiguracja?",
     "a6": "Większość firm jest gotowa do pracy w ciągu 15 minut. Dane klientów można importować przez CSV. W razie potrzeby oferujemy również indywidualne sesje onboardingowe.",
     "q7": "Czy jest aplikacja dla pracowników?",
@@ -399,11 +399,11 @@
     "subtitle": "14 dni bezpłatnego okresu próbnego. Bez karty kredytowej.",
     "button": "Rozpocznij za darmo",
     "secondaryButton": "Zarezerwuj demo",
-    "trust": "Ponad 200 szwajcarskich MŚP już zaufało Finito"
+    "trust": "Ponad 200 firm usługowych już zaufało Finito"
   },
   "footer": {
     "tagline": "Więcej czasu na to, co naprawdę ważne",
-    "description": "Finito Pro to kompleksowe oprogramowanie dla szwajcarskich firm rzemieślniczych i usługodawców. Od oferty do faktury – wszystko w jednej aplikacji.",
+    "description": "Finito Pro to kompleksowe oprogramowanie dla firm rzemieślniczych i usługowych. Od oferty do faktury – wszystko w jednej aplikacji.",
     "product": "Produkt",
     "branches": "Branże",
     "company": "Firma",
@@ -413,7 +413,7 @@
     "emailPlaceholder": "Twój adres e-mail",
     "subscribe": "Zapisz się",
     "subscribeSuccess": "Dziękujemy za zapisanie się!",
-    "madeIn": "Stworzone z miłością w Szwajcarii",
+    "madeIn": "Stworzone z myślą o firmach usługowych",
     "copyright": "2024 Finito Pro. Wszelkie prawa zastrzeżone.",
     "team": "Zespół",
     "help": "Pomoc",
@@ -435,7 +435,7 @@
     "title": "Kontakt",
     "subtitle": "Dziękujemy za zainteresowanie naszą platformą. Chętnie odpowiemy na Twoje pytania.",
     "email": "kontakt@finitopro.pl",
-    "phone": "+41 44 000 00 00",
+    "phone": "+48 519 690 544",
     "address": "Octolabs Sp. z o.o., Hoża 29, 00-521 Warszawa",
     "officeHours": "Pon-Pt, 08:00-17:00",
     "responseTime": "Zazwyczaj odpowiadamy w ciągu 24 godzin.",
@@ -445,7 +445,7 @@
       "name": "Imię i nazwisko",
       "namePlaceholder": "Jan Kowalski",
       "phone": "Telefon",
-      "phonePlaceholder": "+41 079 123 45 67",
+      "phonePlaceholder": "+48 600 000 000",
       "email": "E-mail",
       "emailPlaceholder": "jan@firma.com",
       "message": "Wiadomość",
@@ -478,7 +478,7 @@
     "customerFocus": "Orientacja na klienta",
     "customerFocusDesc": "Słuchamy, rozumiemy potrzeby i dostarczamy rozwiązania. Szybko i pragmatycznie.",
     "swissQuality": "Szwajcarska jakość",
-    "swissQualityDesc": "Opracowane w Szwajcarii, hostowane w Szwajcarii, zgodne ze szwajcarskimi standardami ochrony danych.",
+    "swissQualityDesc": "Europejskie standardy bezpieczeństwa, zgodność z RODO, szyfrowanie na poziomie banków.",
     "visionTitle": "Nasza wizja",
     "vision": "Nasze oprogramowanie zostało stworzone dla ludzi czynu – do optymalizacji procesów projektowych i roboczych. Gdy firmy zarządzają zleceniami efektywniej, więcej czasu pozostaje na to, co naprawdę ważne.",
     "missionTitle": "Nasza misja",
@@ -545,7 +545,7 @@
     "tryFree": "Wypróbuj bezpłatnie",
     "noCreditCard": "Bez karty kredytowej",
     "thirtyDaysFree": "14 dni za darmo",
-    "swissServers": "Szwajcarskie serwery",
+    "swissServers": "Bezpieczne serwery",
     "perMonth": "/miesiąc",
     "perUser": "za użytkownika",
     "close": "Zamknij",
@@ -619,15 +619,15 @@
   },
   "seo": {
     "homeTitle": "Finito Pro | Szwajcarskie oprogramowanie dla MŚP - Zarządzanie projektami, fakturowanie i CRM",
-    "homeDescription": "Kompleksowe oprogramowanie dla szwajcarskich MŚP. Zarządzaj projektami, twórz faktury, koordynuj swój zespół. 100% szwajcarskie dane. Wypróbuj 14 dni za darmo.",
+    "homeDescription": "Kompleksowe oprogramowanie dla MŚP. Zarządzaj projektami, twórz faktury, koordynuj swój zespół. Zgodność z RODO. Wypróbuj 14 dni za darmo.",
     "featuresTitle": "Funkcje | Finito Pro - Wszystkie funkcje w jednym miejscu",
     "featuresDescription": "Odkryj wszystkie funkcje Finito Pro: faktury, zarządzanie projektami, CRM, rejestracja czasu pracy, oferty i więcej. Wszystko dla Twojego MŚP.",
     "pricingTitle": "Cennik | Finito Pro - Od 100 zł/miesiąc",
-    "pricingDescription": "Przejrzysty cennik dla każdej wielkości firmy. Starter od 100 zł/miesiąc. Wypróbuj 14 dni za darmo. Bez ukrytych kosztów.",
+    "pricingDescription": "Przejrzysty cennik dla każdej wielkości firmy. Starter od 29 zł/miesiąc. Wypróbuj 14 dni za darmo. Bez ukrytych kosztów.",
     "contactTitle": "Kontakt | Finito Pro - Jesteśmy tu dla Ciebie",
     "contactDescription": "Masz pytania dotyczące Finito Pro? Skontaktuj się z nami przez formularz, e-mail lub telefon. Odpowiadamy w ciągu 24 godzin.",
     "teamTitle": "Zespół | Finito Pro - Historia stojąca za oprogramowaniem",
-    "teamDescription": "Poznaj zespół stojący za Finito Pro. Nasza wizja, misja i wartości. Opracowane w Szwajcarii dla szwajcarskich MŚP.",
+    "teamDescription": "Poznaj zespół stojący za Finito Pro. Nasza wizja, misja i wartości. Oprogramowanie stworzone dla firm usługowych.",
     "branchesTitle": "Branże | Finito Pro - Odpowiednie rozwiązanie dla każdej branży",
     "branchesDescription": "Finito Pro dla malarzy, elektryków, hydraulików, stolarzy, firm ogrodniczych i innych. Rozwiązania branżowe dla Twojej firmy.",
     "faqTitle": "FAQ | Finito Pro - Często zadawane pytania",

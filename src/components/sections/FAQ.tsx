@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     questionDe: "Jak długo przechowywane są moje dane?",
-    answerDe: "Twoje dane są bezpiecznie i w zaszyfrowanej formie przechowywane na serwerach w Szwajcarii przez 25 lat. Masz pełny dostęp do wszystkich historycznych projektów i dokumentów w każdej chwili.",
+    answerDe: "Twoje dane są bezpiecznie i w zaszyfrowanej formie przechowywane na bezpiecznych serwerach w Europie przez 25 lat. Masz pełny dostęp do wszystkich historycznych projektów i dokumentów w każdej chwili.",
   },
   {
     questionDe: "Czy istnieje aplikacja mobilna?",

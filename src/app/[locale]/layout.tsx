@@ -18,11 +18,11 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: {
-    default: "Finito Pro | Oprogramowanie dla MŚP ze Szwajcarii",
+    default: "Finito Pro | Program do zarządzania firmą usługową",
     template: "%s | Finito Pro",
   },
   description:
-    "Finito Pro - Kompleksowe oprogramowanie dla szwajcarskich firm rzemieślniczych. Zarządzanie projektami, faktury, rejestracja czasu pracy i CRM.",
+    "Finito Pro — Kompleksowe oprogramowanie dla firm rzemieślniczych i usługowych. Zarządzanie projektami, faktury, rejestracja czasu pracy i CRM.",
   metadataBase: new URL("https://finitopro.pl"),
 };
 

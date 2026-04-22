@@ -20,7 +20,7 @@ const kmuFeatures = [
   "Dashboard CEO (wskaźniki efektywności)",
   "Dostęp API",
   "Multi-waluta",
-  "Dane na serwerach w Szwajcarii",
+  "Bezpieczne serwery w Europie",
   "Wsparcie",
 ];
 

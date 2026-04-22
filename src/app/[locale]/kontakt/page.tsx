@@ -18,7 +18,7 @@ export async function generateMetadata({
     keywords: [
       "Finito Pro kontakt",
       "wsparcie oprogramowania MSP",
-      "kontakt szwajcarskie oprogramowanie",
+      "kontakt oprogramowanie ERP",
       "pomoc oprogramowanie rzemieslnicze",
     ],
   });

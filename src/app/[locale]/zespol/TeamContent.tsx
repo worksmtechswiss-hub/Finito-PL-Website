@@ -62,7 +62,7 @@ export function TeamContent() {
               <span className="gradient-text-animated">O Finito Pro</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Szwajcarska jakość oprogramowania dla polskich firm usługowych
+              Oprogramowanie stworzone dla polskich firm usługowych
               i rzemieślniczych.
             </p>
           </motion.div>
@@ -93,7 +93,7 @@ export function TeamContent() {
                 Finito Pro powstało z bezpośredniej współpracy z firmami
                 usługowymi. Słuchaliśmy, rozumieliśmy i zbudowaliśmy
                 rozwiązanie, które naprawdę działa: intuicyjne, przystępne
-                cenowo i niezawodne. Ponad 200 firm w Szwajcarii korzysta
+                cenowo i niezawodne. Ponad 200 firm usługowych korzysta
                 z Finito — teraz startujemy w Polsce.
               </p>
             </div>
@@ -332,7 +332,7 @@ export function TeamContent() {
           >
             <div className="text-center mb-10">
               <h3 className="text-2xl font-semibold text-white mb-2">Finito Pro w liczbach</h3>
-              <p className="text-white/40 text-sm">Szwajcarska jakość, polska obsługa</p>
+              <p className="text-white/40 text-sm">Europejska jakość, polska obsługa</p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {stats.map((stat, i) => (

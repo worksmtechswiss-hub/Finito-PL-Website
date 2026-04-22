@@ -73,7 +73,7 @@ export function KundenContent() {
               Nasi <span className="gradient-text-animated">klienci</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Szwajcarskie MŚP ufają Finito Pro. Dowiedz się, jak
+              Firmy usługowe ufają Finito Pro. Dowiedz się, jak
               firmy rzemieślnicze i usługowe cyfryzują swoją codzienną pracę.
             </p>
           </motion.div>
@@ -169,7 +169,7 @@ export function KundenContent() {
               Co mówią nasi klienci
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Prawdziwe opinie szwajcarskich firm, które pracują z Finito Pro.
+              Prawdziwe opinie firm, które pracują z Finito Pro.
             </p>
           </motion.div>
 
@@ -230,7 +230,7 @@ export function KundenContent() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { icon: Shield, title: "Serwery w Szwajcarii", desc: "Wszystkie dane są szyfrowane i przechowywane w Szwajcarii. 100% zgodności z RODO." },
+              { icon: Shield, title: "Bezpieczeństwo danych", desc: "Wszystkie dane są szyfrowane i przechowywane na bezpiecznych serwerach w Europie. 100% zgodności z RODO." },
               { icon: Users, title: "Osobiste wsparcie", desc: "Żadnego call center - prawdziwi ludzie pomagają Ci w pytaniach i konfiguracji." },
               { icon: TrendingUp, title: "Ciągły rozwój", desc: "Regularne aktualizacje oparte na opiniach naszych użytkowników." },
             ].map((item, i) => (
@@ -267,7 +267,7 @@ export function KundenContent() {
               Dołącz do rodziny Finito Pro
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Testuj za darmo przez 14 dni i sam przekonaj się, dlaczego szwajcarskie MŚP wybierają Finito Pro.
+              Testuj za darmo przez 14 dni i sam przekonaj się, dlaczego firmy usługowe wybierają Finito Pro.
             </p>
             <motion.a
               href="https://app.finitopro.pl/register"

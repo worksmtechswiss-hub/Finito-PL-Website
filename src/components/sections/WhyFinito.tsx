@@ -6,9 +6,9 @@ import { ShieldCheck, Rocket, TrendingUp } from "lucide-react";
 const reasons = [
   {
     icon: ShieldCheck,
-    title: "100% dane w Szwajcarii",
+    title: "100% bezpieczeństwo danych",
     description:
-      "Wszystkie dane są szyfrowane i przechowywane na serwerach w Szwajcarii. Zgodność z RODO.",
+      "Wszystkie dane są szyfrowane i przechowywane na bezpiecznych serwerach w Europie. Pełna zgodność z RODO.",
   },
   {
     icon: Rocket,

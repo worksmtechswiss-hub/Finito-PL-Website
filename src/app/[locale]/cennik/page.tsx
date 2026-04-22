@@ -19,7 +19,7 @@ export async function generateMetadata({
       "Finito Pro cennik",
       "koszty oprogramowania MSP",
       "ceny oprogramowania rzemieslniczego",
-      "szwajcarskie oprogramowanie tanio",
+      "oprogramowanie ERP tanio",
       "porownanie oprogramowania biznesowego",
     ],
   });

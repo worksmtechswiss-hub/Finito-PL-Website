@@ -18,8 +18,8 @@ export const pricingTiers: PricingTier[] = [
     id: 'starter',
     nameDe: 'Starter',
     nameEn: 'Starter',
-    priceDe: 'Za darmo',
-    priceEn: 'Za darmo',
+    priceDe: '29 zł / miesiąc za użytkownika',
+    priceEn: '29 zł / miesiąc za użytkownika',
     descriptionDe:
       'Dla małych zespołów, które chcą zrobić pierwszy krok w kierunku cyfryzacji.',
     descriptionEn:
@@ -30,7 +30,7 @@ export const pricingTiers: PricingTier[] = [
       'Prosty dashboard z przeglądem',
       'Aplikacja mobilna dla pracowników',
       'Do 2 użytkowników',
-      'Serwery w Szwajcarii',
+      'Bezpieczne serwery w Europie',
       'Wsparcie e-mailowe',
     ],
     featuresEn: [
@@ -39,12 +39,12 @@ export const pricingTiers: PricingTier[] = [
       'Prosty dashboard z przeglądem',
       'Aplikacja mobilna dla pracowników',
       'Do 2 użytkowników',
-      'Serwery w Szwajcarii',
+      'Bezpieczne serwery w Europie',
       'Wsparcie e-mailowe',
     ],
     highlighted: false,
-    ctaDe: 'Rozpocznij za darmo',
-    ctaEn: 'Rozpocznij za darmo',
+    ctaDe: 'Rozpocznij teraz',
+    ctaEn: 'Rozpocznij teraz',
   },
   {
     id: 'kmu',

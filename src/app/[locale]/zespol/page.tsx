@@ -12,13 +12,13 @@ export async function generateMetadata({
   return generatePageMetadata({
     title: "Zespół i historia - Finito Pro",
     description:
-      "Poznaj zespół stojący za Finito Pro. Nasza misja: wspieranie MŚP w Szwajcarii prostym i wydajnym oprogramowaniem.",
+      "Poznaj zespół stojący za Finito Pro. Nasza misja: wspieranie MŚP prostym i wydajnym oprogramowaniem.",
     path: "/zespol",
     locale,
     keywords: [
       "zespół Finito Pro",
-      "szwajcarski startup",
-      "oprogramowanie MŚP Szwajcaria",
+      "oprogramowanie dla firm usługowych",
+      "oprogramowanie MŚP Polska",
       "oprogramowanie dla rzemieślników",
     ],
   });

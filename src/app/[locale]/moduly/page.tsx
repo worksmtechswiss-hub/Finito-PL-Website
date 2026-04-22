@@ -19,7 +19,7 @@ export async function generateMetadata({
       "Funkcje Finito Pro",
       "Funkcje oprogramowania MŚP",
       "Funkcje oprogramowania dla rzemieślników",
-      "Szwajcarskie oprogramowanie biznesowe",
+      "Oprogramowanie biznesowe MŚP",
       "Zarządzanie projektami",
       "Faktury",
       "Rejestracja czasu pracy",

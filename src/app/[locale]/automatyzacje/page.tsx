@@ -19,7 +19,7 @@ export async function generateMetadata({
       "automatyzacja MŚP",
       "oszczędność czasu oprogramowanie",
       "automatyzacja dla rzemieślników",
-      "optymalizacja procesów Szwajcaria",
+      "optymalizacja procesów firma usługowa",
       "automatyzacja ofert",
       "faktury automatyczne",
       "automatyczny czas pracy",

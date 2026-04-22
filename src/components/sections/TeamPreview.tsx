@@ -121,7 +121,7 @@ export function TeamPreview() {
             </h2>
 
             <p className="text-lg text-neutral-500 mb-6 leading-relaxed">
-              Za Finito Pro stoi zespół ze Szwajcarii, który zna Twoje wyzwania.
+              Za Finito Pro stoi zespół, który zna Twoje wyzwania.
               Osobiste wsparcie jest dla nas oczywistością - bez kolejek, bez chatbotów.
             </p>
 

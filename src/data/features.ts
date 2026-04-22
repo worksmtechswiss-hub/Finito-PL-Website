@@ -260,25 +260,25 @@ export const features: Feature[] = [
     titleDe: 'Księgowość',
     titleEn: 'Księgowość',
     descriptionDe:
-      'Zarządzaj przychodami i wydatkami, kontroluj koszty i eksportuj dane dla swojego księgowego. Wszystkie dane bezpiecznie na serwerach w Szwajcarii.',
+      'Zarządzaj przychodami i wydatkami, kontroluj koszty i eksportuj dane dla swojego księgowego. Wszystkie dane bezpiecznie na serwerach w Europie.',
     descriptionEn:
-      'Zarządzaj przychodami i wydatkami, kontroluj koszty i eksportuj dane dla swojego księgowego. Wszystkie dane bezpiecznie na serwerach w Szwajcarii.',
+      'Zarządzaj przychodami i wydatkami, kontroluj koszty i eksportuj dane dla swojego księgowego. Wszystkie dane bezpiecznie na serwerach w Europie.',
     slug: 'ksiegowosc',
     bulletsDe: [
       'Przejrzyste zarządzanie przychodami i wydatkami',
       'Zarządzanie kosztami na projekt i klienta',
       'Eksport dla księgowego (CSV, PDF)',
-      'Wszystkie dane bezpiecznie na serwerach w Szwajcarii',
+      'Wszystkie dane bezpiecznie na serwerach w Europie',
       'Automatyczna kategoryzacja dokumentów',
-      'Rozliczenie VAT przygotowane dla ESTV',
+      'Rozliczenie VAT zgodne z polskimi przepisami',
     ],
     bulletsEn: [
       'Przejrzyste zarządzanie przychodami i wydatkami',
       'Zarządzanie kosztami na projekt i klienta',
       'Eksport dla księgowego (CSV, PDF)',
-      'Wszystkie dane bezpiecznie na serwerach w Szwajcarii',
+      'Wszystkie dane bezpiecznie na serwerach w Europie',
       'Automatyczna kategoryzacja dokumentów',
-      'Rozliczenie VAT przygotowane dla ESTV',
+      'Rozliczenie VAT zgodne z polskimi przepisami',
     ],
   },
   {

@@ -12,14 +12,14 @@ export async function generateMetadata({
   return generatePageMetadata({
     title: "Klienci i referencje - Finito Pro",
     description:
-      "Szwajcarskie firmy rzemieślnicze i MŚP ufają Finito Pro. Poznaj opinie klientów i historie sukcesu.",
+      "Firmy rzemieślnicze i MŚP ufają Finito Pro. Poznaj opinie klientów i historie sukcesu.",
     path: "/klienci",
     locale,
     keywords: [
       "Klienci Finito Pro",
       "Referencje oprogramowania MŚP",
       "Doświadczenia z oprogramowaniem dla rzemieślników",
-      "Historie sukcesu szwajcarskich MŚP",
+      "Historie sukcesu firm usługowych",
     ],
   });
 }

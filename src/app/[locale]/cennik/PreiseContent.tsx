@@ -48,7 +48,7 @@ const featureCategories = [
       { name: "Kalendarz", starter: true, kmu: true, enterprise: true },
       { name: "Nawigacja", starter: true, kmu: true, enterprise: true },
       { name: "Dziennik aktywności", starter: true, kmu: true, enterprise: true },
-      { name: "Dane na serwerach w Szwajcarii", starter: true, kmu: true, enterprise: true },
+      { name: "Bezpieczne serwery w Europie", starter: true, kmu: true, enterprise: true },
     ],
   },
   {
@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: "Co się stanie po okresie testowym?",
-    a: "Po 14 dniach możesz wybrać subskrypcję lub pozostać na darmowym planie Starter. Twoje dane nie zostaną utracone.",
+    a: "Po 14 dniach po prostu wybierasz odpowiedni plan. Twoje dane nie zostaną utracone.",
   },
   {
     q: "Czy mogę anulować w dowolnym momencie?",
@@ -146,8 +146,8 @@ export function PreiseContent() {
               <span className="gradient-text-animated">Uczciwe ceny</span> dla każdej wielkości firmy
             </h1>
             <p className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              Zacznij za darmo i rozwijaj się z planem dopasowanym do Twojej
-              firmy. Bez ukrytych kosztów.
+              Wybierz plan dopasowany do Twojej firmy.
+              14 dni za darmo. Bez ukrytych kosztów.
             </p>
           </motion.div>
         </div>

@@ -19,7 +19,7 @@ const integrations = [
   {
     icon: Calculator,
     title: "Eksport księgowy",
-    desc: "Eksportuj dane finansowe bezpośrednio do popularnego szwajcarskiego oprogramowania księgowego. CSV, PDF i inne formaty.",
+    desc: "Eksportuj dane finansowe do oprogramowania księgowego. CSV, PDF i inne formaty.",
     status: "Dostępne",
     statusColor: "bg-success/10 text-success",
   },
@@ -62,7 +62,7 @@ const integrations = [
 
 const comingSoon = [
   "Synchronizacja kalendarza (Google, Outlook)",
-  "Automatyczne uzgadnianie płatności ze szwajcarskimi bankami",
+  "Automatyczne uzgadnianie płatności z bankami",
   "Skaner dokumentów z OCR",
   "Optymalizacja tras oparta na GPS",
   "Integracja WhatsApp Business",

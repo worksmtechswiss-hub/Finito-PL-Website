@@ -52,7 +52,7 @@ const CTA = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Finito Pro | Oprogramowanie dla MŚP ze Szwajcarii - zarządzanie projektami, faktury i CRM",
+  title: "Finito Pro | Program do zarządzania firmą usługową — projekty, faktury, CRM",
   description:
     "Finito Pro - Kompleksowe oprogramowanie dla MŚP. Zarządzanie projektami, tworzenie faktur, rejestracja czasu pracy i CRM. 14 dni bezpłatnego testu!",
   keywords:

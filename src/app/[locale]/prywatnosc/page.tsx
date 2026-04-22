@@ -12,7 +12,7 @@ export async function generateMetadata({
   return generatePageMetadata({
     title: "Polityka prywatności - Finito Pro",
     description:
-      "Polityka prywatności Finito Pro. Dowiedz się, jak chronimy i przetwarzamy Państwa dane. Serwery w Szwajcarii, zgodność z RODO.",
+      "Polityka prywatności Finito Pro. Dowiedz się, jak chronimy i przetwarzamy Państwa dane. Zgodność z RODO.",
     path: "/prywatnosc",
     locale,
   });

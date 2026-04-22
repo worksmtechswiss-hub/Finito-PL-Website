@@ -146,89 +146,89 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
 /* ------------------------------------------------------------------ */
 const seoMetaMap: Record<string, { title: string; description: string; keywords: string[] }> = {
   malarze: {
-    title: "Oprogramowanie dla malarzy Szwajcaria - oferty, rejestracja czasu i faktury | Finito Pro",
-    description: "Najlepsze oprogramowanie dla malarzy w Szwajcarii. Oferty w 3 minuty, cyfrowe fotoraporty, faktury i rejestracja czasu. 14 dni bezplatnego testu.",
-    keywords: ["oprogramowanie dla malarzy", "oprogramowanie malarskie Szwajcaria", "cyfryzacja firmy malarskiej", "oferty malarze", "rejestracja czasu malarze", "faktura malarze"],
+    title: "Oprogramowanie dla malarzy - oferty, rejestracja czasu i faktury | Finito Pro",
+    description: "Najlepsze oprogramowanie dla malarzy w Polsce. Oferty w 3 minuty, cyfrowe fotoraporty, faktury i rejestracja czasu. 14 dni bezplatnego testu.",
+    keywords: ["oprogramowanie dla malarzy", "oprogramowanie malarskie", "cyfryzacja firmy malarskiej", "oferty malarze", "rejestracja czasu malarze", "faktura malarze"],
   },
   tynkarze: {
-    title: "Oprogramowanie dla tynkarzy Szwajcaria - fotoraporty i zarzadzanie magazynem | Finito Pro",
+    title: "Oprogramowanie dla tynkarzy - fotoraporty i zarzadzanie magazynem | Finito Pro",
     description: "Oprogramowanie dla tynkarzy: cyfrowe fotoraporty, automatyczne zarzadzanie magazynem i faktury. Obliczanie powierzchni i pomiary bezposrednio na miejscu.",
-    keywords: ["oprogramowanie dla tynkarzy", "oprogramowanie tynkarskie Szwajcaria", "oprogramowanie dla firm tynkarskich", "fotoraport tynkarze", "zarzadzanie magazynem tynkarze"],
+    keywords: ["oprogramowanie dla tynkarzy", "oprogramowanie tynkarskie", "oprogramowanie dla firm tynkarskich", "fotoraport tynkarze", "zarzadzanie magazynem tynkarze"],
   },
   elektrycy: {
-    title: "Oprogramowanie dla elektrykow Szwajcaria - schematy mobilnie i zarzadzanie magazynem | Finito Pro",
+    title: "Oprogramowanie dla elektrykow - schematy mobilnie i zarzadzanie magazynem | Finito Pro",
     description: "Oprogramowanie dla elektrykow: schematy elektryczne na smartfonie, zarzadzanie magazynem z linkami do dostawcow i cyfrowe raporty prac.",
-    keywords: ["oprogramowanie dla elektrykow", "oprogramowanie elektryczne Szwajcaria", "oprogramowanie elektroinstalacyjne", "zarzadzanie magazynem elektrycy", "cyfrowy raport prac"],
+    keywords: ["oprogramowanie dla elektrykow", "oprogramowanie elektryczne", "oprogramowanie elektroinstalacyjne", "zarzadzanie magazynem elektrycy", "cyfrowy raport prac"],
   },
   hydraulicy: {
-    title: "Oprogramowanie dla hydraulikow Szwajcaria - rejestracja czasu i raporty prac | Finito Pro",
+    title: "Oprogramowanie dla hydraulikow - rejestracja czasu i raporty prac | Finito Pro",
     description: "Oprogramowanie dla instalatorow sanitarnych: mobilna rejestracja czasu, cyfrowe raporty prac z podpisem klienta i automatyczne faktury.",
-    keywords: ["oprogramowanie dla hydraulikow", "oprogramowanie sanitarne Szwajcaria", "oprogramowanie dla instalatorow", "rejestracja czasu hydraulicy", "raport prac hydraulicy"],
+    keywords: ["oprogramowanie dla hydraulikow", "oprogramowanie sanitarne", "oprogramowanie dla instalatorow", "rejestracja czasu hydraulicy", "raport prac hydraulicy"],
   },
   stolarze: {
-    title: "Oprogramowanie dla stolarzy Szwajcaria - oferty i planowanie warsztatu | Finito Pro",
+    title: "Oprogramowanie dla stolarzy - oferty i planowanie warsztatu | Finito Pro",
     description: "Oprogramowanie dla stolarni: szczegolowe oferty na zamowienia indywidualne, obciazenie warsztatu w panelu i dokumentowanie postepu projektu.",
-    keywords: ["oprogramowanie dla stolarzy", "oprogramowanie stolarskie Szwajcaria", "oprogramowanie dla stolarni", "planowanie warsztatu oprogramowanie", "oferty stolarze"],
+    keywords: ["oprogramowanie dla stolarzy", "oprogramowanie stolarskie", "oprogramowanie dla stolarni", "planowanie warsztatu oprogramowanie", "oferty stolarze"],
   },
   dekarze: {
-    title: "Oprogramowanie dla dekarzy Szwajcaria - planowanie zespolu i archiwizacja | Finito Pro",
+    title: "Oprogramowanie dla dekarzy - planowanie zespolu i archiwizacja | Finito Pro",
     description: "Oprogramowanie dla dekarzy: planowanie pracownikow z kalendarzem, cyfrowe archiwum projektow na ponad 25 lat i dokumentacja bezpieczenstwa.",
-    keywords: ["oprogramowanie dla dekarzy", "oprogramowanie dekarskie Szwajcaria", "oprogramowanie dla firm dekarskich", "planowanie zespolu dekarze", "archiwum projektow"],
+    keywords: ["oprogramowanie dla dekarzy", "oprogramowanie dekarskie", "oprogramowanie dla firm dekarskich", "planowanie zespolu dekarze", "archiwum projektow"],
   },
   posadzkarze: {
-    title: "Oprogramowanie dla posadzkarzy Szwajcaria - obliczanie materialu i dokumentacja | Finito Pro",
+    title: "Oprogramowanie dla posadzkarzy - obliczanie materialu i dokumentacja | Finito Pro",
     description: "Oprogramowanie dla posadzkarzy: automatyczne obliczanie metrow kwadratowych, sledzenie resztek materialu i dokumentacja wzoru ukladania.",
-    keywords: ["oprogramowanie dla posadzkarzy", "oprogramowanie posadzkarskie Szwajcaria", "oprogramowanie parkieciarskie", "oprogramowanie do plytkarstwa", "obliczanie materialu posadzkarze"],
+    keywords: ["oprogramowanie dla posadzkarzy", "oprogramowanie posadzkarskie", "oprogramowanie parkieciarskie", "oprogramowanie do plytkarstwa", "obliczanie materialu posadzkarze"],
   },
   rusztowania: {
-    title: "Oprogramowanie dla firm rusztowaniowych Szwajcaria - sledzenie elementow i rozliczenie najmu | Finito Pro",
+    title: "Oprogramowanie dla firm rusztowaniowych - sledzenie elementow i rozliczenie najmu | Finito Pro",
     description: "Oprogramowanie dla firm rusztowaniowych: sledzenie elementow rusztowan od dostawy do zwrotu, automatyczne rozliczenie najmu i inspekcje bezpieczenstwa.",
-    keywords: ["oprogramowanie rusztowaniowe", "oprogramowanie dla firm rusztowaniowych Szwajcaria", "sledzenie rusztowan", "rozliczenie najmu rusztowan", "inspekcja bezpieczenstwa"],
+    keywords: ["oprogramowanie rusztowaniowe", "oprogramowanie dla firm rusztowaniowych", "sledzenie rusztowan", "rozliczenie najmu rusztowan", "inspekcja bezpieczenstwa"],
   },
   murarze: {
-    title: "Oprogramowanie dla murarzy Szwajcaria - dziennik budowy i zarzadzanie projektami | Finito Pro",
+    title: "Oprogramowanie dla murarzy - dziennik budowy i zarzadzanie projektami | Finito Pro",
     description: "Oprogramowanie dla murarzy: automatyczny dziennik budowy, przeglad wielu projektow i obliczanie materialu na podstawie postepu budowy.",
-    keywords: ["oprogramowanie dla murarzy", "oprogramowanie murarskie Szwajcaria", "oprogramowanie dla firm budowlanych", "cyfrowy dziennik budowy", "zarzadzanie projektami budowlanymi"],
+    keywords: ["oprogramowanie dla murarzy", "oprogramowanie murarskie", "oprogramowanie dla firm budowlanych", "cyfrowy dziennik budowy", "zarzadzanie projektami budowlanymi"],
   },
   "obsluga-budynkow": {
-    title: "Oprogramowanie Facility Management Szwajcaria - konserwacja i koordynacja | Finito Pro",
+    title: "Oprogramowanie Facility Management - konserwacja i koordynacja | Finito Pro",
     description: "Program do obsługi technicznej budynków: zautomatyzowane interwaly konserwacji, koordynacja partnerow i cyfrowe dokumentacje obiektow dla kazdej czesci budynku.",
     keywords: ["oprogramowanie obsługa techniczna budynków", "oprogramowanie zarządzanie budynkami", "planowanie konserwacji oprogramowanie", "zarzadzanie budynkami oprogramowanie"],
   },
   sprzatanie: {
-    title: "Oprogramowanie dla firm sprzatajacych Szwajcaria - planowanie tras i dokumentacja jakosci | Finito Pro",
+    title: "Oprogramowanie dla firm sprzatajacych - planowanie tras i dokumentacja jakosci | Finito Pro",
     description: "Oprogramowanie dla firm sprzatajacych: planowanie tras, dokumentacja jakosci ze zdjeciami i automatyczne potwierdzenia wykonania.",
-    keywords: ["oprogramowanie dla firm sprzatajacych", "oprogramowanie sprzatajace Szwajcaria", "planowanie tras sprzatanie", "dokumentacja jakosci sprzatanie"],
+    keywords: ["oprogramowanie dla firm sprzatajacych", "oprogramowanie sprzatajace", "planowanie tras sprzatanie", "dokumentacja jakosci sprzatanie"],
   },
   ogrodnictwo: {
-    title: "Oprogramowanie ogrodnicze Szwajcaria - planowanie sezonowe i dokumentacja | Finito Pro",
+    title: "Oprogramowanie ogrodnicze - planowanie sezonowe i dokumentacja | Finito Pro",
     description: "Oprogramowanie ogrodnicze: sezonowe planowanie projektow, dokumentacja roslin i plany pielegnacji dla klientow. Rejestracja czasu w zestawie.",
-    keywords: ["oprogramowanie ogrodnicze", "oprogramowanie ogrodnicze Szwajcaria", "oprogramowanie do pielegnacji krajobrazu", "planowanie sezonowe ogrodnictwo", "dokumentacja roslin"],
+    keywords: ["oprogramowanie ogrodnicze", "oprogramowanie ogrodnicze", "oprogramowanie do pielegnacji krajobrazu", "planowanie sezonowe ogrodnictwo", "dokumentacja roslin"],
   },
   przeprowadzki: {
-    title: "Oprogramowanie dla firm przeprowadzkowych Szwajcaria - listy inwentaryzacyjne i planowanie tras | Finito Pro",
+    title: "Oprogramowanie dla firm przeprowadzkowych - listy inwentaryzacyjne i planowanie tras | Finito Pro",
     description: "Oprogramowanie dla firm przeprowadzkowych: szczegolowe listy inwentaryzacyjne ze zdjeciami, planowanie tras i protokol szkod ze znacznikiem czasu.",
-    keywords: ["oprogramowanie przeprowadzkowe", "oprogramowanie dla firm przeprowadzkowych Szwajcaria", "lista inwentaryzacyjna przeprowadzki", "planowanie tras przeprowadzki", "protokol szkod"],
+    keywords: ["oprogramowanie przeprowadzkowe", "oprogramowanie dla firm przeprowadzkowych", "lista inwentaryzacyjna przeprowadzki", "planowanie tras przeprowadzki", "protokol szkod"],
   },
   "technika-budynkowa": {
-    title: "Oprogramowanie dla instalacji budowlanych Szwajcaria - planowanie konserwacji i HVAC | Finito Pro",
+    title: "Oprogramowanie dla instalacji budowlanych - planowanie konserwacji i HVAC | Finito Pro",
     description: "Oprogramowanie dla instalacji budowlanych: dokumentacja HVAC, automatyczne planowanie konserwacji i kompletna historia instalacji dla kazdej czesci budynku.",
-    keywords: ["oprogramowanie instalacje budowlane", "oprogramowanie instalacje budowlane Szwajcaria", "oprogramowanie HVAC", "planowanie konserwacji ogrzewanie", "dokumentacja instalacji"],
+    keywords: ["oprogramowanie instalacje budowlane", "oprogramowanie instalacje budowlane", "oprogramowanie HVAC", "planowanie konserwacji ogrzewanie", "dokumentacja instalacji"],
   },
   architekci: {
-    title: "Oprogramowanie dla architektow Szwajcaria - dokumenty projektowe i tablica zadan | Finito Pro",
+    title: "Oprogramowanie dla architektow - dokumenty projektowe i tablica zadan | Finito Pro",
     description: "Oprogramowanie dla architektow: centralne dokumenty projektowe, tablica zadan dla faz budowy i przejrzysta komunikacja z inwestorami przez portal klienta.",
-    keywords: ["oprogramowanie dla architektow", "oprogramowanie architektoniczne Szwajcaria", "oprogramowanie dla biur architektonicznych", "zarzadzanie projektami architekci", "tablica zadan fazy budowy"],
+    keywords: ["oprogramowanie dla architektow", "oprogramowanie architektoniczne", "oprogramowanie dla biur architektonicznych", "zarzadzanie projektami architekci", "tablica zadan fazy budowy"],
   },
   agencje: {
-    title: "Oprogramowanie dla agencji Szwajcaria - rejestracja czasu i zarzadzanie budzetem | Finito Pro",
+    title: "Oprogramowanie dla agencji - rejestracja czasu i zarzadzanie budzetem | Finito Pro",
     description: "Oprogramowanie dla agencji: rejestracja czasu oparta na projektach, indywidualne uprawnienia uzytkownikow i budzety klientow z automatycznymi ostrzezeniami.",
-    keywords: ["oprogramowanie dla agencji", "oprogramowanie agencyjne Szwajcaria", "rejestracja czasu agencja", "zarzadzanie projektami agencja", "oprogramowanie budzetowe agencja"],
+    keywords: ["oprogramowanie dla agencji", "oprogramowanie agencyjne", "rejestracja czasu agencja", "zarzadzanie projektami agencja", "oprogramowanie budzetowe agencja"],
   },
   "jednoosobowe-firmy": {
-    title: "Oprogramowanie dla jednoosobowych firm Szwajcaria - biuro na smartfonie | Finito Pro",
+    title: "Oprogramowanie dla jednoosobowych firm - biuro na smartfonie | Finito Pro",
     description: "Oprogramowanie dla samozatrudnionych i jednoosobowych firm: oferty, faktury, rejestracja czasu - wszystko w jednej aplikacji na smartfonie.",
-    keywords: ["oprogramowanie dla jednoosobowych firm", "oprogramowanie dla samozatrudnionych Szwajcaria", "oprogramowanie dla przedsiebiorcow", "aplikacja dla rzemieslnikow", "biuro na smartfonie"],
+    keywords: ["oprogramowanie dla jednoosobowych firm", "oprogramowanie dla samozatrudnionych", "oprogramowanie dla przedsiebiorcow", "aplikacja dla rzemieslnikow", "biuro na smartfonie"],
   },
 };
 
@@ -246,13 +246,13 @@ export async function generateMetadata({
   if (!branch) return {};
 
   const seo = seoMetaMap[slug];
-  const title = seo?.title || `Oprogramowanie ${branch.titleDe} Szwajcaria | Finito Pro`;
+  const title = seo?.title || `Oprogramowanie ${branch.titleDe} | Finito Pro`;
   const description = seo?.description || branch.descriptionDe;
   const keywords = seo?.keywords || [
     `oprogramowanie ${branch.titleDe}`,
-    `oprogramowanie ${branch.titleDe} Szwajcaria`,
+    `oprogramowanie ${branch.titleDe} Polska`,
     "oprogramowanie dla MSP",
-    "oprogramowanie rzemieslnicze Szwajcaria",
+    "oprogramowanie rzemieslnicze",
     `rejestracja czasu ${branch.titleDe}`,
     `faktury ${branch.titleDe}`,
   ];

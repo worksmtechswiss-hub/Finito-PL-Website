@@ -451,7 +451,7 @@ export function BranchPageContent({
               </h2>
               <p className="text-lg text-neutral-500 mb-8">
                 Cyfryzacja {branch.genitiveDe} z Finito Pro — kompleksowe oprogramowanie
-                dla szwajcarskich MŚP i firm rzemieślniczych.
+                dla MŚP i firm rzemieślniczych.
               </p>
               <ul className="space-y-4">
                 {whyBenefits.map((benefit, i) => (

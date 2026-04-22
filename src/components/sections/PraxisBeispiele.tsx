@@ -142,7 +142,7 @@ export function PraxisBeispiele() {
             </span>
           </h2>
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-            Tak szwajcarskie MŚP korzystają z Finito Pro - prawdziwe wyniki z prawdziwych firm.
+            Tak firmy usługowe korzystają z Finito Pro — prawdziwe wyniki z prawdziwych firm.
           </p>
         </motion.div>
 

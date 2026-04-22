@@ -48,9 +48,9 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Jak długo przechowywane są moje dane?',
     questionEn: 'Jak długo przechowywane są moje dane?',
     answerDe:
-      'Twoje dane są przechowywane w postaci zaszyfrowanej na serwerach w Szwajcarii przez co najmniej 25 lat. Jest to szczególnie ważne w przypadku gwarancji, roszczeń ubezpieczeniowych i ustawowych obowiązków przechowywania. Zawsze masz pełną kontrolę nad swoimi danymi i możesz je wyeksportować lub zlecić ich usunięcie.',
+      'Twoje dane są przechowywane w postaci zaszyfrowanej na bezpiecznych serwerach w Europie przez co najmniej 25 lat. Jest to szczególnie ważne w przypadku gwarancji, roszczeń ubezpieczeniowych i ustawowych obowiązków przechowywania. Zawsze masz pełną kontrolę nad swoimi danymi i możesz je wyeksportować lub zlecić ich usunięcie.',
     answerEn:
-      'Twoje dane są przechowywane w postaci zaszyfrowanej na serwerach w Szwajcarii przez co najmniej 25 lat. Jest to szczególnie ważne w przypadku gwarancji, roszczeń ubezpieczeniowych i ustawowych obowiązków przechowywania. Zawsze masz pełną kontrolę nad swoimi danymi i możesz je wyeksportować lub zlecić ich usunięcie.',
+      'Twoje dane są przechowywane w postaci zaszyfrowanej na bezpiecznych serwerach w Europie przez co najmniej 25 lat. Jest to szczególnie ważne w przypadku gwarancji, roszczeń ubezpieczeniowych i ustawowych obowiązków przechowywania. Zawsze masz pełną kontrolę nad swoimi danymi i możesz je wyeksportować lub zlecić ich usunięcie.',
   },
   {
     id: 'mobile-version',

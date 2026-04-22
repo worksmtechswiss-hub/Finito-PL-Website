@@ -14,7 +14,7 @@ export async function generateMetadata({
     description: "Finito Pro dostosowuje się do Twojej branży. Oprogramowanie dla malarzy, tynkarzy, elektryków, hydraulików, stolarzy i wielu innych branż rzemieślniczych.",
     path: "/branze",
     locale,
-    keywords: ["Oprogramowanie dla rzemieślników", "Oprogramowanie branżowe", "Oprogramowanie MŚP Szwajcaria"],
+    keywords: ["Oprogramowanie dla rzemieślników", "Oprogramowanie branżowe", "Oprogramowanie MŚP Polska"],
   });
 }
 
